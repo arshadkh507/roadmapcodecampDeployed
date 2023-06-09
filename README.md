@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -roadmapcodecamp-3
 third and last repository for my fyp roadmap project
 I'll try to write a readme for your website. Here is what I came up with:
@@ -105,3 +106,7 @@ This website was created by [your name] and supervised by [your teachers' names]
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+# roadmapcodecampDeployed
+roadmapcodecamp project Deployed to render 
+>>>>>>> 100f1c7025c665e61a095a6b77fb8273ce02d995
