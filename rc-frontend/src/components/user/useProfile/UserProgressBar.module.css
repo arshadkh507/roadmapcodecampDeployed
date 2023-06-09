@@ -1,0 +1,50 @@
+.progressBars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.progressBar {
+  width: 80%;
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.progressBarFill {
+  position: absolute;
+  height: 100%;
+  background-color: #3e98c7;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes fillAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+} 
+
+
+.progressBarText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: var(--color-black);
+}  
+
+
+

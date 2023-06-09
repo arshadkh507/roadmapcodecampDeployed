@@ -1,0 +1,18 @@
+!Hosting website 
+
+Currently, all the API calls are using axios post to http://localhost:4000/, which I would also assume will not work on the server.
+
+You're correct, that will not work. That's because if users get your React app, all API calls will be redirect to their localhost. Which doesn't hold your API
+
+When I try to run it from the hosting service in the same way I did previously, it says it cannot connect to the database, which I assume is due to the fact that the connection is not open on my machine.
+
+That is probably because the MongoDB URL is probably still set to something like 'mongodb://localhost:27017/myapp. There are 2 main options here.
+
+Use a "database hosting service" like MongoDB Atlas, you will then need to change your database's URL to point to the one provided by the service
+Host the database on your server, which will work with the localhost URL
+I have looked online for information regarding deploying the MERN stack, but all of the ones I have found discuss it in terms of hosting on AWS EC2, which is not what I will be doing.
+
+Any server where you have control and flexibility will work in this scenario. You can host all your stuff (server, front-end and database) on it if you want. EC2 can do all of that but it's not your only option. You can also check out similar products from Microsoft and Google, etc...
+Another way to go is to deploy each artifact separately which is more scalable but also introduces its own complexity. If you're going this way you may want to look into Docker containers and Kubernetes which are useful to orchestrate distributed systems
+
+

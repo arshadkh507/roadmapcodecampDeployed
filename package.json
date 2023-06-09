@@ -1,0 +1,16 @@
+{
+  "name": "fyp-roadmap-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "roadmapformat.js",
+  "scripts": {
+    "install-rc-backend": "cd rc-backend && npm install",
+    "start-rc-backend": "cd rc-backend && npm start",
+    "install-rc-frontend": "cd rc-frontend && npm install",
+    "build-rc-frontend": "cd rc-frontend && npm run build",
+    "start-rc-frontend": "cd rc-frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

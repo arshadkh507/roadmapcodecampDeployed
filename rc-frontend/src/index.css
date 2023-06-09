@@ -1,0 +1,230 @@
+/* Global CSS */
+@charset "UTF-8";
+
+/*  
+use different color to make a special contrast 
+using this tool https://colorkit.co/contrast-checker/000000-ffb3b3/
+
+*/
+
+
+
+
+/* Colors */
+:root {
+
+  /* CSS HEX Testing color palette*/
+  --powder-blue: #aed4e3;
+  --blue-whale: #043345;
+  --california: #fc9b04;
+  --eastern-blue: #229cbc;
+  --rolling-stone: #7a7c7f;
+  --calico: #e1bf99;
+  --emperor: #535353;
+  --sunglow: #fcbc3a;
+  --crusta: #ff8830;
+
+
+
+  --color-white: white;
+  --color-black: black;
+  --primary-blue: #3B82E6;
+  --dark-gray: #999999;
+  --light-gray: #EEEEEE;
+
+  --color-bg-lightblack-1: #282A35;
+  --color-lightpurple: #A31ACB;
+  --color-lightwhite: #FEFEFE;
+  --color-pink: #ff77f5;
+
+  --color-logo-lightblue: #6c00ff;
+  --color-logo-color: #0718C4;
+  --color-roadmaps-mega-menu: #041E42;
+  --color-closeIcon-gray: #C9C9C9;
+  --color-closeIcon-red: #F86D6D;
+
+  /* Cards */
+  --color-cards-lightblack: #1D192B;
+  --color-cards-lightgray: #958DA5;
+  --color-cards-button-border: #79747E;
+  --color-cards-button-hover: #05316d;
+
+  /* Languages Colors */
+  --color-python: #a9d9ff;
+  --color-javascript: #f8e978;
+  --color-flutter: #52b0ff;
+  --color-node: #9ef096;
+  --color-react: #61DBFB;
+  --color-java: #71deff;
+
+  /* Modals */
+  --color-model-yellow: #FFF4A3;
+  --color-modal-bg-blue: #041E42;
+
+
+  /* Roadmap Colors */
+  --color-rm-yellow: #FFFF00;
+  --color-rm-heading-yellow: #FFF4A3;
+  --color-rm-navbar-bg: #012169;
+  --color-rm-navlink-active: #3285e0;
+  --color-rm-navlink-bg: #0066B2;
+  --color-rm-lightblue-bg: rgb(238, 246, 247);
+  --box-shadow-done-pending: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+  /* Left side bar */
+  --color-leftsidenav-bg: #EBEEEF;
+
+
+  /* roadmaps rotpics */
+  --color-rm-btn-bg: #3363BE;
+  --color-rm-resources-bg: #FFFFCC;
+  --color-rm-links: #2196F3;
+  --color-border-color: #CCCCCC;
+  --rm-topic-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --color-rm-bg-gray: #F2F2F2;
+  --color-rm-done-btn: #4CAF50;
+  --color-rm-pending-btn: #FFC107;
+
+
+
+  /* footer */
+  --color-hr: #BEBBBB;
+  --color-icon-bg: #5686E1;
+
+  /* Font Families */
+  --font-family-inter: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
+  --font-family-roboto: 'Roboto', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-source-sans-pro: 'Source Sans Pro', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-segoe-ui: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* 
+|--------------------------------------|
+|   Global Style from bootstrap start  |
+|--------------------------------------|
+*/
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset default margins and paddings */
+body,
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, li, dl, dd, button {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Set a base font-size and line-height */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+hr:not([size]) {
+  height: 1px;
+}
+
+
+/* --------------------------------------
+      Global Style from bootstrap stop
+  ---------------------------------------*/
+
+
+
+
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+
+/* Layout */
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+} */
+
+
+
+/* Buttons */
+
+button {
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* input field  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

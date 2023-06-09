@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+.roadmapContainer{
+  max-width: 1400px;
+}
+/* .roadmapContent{}
+.roadmap{} */
+
+svg text {
+    font-family: 'Nunito',var(--font-family-source-sans-pro), sans-serif;
+    white-space: "pre"
+}
+
+.clickableGroup:hover {
+  cursor: pointer;
+  font-family: 'Nunito',var(--font-family-source-sans-pro);
+}
+.clickableGroup:hover rect:first-child {
+  fill: rgb(238, 206, 109);
+}
+.headingClickableGroup {
+   font-family: 'Nunito',var(--font-family-source-sans-pro);
+   font-weight: bolder;
+  cursor: pointer;
+}
+.headingClickableGroup:hover rect:first-child {
+  cursor: pointer;
+  fill: rgb(237, 237, 45);
+}
+.clickableGroup text, .headingClickableGroup  text{
+  font-family: 'Nunito',var(--font-family-source-sans-pro), sans-serif;
+  white-space:pre;
+}
+
+.nonClickableGroup text {
+  font-family: var(--font-family-source-sans-pro);
+  white-space:pre;
+}
+
+.roadmapName text {
+  font-family: var(--font-family-source-sans-pro);
+  white-space:pre;
+}
+
+.topicPath {
+    fill: none;
+    stroke: rgb(43, 120, 228);
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 0.8, 12;
+}

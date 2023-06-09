@@ -1,0 +1,144 @@
+.smallcardsContainer {
+  background-color: var(--color-black);
+}
+
+.smallcardsWrapper {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  padding: 80px 10px;
+}
+
+.smallcardsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 45px;
+}
+
+.smallCard {
+  padding: 20px 10px;
+  background-color: white;
+  flex-basis: 45%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.smallCard h2 {
+  font-family: var(--font-family-source-sans-pro);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.smallCard p {
+  padding: 10px;
+  height: 109px;
+  overflow: hidden;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.smallCard .smallCardButton {
+  background: #000000;
+  border-radius: 40px;
+  padding: 13px 22px;
+  text-align: center;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--color-lightwhite);
+  width: 220px;
+  margin: auto;
+  transition: all 0.2s;
+}
+
+.smallCard .smallCardButton:hover {
+  background-color: var(--color-cards-button-hover);
+}
+
+
+
+/* --------------------------------------
+      Media queries Small Cards
+  ---------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .smallcardsContent {
+    gap: 40px;
+  }
+
+  .smallCard {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .smallCard {
+    flex-basis: 95%;
+  }
+
+  .smallCard .smallCardButton {
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .smallcardsWrapper {
+    padding: 64px 5px;
+  }
+
+  .smallcardsContent {
+    gap: 30px;
+  }
+
+  .smallCard {
+    flex-basis: 47%;
+  }
+
+  .smallCard .smallCardButton {
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .smallCard p {
+    height: 129px;
+    padding: 3px 0;
+    line-height: 25px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .smallCard {
+    flex-basis: 100%;
+  }
+
+  .smallCard p {
+    height: 129px;
+    padding: 3px 0;
+    line-height: 25px;
+  }
+
+  .smallcardsWrapper {
+    padding: 64px 10px;
+  }
+}

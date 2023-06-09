@@ -1,0 +1,79 @@
+.roadmapsNavContainer {
+  width: 100%;
+  background-color: var(--color-rm-navbar-bg);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+
+.roadmapsNavContent {
+  width: 100%;
+  background-color: var(--color-rm-navbar-bg);
+}
+
+.roadmapNavbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: none;
+}
+
+/* hide scrollbar */
+.roadmapNavbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.roadmapNavbar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.roadmapsNavLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 9px 15px;
+  text-decoration: none;
+  white-space: nowrap;
+  gap: 10px;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  background-color: var(--color-rm-navlink-bg);
+}
+
+.activeLink {
+  background-color: var(--color-rm-navlink-active);
+}
+
+.roadmapsNavLink:hover:not(.activeLink) {
+  background-color: var(--color-logo-color);
+}
+
+.roadmapNavbar #homeIcon {
+  font-size: 25px;
+}
+
+
+/* LeftSide Menu Toggle bars or Button */
+/* .barsButtonContainer {
+  position: relative;
+  background-color: var(--color-rm-navlink-bg);
+} */
+
+.roadmapNavbar #barsButton {
+  border: none;
+  outline: none;
+  color: var(--color-white);
+}
+
+
+.roadmapsNavLink #barsIcon {
+  font-size: 25px;
+}

@@ -1,0 +1,245 @@
+.contactContainer {
+  background-color: var(--color-white);
+}
+
+.contactWrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 40px 80px;
+}
+
+.contactWrapper h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--font-family-source-sans-pro);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form .formRow {
+  display: flex;
+  gap: 10px;
+}
+
+.formInput {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.formInput label,
+.formTextarea label {
+  display: inline-block;
+  font-family: var(--font-family-source-sans-pro);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+
+
+.formInput Input {
+  font-family: var(--font-family-source-sans-pro);
+  font-size: 14px;
+  background-color: var(--color-white);
+  outline: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 14px;
+  width: 100%;
+}
+
+.formInput Input:focus,
+.formTextarea textarea:focus {
+  border: 1px solid rgba(0, 105, 217, 0.285);
+  box-shadow: 0px 0px 3px 2px rgba(0, 105, 217, 0.285);
+}
+
+.formTextarea textarea {
+  font-family: var(--font-family-source-sans-pro);
+  font-size: 14px;
+  background-color: var(--color-white);
+  outline: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  padding: 14px;
+  width: 100%;
+  resize: vertical;
+}
+
+.form .sendButton {
+  border-radius: 5px;
+  background-color: #007aff;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  box-sizing: border-box;
+  font: 600 18px/1.17 var(--font-family-source-sans-pro);
+  height: 48px;
+  margin: 10px 0;
+  padding: 0 40px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.form .sendButton:hover {
+  background-color: #0062cc;
+}
+
+
+@media screen and (max-width: 400px) {
+  .form .sendButton {
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  .contactWrapper {
+    padding: 60px 20px 80px;
+  }
+
+  .contactWrapper h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form .formRow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+}
+
+
+/* ContactTo Me */
+.contectMeContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  /* background-color: #6cadf188; */
+  background-color: var(--california);
+
+}
+
+.contectMeContainer :first-child {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contectMeContainer :last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.contactToMe {
+  width: 100%;
+  margin: 6px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.contactToMeLeft {
+  flex-basis: 50%;
+  justify-self: flex-start;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contactToMe .myImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+.contactToMe .myImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.contactToMeLeft h4 {
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: var(--color-black);
+
+}
+
+.contactToMeLeft h6 {
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--color-black);
+  margin-top: 10px;
+}
+
+.contactToMeRight {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+
+
+.contactToMeRight a {
+  transition: all 0.3s;
+}
+
+.contactToMeRight a:hover {
+  opacity: 0.8;
+}
+
+.socialIcons {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 540px) {
+  .contactToMe {
+    margin: 6px auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 10px;
+  }
+
+  .contactToMeLeft {
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+
+  .contactToMeRight {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .contactToMeRight {
+    flex-wrap: wrap;
+  }
+}

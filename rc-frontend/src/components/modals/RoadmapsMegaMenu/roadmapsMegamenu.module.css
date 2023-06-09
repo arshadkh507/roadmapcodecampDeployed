@@ -1,0 +1,155 @@
+.MegaMenuContainer {
+  display: block;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 75px);
+  background-color: var(--color-roadmaps-mega-menu);
+}
+
+.MegaMenuWrapper {
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px 20px 40px 112px;
+  position: relative;
+  top: 0;
+}
+
+/* header */
+.MegaMenuWrapper header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h2 {
+  color: var(--sunglow);
+  font-size: 32px;
+  padding-left: 13px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-family: var(--font-family-source-sans-pro);
+}
+
+
+.closeBtn {
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--color-closeIcon-gray);
+  transition: all 0.3s;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border: none;
+  display: inline-block;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.closeBtn:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+
+.MegaMenuContent {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+
+.roadmapsContainer {
+  display: flex;
+  width: 100%;
+}
+
+.roadmaps {
+  flex-basis: 25%;
+  text-align: left;
+  margin: 0px 5px 5px 5px;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 2px 0 2px 2px;
+}
+
+.link h5 {
+  color: #e0e0e0;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 6px 0 6px 6px;
+}
+
+.link:hover h5 {
+  color: var(--color-black);
+  background-color: #ccc;
+}
+
+.categoryLink {
+  display: block;
+  width: 100%;
+  padding-left: 6px;
+  color: var(--sunglow);
+  font-family: var(--font-family-source-sans-pro);
+  line-height: 36px;
+}
+
+.categoryLink h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.categoryLink:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+@media screen and (max-width:1020px) {
+  .MegaMenuWrapper {
+    padding: 30px 15px 30px 20px;
+  }
+}
+
+@media screen and (max-width:860px) {
+  .MegaMenuContent {
+    padding-bottom: 40px;
+  }
+
+  .roadmapsContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .roadmaps {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .MegaMenuWrapper {
+    padding: 30px 15px 30px 10px;
+  }
+
+  .roadmapsContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .roadmaps {
+    flex-basis: 100%;
+  }
+}

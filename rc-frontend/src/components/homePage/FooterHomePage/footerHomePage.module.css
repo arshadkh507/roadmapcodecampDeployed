@@ -1,0 +1,238 @@
+.footerContaier {
+  background-color: var(--color-roadmaps-mega-menu);
+}
+
+.footerWrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 80px 20px 40px 20px;
+  margin: auto;
+  background-color: var(--color-roadmaps-mega-menu);
+  color: white;
+}
+
+.footerContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* footer Top */
+.footerTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerTopLeft {
+  min-width: 120px;
+  flex-basis: 50%;
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.footerLogo {
+  width: 100px;
+}
+
+.footerLogo img {
+  width: 100%;
+  max-width: 120px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.footerTopRight {
+  flex-basis: 50%;
+  align-self: flex-start;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footerRoadmaps {
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+}
+
+.footerContent .link {
+  text-decoration: none;
+}
+
+.footerRoadmaps h3 {
+  color: var(--sunglow);
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.footerRoadmaps h3:hover {
+  opacity: 0.8;
+}
+
+.footerRoadmaps h5 {
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-white);
+  padding: 5px 0;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.footerRoadmaps h5:hover {
+  opacity: 0.8;
+}
+
+/* footer Center */
+.footerCenter {
+  width: 100%;
+  margin: 2rem auto 1rem;
+}
+
+.footerCenter hr {
+  border: none;
+  height: 5px;
+  background-color: var(--color-hr);
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+/* Bottom */
+.footerBottom {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footerBottomContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.footerBottomContent p {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: var(--font-family-source-sans-pro);
+  line-height: 27px;
+}
+
+.footerSocialIcons {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.footerSocialIcons .icon {
+  width: 35px;
+  height: 35px;
+  color: var(--color-icon-bg);
+  cursor: pointer;
+}
+
+.footerSocialIcons .icon:hover {
+  /* color: var(--color-logo-color); */
+  color: var(--color-logo-lightblue);
+}
+
+/*---------------------------
+      Media Queries
+ -----------------------------*/
+
+@media screen and (max-width: 992px) {
+  .footerSocialIcons .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footerTopLeft {
+    flex-basis: 40%;
+  }
+
+  .footerTopRight {
+    flex-basis: 60%;
+  }
+}
+
+
+@media screen and (max-width: 870px) {
+  .footerWrapper {
+    padding: 60px 20px 40px 20px;
+
+  }
+
+  .footerTopLeft {
+    flex-basis: 25%;
+  }
+
+  .footerTopRight {
+    flex-basis: 75%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .footerWrapper {
+    padding: 60px 10px 40px 10px;
+
+  }
+
+  .footerTopRight {
+    flex-wrap: wrap;
+  }
+
+  .footerRoadmaps {
+    flex-basis: 45%;
+    margin: 0px 5px 10px 5px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .footerTop {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footerTopLeft {
+    flex-basis: 90%;
+    justify-self: center;
+  }
+
+  .footerTopRight {
+    flex-basis: 90%;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footerRoadmaps {
+    flex-basis: 80%;
+    margin: 10px;
+  }
+
+  .footerCenter {
+    margin: 1rem auto 1rem;
+  }
+
+  .footerLogo {
+    margin: auto;
+  }
+
+  .footerBottomContent {
+    justify-content: center;
+  }
+
+
+}

@@ -1,0 +1,36 @@
+.leftsideMenu {
+  width: 100%;
+  height: calc(100vh - 44px);
+  padding: 1rem 0;
+  background-color: var(--color-leftsidenav-bg);
+}
+
+.leftsideMenu h2 {
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  margin: 0px 0 6px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.leftsideMenuLink {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 2px 1px 1px 16px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-black);
+  transition: all 0.3s;
+}
+
+
+.leftsideMenuLink:hover:not(.activeMenuLink) {
+  background-color: #cccccc;
+}
+
+.activeMenuLink {
+  background-color: #C6C5FA;
+}

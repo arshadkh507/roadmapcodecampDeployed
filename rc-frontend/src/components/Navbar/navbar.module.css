@@ -1,0 +1,200 @@
+/* Top main navbar */
+.navbarContainer {
+  width: 100%;
+  height: 75px;
+  padding-left: 12px;
+  padding-right: 16px;
+  font-size: 18px;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Left */
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLeft button {
+  color: var(--color-black);
+}
+
+.logoContainer {
+  height: 100%;
+  width: 100px;
+  padding: 8px 16px;
+}
+
+.logoContainer img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.roadmapsBtn {
+  height: 75px;
+  color: var(--color-black);
+  padding: 24px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family-source-sans-pro);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+}
+
+.roadmapsBtn:hover {
+  color: var(--color-white);
+  background-color: var(--color-logo-color);
+}
+
+.roadmapsBtn.active {
+  background-color: var(--color-roadmaps-mega-menu);
+  color: var(--color-white);
+}
+
+.icon {
+  font-size: 16px;
+}
+
+
+/* Navbar Right */
+.navRight {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginBtn, .signupBtn {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--font-family-source-sans-pro);
+  background-color: var(--color-logo-lightblue);
+  border-radius: 25px;
+  padding: 8px 38px;
+  line-height: 1.5;
+  transition: all 0.3s;
+}
+
+/* .signupBtn .linkBtn,
+.loginBtn .linkBtn {
+  text-decoration: none;
+  color: inherit;
+} */
+
+.loginBtn:hover, .signupBtn:hover {
+  background-color: var(--color-logo-color);
+}
+
+
+.themeBtn {
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 8px 8px 2px;
+}
+
+.themeBtn:hover {
+  opacity: 0.7;
+}
+
+/* user profile */
+.userProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.userAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.userAvatar:hover {
+  transform: scale(1.1);
+}
+
+.userIcon {
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 570px) {
+  .navRight {
+    gap: 10px;
+  }
+
+  .loginBtn, .signupBtn {
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .navbarContainer {
+    padding-left: 6px;
+    padding-right: 8px;
+  }
+
+  .logoContainer {
+    width: 80px;
+    padding: 4px 10px;
+  }
+
+
+  .roadmapsBtn {
+    padding: 24px 2px;
+    font-size: 18px;
+    gap: 5px;
+  }
+
+  .icon {
+    font-size: 14px;
+  }
+
+  .signupBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .navbarContainer {
+    overflow: hidden;
+  }
+
+  .logoContainer {
+    width: 70px;
+    padding: 2px 6px;
+  }
+
+  .roadmapsBtn {
+    padding: 24px 2px;
+    font-size: 18px;
+    gap: 5px;
+  }
+
+  .loginBtn {
+    font-size: 18px;
+    padding: 8px 14px;
+  }
+}

@@ -1,0 +1,167 @@
+.bigCardsContainer {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+
+.bigCardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.singleBigCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  border: 1px solid var(--rolling-stone);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  background-color: var(--color-white);
+  width: 280px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.singleBigCard:has(:hover, :focus) {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.bigcardHeader {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bigcardHeader img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.bigcardHeader:hover img {
+  transform: scale(1.1);
+}
+
+.bigcardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 250px;
+}
+
+.singleBigCard h2 {
+
+  margin-bottom: 10px;
+  color: var(--blue-whale);
+  font-size: 1.5rem;
+  font-family: var(--font-family-source-sans-pro)
+}
+
+
+.singleBigCard p {
+  margin-bottom: 20px;
+  color: var(--emperor);
+  flex-grow: 1;
+  height: 100px;
+  overflow: hidden;
+}
+
+.buttonContainer {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.singleBigCard .bigcardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: var(--california);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--font-family-source-sans-pro);
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.bigcardButton:hover {
+  background-color: var(--crusta);
+}
+
+
+.bigcardIcon {
+  font-size: 18px;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+.bigcardButton:hover .bigcardIcon {
+  transform: translateX(5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+/* --------------------------------------
+      Media queries Big Cards
+  ---------------------------------------*/
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bigCardsInnerContainer {
+    gap: 40px;
+  }
+
+  .singleBigCard {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .singleBigCard {
+    flex-basis: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .singleBigCard {
+    flex-basis: 80%;
+  }
+
+  .bigCardsContainer {
+    padding: 64px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .singleBigCard {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .singleBigCard {
+    width: 230px;
+    max-width: 100%;
+  }
+}
