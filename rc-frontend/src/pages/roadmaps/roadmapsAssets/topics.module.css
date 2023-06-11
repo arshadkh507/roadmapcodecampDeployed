@@ -12,8 +12,12 @@
   box-shadow: var(--rm-topic-box-shadow);
 }
 
-
-.topicWrapper h1, .topicWrapper h2, .topicWrapper h3, .topicWrapper h4, .topicWrapper h5, .topicWrapper h6 {
+.topicWrapper h1,
+.topicWrapper h2,
+.topicWrapper h3,
+.topicWrapper h4,
+.topicWrapper h5,
+.topicWrapper h6 {
   margin-top: 0;
   font-weight: 400;
   font-family: "Segoe UI", Arial, sans-serif !important;
@@ -23,6 +27,7 @@
   font-size: 42px;
   margin-bottom: 20px;
   font-weight: 400;
+  word-break: break-all;
 }
 
 .topicWrapper h2 {
@@ -40,7 +45,6 @@
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
 
 .topicResources {
   background-color: var(--color-rm-resources-bg);
@@ -66,8 +70,6 @@
   margin-right: 10px;
 }
 
-
-
 .topicResources li {
   margin-bottom: 10px;
   font-size: 18px;
@@ -75,7 +77,7 @@
 
 .topicResources li a {
   text-decoration: none;
-  color: var(--color-rm-links)
+  color: var(--color-rm-links);
 }
 
 .topicResources li a:hover {
@@ -93,14 +95,11 @@
 
 /* .topicVideo .videoTitle {} */
 
-
 .topicVideo iframe {
   width: 100%;
   height: 350px;
   border: none;
 }
-
-
 
 .videoLink {
   color: black;
@@ -109,7 +108,7 @@
 }
 
 .videoLink:hover {
-  color: var(--color-rm-links)
+  color: var(--color-rm-links);
 }
 
 /* done pending buttons */
@@ -120,7 +119,8 @@
   margin: 20px 0;
 }
 
-.doneBtn, .pendingBtn {
+.doneBtn,
+.pendingBtn {
   border: none;
   outline: 0;
   display: inline-flex;
@@ -144,39 +144,44 @@
   background-color: var(--color-rm-pending-btn);
 }
 
-.doneBtn:hover, .pendingBtn:hover {
+.doneBtn:hover,
+.pendingBtn:hover {
   transform: translateY(-3px);
   box-shadow: var(--box-shadow-done-pending);
 }
 
-.doneBtn:focus, .pendingBtn:focus {
+.doneBtn:focus,
+.pendingBtn:focus {
   outline: none;
   transform: translateY(-1px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.doneBtn:hover svg, .pendingBtn:hover svg {
+.doneBtn:hover svg,
+.pendingBtn:hover svg {
   transform: rotate(360deg);
   transition: all 0.3s ease;
 }
 
-.doneBtn svg, .pendingBtn svg {
+.doneBtn svg,
+.pendingBtn svg {
   margin-left: 5px;
   font-size: 1.2rem;
   transition: all 0.3s ease;
 }
 
-.doneBtn:focus svg, .pendingBtn:focus svg {
+.doneBtn:focus svg,
+.pendingBtn:focus svg {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
 
-.doneBtn.disabled, .pendingBtn.disabled {
+.doneBtn.disabled,
+.pendingBtn.disabled {
   background-color: #ccc;
   color: #888;
   cursor: not-allowed;
 }
-
 
 /* next previous buttons */
 
@@ -186,7 +191,8 @@
   margin-top: 30px;
 }
 
-.prevBtn, .nextBtn {
+.prevBtn,
+.nextBtn {
   display: inline-flex;
   align-items: center;
   font-size: 20px;
@@ -197,12 +203,12 @@
   border-radius: 4px;
 }
 
-.prevBtn:hover, .nextBtn:hover {
+.prevBtn:hover,
+.nextBtn:hover {
   text-decoration: none;
   background-color: var(--color-rm-links);
   color: var(--color-white);
 }
-
 
 @media screen and (max-width: 700px) {
   .topicContainer {
@@ -251,7 +257,8 @@
     }
   }
 
-  .prevBtn, .nextBtn {
+  .prevBtn,
+  .nextBtn {
     font-size: 18px;
     padding: 9px 12px;
   }
@@ -263,7 +270,6 @@
   .topicResources li {
     font-size: 17px;
   }
-
 }
 
 @media screen and (max-width: 430px) {
@@ -275,32 +281,26 @@
     padding: 10px;
   }
 
-  .doneBtn, .pendingBtn {
+  .doneBtn,
+  .pendingBtn {
     padding: 12px 12px;
     font-size: 14px;
   }
 
-  .doneBtn svg, .pendingBtn svg {
+  .doneBtn svg,
+  .pendingBtn svg {
     margin-left: 4px;
     font-size: 1rem;
   }
 }
 
-
-
-@media screen and (max-width:270px) {
+@media screen and (max-width: 270px) {
   .donependingButtons {
     flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
   }
 }
-
-
-
-
-
-
 
 /* 
 
