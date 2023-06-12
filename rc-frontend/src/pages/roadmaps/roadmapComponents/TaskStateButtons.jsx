@@ -9,7 +9,8 @@ import { ToastContainer } from "react-toastify";
 const TaskStateButtons = ({ topicName, topicId, roadmapName }) => {
   const windowWidth = useWindowWidth();
 
-  const [ setIsCompleted ] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const [ isCompleted, setIsCompleted ] = useState(false);
   const [ isRoadmapExist, setIsRoadmapExist ] = useState(false);
 
   useEffect(() => {
