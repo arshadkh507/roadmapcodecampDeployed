@@ -1,7 +1,7 @@
 import { FaCheckCircle, FaSyncAlt } from "react-icons/fa";
 import styles from "../roadmapsAssets/topics.module.css";
 import useWindowWidth from "../../../customHook/WindowWidth";
-import PropTypes from "prop-types";
+
 import { useEffect, useState } from "react";
 import showToast from "../../../components/user/showToast";
 import { ToastContainer } from "react-toastify";
@@ -100,10 +100,11 @@ const TaskStateButtons = ({ topicName, topicId, roadmapName }) => {
 
 export default TaskStateButtons;
 
-TaskStateButtons.propTypes = {
-  topicId: PropTypes.number.isRequired,
-  topicName: PropTypes.string.isRequired,
-  roadmapName: PropTypes.string.isRequired,
-};
+// import PropTypes from 'prop-types';
+// TaskStateButtons.propTypes = {
+//   topicId: PropTypes.number.isRequired,
+//   topicName: PropTypes.string.isRequired,
+//   roadmapName: PropTypes.string.isRequired,
+// };
 
 
