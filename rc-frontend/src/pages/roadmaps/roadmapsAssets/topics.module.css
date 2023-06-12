@@ -21,13 +21,13 @@
   margin-top: 0;
   font-weight: 400;
   font-family: "Segoe UI", Arial, sans-serif !important;
+  word-break: break-all;
 }
 
 .topicWrapper h1 {
   font-size: 42px;
   margin-bottom: 20px;
   font-weight: 400;
-  word-break: break-all;
 }
 
 .topicWrapper h2 {
