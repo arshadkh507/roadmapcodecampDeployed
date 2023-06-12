@@ -1,6 +1,4 @@
 import styles from './bigcards.module.css';
-import PropTypes from 'prop-types';
-import image from "../../../../assets/images/frontend.jpg";
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from "react-icons/bs";
 
@@ -29,14 +27,3 @@ export default SingleBigCard;
 
 
 
-
-// Defining Types of Different variables
-/* !Defining Types of Different variables
- SingleBigCard.propTypes = {
-  name: PropTypes.string.isRequired, // define the name prop as a required string
-};
-
-SingleBigCard.defaultProps = {
-  name: 'Default Name', // set the default value for name prop
-}; 
-*/

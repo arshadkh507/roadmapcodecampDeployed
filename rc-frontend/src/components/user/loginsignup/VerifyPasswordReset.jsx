@@ -6,7 +6,7 @@ import InputField from "./InputField";
 import SubmitButton from "./SubmitButton";
 import { Link, useLocation } from "react-router-dom";
 import ModalHeader from "./ModalHeader";
-import { isEmailValid, isPasswordStrong, isValidName } from "./validation.js";
+import { isEmailValid, isPasswordStrong } from "./validation.js";
 import { useAuth } from "../../../customHook/AuthContext";
 import { useNavigate } from 'react-router-dom';
 import showToast from "../showToast";

@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 const TaskStateButtons = ({ topicName, topicId, roadmapName }) => {
   const windowWidth = useWindowWidth();
 
-  const [ isCompleted, setIsCompleted ] = useState(false);
+  const [ setIsCompleted ] = useState(false);
   const [ isRoadmapExist, setIsRoadmapExist ] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const TaskStateButtons = ({ topicName, topicId, roadmapName }) => {
       );
       setIsCompleted(!!topicExist);
     }
-  }, [ roadmapName, topicId, topicName ]);
+  }, [ roadmapName, setIsCompleted, topicId, topicName ]);
 
   const handleDoneClick = () => {
     const topicData = { topicId, topicName };
@@ -107,8 +107,3 @@ TaskStateButtons.propTypes = {
 };
 
 
-/* 
-! i can console the array or the roadmapName
-const updatedRoadmapData = JSON.parse(localStorage.getItem(roadmapName));
-console.log(updatedRoadmapData);
-*/
