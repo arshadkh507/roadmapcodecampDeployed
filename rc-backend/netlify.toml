@@ -10,8 +10,7 @@
 [build.environment]
   NODE_VERSION = "16.17.1"
 
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
+
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
