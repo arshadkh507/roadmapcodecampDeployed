@@ -179,6 +179,7 @@ const UserLogin = ({ closeModal, isOpen }) => {
         const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/login';
         const url = baseUrl + route;
+        console.log(url);
         const { email, password } = formData;
         const body = { email, password };
         const response = await fetch(url, {
