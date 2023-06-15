@@ -20,6 +20,10 @@ node_modules/
 build
 build/
 
+.DS_Store
+
+# Local Netlify folder
+.netlify
 
 # Logs
 logs
