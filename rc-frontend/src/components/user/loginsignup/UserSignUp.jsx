@@ -221,7 +221,7 @@ const UserSignUp = () => {
     // * if name, email and password are valid, handle signup logic here
     if (emailValid && passwordValid && nameValid) {
       try {
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/signup';
         const url = baseUrl + route;
         const { name, email, password } = formData;

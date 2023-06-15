@@ -207,7 +207,7 @@ const VerifyPasswordReset = () => {
     // * if name, email and password are valid, handle signup logic here
     if (emailValid && passwordValid && otpValid) {
       try {
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/reset-password/verify';
         const url = baseUrl + route;
         const { otp, email, password } = formData;

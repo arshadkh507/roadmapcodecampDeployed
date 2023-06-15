@@ -1,4 +1,4 @@
-import React, {  useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { HiOutlineEye, HiOutlineEyeOff } from 'react-icons/hi';
 import styles from "../loginsignup/loginSignup.module.css";
 import InputField from '../loginsignup/InputField';
@@ -149,7 +149,7 @@ const UserLogOut = () => {
     // * if email and password are valid, handle logic here
     if (passwordValid && emailValid) {
       try {
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/userprofile/logout';
         const url = baseUrl + route;
         const { password } = formData;

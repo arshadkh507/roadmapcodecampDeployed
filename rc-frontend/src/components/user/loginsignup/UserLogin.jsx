@@ -176,7 +176,7 @@ const UserLogin = ({ closeModal, isOpen }) => {
     // * if  email and password are valid, handle signup logic here
     if (emailValid && passwordValid) {
       try {
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/login';
         const url = baseUrl + route;
         const { email, password } = formData;

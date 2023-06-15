@@ -93,7 +93,7 @@ const RequestPasswordReset = ({ closeModal, isOpen }) => {
     // if  email request to backend logic here
     if (emailValid) {
       try {
-        const baseUrl = 'http://localhost:5000';
+        const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/reset-password/request';
         const url = baseUrl + route;
         const body = { email };
