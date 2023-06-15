@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'No build steps required for backend'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
