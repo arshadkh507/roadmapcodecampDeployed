@@ -23,7 +23,7 @@ const RoadmapsMegaMenu = ({ handleClose }) => {
               <CategoryLink categoryName="Frontend" linkTo="/roadmaps/frontend" click={handleClose} />
               <RoadmapLink to="/roadmaps/javascript" title="JavaScript" click={handleClose} />
               <RoadmapLink to="/roadmaps/reactjs" title="ReactJS" click={handleClose} />
-              <RoadmapLink to="/roadmaps/css" title="CSS" click={handleClose} />
+              <RoadmapLink to="/roadmaps/cs" title="CS" click={handleClose} />
             </div>
             <div className={styles.roadmaps}>
               <CategoryLink categoryName="Backend" linkTo="/roadmaps/backend" click={handleClose} />
