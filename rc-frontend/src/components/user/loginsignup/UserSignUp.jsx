@@ -224,6 +224,7 @@ const UserSignUp = () => {
         const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
         const route = '/user/signup';
         const url = baseUrl + route;
+        console.log(url);
         const { name, email, password } = formData;
         const body = { name, email, password };
         const response = await fetch(url, {
