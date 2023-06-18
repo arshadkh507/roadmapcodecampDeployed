@@ -8,34 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/user/signup",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/login",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/reset-password/request",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/reset-password/verify",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/:email",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/userprofile/resetpassword",
-      "dest": "/routes/user.js"
-    },
-    {
-      "src": "/user/userprofile/logout",
-      "dest": "/routes/user.js"
-    },
-    {
       "src": "/(.*)",
       "dest": "/index.js"
     }

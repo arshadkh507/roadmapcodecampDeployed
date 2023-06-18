@@ -14,12 +14,59 @@ app.use(express.json());
 // 'https://roadmapcodecamp-frontend.netlify.app'
 app.use(
   cors({
+    origin: [
+      process.env.BASE_URL,
+      "https://roadmapcodecamp-frontend.netlify.app",
+    ],
+    credentials: true,
+    methods: "GET,PUT,POST,OPTIONS",
+    allowedHeaders: "Content-Type,Authorization",
+  })
+);
+
+// Use user routes
+app.use("/user", userRoutes);
+
+// Start server
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+
+/* const express = require("express");
+const connectDB = require("./db/db");
+const userRoutes = require("./routes/user");
+const cors = require("cors");
+
+const app = express();
+
+// Connect to MongoDB
+connectDB();
+
+app.use(express.json());
+
+// Enable CORS for all routes and allow access only from
+// 'https://roadmapcodecamp-frontend.netlify.app'
+app.use(
+  cors({
     origin: "https://roadmapcodecamp-frontend.netlify.app",
     credentials: true,
     methods: "GET,PUT,POST,OPTIONS",
     allowedHeaders: "Content-Type,Authorization",
   })
 );
+
+
+
+// Use user routes
+app.use("/user", userRoutes);
+
+// Start server
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+ */
 
 // Enable CORS for all routes
 // app.use(
@@ -46,12 +93,3 @@ app.use(
   // Proceed to the next middleware or route handler
   next();
 }); */
-
-// Use user routes
-app.use("/user", userRoutes);
-
-// Start server
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
