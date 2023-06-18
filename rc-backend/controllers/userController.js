@@ -31,9 +31,23 @@ const signup = async (req, res) => {
     });
     await newUser.save();
 
-    res.status(201).json({ message: "User created successfully" });
+    // res.status(201).json({ message: "User created successfully" });
+    res
+      .status(201)
+      .header(
+        "Access-Control-Allow-Origin",
+        "https://roadmapcodecamp-frontend.netlify.app"
+      )
+      .json({ message: "User created successfully" });
   } catch (err) {
-    res.status(500).json({ error: "Server error" });
+    // res.status(500).json({ error: "Server error" });
+    res
+      .status(500)
+      .header(
+        "Access-Control-Allow-Origin",
+        "https://roadmapcodecamp-frontend.netlify.app"
+      )
+      .json({ error: "Server error" });
   }
 };
 
@@ -51,9 +65,23 @@ const login = async (req, res) => {
       return res.status(401).json({ error: "Invalid email or password" });
     }
 
-    res.status(200).json({ message: "Login successful" });
+    // res.status(200).json({ message: "Login successful" });
+    res
+      .status(200)
+      .header(
+        "Access-Control-Allow-Origin",
+        "https://roadmapcodecamp-frontend.netlify.app"
+      )
+      .json({ message: "Login successful" });
   } catch (error) {
-    res.status(500).json({ error: "Internal server error" });
+    // res.status(500).json({ error: "Internal server error" });
+    res
+      .status(500)
+      .header(
+        "Access-Control-Allow-Origin",
+        "https://roadmapcodecamp-frontend.netlify.app"
+      )
+      .json({ error: "Internal server error" });
   }
 };
 
