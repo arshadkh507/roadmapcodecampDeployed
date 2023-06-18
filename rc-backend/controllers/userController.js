@@ -97,7 +97,7 @@ const requestPasswordReset = async (req, res) => {
         <h3>${otp}</h3>
         <p>Please enter this OTP within 1 hour to reset your password.</p>
         // <a href="${process.env.BASE_URL}/user/reset-password/verify">Reset Password</a>
-        <a href=${process.env.BASE_URL}/user/verify-password-reset>Reset Password</a>
+        <a href=${process.env.BASE_URL}user/verify-password-reset>Reset Password</a>
       `,
     };
 
