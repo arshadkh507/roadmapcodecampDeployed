@@ -11,10 +11,13 @@ connectDB();
 app.use(express.json());
 
 // Enable CORS for all routes
-const corsOptions = {
-  origin: "https://roadmapcodecamp-frontend.netlify.app/",
-};
-app.use(cors(corsOptions));
+// Enable CORS
+app.use(
+  cors({
+    origin: "https://roadmapcodecamp-frontend.netlify.app",
+    optionsSuccessStatus: 200,
+  })
+);
 
 // app.use(cors());
 
