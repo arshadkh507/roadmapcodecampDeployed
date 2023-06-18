@@ -227,8 +227,9 @@ const UserSignUp = () => {
         console.log(url);
         const { name, email, password } = formData;
         const body = { name, email, password };
-        const response = await fetch(url, {
+        const response = await fetch(`${url}`, {
           method: 'POST',
+          mode: 'cors',
           headers: {
             'Content-Type': 'application/json',
           },
