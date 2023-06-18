@@ -3,6 +3,7 @@
 
 # Ignore .env file in rc-backend
 /rc-backend/.env
+/rc-backend/vercel.json
 
 # Ignore node_modules folder in rc-frontend
 /rc-frontend/node_modules

@@ -1,4 +1,4 @@
-const serverless = require("serverless-http");
+/* const serverless = require("serverless-http");
 const express = require("express");
 const connectDB = require("./db/db");
 const userRoutes = require("./routes/user");
@@ -20,9 +20,9 @@ app.use(cors(corsOptions));
 app.use("/user", userRoutes);
 
 // Export the Express app as a serverless function
-module.exports.handler = serverless(app);
+module.exports.handler = serverless(app); */
 
-/* const express = require("express");
+const express = require("express");
 const connectDB = require("./db/db");
 const userRoutes = require("./routes/user");
 const cors = require("cors");
@@ -35,7 +35,7 @@ connectDB();
 app.use(express.json());
 // Enable CORS for all routes
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://testingroadmapcodecamp.netlify.app/",
 };
 app.use(cors(corsOptions));
 // Middleware
@@ -47,4 +47,3 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
- */
