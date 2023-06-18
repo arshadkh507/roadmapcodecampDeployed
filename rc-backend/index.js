@@ -10,6 +10,17 @@ connectDB();
 
 app.use(express.json());
 
+// Enable CORS for all routes and allow access only from
+// 'https://roadmapcodecamp-frontend.netlify.app'
+app.use(
+  cors({
+    origin: "https://roadmapcodecamp-frontend.netlify.app",
+    credentials: true,
+    methods: "GET,PUT,POST,OPTIONS",
+    allowedHeaders: "Content-Type,Authorization",
+  })
+);
+
 // Enable CORS for all routes
 // app.use(
 //   cors({
@@ -18,7 +29,7 @@ app.use(express.json());
 //   })
 // );
 
-app.use((req, res, next) => {
+/* app.use((req, res, next) => {
   // Set 'Access-Control-Allow-Origin' header field to your
   // frontend origin using response objects set method.
   res.set(
@@ -34,7 +45,7 @@ app.use((req, res, next) => {
   }
   // Proceed to the next middleware or route handler
   next();
-});
+}); */
 
 // Use user routes
 app.use("/user", userRoutes);
