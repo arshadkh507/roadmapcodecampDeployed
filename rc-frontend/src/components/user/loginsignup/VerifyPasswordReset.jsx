@@ -204,7 +204,7 @@ const VerifyPasswordReset = () => {
       formPassword.current.classList.add(`${ styles.valid }`);
     }
 
-    // * if name, email and password are valid, handle signup logic here
+    // * if name, email and password are valid, handle verify password  logic here
     if (emailValid && passwordValid && otpValid) {
       try {
         const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
@@ -263,7 +263,7 @@ const VerifyPasswordReset = () => {
             <div ref={modalRef} className={styles.modalContent}>
               <form onSubmit={handleSubmit}>
 
-                {/* Name */}
+                {/* OTP */}
                 <div className={styles.EmailInputWrapper}>
                   <div className={styles.EmailInputLabel}>
                     <label>Enter Otp:</label>
@@ -286,7 +286,7 @@ const VerifyPasswordReset = () => {
                   </div>
                   <InputField
                     inputType="email"
-                    inputValue={userEmail}
+                    inputValue={formData.email}
                     name="email"
                     handleChange={handleInputChange}
                     handleBlur={handleInputBlur}
@@ -333,4 +333,6 @@ export default VerifyPasswordReset;
 
 
 
-
+// !changing
+// userEmail with formData.email
+// inputValue={formData.email}
