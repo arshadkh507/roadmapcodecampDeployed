@@ -286,7 +286,7 @@ const VerifyPasswordReset = () => {
                   </div>
                   <InputField
                     inputType="email"
-                    inputValue={formData.email}
+                    inputValue={userEmail}
                     name="email"
                     handleChange={handleInputChange}
                     handleBlur={handleInputBlur}
@@ -333,6 +333,4 @@ export default VerifyPasswordReset;
 
 
 
-// !changing
-// userEmail with formData.email
-// inputValue={formData.email}
+
