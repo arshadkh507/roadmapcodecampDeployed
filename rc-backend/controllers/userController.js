@@ -54,7 +54,7 @@ const login = async (req, res) => {
     }
 
     // res.status(200).json({ message: "Login successful" });
-    res.status(200).json({ message: "Login successful" });
+    res.status(200).json({ message: "Login successfully" });
   } catch (error) {
     // res.status(500).json({ error: "Internal server error" });
     res.status(500).json({ error: "Internal server error" });
@@ -68,7 +68,7 @@ const requestPasswordReset = async (req, res) => {
     // Check if user exists
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(404).json({ message: "User not found" });
+      return res.status(404).json({ message: "User not found on the system" });
     }
 
     // Generate and store OTP

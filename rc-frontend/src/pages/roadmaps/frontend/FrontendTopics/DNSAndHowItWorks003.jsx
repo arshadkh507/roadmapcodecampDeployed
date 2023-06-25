@@ -4,32 +4,34 @@ import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
 import TopicVideoPlayer from "../../roadmapComponents/TopicVideoPlayer";
 const DNSAndHowItWorks003 = () => {
+
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is DNS? and How Does DNS Work? (Explained for Beginners)",
+      url: "https://www.wpbeginner.com/glossary/dns/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "What is DNS? | How DNS works | Cloudflare",
+      url: "https://www.cloudflare.com/learning/dns/what-is-dns/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "What Is DNS? Everything You Need to Know About the Web's Phone Book - PCMag",
+      url: "https://www.pcmag.com/how-to/what-is-dns-how-it-works-domain-name-system",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "How to Create an Effective SEO Strategy In 2022 - Backlinko",
+      url: "https://backlinko.com/seo-strategy",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DNSAndHowItWorks003</h1>
+        <h1>DNS-Domain Name System</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/how-does-the-internet-work-2"
@@ -37,15 +39,32 @@ const DNSAndHowItWorks003 = () => {
         />
         <hr />
 
-        <h2>DNSAndHowItWorks003</h2>
+        <h2>DNS And How It Works</h2>
         <p>
-          DNSAndHowItWorks003
+          DNS stands for Domain Name System. It’s a system that lets you connect to websites by matching human-readable domain names (like google.com) with the unique ID of the server where a website is stored. Think of the DNS system as the internet’s phonebook1.
+
+          How does DNS work? Imagine you want to visit a website, say youtube.com. You type the name of the website in your browser’s address bar and hit enter. But how does your browser know where to find youtube.com on the internet? That’s where DNS comes in.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is DNS and How Does It Work?"
+          videoSrc="https://www.youtube.com/embed/9d0iu2Q6iMU"
         />
+        <TopicVideoPlayer
+          videoTitle="How DNS Works"
+          videoSrc="https://www.youtube.com/embed/mpQZVYPuDGU"
+        />
+
+        <TopicVideoPlayer
+          videoTitle="DNS Explained - Domain Name System"
+          videoSrc="https://www.youtube.com/embed/72snZctFFtA"
+        />
+
+        <TopicVideoPlayer
+          videoTitle="How Does DNS Work?"
+          videoSrc="https://www.youtube.com/embed/2ZUxoi7YNgs"
+        />
+
 
         <hr />
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,45 +7,54 @@ const HTML008 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "HTML Tutorial - W3Schools",
+      url: "https://www.w3schools.com/html/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "HTML: HyperText Markup Language | MDN - MDN Web Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "HTML basics - Learn web development | MDN - MDN Web Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "What is HTML? - Codecademy",
+      url: "https://www.codecademy.com/articles/what-is-html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTML008</h1>
+        <h1>HTML </h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/what-is-hosting-7"
+          nextTo="/roadmaps/frontend/html-writing-semantic-html-9"
         />
         <hr />
 
-        <h2>HTML008</h2>
+        <h2>HTML-HyperText Markup Language</h2>
         <p>
-          HTML008
+          HTML, which stands for Hypertext Markup Language, is the foundation of every web page you see on the internet. It's like the building blocks that give structure and meaning to the content you view in your browser.
         </p>
+        <p>
+          HTML, which stands for Hypertext Markup Language, is the foundation of every web page you see on the internet. It's like the building blocks that give structure and meaning to the content you view in your browser.
+
+          Imagine you're creating a document, but instead of using a word processor, you use HTML to structure your information. HTML uses tags, which are like instructions, to define different elements of your document. For example, you can use a <code>h1</code> tag to mark a heading, <code>p</code> tags for paragraphs, <code>img</code>  tags for images, and so on.</p>
+        <p>These tags help browsers understand how to display your content. They provide a structure that determines what text is a heading, what text is a paragraph, where images should be placed, and how different elements relate to each other.</p>
+        <p>HTML also allows you to include links, create lists, add tables, and much more. It's a versatile language that allows you to express your content in a meaningful way.</p>
+
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="HTML Full Course - Build a Website Tutorial"
+          videoSrc="https://www.youtube.com/embed/pQN-pnXPaVg"
         />
+
 
         <hr />
 
@@ -63,20 +72,20 @@ const HTML008 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "HTML008"
+          topicName="HTML008"
           topicId={1}
-          roadmapName="frontend"
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/what-is-hosting-7"
+          nextTo="/roadmaps/frontend/html-writing-semantic-html-9"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HTML008;

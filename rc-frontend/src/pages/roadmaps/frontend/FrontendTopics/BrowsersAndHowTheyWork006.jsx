@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,45 +7,52 @@ const BrowsersAndHowTheyWork006 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "How Browsers Work - freeCodeCamp.org",
+      url: "https://www.freecodecamp.org/news/web-application-security-understanding-the-browser-5305ed2f1dac/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Web browser - Wikipedia",
+      url: "https://en.wikipedia.org/wiki/Web_browser",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "What is a web browser? - Mozilla",
+      url: "https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "What is a Browser and How do they work? | BrowserStack",
+      url: "https://www.browserstack.com/guide/what-is-browser",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BrowsersAndHowTheyWork006</h1>
+        <h1>Browsers</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/what-is-domain-name-5"
+          nextTo="/roadmaps/frontend/what-is-hosting-7"
         />
         <hr />
 
-        <h2>BrowsersAndHowTheyWork006</h2>
+        <h2>Browsers And How They Work</h2>
         <p>
-          BrowsersAndHowTheyWork006
+          Browsers are the software programs we use to access and view websites on the internet. They are like the gateway that connects us to the vast world of the web. You might be familiar with popular browsers like Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
         </p>
-
+        <p>
+          When we type a website's URL or click on a link, the browser springs into action. It acts as our trusty guide, taking us on a journey through the internet. Here's a simplified explanation of how browsers work:
+        </p>
+        <p>
+          In simpler terms, browsers are like our personal tour guides through the internet. They understand website addresses, request webpages from servers, put everything together to create the webpages we see, and provide us with a user-friendly way to navigate and interact with websites.
+        </p>
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="How do web browsers work? | Web Demystified, Episode 5"
+          videoSrc="https://www.youtube.com/embed/uE3UPEK26U0"
         />
+
 
         <hr />
 
@@ -63,20 +70,20 @@ const BrowsersAndHowTheyWork006 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "BrowsersAndHowTheyWork006"
+          topicName="BrowsersAndHowTheyWork006"
           topicId={1}
-          roadmapName="frontend"
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/what-is-domain-name-5"
+          nextTo="/roadmaps/frontend/what-is-hosting-7"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default BrowsersAndHowTheyWork006;

@@ -7,29 +7,30 @@ const WhatIsDomainName005 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What Is a Domain Name? Domains Explained for Beginners - Hostinger",
+      url: "https://www.hostinger.com/tutorials/what-is-a-domain-name",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "What is a domain name? The best beginner’s guide (2023) - GoDaddy",
+      url: "https://www.godaddy.com/garage/what-is-a-domain-name/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Domain name - Wikipedia",
+      url: "https://en.wikipedia.org/wiki/Domain_name",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "What Is a Domain Name? - ThoughtCo",
+      url: "https://www.thoughtco.com/what-is-a-domain-name-2483189",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>WhatIsDomainName005</h1>
+        <h1>Domain Name</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/what-is-http-4"
@@ -37,15 +38,23 @@ const WhatIsDomainName005 = () => {
         />
         <hr />
 
-        <h2>WhatIsDomainName005</h2>
+        <h2>What Is Domain Name</h2>
         <p>
-          WhatIsDomainName005
+          A domain name is a unique address on the internet that helps people find and access websites easily. It is like the online equivalent of a physical address for a house or a business. Just like you use an address to locate a specific place, a domain name allows you to locate a specific website.
+
+
+
+
+
         </p>
+        <p> A domain name consists of two main parts: the actual name (such as "example") and the domain extension (such as ".com" or ".org"). When you type a domain name into a web browser, it sends a request to a special computer called a DNS (Domain Name System) server, which looks up the corresponding IP address associated with that domain name. The IP address is a series of numbers that identifies the specific location of the website's server on the internet.</p>
+        <p>  In simpler terms, a domain name is like a website's unique name or identity, making it easy for people to remember and access websites without needing to remember complex strings of numbers. It plays a crucial role in helping us navigate the internet and find the websites we want to visit.</p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What Is a Domain Name | Domain Names Explained"
+          videoSrc="https://www.youtube.com/embed/lMHzpBwPuG8"
         />
+
 
         <hr />
 
