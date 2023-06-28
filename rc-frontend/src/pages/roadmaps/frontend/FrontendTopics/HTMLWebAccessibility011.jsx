@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,45 +7,56 @@ const HTMLWebAccessibility011 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is web accessibility?",
+      url: "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Accessibility - HTML: HyperText Markup Language | MDN",
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Accessibility",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Web Accessibility Tutorial for Beginners",
+      url: "https://youtu.be/cOmehxAU_4s",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "HTML Accessibility Techniques",
+      url: "https://www.w3schools.com/html/html_accessibility.asp",
+    },
+    {
+      id: 5,
+      title: "Web Content Accessibility Guidelines (WCAG) Overview",
+      url: "https://www.w3.org/WAI/standards-guidelines/wcag/",
+    },
+    {
+      id: 6,
+      title: "Web Accessibility Checklist",
+      url: "https://webaim.org/standards/wcag/checklist",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTMLWebAccessibility011</h1>
+        <h1>HTML Web Accessibility</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/html-form-and-validation-10"
+          nextTo="/roadmaps/frontend/html-seo-basics-12"
         />
         <hr />
 
-        <h2>HTMLWebAccessibility011</h2>
+        <h2>HTML Web Accessibility</h2>
         <p>
-          HTMLWebAccessibility011
+          HTML - Web Accessibility is the practice of making web pages accessible to everyone, regardless of their abilities or disabilities.Web accessibility means that people with visual, hearing, motor, cognitive, or other impairments can perceive, understand, navigate, and interact with web content.Web accessibility also benefits people who use different devices, browsers, or network conditions.Web accessibility follows some guidelines and standards that help web developers create accessible web pages.Web accessibility is important because it ensures that everyone can access and enjoy the web.🌐
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+        <TopicVideoPlayer videoTitle="Web Accessibility Tutorial for Beginners" videoSrc="https://www.youtube.com/embed/cOmehxAU_4s" />
+
+        <TopicVideoPlayer videoTitle="HTML Accessibility Techniques" videoSrc="https://www.youtube.com/embed/5R-6WvAihms" />
+
 
         <hr />
 
@@ -63,20 +74,27 @@ const HTMLWebAccessibility011 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "HTMLWebAccessibility011"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="HTMLWebAccessibility011"
+          topicId={11}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/html-form-and-validation-10"
+          nextTo="/roadmaps/frontend/html-seo-basics-12"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HTMLWebAccessibility011;
+
+
+
+
+
+
+

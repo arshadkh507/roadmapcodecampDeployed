@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,40 +7,52 @@ const CSSMakingLayouts014 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "CSS Layout Basics",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "CSS Layout Tutorial for Beginners",
+      url: "https://youtu.be/qm0IfG1GyZU",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CSS Layout Techniques",
+      url: "https://www.w3schools.com/css/css_layout.asp",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "CSS Flexbox Tutorial",
+      url: "https://www.w3schools.com/css/css3_flexbox.asp",
+    },
+    {
+      id: 5,
+      title: "CSS Grid Tutorial",
+      url: "https://www.w3schools.com/css/css_grid.asp",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSSMakingLayouts014</h1>
+        <h1>Making Layouts</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-13"
+          nextTo="/roadmaps/frontend/css-learn-the-basics-15"
         />
         <hr />
 
-        <h2>CSSMakingLayouts014</h2>
+        <h2>CSS-Making Layouts</h2>
         <p>
-          CSSMakingLayouts014
+          CSS - Making layouts is about arranging the parts of a web page in a neat and clear way. CSS can help you make different kinds of layouts, like fixed, fluid, responsive, grid, flexbox, and more. CSS can also help you adjust the parts of a layout to fit different screens and devices, and make your web pages easier to use and see. To make good layouts with CSS, you need to know some basic things.
         </p>
+        <li>The box model</li>
+        <li>The display property</li>
+        <li>The position property</li>
+        <li>The float and clear properties</li>
+        <li>The flexbox layout</li>
+        <li>The grid layout</li>
 
         <TopicVideoPlayer
           videoTitle=""
@@ -63,20 +75,20 @@ const CSSMakingLayouts014 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "CSSMakingLayouts014"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="CSSMakingLayouts014"
+          topicId={14}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-13"
+          nextTo="/roadmaps/frontend/css-learn-the-basics-15"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CSSMakingLayouts014;

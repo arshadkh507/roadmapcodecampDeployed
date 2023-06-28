@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,45 +7,64 @@ const HTMLSEOBasics012 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is SEO?",
+      url: "https://moz.com/learn/seo/what-is-seo",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "SEO basics: 22 essentials you need for optimizing your site",
+      url: "https://www.searchenginewatch.com/2016/01/21/seo-basics-22-essentials-you-need-for-optimizing-your-site/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "SEO Tutorial for Beginners",
+      url: "https://youtu.be/hF515-0Tduk",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "HTML and CSS for SEO",
+      url: "https://www.w3schools.com/html/html_seo.asp",
+    },
+    {
+      id: 5,
+      title: "HTML elements reference - HTML: HyperText Markup Language | MDN",
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+    },
+    {
+      id: 6,
+      title: "HTML SEO Tutorial",
+      url: "https://youtu.be/KJ13lX20FqU",
     },
   ];
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTMLSEOBasics012</h1>
+        <h1>SEO Basics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/html-web-accessibility-11"
+          nextTo="/roadmaps/frontend/css-13"
         />
         <hr />
 
-        <h2>HTMLSEOBasics012</h2>
+        <h2>HTML SEO Basics</h2>
         <p>
-          HTMLSEOBasics012
+          HTML - SEO Basics is the practice of using HTML elements and attributes to optimize web pages for search engines.SEO stands for Search Engine Optimization, which means improving the quality and quantity of web traffic to a website.SEO helps web pages rank higher in search results for relevant keywords and phrases.HTML elements and attributes can provide information to search engines about the content, structure, and meaning of web pages.HTML elements and attributes can also affect the appearance and usability of web pages.HTML - SEO Basics is important because it helps web pages reach more potential users and customers.🔎
+
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="HTML SEO Tutorial"
+          videoSrc="https://www.youtube.com/embed/KJ13lX20FqU"
         />
+
+
+
+        <TopicVideoPlayer
+          videoTitle="SEO For Beginners: A Basic Search Engine Optimization Tutorial for Higher Google Rankings"
+          videoSrc="https://www.youtube.com/embed/DvwS7cV9GmQ"
+        />;
 
         <hr />
 
@@ -63,20 +82,26 @@ const HTMLSEOBasics012 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "HTMLSEOBasics012"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="HTMLSEOBasics012"
+          topicId={12}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/html-web-accessibility-11"
+          nextTo="/roadmaps/frontend/css-13"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HTMLSEOBasics012;
+
+
+
+
+
+
