@@ -178,19 +178,3 @@ export default RoadmapsPage;
 
 
 
-
-
-/*  
-! chatgpt roadmapRight container suggestions:
-Sure, here are some suggestions for content you could include in the roadmapRight container:
-Learning resources: You could include links to online courses, tutorials, blogs, and other learning resources related to the specific roadmap that is being displayed in roadmapMain. This could include resources for beginners, intermediate learners, and advanced learners.
-Community resources: You could include links to online communities, forums, and social media groups related to the specific roadmap. This would allow users to connect with other learners, ask questions, and share resources.
-Tools and technologies: You could include information about tools and technologies related to the specific roadmap, such as frameworks, libraries, and software. This could include descriptions, features, and links to download or install them.
-Career paths: You could include information about different career paths related to the specific roadmap, such as job titles, salaries, and required skills. This could help users understand the real-world applications of the skills they are learning.
-Success stories: You could include stories of individuals who have successfully learned the skills related to the specific roadmap and used them in their careers. This could provide motivation and inspiration for users who are just starting out.
-Related roadmaps: You could include links to other roadmaps that are related to the specific roadmap being displayed in roadmapMain. This could help users discover new topics and skills that they might be interested in learning.
-which one will be most attractive to developers of begginer please choose it for me
-For beginners, I would suggest including learning resources as the main content in the roadmapRight container.This could include links to beginner - friendly tutorials, courses, and other resources that provide a structured approach to learning the skills related to the specific roadmap being displayed in roadmapMain.
-You could also consider including community resources, such as links to online forums and social media groups, to help beginners connect with other learners and get support as they work through the learning materials.
-Finally, you could include success stories of other beginners who have successfully learned the skills related to the roadmap.This could help inspire and motivate beginners who may feel overwhelmed or uncertain about their ability to learn the new skills.
-*/

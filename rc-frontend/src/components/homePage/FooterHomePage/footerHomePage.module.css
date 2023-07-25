@@ -106,8 +106,6 @@
   border-radius: 20px;
 }
 
-
-
 /* Bottom */
 .footerBottom {
   width: 100%;
@@ -144,7 +142,6 @@
 }
 
 .footerSocialIcons .icon:hover {
-  /* color: var(--color-logo-color); */
   color: var(--color-logo-lightblue);
 }
 
@@ -167,11 +164,9 @@
   }
 }
 
-
 @media screen and (max-width: 870px) {
   .footerWrapper {
     padding: 60px 20px 40px 20px;
-
   }
 
   .footerTopLeft {
@@ -186,7 +181,6 @@
 @media screen and (max-width: 620px) {
   .footerWrapper {
     padding: 60px 10px 40px 10px;
-
   }
 
   .footerTopRight {
@@ -233,6 +227,4 @@
   .footerBottomContent {
     justify-content: center;
   }
-
-
 }

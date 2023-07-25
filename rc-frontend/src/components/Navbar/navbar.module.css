@@ -62,7 +62,6 @@
   font-size: 16px;
 }
 
-
 /* Navbar Right */
 .navRight {
   padding: 16px 0;
@@ -73,7 +72,8 @@
   gap: 20px;
 }
 
-.loginBtn, .signupBtn {
+.loginBtn,
+.signupBtn {
   color: var(--color-white);
   font-size: 18px;
   font-weight: 600;
@@ -85,16 +85,10 @@
   transition: all 0.3s;
 }
 
-/* .signupBtn .linkBtn,
-.loginBtn .linkBtn {
-  text-decoration: none;
-  color: inherit;
-} */
-
-.loginBtn:hover, .signupBtn:hover {
+.loginBtn:hover,
+.signupBtn:hover {
   background-color: var(--color-logo-color);
 }
-
 
 .themeBtn {
   color: var(--color-black);
@@ -139,13 +133,13 @@
   font-size: 30px;
 }
 
-
 @media screen and (max-width: 570px) {
   .navRight {
     gap: 10px;
   }
 
-  .loginBtn, .signupBtn {
+  .loginBtn,
+  .signupBtn {
     padding: 8px 20px;
   }
 }
@@ -160,7 +154,6 @@
     width: 80px;
     padding: 4px 10px;
   }
-
 
   .roadmapsBtn {
     padding: 24px 2px;

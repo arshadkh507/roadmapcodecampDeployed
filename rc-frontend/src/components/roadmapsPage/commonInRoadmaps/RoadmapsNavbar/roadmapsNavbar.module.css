@@ -24,7 +24,6 @@
   display: none;
 }
 
-
 .roadmapNavbar::-webkit-scrollbar {
   display: none;
   /* Safari and Chrome */
@@ -60,19 +59,11 @@
   font-size: 25px;
 }
 
-
-/* LeftSide Menu Toggle bars or Button */
-/* .barsButtonContainer {
-  position: relative;
-  background-color: var(--color-rm-navlink-bg);
-} */
-
 .roadmapNavbar #barsButton {
   border: none;
   outline: none;
   color: var(--color-white);
 }
-
 
 .roadmapsNavLink #barsIcon {
   font-size: 25px;

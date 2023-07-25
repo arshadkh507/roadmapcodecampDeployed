@@ -19,8 +19,6 @@
   font-family: var(--font-family-source-sans-pro);
 }
 
-
-
 /* Slider CSS */
 .testimonial {
   position: relative;
@@ -36,13 +34,7 @@
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-
-  /*
-  background-color: #dbe7ff;
-  display: flex;
-  transition: all 0.5s ease; */
 }
-
 
 .sliderContainer {
   display: flex;
@@ -68,8 +60,6 @@
   object-position: center;
   margin-bottom: 1rem;
 }
-
-
 
 .sliderContent h3 {
   margin: 0;
@@ -118,7 +108,6 @@
   background-color: #dbe7ff;
 }
 
-
 .sliderButton {
   position: absolute;
   top: 50%;
@@ -139,9 +128,10 @@
   right: 1rem;
 }
 
-
 @media screen and (max-width: 600px) {
-  .sliderButton, .sliderButton.next, .sliderButton.prev {
+  .sliderButton,
+  .sliderButton.next,
+  .sliderButton.prev {
     display: none;
   }
 

@@ -1,12 +1,15 @@
 <<<<<<< HEAD
+
 # -roadmapcodecamp-3
+
 third and last repository for my fyp roadmap project
 I'll try to write a readme for your website. Here is what I came up with:
 
 # Roadmap CodeCamp
+
 Roadmap Code Camp is a website that helps you learn various skills and technologies through interactive roadmaps.
 You can choose from a wide range of roadmaps, such as Computer Science, Artificial Intelligence, Android, Python, Machine Learning, Backend,
-JavaScript, ReactJS, NodeJS, Java, Flutter, Frontend, and more. 
+JavaScript, ReactJS, NodeJS, Java, Flutter, Frontend, and more.
 Each roadmap consists of a series of topics that you need to master in order to become proficient in that area.
 You can also watch presentation videos for some of the roadmaps to get an overview of what they cover.
 
@@ -33,6 +36,7 @@ You can also watch presentation videos for some of the roadmaps to get an overvi
 6. Check your user profile to see your progress and completion percentage for each roadmap.
 
 ## 1. Homepage
+
 The homepage serves as the gateway to your learning experience on RoadmapCodeCamp.
 It features several sections designed to provide an overview of the platform's offerings and guide you through your learning journey.
 Navigation: The top navigation bar includes user login and signup buttons, as well as a mega menu showcasing the available roadmaps.
@@ -44,7 +48,8 @@ Contact Section: Connect with us directly by using the contact section, where yo
 Footer: Find links to other roadmaps and our social media handles in the footer section.
 
 ## 2. RoadmapPage
-The RoadmapPage is where you can dive into a specific roadmap and explore its contents. 
+
+The RoadmapPage is where you can dive into a specific roadmap and explore its contents.
 This page offers a comprehensive view of the roadmap, including its topics, recommended courses or tutorials, and interactive SVG representation.
 
 Roadmap Navigation: The roadmap navigation bar allows you to switch between different roadmaps horizontally. You can also click the home icon to return to the homepage.
@@ -55,6 +60,7 @@ Clicking on a topic in the left sidebar updates the main content area, providing
 Footer: The footer remains consistent across all roadmaps, offering links to other roadmaps or a roadmap comparison table.
 
 ## 3. User Profile
+
 The User Profile page allows registered users to manage their account and track their learning progress.
 
 Update Password: Users can update their password securely through the profile page.
@@ -76,15 +82,14 @@ RoadmapCodeCamp offers a rich learning experience with its diverse roadmaps, int
 Whether you're a beginner or an experienced learner, this platform provides the resources and guidance you need to advance your skills and achieve your learning goals.
 Join us on RoadmapCodeCamp and embark on an exciting journey of knowledge and growth!
 
-
-
 ## Demo
 
 You can watch some demo presentation videos for some of the roadmaps on the home page. Here are some examples:
 
-- [Computer Science Roadmap](https://www.youtube.com/watch?v=Og847HVwRSI)
-- [Machine Learning Roadmap](https://www.youtube.com/watch?v=pHiMN_gy9mk)
-- [Frontend Roadmap](https://www.youtube.com/watch?v=unr4s3jd9qA)
+- [Computer Science Roadmap](https://roadmapcodecamp-frontend.netlify.app/roadmaps/cs)
+- [Machine Learning Roadmap](https://roadmapcodecamp-frontend.netlify.app/roadmaps/ml)
+- [Frontend Roadmap](https://roadmapcodecamp-frontend.netlify.app/roadmaps/frontend)
+- [Artificial Intelligence Roadmap](https://roadmapcodecamp-frontend.netlify.app/roadmaps/ai)
 
 ## Contact
 
@@ -105,8 +110,10 @@ This website was created by [your name] and supervised by [your teachers' names]
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-=======
+# This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 # roadmapcodecampDeployed
-roadmapcodecamp project Deployed to render 
->>>>>>> 100f1c7025c665e61a095a6b77fb8273ce02d995
+
+roadmapcodecamp project Deployed to render
+
+> > > > > > > 100f1c7025c665e61a095a6b77fb8273ce02d995

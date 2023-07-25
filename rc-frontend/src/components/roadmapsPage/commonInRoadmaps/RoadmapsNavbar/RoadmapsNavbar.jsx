@@ -10,8 +10,8 @@ const RoadmapsNavbar = () => {
 
   const roadmapsNavLinkData = useMemo(
     () => [
-      { id: 1, label: 'Frontend', to: '/roadmaps/frontend', title: 'Frontend Roadmap' },
-      { id: 2, label: 'Backend', to: '/roadmaps/backend', title: 'Backend Roadmap' },
+      { id: 1, label: 'Front-end', to: '/roadmaps/frontend', title: 'Frontend Roadmap' },
+      { id: 2, label: 'Back-end', to: '/roadmaps/backend', title: 'Backend Roadmap' },
       { id: 3, label: 'Flutter', to: '/roadmaps/flutter', title: 'Flutter Roadmap' },
       { id: 4, label: 'CS', to: '/roadmaps/cs', title: 'Computer Science Roadmap' },
       { id: 5, label: 'AI', to: '/roadmaps/ai', title: 'Artificial Intelligence Roadmap' },

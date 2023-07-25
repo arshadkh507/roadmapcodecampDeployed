@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import styles from "./contactsection.module.css";
 import ContactToMe from "./ContactToMe";
-import arshadImage from "../../../containers/homePage/Testimonial/slider-images/arshad-khan.jpeg";
-import furqanImage from "../../../containers/homePage/Testimonial/slider-images/furqan-ali.png";
+// import arshadImage from "../../../containers/homePage/Testimonial/slider-images/arshad-khan.jpeg";
+// import furqanImage from "../../../containers/homePage/Testimonial/slider-images/furqan-ali.png";
 import emailjs from '@emailjs/browser';
 import showToast from "../../user/showToast";
 import { ToastContainer } from "react-toastify";
@@ -149,7 +149,7 @@ const ContactSection = () => {
 
         <div className={styles.contectMeContainer}>
           <ContactToMe
-            image={arshadImage}
+            image="images/testimonial/arshad-khan.jpeg"
             name="Arshad Khan"
             facebook="https://web.facebook.com/profile.php?id=100036825609558"
             whatsapp="https://wa.me/00923494861490"
@@ -157,7 +157,7 @@ const ContactSection = () => {
             github="https://github.com/arshadkh507"
           />
           <ContactToMe
-            image={furqanImage}
+            image="images/testimonial/furqan-ali.png"
             name="Furqan Ali"
             facebook="https://web.facebook.com/profile.php?id=100036825609558"
             whatsapp="https://wa.me/00923494861490"

@@ -301,36 +301,3 @@
     justify-content: space-between;
   }
 }
-
-/* 
-
-
-.topicResources ul {
-  margin: 0;
-  padding: 0;
-  color: var(--color-black);
-  list-style-type: none;
-}
-
-.topicResources ul li:before {
-  content: "\2713";
-  color: var(--color-rm-links);
-  font-size: 1.2em;
-  margin-right: 5px;
-}
-
-.topicResources ul li {
-  color: var(--color-rm-links);
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.topicResources ul li a {
-  text-decoration: none;
-  color: var(--color-rm-links);
-  transition: all 0.2s;
-}
-
-.topicResources ul li a:hover {
-  text-decoration: underline;
-} */

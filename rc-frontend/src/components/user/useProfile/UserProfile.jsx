@@ -80,26 +80,4 @@ const UserProfile = () => {
 export default UserProfile;
 
 
-// ! Prompt for ChatGPT to add functionality of rendering roadmaps from localstorage
-/* 
-[
-  "rcfrontend",
-  "rcbackend",
-  "rcflutter",
-  "rccs",
-  "rcai",
-  "rcml",
-  "rcdl",
-  "rcjavascript",
-  "rcreactjs",
-  "rcnodejs",
-  "rcpython",
-  "rcjava",
-  "rcflutter",
-  "rcandriod",
-  "rcdevops",
-  "rcblockchain",
-  "rcdesignsystem"
-]
 
-*/

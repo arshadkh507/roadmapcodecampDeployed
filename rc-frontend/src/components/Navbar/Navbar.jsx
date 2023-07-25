@@ -90,20 +90,3 @@ const Navbar = () => {
 export default Navbar;
 
 
-
-
-
-
- // ! chatGPT recommend
-/*
-  const handleModal = useCallback(() => {
-  setShowModal(prevState => !prevState);
-}, []);
-
-const handleTheme = useCallback(() => {
-  setIsNightMode(prevState => !prevState);
-}, []);
-     <button className={styles.themeBtn} onClick={handleTheme} >
-            {isNightMode ? <BsSunFill className={styles.iconSun} /> : <BsFillMoonFill />}
-          </button>
-*/

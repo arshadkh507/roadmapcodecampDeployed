@@ -1,33 +1,36 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-function useScrollY () {
-  const [ height, setHeight ] = useState('calc(100vh - 118px)');
+function useScrollY() {
+  const [height, setHeight] = useState("calc(100vh - 118px)");
 
   useEffect(() => {
     const handleScroll = () => {
       const newScrollY = window.scrollY;
-      let newHeight = '';
+      let newHeight = "";
       if (newScrollY === 0) {
-        newHeight = 'calc(100vh - 118px)';
-        const leftSidebar = document.getElementById('left-sidebar');
+        newHeight = "calc(100vh - 118px)";
+        const leftSidebar = document.getElementById("left-sidebar");
         if (leftSidebar) {
-          leftSidebar.style.top = '118px';
+          leftSidebar.style.top = "118px";
         }
       } else if (newScrollY > 0 && newScrollY <= 77) {
-        const diff = 118 - (newScrollY / 77 * 73);
-        newHeight = `calc(100vh - ${ diff }px)`;
-        const leftSidebar = document.getElementById('left-sidebar');
+        const diff = 118 - (newScrollY / 77) * 73;
+        newHeight = `calc(100vh - ${diff}px)`;
+        const leftSidebar = document.getElementById("left-sidebar");
         if (leftSidebar) {
           const maxTop = 118;
           const minTop = 45;
-          const newTop = Math.min(Math.max(maxTop - newScrollY, minTop), maxTop);
-          leftSidebar.style.top = `${ newTop }px`;
+          const newTop = Math.min(
+            Math.max(maxTop - newScrollY, minTop),
+            maxTop
+          );
+          leftSidebar.style.top = `${newTop}px`;
         }
       } else {
-        newHeight = 'calc(100vh - 45px)';
-        const leftSidebar = document.getElementById('left-sidebar');
+        newHeight = "calc(100vh - 45px)";
+        const leftSidebar = document.getElementById("left-sidebar");
         if (leftSidebar) {
-          leftSidebar.style.top = '45px';
+          leftSidebar.style.top = "45px";
         }
       }
 
@@ -36,12 +39,12 @@ function useScrollY () {
 
     handleScroll();
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
     };
   }, []);
 
@@ -49,151 +52,3 @@ function useScrollY () {
 }
 
 export default useScrollY;
-
-
-
-
-
-
-
-
-/* import { useState, useEffect } from 'react';
-
-function useScrollY () {
-  const [ height, setHeight ] = useState('calc(100vh - 118px)');
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const newScrollY = window.scrollY;
-      let newHeight = '';
-      if (newScrollY === 0) {
-        newHeight = 'calc(100vh - 118px)';
-      } else if (newScrollY > 0 && newScrollY <= 77) {
-        const diff = 118 - (newScrollY / 77 * 73);
-        newHeight = `calc(100vh - ${ diff }px)`;
-      } else {
-        newHeight = 'calc(100vh - 45px)';
-      }
-
-      // set the top of the left sidebar with scrolly
-      const leftSidebar = document.getElementById('left-sidebar');
-      if (leftSidebar) {
-        const maxTop = 118;
-        const minTop = 45;
-        const newTop = Math.min(Math.max(maxTop - newScrollY, minTop), maxTop);
-        leftSidebar.style.top = `${ newTop }px`;
-      }
-
-      setHeight(newHeight);
-    };
-
-    // check if the initial scroll position is not 0 and set it to 0
-    if (window.scrollY !== 0) {
-      window.scrollTo(0, 0);
-      const leftSidebar = document.getElementById('left-sidebar');
-      if (leftSidebar) {
-        leftSidebar.style.top = '118px';
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  return height;
-}
-
-
-export default useScrollY;
- */
-
-
-/* 
-function useScrollY () {
-  const [ height, setHeight ] = useState('calc(100vh - 118px)');
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const newScrollY = window.scrollY;
-      let newHeight = '';
-      if (newScrollY === 0) {
-        newHeight = 'calc(100vh - 118px)';
-      } else if (newScrollY > 0 && newScrollY <= 77) {
-        const diff = 118 - (newScrollY / 77 * 73);
-        newHeight = `calc(100vh - ${ diff }px)`;
-      } else {
-        newHeight = 'calc(100vh - 45px)';
-      }
-
-      // set the top of the left sidebar with scrolly
-      const leftSidebar = document.getElementById('left-sidebar');
-      if (leftSidebar) {
-        const maxTop = 118;
-        const minTop = 45;
-        const newTop = Math.min(Math.max(maxTop - newScrollY, minTop), maxTop);
-        leftSidebar.style.top = `${ newTop }px`;
-      }
-
-      setHeight(newHeight);
-    };
-
-    // check if the initial scroll position is not 0 and set it to 0
-    if (window.scrollY !== 0) {
-      window.scrollTo(0, 0);
-    }
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  return height;
-}
-
-export default useScrollY;
-
- */
-
-
-
-
-
-
-
-/* import { useState, useEffect } from 'react';
-
-function useScrollY () {
-  const [ height, setHeight ] = useState('calc(100vh - 118px)');
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const newScrollY = window.scrollY;
-      let newHeight = '';
-      if (newScrollY === 0) {
-        newHeight = 'calc(100vh - 118px)';
-      } else if (newScrollY > 0 && newScrollY <= 77) {
-        const diff = 118 - (newScrollY / 77 * 73);
-        newHeight = `calc(100vh - ${ diff }px)`;
-      } else {
-        newHeight = 'calc(100vh - 45px)';
-      }
-      setHeight(newHeight);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  return height;
-}
-
-export default useScrollY;
- */

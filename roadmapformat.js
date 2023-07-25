@@ -2201,6 +2201,3 @@ Microsoft SQL Server
 
 Machine learning (ML) applications
 */
-const rcML = [];
-const mlTopicsNames = [];
-const mlTopicsPaths = [];
