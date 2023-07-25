@@ -11,7 +11,7 @@ const SearchSection = () => {
           <br />
           <SearchBar />
           <h3>From Beginner to Tech Pro: <br /><br />
-            Your Roadmap for CS, ML, and More
+            Your Roadmap for CS, ML, and much More
           </h3>
         </div>
         <svg className={styles.svg} width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
