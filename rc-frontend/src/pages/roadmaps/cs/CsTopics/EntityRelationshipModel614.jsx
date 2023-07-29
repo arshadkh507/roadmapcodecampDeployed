@@ -29,17 +29,17 @@ const EntityRelationshipModel614 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>EntityRelationshipModel614</h1>
+        <h1>Entity Relationship Model</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-denormalization-613"
+          nextTo="/roadmaps/cs/ddl-615"
         />
         <hr />
 
         <h2>EntityRelationshipModel614</h2>
         <p>
-          EntityRelationshipModel614
+        Entity Relationship Model is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const EntityRelationshipModel614 = () => {
 
         <TaskStateButtons
           topicName= "EntityRelationshipModel614"
-          topicId={1}
-          roadmapName="cs"
+          topicId={614}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-denormalization-613"
+          nextTo="/roadmaps/cs/ddl-615"
         />
       </div>
     </div>

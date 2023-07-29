@@ -29,17 +29,17 @@ const NMF381 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NMF381</h1>
+        <h1>N M F</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/random-projection-380"
+          nextTo="/roadmaps/ml/t-sne-382"
         />
         <hr />
 
         <h2>NMF381</h2>
         <p>
-          NMF381
+        N M F is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NMF381 = () => {
 
         <TaskStateButtons
           topicName= "NMF381"
-          topicId={1}
-          roadmapName="ml"
+          topicId={381}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/random-projection-380"
+          nextTo="/roadmaps/ml/t-sne-382"
         />
       </div>
     </div>

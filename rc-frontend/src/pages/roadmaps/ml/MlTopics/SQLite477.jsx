@@ -29,17 +29,17 @@ const SQLite477 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SQLite477</h1>
+        <h1>S Q Lite</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/oracle-database-476"
+          nextTo="/roadmaps/ml/microsoft-sql-server-478"
         />
         <hr />
 
         <h2>SQLite477</h2>
         <p>
-          SQLite477
+        S Q Lite is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SQLite477 = () => {
 
         <TaskStateButtons
           topicName= "SQLite477"
-          topicId={1}
-          roadmapName="ml"
+          topicId={477}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/oracle-database-476"
+          nextTo="/roadmaps/ml/microsoft-sql-server-478"
         />
       </div>
     </div>

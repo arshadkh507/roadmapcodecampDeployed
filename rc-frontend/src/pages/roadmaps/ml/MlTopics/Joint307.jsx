@@ -29,17 +29,17 @@ const Joint307 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Joint307</h1>
+        <h1>Joint</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/probability-distributions-306"
+          nextTo="/roadmaps/ml/marginal-308"
         />
         <hr />
 
         <h2>Joint307</h2>
         <p>
-          Joint307
+        Joint is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Joint307 = () => {
 
         <TaskStateButtons
           topicName= "Joint307"
-          topicId={1}
-          roadmapName="ml"
+          topicId={307}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/probability-distributions-306"
+          nextTo="/roadmaps/ml/marginal-308"
         />
       </div>
     </div>

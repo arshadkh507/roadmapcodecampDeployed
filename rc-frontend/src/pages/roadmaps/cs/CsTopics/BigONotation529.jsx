@@ -29,17 +29,17 @@ const BigONotation529 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BigONotation529</h1>
+        <h1>Big O Notation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/asymptotic-notation-528"
+          nextTo="/roadmaps/cs/big-θ-notation-530"
         />
         <hr />
 
         <h2>BigONotation529</h2>
         <p>
-          BigONotation529
+        Big O Notation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BigONotation529 = () => {
 
         <TaskStateButtons
           topicName= "BigONotation529"
-          topicId={1}
-          roadmapName="cs"
+          topicId={529}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/asymptotic-notation-528"
+          nextTo="/roadmaps/cs/big-θ-notation-530"
         />
       </div>
     </div>

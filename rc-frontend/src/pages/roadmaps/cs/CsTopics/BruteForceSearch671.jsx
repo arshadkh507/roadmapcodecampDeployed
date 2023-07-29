@@ -29,17 +29,17 @@ const BruteForceSearch671 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BruteForceSearch671</h1>
+        <h1>Brute Force Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/substring-search-670"
+          nextTo="/roadmaps/cs/knuth-morris-pratt-672"
         />
         <hr />
 
         <h2>BruteForceSearch671</h2>
         <p>
-          BruteForceSearch671
+        Brute Force Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BruteForceSearch671 = () => {
 
         <TaskStateButtons
           topicName= "BruteForceSearch671"
-          topicId={1}
-          roadmapName="cs"
+          topicId={671}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/substring-search-670"
+          nextTo="/roadmaps/cs/knuth-morris-pratt-672"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const SuffixArrays676 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SuffixArrays676</h1>
+        <h1>Suffix Arrays</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/search-pattern-in-text-675"
+          nextTo="/roadmaps/cs/caches-677"
         />
         <hr />
 
         <h2>SuffixArrays676</h2>
         <p>
-          SuffixArrays676
+        Suffix Arrays is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SuffixArrays676 = () => {
 
         <TaskStateButtons
           topicName= "SuffixArrays676"
-          topicId={1}
-          roadmapName="cs"
+          topicId={676}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/search-pattern-in-text-675"
+          nextTo="/roadmaps/cs/caches-677"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const PrincipalComponentAnalysisPCA379 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PrincipalComponentAnalysisPCA379</h1>
+        <h1>Principal Component Analysis P C A</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dimensionality-reduction-378"
+          nextTo="/roadmaps/ml/random-projection-380"
         />
         <hr />
 
         <h2>PrincipalComponentAnalysisPCA379</h2>
         <p>
-          PrincipalComponentAnalysisPCA379
+        Principal Component Analysis P C A is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PrincipalComponentAnalysisPCA379 = () => {
 
         <TaskStateButtons
           topicName= "PrincipalComponentAnalysisPCA379"
-          topicId={1}
-          roadmapName="ml"
+          topicId={379}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dimensionality-reduction-378"
+          nextTo="/roadmaps/ml/random-projection-380"
         />
       </div>
     </div>

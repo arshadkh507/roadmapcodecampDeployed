@@ -29,17 +29,17 @@ const ConcurrentProgramming750 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ConcurrentProgramming750</h1>
+        <h1>Concurrent Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/aspect-oriented-programming-749"
+          nextTo="/roadmaps/cs/human-computer-interaction-751"
         />
         <hr />
 
         <h2>ConcurrentProgramming750</h2>
         <p>
-          ConcurrentProgramming750
+        Concurrent Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ConcurrentProgramming750 = () => {
 
         <TaskStateButtons
           topicName= "ConcurrentProgramming750"
-          topicId={1}
-          roadmapName="cs"
+          topicId={750}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/aspect-oriented-programming-749"
+          nextTo="/roadmaps/cs/human-computer-interaction-751"
         />
       </div>
     </div>

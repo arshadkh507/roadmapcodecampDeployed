@@ -29,17 +29,17 @@ const GPUManagement449 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GPUManagement449</h1>
+        <h1>G P U Management</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/azure-automatedml-448"
+          nextTo="/roadmaps/ml/cloud-network-450"
         />
         <hr />
 
         <h2>GPUManagement449</h2>
         <p>
-          GPUManagement449
+        G P U Management is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GPUManagement449 = () => {
 
         <TaskStateButtons
           topicName= "GPUManagement449"
-          topicId={1}
-          roadmapName="ml"
+          topicId={449}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/azure-automatedml-448"
+          nextTo="/roadmaps/ml/cloud-network-450"
         />
       </div>
     </div>

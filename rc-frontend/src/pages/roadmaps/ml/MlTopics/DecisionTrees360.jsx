@@ -29,17 +29,17 @@ const DecisionTrees360 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DecisionTrees360</h1>
+        <h1>Decision Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/classification-rate-359"
+          nextTo="/roadmaps/ml/logistic-regression-361"
         />
         <hr />
 
         <h2>DecisionTrees360</h2>
         <p>
-          DecisionTrees360
+        Decision Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DecisionTrees360 = () => {
 
         <TaskStateButtons
           topicName= "DecisionTrees360"
-          topicId={1}
-          roadmapName="ml"
+          topicId={360}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/classification-rate-359"
+          nextTo="/roadmaps/ml/logistic-regression-361"
         />
       </div>
     </div>

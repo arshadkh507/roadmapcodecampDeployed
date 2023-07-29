@@ -29,17 +29,17 @@ const DijkstrasAlgorithm655 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DijkstrasAlgorithm655</h1>
+        <h1>Dijkstras Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bellman-fords-algorithm-654"
+          nextTo="/roadmaps/cs/a*-algorithm-656"
         />
         <hr />
 
         <h2>DijkstrasAlgorithm655</h2>
         <p>
-          DijkstrasAlgorithm655
+        Dijkstras Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DijkstrasAlgorithm655 = () => {
 
         <TaskStateButtons
           topicName= "DijkstrasAlgorithm655"
-          topicId={1}
-          roadmapName="cs"
+          topicId={655}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bellman-fords-algorithm-654"
+          nextTo="/roadmaps/cs/a*-algorithm-656"
         />
       </div>
     </div>

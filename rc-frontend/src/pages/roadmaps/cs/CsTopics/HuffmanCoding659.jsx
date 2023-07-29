@@ -29,17 +29,17 @@ const HuffmanCoding659 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HuffmanCoding659</h1>
+        <h1>Huffman Coding</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dijkstras-algorithm-658"
+          nextTo="/roadmaps/cs/kruskals-algorithm-660"
         />
         <hr />
 
         <h2>HuffmanCoding659</h2>
         <p>
-          HuffmanCoding659
+        Huffman Coding is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HuffmanCoding659 = () => {
 
         <TaskStateButtons
           topicName= "HuffmanCoding659"
-          topicId={1}
-          roadmapName="cs"
+          topicId={659}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dijkstras-algorithm-658"
+          nextTo="/roadmaps/cs/kruskals-algorithm-660"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const LoadBalancing721 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LoadBalancing721</h1>
+        <h1>Load Balancing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/horizontal-vs-vertical-scaling-720"
+          nextTo="/roadmaps/cs/clustering-722"
         />
         <hr />
 
         <h2>LoadBalancing721</h2>
         <p>
-          LoadBalancing721
+        Load Balancing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LoadBalancing721 = () => {
 
         <TaskStateButtons
           topicName= "LoadBalancing721"
-          topicId={1}
-          roadmapName="cs"
+          topicId={721}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/horizontal-vs-vertical-scaling-720"
+          nextTo="/roadmaps/cs/clustering-722"
         />
       </div>
     </div>

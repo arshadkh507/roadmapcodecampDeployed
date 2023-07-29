@@ -29,17 +29,17 @@ const TheoryOfComputation752 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TheoryOfComputation752</h1>
+        <h1>Theory Of Computation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/human-computer-interaction-751"
+          nextTo="/roadmaps/cs/artificial-intelligence-753"
         />
         <hr />
 
         <h2>TheoryOfComputation752</h2>
         <p>
-          TheoryOfComputation752
+        Theory Of Computation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TheoryOfComputation752 = () => {
 
         <TaskStateButtons
           topicName= "TheoryOfComputation752"
-          topicId={1}
-          roadmapName="cs"
+          topicId={752}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/human-computer-interaction-751"
+          nextTo="/roadmaps/cs/artificial-intelligence-753"
         />
       </div>
     </div>

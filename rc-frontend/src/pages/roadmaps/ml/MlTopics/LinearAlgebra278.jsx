@@ -29,17 +29,17 @@ const LinearAlgebra278 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LinearAlgebra278</h1>
+        <h1>Linear Algebra</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/taylor-series-277"
+          nextTo="/roadmaps/ml/scalars-279"
         />
         <hr />
 
         <h2>LinearAlgebra278</h2>
         <p>
-          LinearAlgebra278
+        Linear Algebra is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LinearAlgebra278 = () => {
 
         <TaskStateButtons
           topicName= "LinearAlgebra278"
-          topicId={1}
-          roadmapName="ml"
+          topicId={278}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/taylor-series-277"
+          nextTo="/roadmaps/ml/scalars-279"
         />
       </div>
     </div>

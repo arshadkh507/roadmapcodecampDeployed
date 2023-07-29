@@ -29,17 +29,17 @@ const MachineTranslation205 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MachineTranslation205</h1>
+        <h1>Machine Translation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/named-entity-recognition-204"
+          nextTo="/roadmaps/ai/information-extraction-206"
         />
         <hr />
 
         <h2>MachineTranslation205</h2>
         <p>
-          MachineTranslation205
+        Machine Translation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MachineTranslation205 = () => {
 
         <TaskStateButtons
           topicName= "MachineTranslation205"
-          topicId={1}
-          roadmapName="ai"
+          topicId={205}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/named-entity-recognition-204"
+          nextTo="/roadmaps/ai/information-extraction-206"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const Cplusplus481 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Cplusplus481</h1>
+        <h1>Cplusplus</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/cs/pick-a-language-480"
@@ -39,7 +39,7 @@ const Cplusplus481 = () => {
 
         <h2>Cplusplus481</h2>
         <p>
-          Cplusplus481
+        Cplusplus is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,9 +63,9 @@ const Cplusplus481 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="Cplusplus481"
+          topicName= "Cplusplus481"
           topicId={481}
-          roadmapName="cs"
+          roadmapName="rccs"
         />
 
         <hr />
@@ -76,7 +76,7 @@ const Cplusplus481 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Cplusplus481;

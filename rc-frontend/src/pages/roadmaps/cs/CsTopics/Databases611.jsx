@@ -29,17 +29,17 @@ const Databases611 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Databases611</h1>
+        <h1>Databases</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/deadlocks-and-resource-allocation-610"
+          nextTo="/roadmaps/cs/sql-vs-nosql-databases-612"
         />
         <hr />
 
         <h2>Databases611</h2>
         <p>
-          Databases611
+        Databases is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Databases611 = () => {
 
         <TaskStateButtons
           topicName= "Databases611"
-          topicId={1}
-          roadmapName="cs"
+          topicId={611}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/deadlocks-and-resource-allocation-610"
+          nextTo="/roadmaps/cs/sql-vs-nosql-databases-612"
         />
       </div>
     </div>

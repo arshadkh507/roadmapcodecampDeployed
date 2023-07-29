@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -32,8 +32,8 @@ const JavaScript020 = () => {
         <h1>JavaScript020</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-box-model-19"
+          nextTo="/roadmaps/frontend/javascript-syntax-and-basics-constructs-21"
         />
         <hr />
 
@@ -63,20 +63,20 @@ const JavaScript020 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "JavaScript020"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="JavaScript020"
+          topicId={20}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-box-model-19"
+          nextTo="/roadmaps/frontend/javascript-syntax-and-basics-constructs-21"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default JavaScript020;

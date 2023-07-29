@@ -29,17 +29,17 @@ const HashingAlgorithms711 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HashingAlgorithms711</h1>
+        <h1>Hashing Algorithms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-encoding-710"
+          nextTo="/roadmaps/cs/owasp-top-ten-712"
         />
         <hr />
 
         <h2>HashingAlgorithms711</h2>
         <p>
-          HashingAlgorithms711
+        Hashing Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HashingAlgorithms711 = () => {
 
         <TaskStateButtons
           topicName= "HashingAlgorithms711"
-          topicId={1}
-          roadmapName="cs"
+          topicId={711}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-encoding-710"
+          nextTo="/roadmaps/cs/owasp-top-ten-712"
         />
       </div>
     </div>

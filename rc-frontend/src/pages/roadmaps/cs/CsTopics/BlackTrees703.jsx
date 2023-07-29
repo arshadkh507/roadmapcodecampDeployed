@@ -29,17 +29,17 @@ const BlackTrees703 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BlackTrees703</h1>
+        <h1>Black Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/avl-trees-702"
+          nextTo="/roadmaps/cs/two-three-search-trees-704"
         />
         <hr />
 
         <h2>BlackTrees703</h2>
         <p>
-          BlackTrees703
+        Black Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BlackTrees703 = () => {
 
         <TaskStateButtons
           topicName= "BlackTrees703"
-          topicId={1}
-          roadmapName="cs"
+          topicId={703}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/avl-trees-702"
+          nextTo="/roadmaps/cs/two-three-search-trees-704"
         />
       </div>
     </div>

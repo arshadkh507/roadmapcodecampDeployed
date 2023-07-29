@@ -29,17 +29,17 @@ const KDTrees705 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>KDTrees705</h1>
+        <h1>K D Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/two-three-search-trees-704"
+          nextTo="/roadmaps/cs/skip-list-706"
         />
         <hr />
 
         <h2>KDTrees705</h2>
         <p>
-          KDTrees705
+        K D Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const KDTrees705 = () => {
 
         <TaskStateButtons
           topicName= "KDTrees705"
-          topicId={1}
-          roadmapName="cs"
+          topicId={705}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/two-three-search-trees-704"
+          nextTo="/roadmaps/cs/skip-list-706"
         />
       </div>
     </div>

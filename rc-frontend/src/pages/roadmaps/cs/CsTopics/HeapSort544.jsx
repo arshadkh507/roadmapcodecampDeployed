@@ -29,17 +29,17 @@ const HeapSort544 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HeapSort544</h1>
+        <h1>Heap Sort</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/insertion-sort-543"
+          nextTo="/roadmaps/cs/quick-sort-545"
         />
         <hr />
 
         <h2>HeapSort544</h2>
         <p>
-          HeapSort544
+        Heap Sort is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HeapSort544 = () => {
 
         <TaskStateButtons
           topicName= "HeapSort544"
-          topicId={1}
-          roadmapName="cs"
+          topicId={544}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/insertion-sort-543"
+          nextTo="/roadmaps/cs/quick-sort-545"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ArchitecturalPatterns683 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ArchitecturalPatterns683</h1>
+        <h1>Architectural Patterns</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/gof-design-patterns-682"
+          nextTo="/roadmaps/cs/dependency-injection-684"
         />
         <hr />
 
         <h2>ArchitecturalPatterns683</h2>
         <p>
-          ArchitecturalPatterns683
+        Architectural Patterns is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ArchitecturalPatterns683 = () => {
 
         <TaskStateButtons
           topicName= "ArchitecturalPatterns683"
-          topicId={1}
-          roadmapName="cs"
+          topicId={683}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/gof-design-patterns-682"
+          nextTo="/roadmaps/cs/dependency-injection-684"
         />
       </div>
     </div>

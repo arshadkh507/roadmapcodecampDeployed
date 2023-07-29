@@ -29,17 +29,17 @@ const Reasoning216 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Reasoning216</h1>
+        <h1>Reasoning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/rdf-owl-sparql-215"
+          nextTo="/roadmaps/ai/rule-based-reasoning-217"
         />
         <hr />
 
         <h2>Reasoning216</h2>
         <p>
-          Reasoning216
+        Reasoning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Reasoning216 = () => {
 
         <TaskStateButtons
           topicName= "Reasoning216"
-          topicId={1}
-          roadmapName="ai"
+          topicId={216}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/rdf-owl-sparql-215"
+          nextTo="/roadmaps/ai/rule-based-reasoning-217"
         />
       </div>
     </div>

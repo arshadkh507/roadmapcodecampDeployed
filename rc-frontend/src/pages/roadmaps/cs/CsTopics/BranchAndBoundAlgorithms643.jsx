@@ -29,17 +29,17 @@ const BranchAndBoundAlgorithms643 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BranchAndBoundAlgorithms643</h1>
+        <h1>Branch And Bound Algorithms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/divide-and-conquer-algorithms-642"
+          nextTo="/roadmaps/cs/advanced-algorithms-and-data-structures-644"
         />
         <hr />
 
         <h2>BranchAndBoundAlgorithms643</h2>
         <p>
-          BranchAndBoundAlgorithms643
+        Branch And Bound Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BranchAndBoundAlgorithms643 = () => {
 
         <TaskStateButtons
           topicName= "BranchAndBoundAlgorithms643"
-          topicId={1}
-          roadmapName="cs"
+          topicId={643}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/divide-and-conquer-algorithms-642"
+          nextTo="/roadmaps/cs/advanced-algorithms-and-data-structures-644"
         />
       </div>
     </div>

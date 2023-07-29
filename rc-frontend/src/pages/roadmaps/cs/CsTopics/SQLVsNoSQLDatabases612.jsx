@@ -29,17 +29,17 @@ const SQLVsNoSQLDatabases612 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SQLVsNoSQLDatabases612</h1>
+        <h1>S Q L Vs No S Q L Databases</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/databases-611"
+          nextTo="/roadmaps/cs/-denormalization-613"
         />
         <hr />
 
         <h2>SQLVsNoSQLDatabases612</h2>
         <p>
-          SQLVsNoSQLDatabases612
+        S Q L Vs No S Q L Databases is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SQLVsNoSQLDatabases612 = () => {
 
         <TaskStateButtons
           topicName= "SQLVsNoSQLDatabases612"
-          topicId={1}
-          roadmapName="cs"
+          topicId={612}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/databases-611"
+          nextTo="/roadmaps/cs/-denormalization-613"
         />
       </div>
     </div>

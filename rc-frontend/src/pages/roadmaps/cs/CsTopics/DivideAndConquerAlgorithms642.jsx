@@ -29,17 +29,17 @@ const DivideAndConquerAlgorithms642 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DivideAndConquerAlgorithms642</h1>
+        <h1>Divide And Conquer Algorithms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dynamic-programming-641"
+          nextTo="/roadmaps/cs/branch-and-bound-algorithms-643"
         />
         <hr />
 
         <h2>DivideAndConquerAlgorithms642</h2>
         <p>
-          DivideAndConquerAlgorithms642
+        Divide And Conquer Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DivideAndConquerAlgorithms642 = () => {
 
         <TaskStateButtons
           topicName= "DivideAndConquerAlgorithms642"
-          topicId={1}
-          roadmapName="cs"
+          topicId={642}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dynamic-programming-641"
+          nextTo="/roadmaps/cs/branch-and-bound-algorithms-643"
         />
       </div>
     </div>

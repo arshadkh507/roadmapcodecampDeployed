@@ -29,17 +29,17 @@ const Predicates184 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Predicates184</h1>
+        <h1>Predicates</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/variables-183"
+          nextTo="/roadmaps/ai/logical-equivalence-185"
         />
         <hr />
 
         <h2>Predicates184</h2>
         <p>
-          Predicates184
+        Predicates is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Predicates184 = () => {
 
         <TaskStateButtons
           topicName= "Predicates184"
-          topicId={1}
-          roadmapName="ai"
+          topicId={184}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/variables-183"
+          nextTo="/roadmaps/ai/logical-equivalence-185"
         />
       </div>
     </div>

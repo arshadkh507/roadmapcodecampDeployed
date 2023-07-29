@@ -29,17 +29,17 @@ const MergingDatasets343 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MergingDatasets343</h1>
+        <h1>Merging Datasets</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-integration-342"
+          nextTo="/roadmaps/ml/joining-datasets-344"
         />
         <hr />
 
         <h2>MergingDatasets343</h2>
         <p>
-          MergingDatasets343
+        Merging Datasets is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MergingDatasets343 = () => {
 
         <TaskStateButtons
           topicName= "MergingDatasets343"
-          topicId={1}
-          roadmapName="ml"
+          topicId={343}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-integration-342"
+          nextTo="/roadmaps/ml/joining-datasets-344"
         />
       </div>
     </div>

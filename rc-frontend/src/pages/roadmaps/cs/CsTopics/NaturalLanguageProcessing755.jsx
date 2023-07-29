@@ -29,17 +29,17 @@ const NaturalLanguageProcessing755 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NaturalLanguageProcessing755</h1>
+        <h1>Natural Language Processing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/machine-learning-754"
+          nextTo="/roadmaps/cs/computer-graphics-and-vision-756"
         />
         <hr />
 
         <h2>NaturalLanguageProcessing755</h2>
         <p>
-          NaturalLanguageProcessing755
+        Natural Language Processing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NaturalLanguageProcessing755 = () => {
 
         <TaskStateButtons
           topicName= "NaturalLanguageProcessing755"
-          topicId={1}
-          roadmapName="cs"
+          topicId={755}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/machine-learning-754"
+          nextTo="/roadmaps/cs/computer-graphics-and-vision-756"
         />
       </div>
     </div>

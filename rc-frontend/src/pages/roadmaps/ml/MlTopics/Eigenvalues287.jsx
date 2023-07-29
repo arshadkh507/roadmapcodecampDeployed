@@ -29,17 +29,17 @@ const Eigenvalues287 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Eigenvalues287</h1>
+        <h1>Eigenvalues</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/eigendecomposition-286"
+          nextTo="/roadmaps/ml/eigenvectors-288"
         />
         <hr />
 
         <h2>Eigenvalues287</h2>
         <p>
-          Eigenvalues287
+        Eigenvalues is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Eigenvalues287 = () => {
 
         <TaskStateButtons
           topicName= "Eigenvalues287"
-          topicId={1}
-          roadmapName="ml"
+          topicId={287}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/eigendecomposition-286"
+          nextTo="/roadmaps/ml/eigenvectors-288"
         />
       </div>
     </div>

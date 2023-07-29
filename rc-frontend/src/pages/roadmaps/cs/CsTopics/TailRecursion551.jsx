@@ -29,17 +29,17 @@ const TailRecursion551 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TailRecursion551</h1>
+        <h1>Tail Recursion</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/recursion-550"
+          nextTo="/roadmaps/cs/non-tail-recursion-552"
         />
         <hr />
 
         <h2>TailRecursion551</h2>
         <p>
-          TailRecursion551
+        Tail Recursion is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TailRecursion551 = () => {
 
         <TaskStateButtons
           topicName= "TailRecursion551"
-          topicId={1}
-          roadmapName="cs"
+          topicId={551}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/recursion-550"
+          nextTo="/roadmaps/cs/non-tail-recursion-552"
         />
       </div>
     </div>

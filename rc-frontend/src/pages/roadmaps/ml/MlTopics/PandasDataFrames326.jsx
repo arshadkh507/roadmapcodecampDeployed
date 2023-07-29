@@ -29,17 +29,17 @@ const PandasDataFrames326 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PandasDataFrames326</h1>
+        <h1>Pandas Data Frames</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/pandas-325"
+          nextTo="/roadmaps/ml/pandas-series-327"
         />
         <hr />
 
         <h2>PandasDataFrames326</h2>
         <p>
-          PandasDataFrames326
+        Pandas Data Frames is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PandasDataFrames326 = () => {
 
         <TaskStateButtons
           topicName= "PandasDataFrames326"
-          topicId={1}
-          roadmapName="ml"
+          topicId={326}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/pandas-325"
+          nextTo="/roadmaps/ml/pandas-series-327"
         />
       </div>
     </div>

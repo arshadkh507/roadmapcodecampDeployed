@@ -29,17 +29,17 @@ const RandomProjection380 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RandomProjection380</h1>
+        <h1>Random Projection</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/principal-component-analysis-(pca)-379"
+          nextTo="/roadmaps/ml/nmf-381"
         />
         <hr />
 
         <h2>RandomProjection380</h2>
         <p>
-          RandomProjection380
+        Random Projection is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RandomProjection380 = () => {
 
         <TaskStateButtons
           topicName= "RandomProjection380"
-          topicId={1}
-          roadmapName="ml"
+          topicId={380}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/principal-component-analysis-(pca)-379"
+          nextTo="/roadmaps/ml/nmf-381"
         />
       </div>
     </div>

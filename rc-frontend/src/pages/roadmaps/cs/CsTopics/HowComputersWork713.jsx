@@ -29,17 +29,17 @@ const HowComputersWork713 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HowComputersWork713</h1>
+        <h1>How Computers Work</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/owasp-top-ten-712"
+          nextTo="/roadmaps/cs/how-cpu-executes-programs?-714"
         />
         <hr />
 
         <h2>HowComputersWork713</h2>
         <p>
-          HowComputersWork713
+        How Computers Work is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HowComputersWork713 = () => {
 
         <TaskStateButtons
           topicName= "HowComputersWork713"
-          topicId={1}
-          roadmapName="cs"
+          topicId={713}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/owasp-top-ten-712"
+          nextTo="/roadmaps/cs/how-cpu-executes-programs?-714"
         />
       </div>
     </div>

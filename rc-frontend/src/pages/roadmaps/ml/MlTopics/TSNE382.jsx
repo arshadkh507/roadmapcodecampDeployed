@@ -29,17 +29,17 @@ const TSNE382 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TSNE382</h1>
+        <h1>T S N E</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/nmf-381"
+          nextTo="/roadmaps/ml/umap-383"
         />
         <hr />
 
         <h2>TSNE382</h2>
         <p>
-          TSNE382
+        T S N E is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TSNE382 = () => {
 
         <TaskStateButtons
           topicName= "TSNE382"
-          topicId={1}
-          roadmapName="ml"
+          topicId={382}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/nmf-381"
+          nextTo="/roadmaps/ml/umap-383"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Jacobian275 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Jacobian275</h1>
+        <h1>Jacobian</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hessian-274"
+          nextTo="/roadmaps/ml/partial-derivatives-276"
         />
         <hr />
 
         <h2>Jacobian275</h2>
         <p>
-          Jacobian275
+        Jacobian is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Jacobian275 = () => {
 
         <TaskStateButtons
           topicName= "Jacobian275"
-          topicId={1}
-          roadmapName="ml"
+          topicId={275}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hessian-274"
+          nextTo="/roadmaps/ml/partial-derivatives-276"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const NamedEntityRecognition404 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NamedEntityRecognition404</h1>
+        <h1>Named Entity Recognition</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/topic-modeling-403"
+          nextTo="/roadmaps/ml/language-translation-405"
         />
         <hr />
 
         <h2>NamedEntityRecognition404</h2>
         <p>
-          NamedEntityRecognition404
+        Named Entity Recognition is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NamedEntityRecognition404 = () => {
 
         <TaskStateButtons
           topicName= "NamedEntityRecognition404"
-          topicId={1}
-          roadmapName="ml"
+          topicId={404}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/topic-modeling-403"
+          nextTo="/roadmaps/ml/language-translation-405"
         />
       </div>
     </div>

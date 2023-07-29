@@ -29,17 +29,17 @@ const QuickSort545 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>QuickSort545</h1>
+        <h1>Quick Sort</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/heap-sort-544"
+          nextTo="/roadmaps/cs/merge-sort-546"
         />
         <hr />
 
         <h2>QuickSort545</h2>
         <p>
-          QuickSort545
+        Quick Sort is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const QuickSort545 = () => {
 
         <TaskStateButtons
           topicName= "QuickSort545"
-          topicId={1}
-          roadmapName="cs"
+          topicId={545}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/heap-sort-544"
+          nextTo="/roadmaps/cs/merge-sort-546"
         />
       </div>
     </div>

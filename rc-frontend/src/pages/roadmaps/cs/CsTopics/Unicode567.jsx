@@ -29,17 +29,17 @@ const Unicode567 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Unicode567</h1>
+        <h1>Unicode</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/character-encodings-566"
+          nextTo="/roadmaps/cs/ascii-568"
         />
         <hr />
 
         <h2>Unicode567</h2>
         <p>
-          Unicode567
+        Unicode is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Unicode567 = () => {
 
         <TaskStateButtons
           topicName= "Unicode567"
-          topicId={1}
-          roadmapName="cs"
+          topicId={567}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/character-encodings-566"
+          nextTo="/roadmaps/cs/ascii-568"
         />
       </div>
     </div>

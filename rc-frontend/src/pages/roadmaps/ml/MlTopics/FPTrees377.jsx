@@ -29,17 +29,17 @@ const FPTrees377 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FPTrees377</h1>
+        <h1>F P Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/eclat-algorithm-376"
+          nextTo="/roadmaps/ml/dimensionality-reduction-378"
         />
         <hr />
 
         <h2>FPTrees377</h2>
         <p>
-          FPTrees377
+        F P Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FPTrees377 = () => {
 
         <TaskStateButtons
           topicName= "FPTrees377"
-          topicId={1}
-          roadmapName="ml"
+          topicId={377}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/eclat-algorithm-376"
+          nextTo="/roadmaps/ml/dimensionality-reduction-378"
         />
       </div>
     </div>

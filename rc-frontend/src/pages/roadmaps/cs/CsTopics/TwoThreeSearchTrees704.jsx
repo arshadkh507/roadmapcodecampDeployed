@@ -29,17 +29,17 @@ const TwoThreeSearchTrees704 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TwoThreeSearchTrees704</h1>
+        <h1>Two Three Search Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-black-trees-703"
+          nextTo="/roadmaps/cs/k-d-trees-705"
         />
         <hr />
 
         <h2>TwoThreeSearchTrees704</h2>
         <p>
-          TwoThreeSearchTrees704
+        Two Three Search Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TwoThreeSearchTrees704 = () => {
 
         <TaskStateButtons
           topicName= "TwoThreeSearchTrees704"
-          topicId={1}
-          roadmapName="cs"
+          topicId={704}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-black-trees-703"
+          nextTo="/roadmaps/cs/k-d-trees-705"
         />
       </div>
     </div>

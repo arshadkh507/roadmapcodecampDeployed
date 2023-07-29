@@ -29,17 +29,17 @@ const R176 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>R176</h1>
+        <h1>R</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/javascript-175"
+          nextTo="/roadmaps/ai/propositional-logic-177"
         />
         <hr />
 
         <h2>R176</h2>
         <p>
-          R176
+        R is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const R176 = () => {
 
         <TaskStateButtons
           topicName= "R176"
-          topicId={1}
-          roadmapName="ai"
+          topicId={176}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/javascript-175"
+          nextTo="/roadmaps/ai/propositional-logic-177"
         />
       </div>
     </div>

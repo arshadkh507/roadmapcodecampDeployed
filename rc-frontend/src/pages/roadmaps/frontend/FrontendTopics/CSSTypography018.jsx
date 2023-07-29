@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -32,8 +32,8 @@ const CSSTypography018 = () => {
         <h1>CSSTypography018</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-colors-17"
+          nextTo="/roadmaps/frontend/css-box-model-19"
         />
         <hr />
 
@@ -63,20 +63,20 @@ const CSSTypography018 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "CSSTypography018"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="CSSTypography018"
+          topicId={18}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-colors-17"
+          nextTo="/roadmaps/frontend/css-box-model-19"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CSSTypography018;

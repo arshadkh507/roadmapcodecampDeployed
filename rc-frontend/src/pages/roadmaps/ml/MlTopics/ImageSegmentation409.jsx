@@ -29,17 +29,17 @@ const ImageSegmentation409 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ImageSegmentation409</h1>
+        <h1>Image Segmentation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/object-detection-408"
+          nextTo="/roadmaps/ml/face-recognition-410"
         />
         <hr />
 
         <h2>ImageSegmentation409</h2>
         <p>
-          ImageSegmentation409
+        Image Segmentation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ImageSegmentation409 = () => {
 
         <TaskStateButtons
           topicName= "ImageSegmentation409"
-          topicId={1}
-          roadmapName="ml"
+          topicId={409}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/object-detection-408"
+          nextTo="/roadmaps/ml/face-recognition-410"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const DistributedSystemsAndSecurity757 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DistributedSystemsAndSecurity757</h1>
+        <h1>Distributed Systems And Security</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-graphics-and-vision-756"
+          nextTo="/roadmaps/cs/distributed-systems-758"
         />
         <hr />
 
         <h2>DistributedSystemsAndSecurity757</h2>
         <p>
-          DistributedSystemsAndSecurity757
+        Distributed Systems And Security is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DistributedSystemsAndSecurity757 = () => {
 
         <TaskStateButtons
           topicName= "DistributedSystemsAndSecurity757"
-          topicId={1}
-          roadmapName="cs"
+          topicId={757}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-graphics-and-vision-756"
+          nextTo="/roadmaps/cs/distributed-systems-758"
         />
       </div>
     </div>

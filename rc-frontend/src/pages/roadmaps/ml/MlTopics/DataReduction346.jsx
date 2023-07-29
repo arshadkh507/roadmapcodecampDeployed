@@ -29,17 +29,17 @@ const DataReduction346 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataReduction346</h1>
+        <h1>Data Reduction</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/concatenating-datasets-345"
+          nextTo="/roadmaps/ml/feature-selection-347"
         />
         <hr />
 
         <h2>DataReduction346</h2>
         <p>
-          DataReduction346
+        Data Reduction is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataReduction346 = () => {
 
         <TaskStateButtons
           topicName= "DataReduction346"
-          topicId={1}
-          roadmapName="ml"
+          topicId={346}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/concatenating-datasets-345"
+          nextTo="/roadmaps/ml/feature-selection-347"
         />
       </div>
     </div>

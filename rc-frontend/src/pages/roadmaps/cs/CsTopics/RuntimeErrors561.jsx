@@ -29,17 +29,17 @@ const RuntimeErrors561 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RuntimeErrors561</h1>
+        <h1>Runtime Errors</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/syntax-errors-560"
+          nextTo="/roadmaps/cs/logical-errors-562"
         />
         <hr />
 
         <h2>RuntimeErrors561</h2>
         <p>
-          RuntimeErrors561
+        Runtime Errors is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RuntimeErrors561 = () => {
 
         <TaskStateButtons
           topicName= "RuntimeErrors561"
-          topicId={1}
-          roadmapName="cs"
+          topicId={561}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/syntax-errors-560"
+          nextTo="/roadmaps/cs/logical-errors-562"
         />
       </div>
     </div>

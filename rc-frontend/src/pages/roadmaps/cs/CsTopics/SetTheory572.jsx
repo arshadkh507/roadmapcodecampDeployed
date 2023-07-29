@@ -29,17 +29,17 @@ const SetTheory572 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SetTheory572</h1>
+        <h1>Set Theory</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-and-proofs-571"
+          nextTo="/roadmaps/cs/combinatorics--573"
         />
         <hr />
 
         <h2>SetTheory572</h2>
         <p>
-          SetTheory572
+        Set Theory is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SetTheory572 = () => {
 
         <TaskStateButtons
           topicName= "SetTheory572"
-          topicId={1}
-          roadmapName="cs"
+          topicId={572}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-and-proofs-571"
+          nextTo="/roadmaps/cs/combinatorics--573"
         />
       </div>
     </div>

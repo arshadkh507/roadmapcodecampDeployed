@@ -29,17 +29,17 @@ const TimeSeriesAnalysis300 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TimeSeriesAnalysis300</h1>
+        <h1>Time Series Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/anova-299"
+          nextTo="/roadmaps/ml/non-parametric-methods-301"
         />
         <hr />
 
         <h2>TimeSeriesAnalysis300</h2>
         <p>
-          TimeSeriesAnalysis300
+        Time Series Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TimeSeriesAnalysis300 = () => {
 
         <TaskStateButtons
           topicName= "TimeSeriesAnalysis300"
-          topicId={1}
-          roadmapName="ml"
+          topicId={300}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/anova-299"
+          nextTo="/roadmaps/ml/non-parametric-methods-301"
         />
       </div>
     </div>

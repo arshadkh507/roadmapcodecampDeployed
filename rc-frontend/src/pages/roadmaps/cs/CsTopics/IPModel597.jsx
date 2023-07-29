@@ -29,17 +29,17 @@ const IPModel597 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>IPModel597</h1>
+        <h1>I P Model</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/osi-model-596"
+          nextTo="/roadmaps/cs/dns-598"
         />
         <hr />
 
         <h2>IPModel597</h2>
         <p>
-          IPModel597
+        I P Model is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const IPModel597 = () => {
 
         <TaskStateButtons
           topicName= "IPModel597"
-          topicId={1}
-          roadmapName="cs"
+          topicId={597}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/osi-model-596"
+          nextTo="/roadmaps/cs/dns-598"
         />
       </div>
     </div>

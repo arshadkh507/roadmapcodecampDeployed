@@ -29,17 +29,17 @@ const P688 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>P688</h1>
+        <h1>P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/complexity-classes-687"
+          nextTo="/roadmaps/cs/np-689"
         />
         <hr />
 
         <h2>P688</h2>
         <p>
-          P688
+        P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const P688 = () => {
 
         <TaskStateButtons
           topicName= "P688"
-          topicId={1}
-          roadmapName="cs"
+          topicId={688}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/complexity-classes-687"
+          nextTo="/roadmaps/cs/np-689"
         />
       </div>
     </div>

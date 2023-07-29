@@ -29,17 +29,17 @@ const PredicateLogic181 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PredicateLogic181</h1>
+        <h1>Predicate Logic</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/truth-tables-180"
+          nextTo="/roadmaps/ai/quantifiers-182"
         />
         <hr />
 
         <h2>PredicateLogic181</h2>
         <p>
-          PredicateLogic181
+        Predicate Logic is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PredicateLogic181 = () => {
 
         <TaskStateButtons
           topicName= "PredicateLogic181"
-          topicId={1}
-          roadmapName="ai"
+          topicId={181}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/truth-tables-180"
+          nextTo="/roadmaps/ai/quantifiers-182"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ComputerOrganization583 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ComputerOrganization583</h1>
+        <h1>Computer Organization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-gates-and-circuits-582"
+          nextTo="/roadmaps/cs/processor-architecture-584"
         />
         <hr />
 
         <h2>ComputerOrganization583</h2>
         <p>
-          ComputerOrganization583
+        Computer Organization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ComputerOrganization583 = () => {
 
         <TaskStateButtons
           topicName= "ComputerOrganization583"
-          topicId={1}
-          roadmapName="cs"
+          topicId={583}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-gates-and-circuits-582"
+          nextTo="/roadmaps/cs/processor-architecture-584"
         />
       </div>
     </div>

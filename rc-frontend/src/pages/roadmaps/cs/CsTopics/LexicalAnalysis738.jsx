@@ -29,17 +29,17 @@ const LexicalAnalysis738 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LexicalAnalysis738</h1>
+        <h1>Lexical Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/compiler-design-737"
+          nextTo="/roadmaps/cs/parsing-739"
         />
         <hr />
 
         <h2>LexicalAnalysis738</h2>
         <p>
-          LexicalAnalysis738
+        Lexical Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LexicalAnalysis738 = () => {
 
         <TaskStateButtons
           topicName= "LexicalAnalysis738"
-          topicId={1}
-          roadmapName="cs"
+          topicId={738}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/compiler-design-737"
+          nextTo="/roadmaps/cs/parsing-739"
         />
       </div>
     </div>

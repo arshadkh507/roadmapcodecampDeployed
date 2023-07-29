@@ -29,17 +29,17 @@ const TroubleshootingCommonErrors559 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TroubleshootingCommonErrors559</h1>
+        <h1>Troubleshooting Common Errors</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/isolating-and-fixing-the-problem-558"
+          nextTo="/roadmaps/cs/syntax-errors-560"
         />
         <hr />
 
         <h2>TroubleshootingCommonErrors559</h2>
         <p>
-          TroubleshootingCommonErrors559
+        Troubleshooting Common Errors is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TroubleshootingCommonErrors559 = () => {
 
         <TaskStateButtons
           topicName= "TroubleshootingCommonErrors559"
-          topicId={1}
-          roadmapName="cs"
+          topicId={559}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/isolating-and-fixing-the-problem-558"
+          nextTo="/roadmaps/cs/syntax-errors-560"
         />
       </div>
     </div>

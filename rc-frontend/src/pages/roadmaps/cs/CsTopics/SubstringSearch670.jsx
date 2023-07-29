@@ -29,17 +29,17 @@ const SubstringSearch670 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SubstringSearch670</h1>
+        <h1>Substring Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/string-search-and-manipulations-669"
+          nextTo="/roadmaps/cs/brute-force-search-671"
         />
         <hr />
 
         <h2>SubstringSearch670</h2>
         <p>
-          SubstringSearch670
+        Substring Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SubstringSearch670 = () => {
 
         <TaskStateButtons
           topicName= "SubstringSearch670"
-          topicId={1}
-          roadmapName="cs"
+          topicId={670}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/string-search-and-manipulations-669"
+          nextTo="/roadmaps/cs/brute-force-search-671"
         />
       </div>
     </div>

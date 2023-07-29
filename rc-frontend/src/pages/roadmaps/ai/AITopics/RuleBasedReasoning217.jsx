@@ -29,17 +29,17 @@ const RuleBasedReasoning217 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RuleBasedReasoning217</h1>
+        <h1>Rule Based Reasoning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/reasoning-216"
+          nextTo="/roadmaps/ai/description-logic-reasoning-218"
         />
         <hr />
 
         <h2>RuleBasedReasoning217</h2>
         <p>
-          RuleBasedReasoning217
+        Rule Based Reasoning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RuleBasedReasoning217 = () => {
 
         <TaskStateButtons
           topicName= "RuleBasedReasoning217"
-          topicId={1}
-          roadmapName="ai"
+          topicId={217}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/reasoning-216"
+          nextTo="/roadmaps/ai/description-logic-reasoning-218"
         />
       </div>
     </div>

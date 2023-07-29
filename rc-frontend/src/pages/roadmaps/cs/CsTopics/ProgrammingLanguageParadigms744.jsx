@@ -29,17 +29,17 @@ const ProgrammingLanguageParadigms744 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProgrammingLanguageParadigms744</h1>
+        <h1>Programming Language Paradigms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/code-generation-743"
+          nextTo="/roadmaps/cs/imperative-programming-745"
         />
         <hr />
 
         <h2>ProgrammingLanguageParadigms744</h2>
         <p>
-          ProgrammingLanguageParadigms744
+        Programming Language Paradigms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProgrammingLanguageParadigms744 = () => {
 
         <TaskStateButtons
           topicName= "ProgrammingLanguageParadigms744"
-          topicId={1}
-          roadmapName="cs"
+          topicId={744}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/code-generation-743"
+          nextTo="/roadmaps/cs/imperative-programming-745"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const DatabaseFederation628 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DatabaseFederation628</h1>
+        <h1>Database Federation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/stored-procedures-627"
+          nextTo="/roadmaps/cs/replication-629"
         />
         <hr />
 
         <h2>DatabaseFederation628</h2>
         <p>
-          DatabaseFederation628
+        Database Federation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DatabaseFederation628 = () => {
 
         <TaskStateButtons
           topicName= "DatabaseFederation628"
-          topicId={1}
-          roadmapName="cs"
+          topicId={628}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/stored-procedures-627"
+          nextTo="/roadmaps/cs/replication-629"
         />
       </div>
     </div>

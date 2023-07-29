@@ -29,17 +29,17 @@ const VisualizationOfDataAndStatisticalGraphics331 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VisualizationOfDataAndStatisticalGraphics331</h1>
+        <h1>Visualization Of Data And Statistical Graphics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matplotlib-and-seaborn-330"
+          nextTo="/roadmaps/ml/data-preprocessing-332"
         />
         <hr />
 
         <h2>VisualizationOfDataAndStatisticalGraphics331</h2>
         <p>
-          VisualizationOfDataAndStatisticalGraphics331
+        Visualization Of Data And Statistical Graphics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VisualizationOfDataAndStatisticalGraphics331 = () => {
 
         <TaskStateButtons
           topicName= "VisualizationOfDataAndStatisticalGraphics331"
-          topicId={1}
-          roadmapName="ml"
+          topicId={331}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matplotlib-and-seaborn-330"
+          nextTo="/roadmaps/ml/data-preprocessing-332"
         />
       </div>
     </div>

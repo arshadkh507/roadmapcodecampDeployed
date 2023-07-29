@@ -29,17 +29,17 @@ const RandomNumberGeneration324 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RandomNumberGeneration324</h1>
+        <h1>Random Number Generation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-linear-algebra-323"
+          nextTo="/roadmaps/ml/pandas-325"
         />
         <hr />
 
         <h2>RandomNumberGeneration324</h2>
         <p>
-          RandomNumberGeneration324
+        Random Number Generation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RandomNumberGeneration324 = () => {
 
         <TaskStateButtons
           topicName= "RandomNumberGeneration324"
-          topicId={1}
-          roadmapName="ml"
+          topicId={324}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-linear-algebra-323"
+          nextTo="/roadmaps/ml/pandas-325"
         />
       </div>
     </div>

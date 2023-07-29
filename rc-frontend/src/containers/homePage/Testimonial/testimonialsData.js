@@ -41,15 +41,15 @@ const testimonialsData = [
   {
     id: 5,
     name: "Dr Muhammad Inam Ul Haq Sir",
-    profession: "Data Scientist",
+    profession: "Teacher/Researcher",
     image: "images/testimonial/inam-sir.png",
     description:
-      "Nam dapibus orci id risus dignissim tincidunt. Nullam commodo sem eu leo euismod tincidunt. Curabitur quis commodo nunc. Sed maximus justo felis, sed efficitur ex viverra non.",
+      "Experienced Teacher/ Researcher with a demonstrated history of working in the higher education industry and research. Skilled in Computing ,image processing , computer vision and information technology . Strong education professional with a Doctor of Philosophy (Ph.D.) focused in Image Processing from Université Jean Monnet, Saint Etienne France.",
   },
   {
     id: 6,
     name: "Dr Ghani Ur Rehman Sir",
-    profession: "Web Professer",
+    profession: "Faculty Lecturer",
     image: "images/testimonial/ghani-sir.png",
     description:
       "Nam dapibus orci id risus dignissim tincidunt. Nullam commodo sem eu leo euismod tincidunt. Curabitur quis commodo nunc. Sed maximus justo felis, sed efficitur ex viverra non.",

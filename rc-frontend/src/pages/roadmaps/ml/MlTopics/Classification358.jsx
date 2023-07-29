@@ -29,17 +29,17 @@ const Classification358 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Classification358</h1>
+        <h1>Classification</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/poisson-regression-357"
+          nextTo="/roadmaps/ml/classification-rate-359"
         />
         <hr />
 
         <h2>Classification358</h2>
         <p>
-          Classification358
+        Classification is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Classification358 = () => {
 
         <TaskStateButtons
           topicName= "Classification358"
-          topicId={1}
-          roadmapName="ml"
+          topicId={358}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/poisson-regression-357"
+          nextTo="/roadmaps/ml/classification-rate-359"
         />
       </div>
     </div>

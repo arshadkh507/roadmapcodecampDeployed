@@ -29,17 +29,17 @@ const SemanticAnalysis740 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SemanticAnalysis740</h1>
+        <h1>Semantic Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/parsing-739"
+          nextTo="/roadmaps/cs/intermediate-code-generation-741"
         />
         <hr />
 
         <h2>SemanticAnalysis740</h2>
         <p>
-          SemanticAnalysis740
+        Semantic Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SemanticAnalysis740 = () => {
 
         <TaskStateButtons
           topicName= "SemanticAnalysis740"
-          topicId={1}
-          roadmapName="cs"
+          topicId={740}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/parsing-739"
+          nextTo="/roadmaps/cs/intermediate-code-generation-741"
         />
       </div>
     </div>

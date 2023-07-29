@@ -29,17 +29,17 @@ const Stacking388 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Stacking388</h1>
+        <h1>Stacking</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/bagging-387"
+          nextTo="/roadmaps/ml/reinforcement-learning-389"
         />
         <hr />
 
         <h2>Stacking388</h2>
         <p>
-          Stacking388
+        Stacking is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Stacking388 = () => {
 
         <TaskStateButtons
           topicName= "Stacking388"
-          topicId={1}
-          roadmapName="ml"
+          topicId={388}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/bagging-387"
+          nextTo="/roadmaps/ml/reinforcement-learning-389"
         />
       </div>
     </div>

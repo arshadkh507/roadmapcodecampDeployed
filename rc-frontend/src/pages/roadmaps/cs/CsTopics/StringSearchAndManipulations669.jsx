@@ -29,17 +29,17 @@ const StringSearchAndManipulations669 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StringSearchAndManipulations669</h1>
+        <h1>String Search And Manipulations</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/rabin-karp-algorithm-668"
+          nextTo="/roadmaps/cs/substring-search-670"
         />
         <hr />
 
         <h2>StringSearchAndManipulations669</h2>
         <p>
-          StringSearchAndManipulations669
+        String Search And Manipulations is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StringSearchAndManipulations669 = () => {
 
         <TaskStateButtons
           topicName= "StringSearchAndManipulations669"
-          topicId={1}
-          roadmapName="cs"
+          topicId={669}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/rabin-karp-algorithm-668"
+          nextTo="/roadmaps/cs/substring-search-670"
         />
       </div>
     </div>

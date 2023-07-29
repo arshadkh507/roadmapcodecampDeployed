@@ -29,17 +29,17 @@ const GenerativeAdversarialNetworks398 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GenerativeAdversarialNetworks398</h1>
+        <h1>Generative Adversarial Networks</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/autoencoders-397"
+          nextTo="/roadmaps/ml/natural-language-processing-(nlp)-399"
         />
         <hr />
 
         <h2>GenerativeAdversarialNetworks398</h2>
         <p>
-          GenerativeAdversarialNetworks398
+        Generative Adversarial Networks is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GenerativeAdversarialNetworks398 = () => {
 
         <TaskStateButtons
           topicName= "GenerativeAdversarialNetworks398"
-          topicId={1}
-          roadmapName="ml"
+          topicId={398}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/autoencoders-397"
+          nextTo="/roadmaps/ml/natural-language-processing-(nlp)-399"
         />
       </div>
     </div>

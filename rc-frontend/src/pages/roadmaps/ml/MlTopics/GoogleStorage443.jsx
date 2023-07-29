@@ -29,17 +29,17 @@ const GoogleStorage443 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GoogleStorage443</h1>
+        <h1>Google Storage</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/aws-s3-442"
+          nextTo="/roadmaps/ml/azure-blobs-444"
         />
         <hr />
 
         <h2>GoogleStorage443</h2>
         <p>
-          GoogleStorage443
+        Google Storage is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GoogleStorage443 = () => {
 
         <TaskStateButtons
           topicName= "GoogleStorage443"
-          topicId={1}
-          roadmapName="ml"
+          topicId={443}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/aws-s3-442"
+          nextTo="/roadmaps/ml/azure-blobs-444"
         />
       </div>
     </div>

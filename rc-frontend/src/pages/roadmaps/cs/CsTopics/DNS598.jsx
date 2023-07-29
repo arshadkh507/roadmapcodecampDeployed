@@ -29,17 +29,17 @@ const DNS598 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DNS598</h1>
+        <h1>D N S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-ip-model-597"
+          nextTo="/roadmaps/cs/http-599"
         />
         <hr />
 
         <h2>DNS598</h2>
         <p>
-          DNS598
+        D N S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DNS598 = () => {
 
         <TaskStateButtons
           topicName= "DNS598"
-          topicId={1}
-          roadmapName="cs"
+          topicId={598}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-ip-model-597"
+          nextTo="/roadmaps/cs/http-599"
         />
       </div>
     </div>

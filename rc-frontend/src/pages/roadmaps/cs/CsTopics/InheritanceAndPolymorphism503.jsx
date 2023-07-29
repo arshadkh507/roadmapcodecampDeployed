@@ -29,17 +29,17 @@ const InheritanceAndPolymorphism503 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InheritanceAndPolymorphism503</h1>
+        <h1>Inheritance And Polymorphism</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/classes-and-objects-502"
+          nextTo="/roadmaps/cs/encapsulation-and-abstraction-504"
         />
         <hr />
 
         <h2>InheritanceAndPolymorphism503</h2>
         <p>
-          InheritanceAndPolymorphism503
+        Inheritance And Polymorphism is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InheritanceAndPolymorphism503 = () => {
 
         <TaskStateButtons
           topicName= "InheritanceAndPolymorphism503"
-          topicId={1}
-          roadmapName="cs"
+          topicId={503}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/classes-and-objects-502"
+          nextTo="/roadmaps/cs/encapsulation-and-abstraction-504"
         />
       </div>
     </div>

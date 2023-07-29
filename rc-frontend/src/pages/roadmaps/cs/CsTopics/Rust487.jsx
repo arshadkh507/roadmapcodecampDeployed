@@ -29,17 +29,17 @@ const Rust487 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Rust487</h1>
+        <h1>Rust</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/c-sharp-486"
+          nextTo="/roadmaps/cs/programming-fundamentals-488"
         />
         <hr />
 
         <h2>Rust487</h2>
         <p>
-          Rust487
+        Rust is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Rust487 = () => {
 
         <TaskStateButtons
           topicName= "Rust487"
-          topicId={1}
-          roadmapName="cs"
+          topicId={487}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/c-sharp-486"
+          nextTo="/roadmaps/cs/programming-fundamentals-488"
         />
       </div>
     </div>

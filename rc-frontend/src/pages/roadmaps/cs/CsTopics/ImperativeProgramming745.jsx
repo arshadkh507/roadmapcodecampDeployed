@@ -29,17 +29,17 @@ const ImperativeProgramming745 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ImperativeProgramming745</h1>
+        <h1>Imperative Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/programming-language-paradigms-744"
+          nextTo="/roadmaps/cs/functional-programming-746"
         />
         <hr />
 
         <h2>ImperativeProgramming745</h2>
         <p>
-          ImperativeProgramming745
+        Imperative Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ImperativeProgramming745 = () => {
 
         <TaskStateButtons
           topicName= "ImperativeProgramming745"
-          topicId={1}
-          roadmapName="cs"
+          topicId={745}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/programming-language-paradigms-744"
+          nextTo="/roadmaps/cs/functional-programming-746"
         />
       </div>
     </div>

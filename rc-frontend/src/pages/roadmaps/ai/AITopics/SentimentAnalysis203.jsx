@@ -29,17 +29,17 @@ const SentimentAnalysis203 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SentimentAnalysis203</h1>
+        <h1>Sentiment Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/syntax-and-parsing-202"
+          nextTo="/roadmaps/ai/named-entity-recognition-204"
         />
         <hr />
 
         <h2>SentimentAnalysis203</h2>
         <p>
-          SentimentAnalysis203
+        Sentiment Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SentimentAnalysis203 = () => {
 
         <TaskStateButtons
           topicName= "SentimentAnalysis203"
-          topicId={1}
-          roadmapName="ai"
+          topicId={203}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/syntax-and-parsing-202"
+          nextTo="/roadmaps/ai/named-entity-recognition-204"
         />
       </div>
     </div>

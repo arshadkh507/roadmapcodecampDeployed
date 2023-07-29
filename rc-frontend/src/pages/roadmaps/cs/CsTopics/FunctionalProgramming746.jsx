@@ -29,17 +29,17 @@ const FunctionalProgramming746 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FunctionalProgramming746</h1>
+        <h1>Functional Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/imperative-programming-745"
+          nextTo="/roadmaps/cs/logic-programming-747"
         />
         <hr />
 
         <h2>FunctionalProgramming746</h2>
         <p>
-          FunctionalProgramming746
+        Functional Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FunctionalProgramming746 = () => {
 
         <TaskStateButtons
           topicName= "FunctionalProgramming746"
-          topicId={1}
-          roadmapName="cs"
+          topicId={746}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/imperative-programming-745"
+          nextTo="/roadmaps/cs/logic-programming-747"
         />
       </div>
     </div>

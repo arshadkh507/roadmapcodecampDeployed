@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const Mathematics142 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Mathematics142</h1>
+        <h1>Mathematics</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ai/input-output-operations-141"
@@ -39,7 +39,7 @@ const Mathematics142 = () => {
 
         <h2>Mathematics142</h2>
         <p>
-          Mathematics142
+        Mathematics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,7 +63,7 @@ const Mathematics142 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="Mathematics142"
+          topicName= "Mathematics142"
           topicId={142}
           roadmapName="rcai"
         />
@@ -76,7 +76,7 @@ const Mathematics142 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Mathematics142;

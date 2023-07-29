@@ -29,17 +29,17 @@ const ArchitecturalStyles728 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ArchitecturalStyles728</h1>
+        <h1>Architectural Styles</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/queues-727"
+          nextTo="/roadmaps/cs/rest-729"
         />
         <hr />
 
         <h2>ArchitecturalStyles728</h2>
         <p>
-          ArchitecturalStyles728
+        Architectural Styles is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ArchitecturalStyles728 = () => {
 
         <TaskStateButtons
           topicName= "ArchitecturalStyles728"
-          topicId={1}
-          roadmapName="cs"
+          topicId={728}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/queues-727"
+          nextTo="/roadmaps/cs/rest-729"
         />
       </div>
     </div>

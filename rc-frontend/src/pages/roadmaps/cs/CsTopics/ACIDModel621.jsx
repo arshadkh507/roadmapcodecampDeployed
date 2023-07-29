@@ -29,17 +29,17 @@ const ACIDModel621 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ACIDModel621</h1>
+        <h1>A C I D Model</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/transactions-620"
+          nextTo="/roadmaps/cs/base-model-622"
         />
         <hr />
 
         <h2>ACIDModel621</h2>
         <p>
-          ACIDModel621
+        A C I D Model is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ACIDModel621 = () => {
 
         <TaskStateButtons
           topicName= "ACIDModel621"
-          topicId={1}
-          roadmapName="cs"
+          topicId={621}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/transactions-620"
+          nextTo="/roadmaps/cs/base-model-622"
         />
       </div>
     </div>

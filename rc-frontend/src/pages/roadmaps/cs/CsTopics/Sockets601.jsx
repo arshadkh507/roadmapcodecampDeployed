@@ -29,17 +29,17 @@ const Sockets601 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Sockets601</h1>
+        <h1>Sockets</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tls-&-https-600"
+          nextTo="/roadmaps/cs/operating-systems-602"
         />
         <hr />
 
         <h2>Sockets601</h2>
         <p>
-          Sockets601
+        Sockets is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Sockets601 = () => {
 
         <TaskStateButtons
           topicName= "Sockets601"
-          topicId={1}
-          roadmapName="cs"
+          topicId={601}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tls-&-https-600"
+          nextTo="/roadmaps/cs/operating-systems-602"
         />
       </div>
     </div>

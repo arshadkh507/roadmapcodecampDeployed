@@ -29,17 +29,17 @@ const AsymptoticNotation528 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AsymptoticNotation528</h1>
+        <h1>Asymptotic Notation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/edge-list-527"
+          nextTo="/roadmaps/cs/big-o-notation-529"
         />
         <hr />
 
         <h2>AsymptoticNotation528</h2>
         <p>
-          AsymptoticNotation528
+        Asymptotic Notation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AsymptoticNotation528 = () => {
 
         <TaskStateButtons
           topicName= "AsymptoticNotation528"
-          topicId={1}
-          roadmapName="cs"
+          topicId={528}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/edge-list-527"
+          nextTo="/roadmaps/cs/big-o-notation-529"
         />
       </div>
     </div>

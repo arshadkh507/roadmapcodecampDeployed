@@ -29,17 +29,17 @@ const ScalingData339 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ScalingData339</h1>
+        <h1>Scaling Data</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-transformation-338"
+          nextTo="/roadmaps/ml/normalizing-data-340"
         />
         <hr />
 
         <h2>ScalingData339</h2>
         <p>
-          ScalingData339
+        Scaling Data is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ScalingData339 = () => {
 
         <TaskStateButtons
           topicName= "ScalingData339"
-          topicId={1}
-          roadmapName="ml"
+          topicId={339}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-transformation-338"
+          nextTo="/roadmaps/ml/normalizing-data-340"
         />
       </div>
     </div>

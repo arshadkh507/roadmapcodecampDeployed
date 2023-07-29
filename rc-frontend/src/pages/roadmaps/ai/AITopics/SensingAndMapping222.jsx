@@ -29,17 +29,17 @@ const SensingAndMapping222 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SensingAndMapping222</h1>
+        <h1>Sensing And Mapping</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/perception-221"
+          nextTo="/roadmaps/ai/object-recognition-and-tracking-223"
         />
         <hr />
 
         <h2>SensingAndMapping222</h2>
         <p>
-          SensingAndMapping222
+        Sensing And Mapping is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SensingAndMapping222 = () => {
 
         <TaskStateButtons
           topicName= "SensingAndMapping222"
-          topicId={1}
-          roadmapName="ai"
+          topicId={222}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/perception-221"
+          nextTo="/roadmaps/ai/object-recognition-and-tracking-223"
         />
       </div>
     </div>

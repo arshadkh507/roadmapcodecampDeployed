@@ -29,17 +29,17 @@ const Expressions261 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Expressions261</h1>
+        <h1>Expressions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/variables-260"
+          nextTo="/roadmaps/ml/operators-262"
         />
         <hr />
 
         <h2>Expressions261</h2>
         <p>
-          Expressions261
+        Expressions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Expressions261 = () => {
 
         <TaskStateButtons
           topicName= "Expressions261"
-          topicId={1}
-          roadmapName="ml"
+          topicId={261}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/variables-260"
+          nextTo="/roadmaps/ml/operators-262"
         />
       </div>
     </div>

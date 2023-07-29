@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,46 +7,59 @@ const CSSLearnTheBasics015 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "CSS Basics (MDN Docs)",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Introduction to CSS (W3Schools)",
+      url: "https://www.w3schools.com/css/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CSS Tutorial (CSS-Tricks)",
+      url: "https://css-tricks.com/guides/beginner/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Learn CSS (Codecademy)",
+      url: "https://www.codecademy.com/learn/learn-css",
     },
   ];
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSSLearnTheBasics015</h1>
+        <h1>CSS Learn Basics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-making-layouts-14"
+          nextTo="/roadmaps/frontend/css-selectors-16"
         />
         <hr />
 
-        <h2>CSSLearnTheBasics015</h2>
+        <h2>CSS Learn Basics</h2>
         <p>
-          CSSLearnTheBasics015
+          Welcome to "CSS Learn Basics", the perfect starting point for your
+          journey into the world of CSS. CSS, or Cascading Style Sheets, is a
+          cornerstone technology used to style and layout web pages. In this
+          topic, you'll learn the fundamental concepts of CSS, from selectors
+          and properties to the box model and positioning. By the end of this
+          topic, you'll have a solid foundation in CSS and be ready to style
+          your own web pages. Happy learning!
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="CSS Crash Course For Absolute Beginners"
+          videoSrc="https://www.youtube.com/embed/yfoY53QXEnI"
         />
-
+        <TopicVideoPlayer
+          videoTitle="Learn CSS in 20 Minutes"
+          videoSrc="https://www.youtube.com/embed/1Rs2ND1ryYc"
+        />
+        <TopicVideoPlayer
+          videoTitle="CSS Full Course - Includes Flexbox and CSS Grid Tutorials"
+          videoSrc="https://www.youtube.com/embed/ieTHC78giGQ"
+        />
         <hr />
 
         <div className={styles.topicResources}>
@@ -63,20 +76,20 @@ const CSSLearnTheBasics015 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "CSSLearnTheBasics015"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="CSSLearnTheBasics015"
+          topicId={15}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-making-layouts-14"
+          nextTo="/roadmaps/frontend/css-selectors-16"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CSSLearnTheBasics015;

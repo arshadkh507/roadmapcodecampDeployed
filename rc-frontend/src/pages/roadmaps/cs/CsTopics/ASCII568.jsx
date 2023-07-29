@@ -29,17 +29,17 @@ const ASCII568 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ASCII568</h1>
+        <h1>A S C I I</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/unicode-567"
+          nextTo="/roadmaps/cs/mathematics-569"
         />
         <hr />
 
         <h2>ASCII568</h2>
         <p>
-          ASCII568
+        A S C I I is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ASCII568 = () => {
 
         <TaskStateButtons
           topicName= "ASCII568"
-          topicId={1}
-          roadmapName="cs"
+          topicId={568}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/unicode-567"
+          nextTo="/roadmaps/cs/mathematics-569"
         />
       </div>
     </div>

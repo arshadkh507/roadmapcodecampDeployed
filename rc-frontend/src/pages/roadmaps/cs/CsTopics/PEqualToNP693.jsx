@@ -29,17 +29,17 @@ const PEqualToNP693 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PEqualToNP693</h1>
+        <h1>P Equal To N P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/np-complete-692"
+          nextTo="/roadmaps/cs/travelling-salesman-problem-694"
         />
         <hr />
 
         <h2>PEqualToNP693</h2>
         <p>
-          PEqualToNP693
+        P Equal To N P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PEqualToNP693 = () => {
 
         <TaskStateButtons
           topicName= "PEqualToNP693"
-          topicId={1}
-          roadmapName="cs"
+          topicId={693}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/np-complete-692"
+          nextTo="/roadmaps/cs/travelling-salesman-problem-694"
         />
       </div>
     </div>

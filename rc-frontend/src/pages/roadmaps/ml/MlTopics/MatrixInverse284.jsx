@@ -29,17 +29,17 @@ const MatrixInverse284 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MatrixInverse284</h1>
+        <h1>Matrix Inverse</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matrix-multiplication-283"
+          nextTo="/roadmaps/ml/transpose-285"
         />
         <hr />
 
         <h2>MatrixInverse284</h2>
         <p>
-          MatrixInverse284
+        Matrix Inverse is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MatrixInverse284 = () => {
 
         <TaskStateButtons
           topicName= "MatrixInverse284"
-          topicId={1}
-          roadmapName="ml"
+          topicId={284}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matrix-multiplication-283"
+          nextTo="/roadmaps/ml/transpose-285"
         />
       </div>
     </div>

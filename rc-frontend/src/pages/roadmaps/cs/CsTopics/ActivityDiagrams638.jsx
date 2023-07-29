@@ -29,17 +29,17 @@ const ActivityDiagrams638 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ActivityDiagrams638</h1>
+        <h1>Activity Diagrams</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/usecase-diagrams-637"
+          nextTo="/roadmaps/cs/statemachine-diagrams-639"
         />
         <hr />
 
         <h2>ActivityDiagrams638</h2>
         <p>
-          ActivityDiagrams638
+        Activity Diagrams is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ActivityDiagrams638 = () => {
 
         <TaskStateButtons
           topicName= "ActivityDiagrams638"
-          topicId={1}
-          roadmapName="cs"
+          topicId={638}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/usecase-diagrams-637"
+          nextTo="/roadmaps/cs/statemachine-diagrams-639"
         />
       </div>
     </div>

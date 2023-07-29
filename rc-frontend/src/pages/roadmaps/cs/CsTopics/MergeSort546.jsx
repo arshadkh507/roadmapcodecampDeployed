@@ -29,17 +29,17 @@ const MergeSort546 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MergeSort546</h1>
+        <h1>Merge Sort</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/quick-sort-545"
+          nextTo="/roadmaps/cs/searching-547"
         />
         <hr />
 
         <h2>MergeSort546</h2>
         <p>
-          MergeSort546
+        Merge Sort is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MergeSort546 = () => {
 
         <TaskStateButtons
           topicName= "MergeSort546"
-          topicId={1}
-          roadmapName="cs"
+          topicId={546}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/quick-sort-545"
+          nextTo="/roadmaps/cs/searching-547"
         />
       </div>
     </div>

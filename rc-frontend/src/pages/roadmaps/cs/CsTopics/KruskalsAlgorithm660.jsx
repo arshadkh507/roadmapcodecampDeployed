@@ -29,17 +29,17 @@ const KruskalsAlgorithm660 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>KruskalsAlgorithm660</h1>
+        <h1>Kruskals Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/huffman-coding-659"
+          nextTo="/roadmaps/cs/ford-fulkerson-algorithm-661"
         />
         <hr />
 
         <h2>KruskalsAlgorithm660</h2>
         <p>
-          KruskalsAlgorithm660
+        Kruskals Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const KruskalsAlgorithm660 = () => {
 
         <TaskStateButtons
           topicName= "KruskalsAlgorithm660"
-          topicId={1}
-          roadmapName="cs"
+          topicId={660}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/huffman-coding-659"
+          nextTo="/roadmaps/cs/ford-fulkerson-algorithm-661"
         />
       </div>
     </div>

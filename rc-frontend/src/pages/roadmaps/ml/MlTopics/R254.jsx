@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const R254 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>R254</h1>
+        <h1>R</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ml/python-253"
@@ -39,7 +39,7 @@ const R254 = () => {
 
         <h2>R254</h2>
         <p>
-          R254
+        R is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,9 +63,9 @@ const R254 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="R254"
+          topicName= "R254"
           topicId={254}
-          roadmapName="ml"
+          roadmapName="rcml"
         />
 
         <hr />
@@ -76,7 +76,7 @@ const R254 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default R254;

@@ -29,17 +29,17 @@ const CouchDB471 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CouchDB471</h1>
+        <h1>Couch D B</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/redis-470"
+          nextTo="/roadmaps/ml/memcached-472"
         />
         <hr />
 
         <h2>CouchDB471</h2>
         <p>
-          CouchDB471
+        Couch D B is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CouchDB471 = () => {
 
         <TaskStateButtons
           topicName= "CouchDB471"
-          topicId={1}
-          roadmapName="ml"
+          topicId={471}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/redis-470"
+          nextTo="/roadmaps/ml/memcached-472"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Denormalization613 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Denormalization613</h1>
+        <h1>Denormalization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sql-vs-nosql-databases-612"
+          nextTo="/roadmaps/cs/entity-relationship-model-614"
         />
         <hr />
 
         <h2>Denormalization613</h2>
         <p>
-          Denormalization613
+        Denormalization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Denormalization613 = () => {
 
         <TaskStateButtons
           topicName= "Denormalization613"
-          topicId={1}
-          roadmapName="cs"
+          topicId={613}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sql-vs-nosql-databases-612"
+          nextTo="/roadmaps/cs/entity-relationship-model-614"
         />
       </div>
     </div>

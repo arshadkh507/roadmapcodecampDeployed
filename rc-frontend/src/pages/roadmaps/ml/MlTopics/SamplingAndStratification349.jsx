@@ -29,17 +29,17 @@ const SamplingAndStratification349 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SamplingAndStratification349</h1>
+        <h1>Sampling And Stratification</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/feature-extraction-348"
+          nextTo="/roadmaps/ml/feature-engineering-350"
         />
         <hr />
 
         <h2>SamplingAndStratification349</h2>
         <p>
-          SamplingAndStratification349
+        Sampling And Stratification is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SamplingAndStratification349 = () => {
 
         <TaskStateButtons
           topicName= "SamplingAndStratification349"
-          topicId={1}
-          roadmapName="ml"
+          topicId={349}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/feature-extraction-348"
+          nextTo="/roadmaps/ml/feature-engineering-350"
         />
       </div>
     </div>

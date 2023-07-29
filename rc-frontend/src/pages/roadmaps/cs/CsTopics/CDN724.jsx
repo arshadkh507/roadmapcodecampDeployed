@@ -29,17 +29,17 @@ const CDN724 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CDN724</h1>
+        <h1>C D N</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/caching-723"
+          nextTo="/roadmaps/cs/proxy-725"
         />
         <hr />
 
         <h2>CDN724</h2>
         <p>
-          CDN724
+        C D N is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CDN724 = () => {
 
         <TaskStateButtons
           topicName= "CDN724"
-          topicId={1}
-          roadmapName="cs"
+          topicId={724}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/caching-723"
+          nextTo="/roadmaps/cs/proxy-725"
         />
       </div>
     </div>

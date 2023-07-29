@@ -29,17 +29,17 @@ const LinearTransformations290 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LinearTransformations290</h1>
+        <h1>Linear Transformations</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/singular-value-decomposition-289"
+          nextTo="/roadmaps/ml/vector-spaces-and-subspaces-291"
         />
         <hr />
 
         <h2>LinearTransformations290</h2>
         <p>
-          LinearTransformations290
+        Linear Transformations is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LinearTransformations290 = () => {
 
         <TaskStateButtons
           topicName= "LinearTransformations290"
-          topicId={1}
-          roadmapName="ml"
+          topicId={290}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/singular-value-decomposition-289"
+          nextTo="/roadmaps/ml/vector-spaces-and-subspaces-291"
         />
       </div>
     </div>

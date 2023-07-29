@@ -29,17 +29,17 @@ const Soundness190 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Soundness190</h1>
+        <h1>Soundness</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/inference-rules-189"
+          nextTo="/roadmaps/ai/completeness-191"
         />
         <hr />
 
         <h2>Soundness190</h2>
         <p>
-          Soundness190
+        Soundness is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Soundness190 = () => {
 
         <TaskStateButtons
           topicName= "Soundness190"
-          topicId={1}
-          roadmapName="ai"
+          topicId={190}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/inference-rules-189"
+          nextTo="/roadmaps/ai/completeness-191"
         />
       </div>
     </div>

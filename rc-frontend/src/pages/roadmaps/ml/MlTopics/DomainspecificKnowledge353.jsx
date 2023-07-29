@@ -29,17 +29,17 @@ const DomainspecificKnowledge353 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DomainspecificKnowledge353</h1>
+        <h1>Domainspecific Knowledge</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-processing-352"
+          nextTo="/roadmaps/ml/supervised-learning-354"
         />
         <hr />
 
         <h2>DomainspecificKnowledge353</h2>
         <p>
-          DomainspecificKnowledge353
+        Domainspecific Knowledge is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DomainspecificKnowledge353 = () => {
 
         <TaskStateButtons
           topicName= "DomainspecificKnowledge353"
-          topicId={1}
-          roadmapName="ml"
+          topicId={353}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-processing-352"
+          nextTo="/roadmaps/ml/supervised-learning-354"
         />
       </div>
     </div>

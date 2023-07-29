@@ -29,17 +29,17 @@ const CacheDesign587 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CacheDesign587</h1>
+        <h1>Cache Design</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pipelining-and-parallelism-586"
+          nextTo="/roadmaps/cs/virtual-memory-588"
         />
         <hr />
 
         <h2>CacheDesign587</h2>
         <p>
-          CacheDesign587
+        Cache Design is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CacheDesign587 = () => {
 
         <TaskStateButtons
           topicName= "CacheDesign587"
-          topicId={1}
-          roadmapName="cs"
+          topicId={587}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pipelining-and-parallelism-586"
+          nextTo="/roadmaps/cs/virtual-memory-588"
         />
       </div>
     </div>

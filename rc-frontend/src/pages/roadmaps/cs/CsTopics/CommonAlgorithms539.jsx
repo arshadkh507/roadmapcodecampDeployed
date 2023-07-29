@@ -29,17 +29,17 @@ const CommonAlgorithms539 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CommonAlgorithms539</h1>
+        <h1>Common Algorithms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/factorial-538"
+          nextTo="/roadmaps/cs/sorting-540"
         />
         <hr />
 
         <h2>CommonAlgorithms539</h2>
         <p>
-          CommonAlgorithms539
+        Common Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CommonAlgorithms539 = () => {
 
         <TaskStateButtons
           topicName= "CommonAlgorithms539"
-          topicId={1}
-          roadmapName="cs"
+          topicId={539}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/factorial-538"
+          nextTo="/roadmaps/cs/sorting-540"
         />
       </div>
     </div>

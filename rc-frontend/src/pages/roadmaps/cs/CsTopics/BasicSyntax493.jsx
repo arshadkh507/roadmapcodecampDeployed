@@ -29,17 +29,17 @@ const BasicSyntax493 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BasicSyntax493</h1>
+        <h1>Basic Syntax</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/control-structures-492"
+          nextTo="/roadmaps/cs/functions-494"
         />
         <hr />
 
         <h2>BasicSyntax493</h2>
         <p>
-          BasicSyntax493
+        Basic Syntax is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BasicSyntax493 = () => {
 
         <TaskStateButtons
           topicName= "BasicSyntax493"
-          topicId={1}
-          roadmapName="cs"
+          topicId={493}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/control-structures-492"
+          nextTo="/roadmaps/cs/functions-494"
         />
       </div>
     </div>

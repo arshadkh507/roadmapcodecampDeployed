@@ -29,17 +29,17 @@ const StatisticalInference592 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StatisticalInference592</h1>
+        <h1>Statistical Inference</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/probability-distributions-591"
+          nextTo="/roadmaps/cs/hypothesis-testing-593"
         />
         <hr />
 
         <h2>StatisticalInference592</h2>
         <p>
-          StatisticalInference592
+        Statistical Inference is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StatisticalInference592 = () => {
 
         <TaskStateButtons
           topicName= "StatisticalInference592"
-          topicId={1}
-          roadmapName="cs"
+          topicId={592}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/probability-distributions-591"
+          nextTo="/roadmaps/cs/hypothesis-testing-593"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ArtificialIntelligence753 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ArtificialIntelligence753</h1>
+        <h1>Artificial Intelligence</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/theory-of-computation-752"
+          nextTo="/roadmaps/cs/machine-learning-754"
         />
         <hr />
 
         <h2>ArtificialIntelligence753</h2>
         <p>
-          ArtificialIntelligence753
+        Artificial Intelligence is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ArtificialIntelligence753 = () => {
 
         <TaskStateButtons
           topicName= "ArtificialIntelligence753"
-          topicId={1}
-          roadmapName="cs"
+          topicId={753}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/theory-of-computation-752"
+          nextTo="/roadmaps/cs/machine-learning-754"
         />
       </div>
     </div>

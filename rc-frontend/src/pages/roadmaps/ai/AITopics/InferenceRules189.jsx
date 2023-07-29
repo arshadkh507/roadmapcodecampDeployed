@@ -29,17 +29,17 @@ const InferenceRules189 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InferenceRules189</h1>
+        <h1>Inference Rules</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/formulas-188"
+          nextTo="/roadmaps/ai/soundness-190"
         />
         <hr />
 
         <h2>InferenceRules189</h2>
         <p>
-          InferenceRules189
+        Inference Rules is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InferenceRules189 = () => {
 
         <TaskStateButtons
           topicName= "InferenceRules189"
-          topicId={1}
-          roadmapName="ai"
+          topicId={189}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/formulas-188"
+          nextTo="/roadmaps/ai/soundness-190"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ErrorHandlingAndReporting500 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ErrorHandlingAndReporting500</h1>
+        <h1>Error Handling And Reporting</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/command-line-arguments-499"
+          nextTo="/roadmaps/cs/object-oriented-programming-501"
         />
         <hr />
 
         <h2>ErrorHandlingAndReporting500</h2>
         <p>
-          ErrorHandlingAndReporting500
+        Error Handling And Reporting is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ErrorHandlingAndReporting500 = () => {
 
         <TaskStateButtons
           topicName= "ErrorHandlingAndReporting500"
-          topicId={1}
-          roadmapName="cs"
+          topicId={500}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/command-line-arguments-499"
+          nextTo="/roadmaps/cs/object-oriented-programming-501"
         />
       </div>
     </div>

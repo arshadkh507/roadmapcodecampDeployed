@@ -29,17 +29,17 @@ const LimitsAndContinuity144 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LimitsAndContinuity144</h1>
+        <h1>Limits And Continuity</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/differential-calculus-143"
+          nextTo="/roadmaps/ai/derivatives-145"
         />
         <hr />
 
         <h2>LimitsAndContinuity144</h2>
         <p>
-          LimitsAndContinuity144
+        Limits And Continuity is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const LimitsAndContinuity144 = () => {
         <TaskStateButtons
           topicName= "LimitsAndContinuity144"
           topicId={144}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/differential-calculus-143"
+          nextTo="/roadmaps/ai/derivatives-145"
         />
       </div>
     </div>

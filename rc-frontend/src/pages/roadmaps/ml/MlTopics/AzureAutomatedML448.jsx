@@ -29,17 +29,17 @@ const AzureAutomatedML448 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AzureAutomatedML448</h1>
+        <h1>Azure Automated M L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/google-ai-platform-447"
+          nextTo="/roadmaps/ml/gpu-management-449"
         />
         <hr />
 
         <h2>AzureAutomatedML448</h2>
         <p>
-          AzureAutomatedML448
+        Azure Automated M L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AzureAutomatedML448 = () => {
 
         <TaskStateButtons
           topicName= "AzureAutomatedML448"
-          topicId={1}
-          roadmapName="ml"
+          topicId={448}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/google-ai-platform-447"
+          nextTo="/roadmaps/ml/gpu-management-449"
         />
       </div>
     </div>

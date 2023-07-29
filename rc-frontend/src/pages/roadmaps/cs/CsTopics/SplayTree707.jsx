@@ -29,17 +29,17 @@ const SplayTree707 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SplayTree707</h1>
+        <h1>Splay Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/skip-list-706"
+          nextTo="/roadmaps/cs/security-708"
         />
         <hr />
 
         <h2>SplayTree707</h2>
         <p>
-          SplayTree707
+        Splay Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SplayTree707 = () => {
 
         <TaskStateButtons
           topicName= "SplayTree707"
-          topicId={1}
-          roadmapName="cs"
+          topicId={707}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/skip-list-706"
+          nextTo="/roadmaps/cs/security-708"
         />
       </div>
     </div>

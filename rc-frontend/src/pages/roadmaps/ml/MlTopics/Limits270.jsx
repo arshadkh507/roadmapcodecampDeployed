@@ -29,17 +29,17 @@ const Limits270 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Limits270</h1>
+        <h1>Limits</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/calculus-269"
+          nextTo="/roadmaps/ml/derivatives-271"
         />
         <hr />
 
         <h2>Limits270</h2>
         <p>
-          Limits270
+        Limits is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Limits270 = () => {
 
         <TaskStateButtons
           topicName= "Limits270"
-          topicId={1}
-          roadmapName="ml"
+          topicId={270}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/calculus-269"
+          nextTo="/roadmaps/ml/derivatives-271"
         />
       </div>
     </div>

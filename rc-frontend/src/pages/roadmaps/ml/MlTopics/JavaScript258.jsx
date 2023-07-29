@@ -29,17 +29,17 @@ const JavaScript258 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>JavaScript258</h1>
+        <h1>Java Script</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matlab-257"
+          nextTo="/roadmaps/ml/programming-fundamentals-259"
         />
         <hr />
 
         <h2>JavaScript258</h2>
         <p>
-          JavaScript258
+        Java Script is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const JavaScript258 = () => {
 
         <TaskStateButtons
           topicName= "JavaScript258"
-          topicId={1}
-          roadmapName="ml"
+          topicId={258}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matlab-257"
+          nextTo="/roadmaps/ml/programming-fundamentals-259"
         />
       </div>
     </div>

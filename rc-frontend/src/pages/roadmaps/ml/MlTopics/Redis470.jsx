@@ -29,17 +29,17 @@ const Redis470 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Redis470</h1>
+        <h1>Redis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mongodb-469"
+          nextTo="/roadmaps/ml/couchdb-471"
         />
         <hr />
 
         <h2>Redis470</h2>
         <p>
-          Redis470
+        Redis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Redis470 = () => {
 
         <TaskStateButtons
           topicName= "Redis470"
-          topicId={1}
-          roadmapName="ml"
+          topicId={470}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mongodb-469"
+          nextTo="/roadmaps/ml/couchdb-471"
         />
       </div>
     </div>

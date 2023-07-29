@@ -29,17 +29,17 @@ const DiscreteProbability574 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DiscreteProbability574</h1>
+        <h1>Discrete Probability</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/combinatorics--573"
+          nextTo="/roadmaps/cs/linear-algebra-575"
         />
         <hr />
 
         <h2>DiscreteProbability574</h2>
         <p>
-          DiscreteProbability574
+        Discrete Probability is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DiscreteProbability574 = () => {
 
         <TaskStateButtons
           topicName= "DiscreteProbability574"
-          topicId={1}
-          roadmapName="cs"
+          topicId={574}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/combinatorics--573"
+          nextTo="/roadmaps/cs/linear-algebra-575"
         />
       </div>
     </div>

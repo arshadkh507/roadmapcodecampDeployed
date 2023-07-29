@@ -29,17 +29,17 @@ const Heap511 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Heap511</h1>
+        <h1>Heap</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/queue-510"
+          nextTo="/roadmaps/cs/trees-512"
         />
         <hr />
 
         <h2>Heap511</h2>
         <p>
-          Heap511
+        Heap is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Heap511 = () => {
 
         <TaskStateButtons
           topicName= "Heap511"
-          topicId={1}
-          roadmapName="cs"
+          topicId={511}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/queue-510"
+          nextTo="/roadmaps/cs/trees-512"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -32,8 +32,8 @@ const CSSBoxModel019 = () => {
         <h1>CSSBoxModel019</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-typography-18"
+          nextTo="/roadmaps/frontend/javascript-20"
         />
         <hr />
 
@@ -63,20 +63,20 @@ const CSSBoxModel019 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "CSSBoxModel019"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="CSSBoxModel019"
+          topicId={19}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-typography-18"
+          nextTo="/roadmaps/frontend/javascript-20"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CSSBoxModel019;

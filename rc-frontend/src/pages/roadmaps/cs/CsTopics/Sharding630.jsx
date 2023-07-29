@@ -29,17 +29,17 @@ const Sharding630 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Sharding630</h1>
+        <h1>Sharding</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/replication-629"
+          nextTo="/roadmaps/cs/software-engineering-631"
         />
         <hr />
 
         <h2>Sharding630</h2>
         <p>
-          Sharding630
+        Sharding is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Sharding630 = () => {
 
         <TaskStateButtons
           topicName= "Sharding630"
-          topicId={1}
-          roadmapName="cs"
+          topicId={630}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/replication-629"
+          nextTo="/roadmaps/cs/software-engineering-631"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ModelManagement445 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ModelManagement445</h1>
+        <h1>Model Management</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/azure-blobs-444"
+          nextTo="/roadmaps/ml/aws-sagemaker-446"
         />
         <hr />
 
         <h2>ModelManagement445</h2>
         <p>
-          ModelManagement445
+        Model Management is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ModelManagement445 = () => {
 
         <TaskStateButtons
           topicName= "ModelManagement445"
-          topicId={1}
-          roadmapName="ml"
+          topicId={445}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/azure-blobs-444"
+          nextTo="/roadmaps/ml/aws-sagemaker-446"
         />
       </div>
     </div>

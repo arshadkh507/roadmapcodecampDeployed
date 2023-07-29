@@ -29,17 +29,17 @@ const Completeness191 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Completeness191</h1>
+        <h1>Completeness</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/soundness-190"
+          nextTo="/roadmaps/ai/machine-learning-192"
         />
         <hr />
 
         <h2>Completeness191</h2>
         <p>
-          Completeness191
+        Completeness is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Completeness191 = () => {
 
         <TaskStateButtons
           topicName= "Completeness191"
-          topicId={1}
-          roadmapName="ai"
+          topicId={191}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/soundness-190"
+          nextTo="/roadmaps/ai/machine-learning-192"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const AdjacencyMatrix525 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AdjacencyMatrix525</h1>
+        <h1>Adjacency Matrix</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/spanning-tree-524"
+          nextTo="/roadmaps/cs/adjacency-list-526"
         />
         <hr />
 
         <h2>AdjacencyMatrix525</h2>
         <p>
-          AdjacencyMatrix525
+        Adjacency Matrix is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AdjacencyMatrix525 = () => {
 
         <TaskStateButtons
           topicName= "AdjacencyMatrix525"
-          topicId={1}
-          roadmapName="cs"
+          topicId={525}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/spanning-tree-524"
+          nextTo="/roadmaps/cs/adjacency-list-526"
         />
       </div>
     </div>

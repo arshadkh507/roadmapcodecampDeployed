@@ -29,17 +29,17 @@ const NPHard691 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NPHard691</h1>
+        <h1>N P Hard</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/co-np-690"
+          nextTo="/roadmaps/cs/np-complete-692"
         />
         <hr />
 
         <h2>NPHard691</h2>
         <p>
-          NPHard691
+        N P Hard is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NPHard691 = () => {
 
         <TaskStateButtons
           topicName= "NPHard691"
-          topicId={1}
-          roadmapName="cs"
+          topicId={691}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/co-np-690"
+          nextTo="/roadmaps/cs/np-complete-692"
         />
       </div>
     </div>

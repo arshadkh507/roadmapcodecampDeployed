@@ -29,17 +29,17 @@ const HTTP599 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTTP599</h1>
+        <h1>H T T P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dns-598"
+          nextTo="/roadmaps/cs/tls-&-https-600"
         />
         <hr />
 
         <h2>HTTP599</h2>
         <p>
-          HTTP599
+        H T T P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HTTP599 = () => {
 
         <TaskStateButtons
           topicName= "HTTP599"
-          topicId={1}
-          roadmapName="cs"
+          topicId={599}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dns-598"
+          nextTo="/roadmaps/cs/tls-&-https-600"
         />
       </div>
     </div>

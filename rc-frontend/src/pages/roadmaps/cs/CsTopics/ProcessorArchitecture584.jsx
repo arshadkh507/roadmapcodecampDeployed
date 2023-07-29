@@ -29,17 +29,17 @@ const ProcessorArchitecture584 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProcessorArchitecture584</h1>
+        <h1>Processor Architecture</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-organization-583"
+          nextTo="/roadmaps/cs/memory-hierarchy-585"
         />
         <hr />
 
         <h2>ProcessorArchitecture584</h2>
         <p>
-          ProcessorArchitecture584
+        Processor Architecture is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProcessorArchitecture584 = () => {
 
         <TaskStateButtons
           topicName= "ProcessorArchitecture584"
-          topicId={1}
-          roadmapName="cs"
+          topicId={584}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-organization-583"
+          nextTo="/roadmaps/cs/memory-hierarchy-585"
         />
       </div>
     </div>

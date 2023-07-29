@@ -29,17 +29,17 @@ const Variables183 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Variables183</h1>
+        <h1>Variables</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/quantifiers-182"
+          nextTo="/roadmaps/ai/predicates-184"
         />
         <hr />
 
         <h2>Variables183</h2>
         <p>
-          Variables183
+        Variables is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Variables183 = () => {
 
         <TaskStateButtons
           topicName= "Variables183"
-          topicId={1}
-          roadmapName="ai"
+          topicId={183}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/quantifiers-182"
+          nextTo="/roadmaps/ai/predicates-184"
         />
       </div>
     </div>

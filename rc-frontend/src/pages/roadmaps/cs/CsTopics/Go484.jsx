@@ -29,17 +29,17 @@ const Go484 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Go484</h1>
+        <h1>Go</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/python-483"
+          nextTo="/roadmaps/cs/java-485"
         />
         <hr />
 
         <h2>Go484</h2>
         <p>
-          Go484
+        Go is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Go484 = () => {
 
         <TaskStateButtons
           topicName= "Go484"
-          topicId={1}
-          roadmapName="cs"
+          topicId={484}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/python-483"
+          nextTo="/roadmaps/cs/java-485"
         />
       </div>
     </div>

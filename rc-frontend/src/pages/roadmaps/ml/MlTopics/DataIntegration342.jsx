@@ -29,17 +29,17 @@ const DataIntegration342 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataIntegration342</h1>
+        <h1>Data Integration</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/encoding-categorical-variables-341"
+          nextTo="/roadmaps/ml/merging-datasets-343"
         />
         <hr />
 
         <h2>DataIntegration342</h2>
         <p>
-          DataIntegration342
+        Data Integration is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataIntegration342 = () => {
 
         <TaskStateButtons
           topicName= "DataIntegration342"
-          topicId={1}
-          roadmapName="ml"
+          topicId={342}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/encoding-categorical-variables-341"
+          nextTo="/roadmaps/ml/merging-datasets-343"
         />
       </div>
     </div>

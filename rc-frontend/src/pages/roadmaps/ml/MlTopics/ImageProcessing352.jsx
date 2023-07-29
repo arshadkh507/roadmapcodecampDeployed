@@ -29,17 +29,17 @@ const ImageProcessing352 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ImageProcessing352</h1>
+        <h1>Image Processing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/text-processing-351"
+          nextTo="/roadmaps/ml/domain-specific-knowledge-353"
         />
         <hr />
 
         <h2>ImageProcessing352</h2>
         <p>
-          ImageProcessing352
+        Image Processing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ImageProcessing352 = () => {
 
         <TaskStateButtons
           topicName= "ImageProcessing352"
-          topicId={1}
-          roadmapName="ml"
+          topicId={352}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/text-processing-351"
+          nextTo="/roadmaps/ml/domain-specific-knowledge-353"
         />
       </div>
     </div>

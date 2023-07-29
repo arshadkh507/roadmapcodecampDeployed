@@ -29,17 +29,17 @@ const FordFulkersonAlgorithm661 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FordFulkersonAlgorithm661</h1>
+        <h1>Ford Fulkerson Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/kruskals-algorithm-660"
+          nextTo="/roadmaps/cs/prims-algorithm-662"
         />
         <hr />
 
         <h2>FordFulkersonAlgorithm661</h2>
         <p>
-          FordFulkersonAlgorithm661
+        Ford Fulkerson Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FordFulkersonAlgorithm661 = () => {
 
         <TaskStateButtons
           topicName= "FordFulkersonAlgorithm661"
-          topicId={1}
-          roadmapName="cs"
+          topicId={661}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/kruskals-algorithm-660"
+          nextTo="/roadmaps/cs/prims-algorithm-662"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const MAP313 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MAP313</h1>
+        <h1>M A P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mle-312"
+          nextTo="/roadmaps/ml/monte-carlo-integration-314"
         />
         <hr />
 
         <h2>MAP313</h2>
         <p>
-          MAP313
+        M A P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MAP313 = () => {
 
         <TaskStateButtons
           topicName= "MAP313"
-          topicId={1}
-          roadmapName="ml"
+          topicId={313}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mle-312"
+          nextTo="/roadmaps/ml/monte-carlo-integration-314"
         />
       </div>
     </div>

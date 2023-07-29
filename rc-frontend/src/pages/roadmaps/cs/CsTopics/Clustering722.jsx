@@ -29,17 +29,17 @@ const Clustering722 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Clustering722</h1>
+        <h1>Clustering</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/load-balancing-721"
+          nextTo="/roadmaps/cs/caching-723"
         />
         <hr />
 
         <h2>Clustering722</h2>
         <p>
-          Clustering722
+        Clustering is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Clustering722 = () => {
 
         <TaskStateButtons
           topicName= "Clustering722"
-          topicId={1}
-          roadmapName="cs"
+          topicId={722}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/load-balancing-721"
+          nextTo="/roadmaps/cs/caching-723"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const DimensionalityReduction378 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DimensionalityReduction378</h1>
+        <h1>Dimensionality Reduction</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/fp-trees-377"
+          nextTo="/roadmaps/ml/principal-component-analysis-(pca)-379"
         />
         <hr />
 
         <h2>DimensionalityReduction378</h2>
         <p>
-          DimensionalityReduction378
+        Dimensionality Reduction is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DimensionalityReduction378 = () => {
 
         <TaskStateButtons
           topicName= "DimensionalityReduction378"
-          topicId={1}
-          roadmapName="ml"
+          topicId={378}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/fp-trees-377"
+          nextTo="/roadmaps/ml/principal-component-analysis-(pca)-379"
         />
       </div>
     </div>

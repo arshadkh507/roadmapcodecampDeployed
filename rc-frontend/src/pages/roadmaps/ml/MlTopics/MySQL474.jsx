@@ -29,17 +29,17 @@ const MySQL474 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MySQL474</h1>
+        <h1>My S Q L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/rdbms-473"
+          nextTo="/roadmaps/ml/postgresql-475"
         />
         <hr />
 
         <h2>MySQL474</h2>
         <p>
-          MySQL474
+        My S Q L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MySQL474 = () => {
 
         <TaskStateButtons
           topicName= "MySQL474"
-          topicId={1}
-          roadmapName="ml"
+          topicId={474}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/rdbms-473"
+          nextTo="/roadmaps/ml/postgresql-475"
         />
       </div>
     </div>

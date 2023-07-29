@@ -29,17 +29,17 @@ const InterfacesAndAbstractClasses505 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InterfacesAndAbstractClasses505</h1>
+        <h1>Interfaces And Abstract Classes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/encapsulation-and-abstraction-504"
+          nextTo="/roadmaps/cs/data-structures-506"
         />
         <hr />
 
         <h2>InterfacesAndAbstractClasses505</h2>
         <p>
-          InterfacesAndAbstractClasses505
+        Interfaces And Abstract Classes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InterfacesAndAbstractClasses505 = () => {
 
         <TaskStateButtons
           topicName= "InterfacesAndAbstractClasses505"
-          topicId={1}
-          roadmapName="cs"
+          topicId={505}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/encapsulation-and-abstraction-504"
+          nextTo="/roadmaps/cs/data-structures-506"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const NonlinearOptimization162 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NonlinearOptimization162</h1>
+        <h1>Nonlinear Optimization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/convex-optimization-161"
+          nextTo="/roadmaps/ai/gradient-descent-163"
         />
         <hr />
 
         <h2>NonlinearOptimization162</h2>
         <p>
-          NonlinearOptimization162
+        Nonlinear Optimization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NonlinearOptimization162 = () => {
 
         <TaskStateButtons
           topicName= "NonlinearOptimization162"
-          topicId={1}
-          roadmapName="ai"
+          topicId={162}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/convex-optimization-161"
+          nextTo="/roadmaps/ai/gradient-descent-163"
         />
       </div>
     </div>

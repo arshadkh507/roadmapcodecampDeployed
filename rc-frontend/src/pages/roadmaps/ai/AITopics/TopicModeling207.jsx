@@ -29,17 +29,17 @@ const TopicModeling207 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TopicModeling207</h1>
+        <h1>Topic Modeling</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/information-extraction-206"
+          nextTo="/roadmaps/ai/image-processing-208"
         />
         <hr />
 
         <h2>TopicModeling207</h2>
         <p>
-          TopicModeling207
+        Topic Modeling is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TopicModeling207 = () => {
 
         <TaskStateButtons
           topicName= "TopicModeling207"
-          topicId={1}
-          roadmapName="ai"
+          topicId={207}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/information-extraction-206"
+          nextTo="/roadmaps/ai/image-processing-208"
         />
       </div>
     </div>

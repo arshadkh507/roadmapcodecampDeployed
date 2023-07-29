@@ -29,17 +29,17 @@ const CAPTheorem726 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CAPTheorem726</h1>
+        <h1>C A P Theorem</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/proxy-725"
+          nextTo="/roadmaps/cs/queues-727"
         />
         <hr />
 
         <h2>CAPTheorem726</h2>
         <p>
-          CAPTheorem726
+        C A P Theorem is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CAPTheorem726 = () => {
 
         <TaskStateButtons
           topicName= "CAPTheorem726"
-          topicId={1}
-          roadmapName="cs"
+          topicId={726}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/proxy-725"
+          nextTo="/roadmaps/cs/queues-727"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Libraries318 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Libraries318</h1>
+        <h1>Libraries</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hidden-markov-models-317"
+          nextTo="/roadmaps/ml/numpy-319"
         />
         <hr />
 
         <h2>Libraries318</h2>
         <p>
-          Libraries318
+        Libraries is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Libraries318 = () => {
 
         <TaskStateButtons
           topicName= "Libraries318"
-          topicId={1}
-          roadmapName="ml"
+          topicId={318}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hidden-markov-models-317"
+          nextTo="/roadmaps/ml/numpy-319"
         />
       </div>
     </div>

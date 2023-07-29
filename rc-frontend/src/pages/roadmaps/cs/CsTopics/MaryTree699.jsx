@@ -29,17 +29,17 @@ const MaryTree699 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MaryTree699</h1>
+        <h1>Mary Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/two-three-four-trees-698"
+          nextTo="/roadmaps/cs/b-tree-700"
         />
         <hr />
 
         <h2>MaryTree699</h2>
         <p>
-          MaryTree699
+        Mary Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MaryTree699 = () => {
 
         <TaskStateButtons
           topicName= "MaryTree699"
-          topicId={1}
-          roadmapName="cs"
+          topicId={699}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/two-three-four-trees-698"
+          nextTo="/roadmaps/cs/b-tree-700"
         />
       </div>
     </div>

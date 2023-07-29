@@ -29,17 +29,17 @@ const CSharp486 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSharp486</h1>
+        <h1>C Sharp</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/java-485"
+          nextTo="/roadmaps/cs/rust-487"
         />
         <hr />
 
         <h2>CSharp486</h2>
         <p>
-          CSharp486
+        C Sharp is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CSharp486 = () => {
 
         <TaskStateButtons
           topicName= "CSharp486"
-          topicId={1}
-          roadmapName="cs"
+          topicId={486}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/java-485"
+          nextTo="/roadmaps/cs/rust-487"
         />
       </div>
     </div>

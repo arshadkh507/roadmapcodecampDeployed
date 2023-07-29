@@ -29,17 +29,17 @@ const AWSSageMaker446 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AWSSageMaker446</h1>
+        <h1>A W S Sage Maker</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/model-management-445"
+          nextTo="/roadmaps/ml/google-ai-platform-447"
         />
         <hr />
 
         <h2>AWSSageMaker446</h2>
         <p>
-          AWSSageMaker446
+        A W S Sage Maker is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AWSSageMaker446 = () => {
 
         <TaskStateButtons
           topicName= "AWSSageMaker446"
-          topicId={1}
-          roadmapName="ml"
+          topicId={446}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/model-management-445"
+          nextTo="/roadmaps/ml/google-ai-platform-447"
         />
       </div>
     </div>

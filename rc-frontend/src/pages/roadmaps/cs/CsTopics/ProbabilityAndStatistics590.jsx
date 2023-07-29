@@ -29,17 +29,17 @@ const ProbabilityAndStatistics590 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProbabilityAndStatistics590</h1>
+        <h1>Probability And Statistics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/memory-allocation-and-deallocation-589"
+          nextTo="/roadmaps/cs/probability-distributions-591"
         />
         <hr />
 
         <h2>ProbabilityAndStatistics590</h2>
         <p>
-          ProbabilityAndStatistics590
+        Probability And Statistics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProbabilityAndStatistics590 = () => {
 
         <TaskStateButtons
           topicName= "ProbabilityAndStatistics590"
-          topicId={1}
-          roadmapName="cs"
+          topicId={590}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/memory-allocation-and-deallocation-589"
+          nextTo="/roadmaps/cs/probability-distributions-591"
         />
       </div>
     </div>

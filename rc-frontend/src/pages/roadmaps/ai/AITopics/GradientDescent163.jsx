@@ -29,17 +29,17 @@ const GradientDescent163 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GradientDescent163</h1>
+        <h1>Gradient Descent</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/nonlinear-optimization-162"
+          nextTo="/roadmaps/ai/stochastic-optimization-164"
         />
         <hr />
 
         <h2>GradientDescent163</h2>
         <p>
-          GradientDescent163
+        Gradient Descent is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GradientDescent163 = () => {
 
         <TaskStateButtons
           topicName= "GradientDescent163"
-          topicId={1}
-          roadmapName="ai"
+          topicId={163}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/nonlinear-optimization-162"
+          nextTo="/roadmaps/ai/stochastic-optimization-164"
         />
       </div>
     </div>

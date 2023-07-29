@@ -29,17 +29,17 @@ const FeatureExtraction348 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FeatureExtraction348</h1>
+        <h1>Feature Extraction</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/feature-selection-347"
+          nextTo="/roadmaps/ml/sampling-and-stratification-349"
         />
         <hr />
 
         <h2>FeatureExtraction348</h2>
         <p>
-          FeatureExtraction348
+        Feature Extraction is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FeatureExtraction348 = () => {
 
         <TaskStateButtons
           topicName= "FeatureExtraction348"
-          topicId={1}
-          roadmapName="ml"
+          topicId={348}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/feature-selection-347"
+          nextTo="/roadmaps/ml/sampling-and-stratification-349"
         />
       </div>
     </div>

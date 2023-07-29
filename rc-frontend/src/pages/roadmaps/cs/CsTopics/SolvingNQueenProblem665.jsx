@@ -29,17 +29,17 @@ const SolvingNQueenProblem665 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SolvingNQueenProblem665</h1>
+        <h1>Solving N Queen Problem</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/finding-hamiltonian-paths-664"
+          nextTo="/roadmaps/cs/maze-solving-problem-666"
         />
         <hr />
 
         <h2>SolvingNQueenProblem665</h2>
         <p>
-          SolvingNQueenProblem665
+        Solving N Queen Problem is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SolvingNQueenProblem665 = () => {
 
         <TaskStateButtons
           topicName= "SolvingNQueenProblem665"
-          topicId={1}
-          roadmapName="cs"
+          topicId={665}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/finding-hamiltonian-paths-664"
+          nextTo="/roadmaps/cs/maze-solving-problem-666"
         />
       </div>
     </div>

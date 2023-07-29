@@ -29,17 +29,17 @@ const DifferentialEquations151 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DifferentialEquations151</h1>
+        <h1>Differential Equations</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/areas-and-volumes-150"
+          nextTo="/roadmaps/ai/multivariable-calculus-152"
         />
         <hr />
 
         <h2>DifferentialEquations151</h2>
         <p>
-          DifferentialEquations151
+        Differential Equations is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DifferentialEquations151 = () => {
 
         <TaskStateButtons
           topicName= "DifferentialEquations151"
-          topicId={1}
-          roadmapName="ai"
+          topicId={151}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/areas-and-volumes-150"
+          nextTo="/roadmaps/ai/multivariable-calculus-152"
         />
       </div>
     </div>

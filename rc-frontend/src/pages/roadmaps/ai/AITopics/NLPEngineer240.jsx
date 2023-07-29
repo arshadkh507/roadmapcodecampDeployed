@@ -29,17 +29,17 @@ const NLPEngineer240 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NLPEngineer240</h1>
+        <h1>N L P Engineer</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-research-scientist-239"
+          nextTo="/roadmaps/ai/computer-vision-engineer-241"
         />
         <hr />
 
         <h2>NLPEngineer240</h2>
         <p>
-          NLPEngineer240
+        N L P Engineer is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NLPEngineer240 = () => {
 
         <TaskStateButtons
           topicName= "NLPEngineer240"
-          topicId={1}
-          roadmapName="ai"
+          topicId={240}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-research-scientist-239"
+          nextTo="/roadmaps/ai/computer-vision-engineer-241"
         />
       </div>
     </div>

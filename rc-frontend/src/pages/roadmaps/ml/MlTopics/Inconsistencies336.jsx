@@ -29,17 +29,17 @@ const Inconsistencies336 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Inconsistencies336</h1>
+        <h1>Inconsistencies</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/outliers-335"
+          nextTo="/roadmaps/ml/data-formatting-and-parsing-337"
         />
         <hr />
 
         <h2>Inconsistencies336</h2>
         <p>
-          Inconsistencies336
+        Inconsistencies is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Inconsistencies336 = () => {
 
         <TaskStateButtons
           topicName= "Inconsistencies336"
-          topicId={1}
-          roadmapName="ml"
+          topicId={336}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/outliers-335"
+          nextTo="/roadmaps/ml/data-formatting-and-parsing-337"
         />
       </div>
     </div>

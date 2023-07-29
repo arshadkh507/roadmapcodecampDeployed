@@ -29,17 +29,17 @@ const DescriptiveStatistics168 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DescriptiveStatistics168</h1>
+        <h1>Descriptive Statistics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/bayes-theorem-167"
+          nextTo="/roadmaps/ai/inferential-statistics-169"
         />
         <hr />
 
         <h2>DescriptiveStatistics168</h2>
         <p>
-          DescriptiveStatistics168
+        Descriptive Statistics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DescriptiveStatistics168 = () => {
 
         <TaskStateButtons
           topicName= "DescriptiveStatistics168"
-          topicId={1}
-          roadmapName="ai"
+          topicId={168}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/bayes-theorem-167"
+          nextTo="/roadmaps/ai/inferential-statistics-169"
         />
       </div>
     </div>

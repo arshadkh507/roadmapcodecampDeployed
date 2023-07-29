@@ -29,17 +29,17 @@ const SupervisedLearning354 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SupervisedLearning354</h1>
+        <h1>Supervised Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/domain-specific-knowledge-353"
+          nextTo="/roadmaps/ml/regression-355"
         />
         <hr />
 
         <h2>SupervisedLearning354</h2>
         <p>
-          SupervisedLearning354
+        Supervised Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SupervisedLearning354 = () => {
 
         <TaskStateButtons
           topicName= "SupervisedLearning354"
-          topicId={1}
-          roadmapName="ml"
+          topicId={354}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/domain-specific-knowledge-353"
+          nextTo="/roadmaps/ml/regression-355"
         />
       </div>
     </div>

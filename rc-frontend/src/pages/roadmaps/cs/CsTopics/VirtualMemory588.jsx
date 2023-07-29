@@ -29,17 +29,17 @@ const VirtualMemory588 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VirtualMemory588</h1>
+        <h1>Virtual Memory</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cache-design-587"
+          nextTo="/roadmaps/cs/memory-allocation-and-deallocation-589"
         />
         <hr />
 
         <h2>VirtualMemory588</h2>
         <p>
-          VirtualMemory588
+        Virtual Memory is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VirtualMemory588 = () => {
 
         <TaskStateButtons
           topicName= "VirtualMemory588"
-          topicId={1}
-          roadmapName="cs"
+          topicId={588}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cache-design-587"
+          nextTo="/roadmaps/cs/memory-allocation-and-deallocation-589"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const DefiniteIntegrals148 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DefiniteIntegrals148</h1>
+        <h1>Definite Integrals</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/integral-calculus-147"
+          nextTo="/roadmaps/ai/indefinite-integrals-149"
         />
         <hr />
 
         <h2>DefiniteIntegrals148</h2>
         <p>
-          DefiniteIntegrals148
+        Definite Integrals is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const DefiniteIntegrals148 = () => {
         <TaskStateButtons
           topicName= "DefiniteIntegrals148"
           topicId={148}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/integral-calculus-147"
+          nextTo="/roadmaps/ai/indefinite-integrals-149"
         />
       </div>
     </div>

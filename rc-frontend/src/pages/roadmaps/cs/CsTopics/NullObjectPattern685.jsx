@@ -29,17 +29,17 @@ const NullObjectPattern685 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NullObjectPattern685</h1>
+        <h1>Null Object Pattern</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dependency-injection-684"
+          nextTo="/roadmaps/cs/type-object-pattern-686"
         />
         <hr />
 
         <h2>NullObjectPattern685</h2>
         <p>
-          NullObjectPattern685
+        Null Object Pattern is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NullObjectPattern685 = () => {
 
         <TaskStateButtons
           topicName= "NullObjectPattern685"
-          topicId={1}
-          roadmapName="cs"
+          topicId={685}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dependency-injection-684"
+          nextTo="/roadmaps/cs/type-object-pattern-686"
         />
       </div>
     </div>

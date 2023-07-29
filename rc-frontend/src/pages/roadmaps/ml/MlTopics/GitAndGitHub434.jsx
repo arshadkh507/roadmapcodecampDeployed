@@ -29,17 +29,17 @@ const GitAndGitHub434 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GitAndGitHub434</h1>
+        <h1>Git And Git Hub</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/code-version-control-433"
+          nextTo="/roadmaps/ml/software-development-principles-435"
         />
         <hr />
 
         <h2>GitAndGitHub434</h2>
         <p>
-          GitAndGitHub434
+        Git And Git Hub is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GitAndGitHub434 = () => {
 
         <TaskStateButtons
           topicName= "GitAndGitHub434"
-          topicId={1}
-          roadmapName="ml"
+          topicId={434}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/code-version-control-433"
+          nextTo="/roadmaps/ml/software-development-principles-435"
         />
       </div>
     </div>

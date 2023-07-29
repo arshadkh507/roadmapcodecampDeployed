@@ -29,17 +29,17 @@ const DataTypes490 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataTypes490</h1>
+        <h1>Data Types</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/variables-489"
+          nextTo="/roadmaps/cs/operators-491"
         />
         <hr />
 
         <h2>DataTypes490</h2>
         <p>
-          DataTypes490
+        Data Types is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataTypes490 = () => {
 
         <TaskStateButtons
           topicName= "DataTypes490"
-          topicId={1}
-          roadmapName="cs"
+          topicId={490}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/variables-489"
+          nextTo="/roadmaps/cs/operators-491"
         />
       </div>
     </div>

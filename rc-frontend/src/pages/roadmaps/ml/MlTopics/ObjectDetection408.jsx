@@ -29,17 +29,17 @@ const ObjectDetection408 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ObjectDetection408</h1>
+        <h1>Object Detection</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-preprocessing-407"
+          nextTo="/roadmaps/ml/image-segmentation-409"
         />
         <hr />
 
         <h2>ObjectDetection408</h2>
         <p>
-          ObjectDetection408
+        Object Detection is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ObjectDetection408 = () => {
 
         <TaskStateButtons
           topicName= "ObjectDetection408"
-          topicId={1}
-          roadmapName="ml"
+          topicId={408}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-preprocessing-407"
+          nextTo="/roadmaps/ml/image-segmentation-409"
         />
       </div>
     </div>

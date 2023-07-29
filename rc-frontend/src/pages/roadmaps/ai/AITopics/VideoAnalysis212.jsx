@@ -29,17 +29,17 @@ const VideoAnalysis212 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VideoAnalysis212</h1>
+        <h1>Video Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/deep-learning-approaches-211"
+          nextTo="/roadmaps/ai/3d-computer-vision-213"
         />
         <hr />
 
         <h2>VideoAnalysis212</h2>
         <p>
-          VideoAnalysis212
+        Video Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VideoAnalysis212 = () => {
 
         <TaskStateButtons
           topicName= "VideoAnalysis212"
-          topicId={1}
-          roadmapName="ai"
+          topicId={212}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/deep-learning-approaches-211"
+          nextTo="/roadmaps/ai/3d-computer-vision-213"
         />
       </div>
     </div>

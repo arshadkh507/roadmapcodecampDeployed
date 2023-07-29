@@ -29,17 +29,17 @@ const InformationExtraction206 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InformationExtraction206</h1>
+        <h1>Information Extraction</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/machine-translation-205"
+          nextTo="/roadmaps/ai/topic-modeling-207"
         />
         <hr />
 
         <h2>InformationExtraction206</h2>
         <p>
-          InformationExtraction206
+        Information Extraction is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InformationExtraction206 = () => {
 
         <TaskStateButtons
           topicName= "InformationExtraction206"
-          topicId={1}
-          roadmapName="ai"
+          topicId={206}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/machine-translation-205"
+          nextTo="/roadmaps/ai/topic-modeling-207"
         />
       </div>
     </div>

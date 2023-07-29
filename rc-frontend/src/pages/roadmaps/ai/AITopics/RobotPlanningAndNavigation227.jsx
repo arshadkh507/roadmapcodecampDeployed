@@ -29,17 +29,17 @@ const RobotPlanningAndNavigation227 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RobotPlanningAndNavigation227</h1>
+        <h1>Robot Planning And Navigation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/robot-dynamics-226"
+          nextTo="/roadmaps/ai/robotics-software-development-228"
         />
         <hr />
 
         <h2>RobotPlanningAndNavigation227</h2>
         <p>
-          RobotPlanningAndNavigation227
+        Robot Planning And Navigation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RobotPlanningAndNavigation227 = () => {
 
         <TaskStateButtons
           topicName= "RobotPlanningAndNavigation227"
-          topicId={1}
-          roadmapName="ai"
+          topicId={227}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/robot-dynamics-226"
+          nextTo="/roadmaps/ai/robotics-software-development-228"
         />
       </div>
     </div>

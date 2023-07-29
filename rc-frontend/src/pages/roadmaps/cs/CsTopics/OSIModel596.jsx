@@ -29,17 +29,17 @@ const OSIModel596 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OSIModel596</h1>
+        <h1>O S I Model</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/networking-595"
+          nextTo="/roadmaps/cs/-ip-model-597"
         />
         <hr />
 
         <h2>OSIModel596</h2>
         <p>
-          OSIModel596
+        O S I Model is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OSIModel596 = () => {
 
         <TaskStateButtons
           topicName= "OSIModel596"
-          topicId={1}
-          roadmapName="cs"
+          topicId={596}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/networking-595"
+          nextTo="/roadmaps/cs/-ip-model-597"
         />
       </div>
     </div>

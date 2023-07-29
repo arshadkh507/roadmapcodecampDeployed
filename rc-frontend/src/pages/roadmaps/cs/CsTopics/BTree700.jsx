@@ -29,17 +29,17 @@ const BTree700 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BTree700</h1>
+        <h1>B Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-m-ary-tree-699"
+          nextTo="/roadmaps/cs/tries-701"
         />
         <hr />
 
         <h2>BTree700</h2>
         <p>
-          BTree700
+        B Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BTree700 = () => {
 
         <TaskStateButtons
           topicName= "BTree700"
-          topicId={1}
-          roadmapName="cs"
+          topicId={700}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/-m-ary-tree-699"
+          nextTo="/roadmaps/cs/tries-701"
         />
       </div>
     </div>

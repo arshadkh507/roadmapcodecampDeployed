@@ -29,17 +29,17 @@ const GenerativeModels199 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GenerativeModels199</h1>
+        <h1>Generative Models</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/recurrent-neural-networks-rnn-198"
+          nextTo="/roadmaps/ai/text-processing-200"
         />
         <hr />
 
         <h2>GenerativeModels199</h2>
         <p>
-          GenerativeModels199
+        Generative Models is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GenerativeModels199 = () => {
 
         <TaskStateButtons
           topicName= "GenerativeModels199"
-          topicId={1}
-          roadmapName="ai"
+          topicId={199}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/recurrent-neural-networks-rnn-198"
+          nextTo="/roadmaps/ai/text-processing-200"
         />
       </div>
     </div>

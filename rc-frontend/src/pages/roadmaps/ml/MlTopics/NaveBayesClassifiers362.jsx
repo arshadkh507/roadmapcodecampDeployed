@@ -29,17 +29,17 @@ const NaveBayesClassifiers362 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NaveBayesClassifiers362</h1>
+        <h1>Nave Bayes Classifiers</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/logistic-regression-361"
+          nextTo="/roadmaps/ml/k-nearest-neighbour-363"
         />
         <hr />
 
         <h2>NaveBayesClassifiers362</h2>
         <p>
-          NaveBayesClassifiers362
+        Nave Bayes Classifiers is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NaveBayesClassifiers362 = () => {
 
         <TaskStateButtons
           topicName= "NaveBayesClassifiers362"
-          topicId={1}
-          roadmapName="ml"
+          topicId={362}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/logistic-regression-361"
+          nextTo="/roadmaps/ml/k-nearest-neighbour-363"
         />
       </div>
     </div>

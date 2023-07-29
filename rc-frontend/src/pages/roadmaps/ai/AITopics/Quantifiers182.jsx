@@ -29,17 +29,17 @@ const Quantifiers182 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Quantifiers182</h1>
+        <h1>Quantifiers</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/predicate-logic-181"
+          nextTo="/roadmaps/ai/variables-183"
         />
         <hr />
 
         <h2>Quantifiers182</h2>
         <p>
-          Quantifiers182
+        Quantifiers is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Quantifiers182 = () => {
 
         <TaskStateButtons
           topicName= "Quantifiers182"
-          topicId={1}
-          roadmapName="ai"
+          topicId={182}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/predicate-logic-181"
+          nextTo="/roadmaps/ai/variables-183"
         />
       </div>
     </div>

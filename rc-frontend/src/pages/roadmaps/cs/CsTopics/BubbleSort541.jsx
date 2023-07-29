@@ -29,17 +29,17 @@ const BubbleSort541 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BubbleSort541</h1>
+        <h1>Bubble Sort</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sorting-540"
+          nextTo="/roadmaps/cs/selection-sort-542"
         />
         <hr />
 
         <h2>BubbleSort541</h2>
         <p>
-          BubbleSort541
+        Bubble Sort is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BubbleSort541 = () => {
 
         <TaskStateButtons
           topicName= "BubbleSort541"
-          topicId={1}
-          roadmapName="cs"
+          topicId={541}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sorting-540"
+          nextTo="/roadmaps/cs/selection-sort-542"
         />
       </div>
     </div>

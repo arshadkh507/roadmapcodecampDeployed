@@ -29,17 +29,17 @@ const FuzzyCMeans372 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FuzzyCMeans372</h1>
+        <h1>Fuzzy C Means</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hdbscan-371"
+          nextTo="/roadmaps/ml/mean-shift-373"
         />
         <hr />
 
         <h2>FuzzyCMeans372</h2>
         <p>
-          FuzzyCMeans372
+        Fuzzy C Means is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FuzzyCMeans372 = () => {
 
         <TaskStateButtons
           topicName= "FuzzyCMeans372"
-          topicId={1}
-          roadmapName="ml"
+          topicId={372}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hdbscan-371"
+          nextTo="/roadmaps/ml/mean-shift-373"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const BinaryTree515 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BinaryTree515</h1>
+        <h1>Binary Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tree-514"
+          nextTo="/roadmaps/cs/binary-search-tree-516"
         />
         <hr />
 
         <h2>BinaryTree515</h2>
         <p>
-          BinaryTree515
+        Binary Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BinaryTree515 = () => {
 
         <TaskStateButtons
           topicName= "BinaryTree515"
-          topicId={1}
-          roadmapName="cs"
+          topicId={515}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tree-514"
+          nextTo="/roadmaps/cs/binary-search-tree-516"
         />
       </div>
     </div>

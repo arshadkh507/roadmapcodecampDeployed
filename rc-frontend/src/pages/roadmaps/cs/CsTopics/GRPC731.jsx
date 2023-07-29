@@ -29,17 +29,17 @@ const GRPC731 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GRPC731</h1>
+        <h1>G R P C</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graphql-730"
+          nextTo="/roadmaps/cs/cloud-design-patterns-732"
         />
         <hr />
 
         <h2>GRPC731</h2>
         <p>
-          GRPC731
+        G R P C is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GRPC731 = () => {
 
         <TaskStateButtons
           topicName= "GRPC731"
-          topicId={1}
-          roadmapName="cs"
+          topicId={731}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graphql-730"
+          nextTo="/roadmaps/cs/cloud-design-patterns-732"
         />
       </div>
     </div>

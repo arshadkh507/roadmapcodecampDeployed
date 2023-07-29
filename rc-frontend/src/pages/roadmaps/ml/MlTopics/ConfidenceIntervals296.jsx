@@ -29,17 +29,17 @@ const ConfidenceIntervals296 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ConfidenceIntervals296</h1>
+        <h1>Confidence Intervals</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hypothesis-testing-295"
+          nextTo="/roadmaps/ml/descriptive-statistics-297"
         />
         <hr />
 
         <h2>ConfidenceIntervals296</h2>
         <p>
-          ConfidenceIntervals296
+        Confidence Intervals is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ConfidenceIntervals296 = () => {
 
         <TaskStateButtons
           topicName= "ConfidenceIntervals296"
-          topicId={1}
-          roadmapName="ml"
+          topicId={296}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/hypothesis-testing-295"
+          nextTo="/roadmaps/ml/descriptive-statistics-297"
         />
       </div>
     </div>

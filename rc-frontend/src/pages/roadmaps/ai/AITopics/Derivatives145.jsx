@@ -29,17 +29,17 @@ const Derivatives145 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Derivatives145</h1>
+        <h1>Derivatives</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/limits-and-continuity-144"
+          nextTo="/roadmaps/ai/optimization-146"
         />
         <hr />
 
         <h2>Derivatives145</h2>
         <p>
-          Derivatives145
+        Derivatives is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const Derivatives145 = () => {
         <TaskStateButtons
           topicName= "Derivatives145"
           topicId={145}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/limits-and-continuity-144"
+          nextTo="/roadmaps/ai/optimization-146"
         />
       </div>
     </div>

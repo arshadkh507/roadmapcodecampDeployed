@@ -29,17 +29,17 @@ const FeatureSelection347 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FeatureSelection347</h1>
+        <h1>Feature Selection</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-reduction-346"
+          nextTo="/roadmaps/ml/feature-extraction-348"
         />
         <hr />
 
         <h2>FeatureSelection347</h2>
         <p>
-          FeatureSelection347
+        Feature Selection is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FeatureSelection347 = () => {
 
         <TaskStateButtons
           topicName= "FeatureSelection347"
-          topicId={1}
-          roadmapName="ml"
+          topicId={347}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/data-reduction-346"
+          nextTo="/roadmaps/ml/feature-extraction-348"
         />
       </div>
     </div>

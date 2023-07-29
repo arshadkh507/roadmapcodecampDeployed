@@ -29,17 +29,17 @@ const HierarchicalClustering368 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HierarchicalClustering368</h1>
+        <h1>Hierarchical Clustering</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/clustering-367"
+          nextTo="/roadmaps/ml/k-means-clustering-369"
         />
         <hr />
 
         <h2>HierarchicalClustering368</h2>
         <p>
-          HierarchicalClustering368
+        Hierarchical Clustering is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HierarchicalClustering368 = () => {
 
         <TaskStateButtons
           topicName= "HierarchicalClustering368"
-          topicId={1}
-          roadmapName="ml"
+          topicId={368}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/clustering-367"
+          nextTo="/roadmaps/ml/k-means-clustering-369"
         />
       </div>
     </div>

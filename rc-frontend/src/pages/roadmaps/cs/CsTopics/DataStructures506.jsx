@@ -29,17 +29,17 @@ const DataStructures506 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataStructures506</h1>
+        <h1>Data Structures</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/interfaces-and-abstract-classes-505"
+          nextTo="/roadmaps/cs/array-507"
         />
         <hr />
 
         <h2>DataStructures506</h2>
         <p>
-          DataStructures506
+        Data Structures is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataStructures506 = () => {
 
         <TaskStateButtons
           topicName= "DataStructures506"
-          topicId={1}
-          roadmapName="cs"
+          topicId={506}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/interfaces-and-abstract-classes-505"
+          nextTo="/roadmaps/cs/array-507"
         />
       </div>
     </div>

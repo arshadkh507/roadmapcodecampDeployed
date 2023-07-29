@@ -29,17 +29,17 @@ const Combinatorics573 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Combinatorics573</h1>
+        <h1>Combinatorics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/set-theory-572"
+          nextTo="/roadmaps/cs/discrete-probability-574"
         />
         <hr />
 
         <h2>Combinatorics573</h2>
         <p>
-          Combinatorics573
+        Combinatorics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Combinatorics573 = () => {
 
         <TaskStateButtons
           topicName= "Combinatorics573"
-          topicId={1}
-          roadmapName="cs"
+          topicId={573}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/set-theory-572"
+          nextTo="/roadmaps/cs/discrete-probability-574"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const BitwiseOperators564 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BitwiseOperators564</h1>
+        <h1>Bitwise Operators</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/debugging-strategies-563"
+          nextTo="/roadmaps/cs/floating-point-numbers-565"
         />
         <hr />
 
         <h2>BitwiseOperators564</h2>
         <p>
-          BitwiseOperators564
+        Bitwise Operators is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BitwiseOperators564 = () => {
 
         <TaskStateButtons
           topicName= "BitwiseOperators564"
-          topicId={1}
-          roadmapName="cs"
+          topicId={564}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/debugging-strategies-563"
+          nextTo="/roadmaps/cs/floating-point-numbers-565"
         />
       </div>
     </div>

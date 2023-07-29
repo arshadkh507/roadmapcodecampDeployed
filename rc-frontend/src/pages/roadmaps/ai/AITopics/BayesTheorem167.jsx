@@ -29,17 +29,17 @@ const BayesTheorem167 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BayesTheorem167</h1>
+        <h1>Bayes Theorem</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/random-variables-and-distributions-166"
+          nextTo="/roadmaps/ai/descriptive-statistics-168"
         />
         <hr />
 
         <h2>BayesTheorem167</h2>
         <p>
-          BayesTheorem167
+        Bayes Theorem is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BayesTheorem167 = () => {
 
         <TaskStateButtons
           topicName= "BayesTheorem167"
-          topicId={1}
-          roadmapName="ai"
+          topicId={167}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/random-variables-and-distributions-166"
+          nextTo="/roadmaps/ai/descriptive-statistics-168"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const PrivacyAndSecurity234 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PrivacyAndSecurity234</h1>
+        <h1>Privacy And Security</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/accountability-and-transparency-233"
+          nextTo="/roadmaps/ai/artificial-intelligence-applications-235"
         />
         <hr />
 
         <h2>PrivacyAndSecurity234</h2>
         <p>
-          PrivacyAndSecurity234
+        Privacy And Security is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PrivacyAndSecurity234 = () => {
 
         <TaskStateButtons
           topicName= "PrivacyAndSecurity234"
-          topicId={1}
-          roadmapName="ai"
+          topicId={234}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/accountability-and-transparency-233"
+          nextTo="/roadmaps/ai/artificial-intelligence-applications-235"
         />
       </div>
     </div>

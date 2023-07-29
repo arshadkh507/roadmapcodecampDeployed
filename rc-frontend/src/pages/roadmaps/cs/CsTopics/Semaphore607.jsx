@@ -29,17 +29,17 @@ const Semaphore607 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Semaphore607</h1>
+        <h1>Semaphore</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/concurrency-in-multiple-cores-606"
+          nextTo="/roadmaps/cs/memory-management-608"
         />
         <hr />
 
         <h2>Semaphore607</h2>
         <p>
-          Semaphore607
+        Semaphore is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Semaphore607 = () => {
 
         <TaskStateButtons
           topicName= "Semaphore607"
-          topicId={1}
-          roadmapName="cs"
+          topicId={607}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/concurrency-in-multiple-cores-606"
+          nextTo="/roadmaps/cs/memory-management-608"
         />
       </div>
     </div>

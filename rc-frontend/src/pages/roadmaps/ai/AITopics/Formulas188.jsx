@@ -29,17 +29,17 @@ const Formulas188 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Formulas188</h1>
+        <h1>Formulas</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/terms-187"
+          nextTo="/roadmaps/ai/inference-rules-189"
         />
         <hr />
 
         <h2>Formulas188</h2>
         <p>
-          Formulas188
+        Formulas is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Formulas188 = () => {
 
         <TaskStateButtons
           topicName= "Formulas188"
-          topicId={1}
-          roadmapName="ai"
+          topicId={188}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/terms-187"
+          nextTo="/roadmaps/ai/inference-rules-189"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const HyperparameterTuning418 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HyperparameterTuning418</h1>
+        <h1>Hyperparameter Tuning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/cross-validation-417"
+          nextTo="/roadmaps/ml/model-selection-419"
         />
         <hr />
 
         <h2>HyperparameterTuning418</h2>
         <p>
-          HyperparameterTuning418
+        Hyperparameter Tuning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HyperparameterTuning418 = () => {
 
         <TaskStateButtons
           topicName= "HyperparameterTuning418"
-          topicId={1}
-          roadmapName="ml"
+          topicId={418}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/cross-validation-417"
+          nextTo="/roadmaps/ml/model-selection-419"
         />
       </div>
     </div>

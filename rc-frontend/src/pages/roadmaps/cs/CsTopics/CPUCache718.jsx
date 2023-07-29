@@ -29,17 +29,17 @@ const CPUCache718 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CPUCache718</h1>
+        <h1>C P U Cache</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/instructions-and-programs-717"
+          nextTo="/roadmaps/cs/system-design-719"
         />
         <hr />
 
         <h2>CPUCache718</h2>
         <p>
-          CPUCache718
+        C P U Cache is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CPUCache718 = () => {
 
         <TaskStateButtons
           topicName= "CPUCache718"
-          topicId={1}
-          roadmapName="cs"
+          topicId={718}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/instructions-and-programs-717"
+          nextTo="/roadmaps/cs/system-design-719"
         />
       </div>
     </div>

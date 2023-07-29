@@ -29,17 +29,17 @@ const Outliers335 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Outliers335</h1>
+        <h1>Outliers</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/missing-values-334"
+          nextTo="/roadmaps/ml/inconsistencies-336"
         />
         <hr />
 
         <h2>Outliers335</h2>
         <p>
-          Outliers335
+        Outliers is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Outliers335 = () => {
 
         <TaskStateButtons
           topicName= "Outliers335"
-          topicId={1}
-          roadmapName="ml"
+          topicId={335}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/missing-values-334"
+          nextTo="/roadmaps/ml/inconsistencies-336"
         />
       </div>
     </div>

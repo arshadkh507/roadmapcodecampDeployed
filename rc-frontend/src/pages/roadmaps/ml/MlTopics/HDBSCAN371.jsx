@@ -29,17 +29,17 @@ const HDBSCAN371 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HDBSCAN371</h1>
+        <h1>H D B S C A N</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dbscan-370"
+          nextTo="/roadmaps/ml/fuzzy-c-means-372"
         />
         <hr />
 
         <h2>HDBSCAN371</h2>
         <p>
-          HDBSCAN371
+        H D B S C A N is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HDBSCAN371 = () => {
 
         <TaskStateButtons
           topicName= "HDBSCAN371"
-          topicId={1}
-          roadmapName="ml"
+          topicId={371}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dbscan-370"
+          nextTo="/roadmaps/ml/fuzzy-c-means-372"
         />
       </div>
     </div>

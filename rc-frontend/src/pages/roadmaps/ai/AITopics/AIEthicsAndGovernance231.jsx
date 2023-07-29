@@ -29,17 +29,17 @@ const AIEthicsAndGovernance231 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AIEthicsAndGovernance231</h1>
+        <h1>A I Ethics And Governance</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/robot-learning-and-reinforcement-learning-230"
+          nextTo="/roadmaps/ai/bias-and-fairness-232"
         />
         <hr />
 
         <h2>AIEthicsAndGovernance231</h2>
         <p>
-          AIEthicsAndGovernance231
+        A I Ethics And Governance is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AIEthicsAndGovernance231 = () => {
 
         <TaskStateButtons
           topicName= "AIEthicsAndGovernance231"
-          topicId={1}
-          roadmapName="ai"
+          topicId={231}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/robot-learning-and-reinforcement-learning-230"
+          nextTo="/roadmaps/ai/bias-and-fairness-232"
         />
       </div>
     </div>

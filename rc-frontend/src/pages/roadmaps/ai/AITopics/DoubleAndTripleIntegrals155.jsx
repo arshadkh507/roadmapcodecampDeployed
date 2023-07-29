@@ -29,17 +29,17 @@ const DoubleAndTripleIntegrals155 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DoubleAndTripleIntegrals155</h1>
+        <h1>Double And Triple Integrals</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/gradient-divergence-and-curl-154"
+          nextTo="/roadmaps/ai/line-integrals-and-surface-integrals-156"
         />
         <hr />
 
         <h2>DoubleAndTripleIntegrals155</h2>
         <p>
-          DoubleAndTripleIntegrals155
+        Double And Triple Integrals is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DoubleAndTripleIntegrals155 = () => {
 
         <TaskStateButtons
           topicName= "DoubleAndTripleIntegrals155"
-          topicId={1}
-          roadmapName="ai"
+          topicId={155}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/gradient-divergence-and-curl-154"
+          nextTo="/roadmaps/ai/line-integrals-and-surface-integrals-156"
         />
       </div>
     </div>

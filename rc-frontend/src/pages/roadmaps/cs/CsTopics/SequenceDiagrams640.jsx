@@ -29,17 +29,17 @@ const SequenceDiagrams640 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SequenceDiagrams640</h1>
+        <h1>Sequence Diagrams</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/statemachine-diagrams-639"
+          nextTo="/roadmaps/cs/dynamic-programming-641"
         />
         <hr />
 
         <h2>SequenceDiagrams640</h2>
         <p>
-          SequenceDiagrams640
+        Sequence Diagrams is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SequenceDiagrams640 = () => {
 
         <TaskStateButtons
           topicName= "SequenceDiagrams640"
-          topicId={1}
-          roadmapName="cs"
+          topicId={640}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/statemachine-diagrams-639"
+          nextTo="/roadmaps/cs/dynamic-programming-641"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const PandasTransformation329 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PandasTransformation329</h1>
+        <h1>Pandas Transformation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/pandas-data-cleaning-328"
+          nextTo="/roadmaps/ml/matplotlib-and-seaborn-330"
         />
         <hr />
 
         <h2>PandasTransformation329</h2>
         <p>
-          PandasTransformation329
+        Pandas Transformation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PandasTransformation329 = () => {
 
         <TaskStateButtons
           topicName= "PandasTransformation329"
-          topicId={1}
-          roadmapName="ml"
+          topicId={329}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/pandas-data-cleaning-328"
+          nextTo="/roadmaps/ml/matplotlib-and-seaborn-330"
         />
       </div>
     </div>

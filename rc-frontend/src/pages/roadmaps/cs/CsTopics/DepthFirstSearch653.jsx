@@ -29,17 +29,17 @@ const DepthFirstSearch653 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DepthFirstSearch653</h1>
+        <h1>Depth First Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/breadth-first-search-652"
+          nextTo="/roadmaps/cs/bellman-fords-algorithm-654"
         />
         <hr />
 
         <h2>DepthFirstSearch653</h2>
         <p>
-          DepthFirstSearch653
+        Depth First Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DepthFirstSearch653 = () => {
 
         <TaskStateButtons
           topicName= "DepthFirstSearch653"
-          topicId={1}
-          roadmapName="cs"
+          topicId={653}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/breadth-first-search-652"
+          nextTo="/roadmaps/cs/bellman-fords-algorithm-654"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const CompilerDesign737 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CompilerDesign737</h1>
+        <h1>Compiler Design</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sse-736"
+          nextTo="/roadmaps/cs/lexical-analysis-738"
         />
         <hr />
 
         <h2>CompilerDesign737</h2>
         <p>
-          CompilerDesign737
+        Compiler Design is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CompilerDesign737 = () => {
 
         <TaskStateButtons
           topicName= "CompilerDesign737"
-          topicId={1}
-          roadmapName="cs"
+          topicId={737}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sse-736"
+          nextTo="/roadmaps/cs/lexical-analysis-738"
         />
       </div>
     </div>

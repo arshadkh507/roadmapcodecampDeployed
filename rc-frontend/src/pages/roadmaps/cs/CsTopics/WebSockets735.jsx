@@ -29,17 +29,17 @@ const WebSockets735 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>WebSockets735</h1>
+        <h1>Web Sockets</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/short-polling-734"
+          nextTo="/roadmaps/cs/sse-736"
         />
         <hr />
 
         <h2>WebSockets735</h2>
         <p>
-          WebSockets735
+        Web Sockets is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const WebSockets735 = () => {
 
         <TaskStateButtons
           topicName= "WebSockets735"
-          topicId={1}
-          roadmapName="cs"
+          topicId={735}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/short-polling-734"
+          nextTo="/roadmaps/cs/sse-736"
         />
       </div>
     </div>

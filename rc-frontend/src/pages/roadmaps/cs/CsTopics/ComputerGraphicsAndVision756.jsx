@@ -29,17 +29,17 @@ const ComputerGraphicsAndVision756 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ComputerGraphicsAndVision756</h1>
+        <h1>Computer Graphics And Vision</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/natural-language-processing-755"
+          nextTo="/roadmaps/cs/distributed-systems-and-security-757"
         />
         <hr />
 
         <h2>ComputerGraphicsAndVision756</h2>
         <p>
-          ComputerGraphicsAndVision756
+        Computer Graphics And Vision is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ComputerGraphicsAndVision756 = () => {
 
         <TaskStateButtons
           topicName= "ComputerGraphicsAndVision756"
-          topicId={1}
-          roadmapName="cs"
+          topicId={756}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/natural-language-processing-755"
+          nextTo="/roadmaps/cs/distributed-systems-and-security-757"
         />
       </div>
     </div>

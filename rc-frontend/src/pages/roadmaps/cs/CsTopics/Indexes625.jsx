@@ -29,17 +29,17 @@ const Indexes625 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Indexes625</h1>
+        <h1>Indexes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pacelc-624"
+          nextTo="/roadmaps/cs/views-626"
         />
         <hr />
 
         <h2>Indexes625</h2>
         <p>
-          Indexes625
+        Indexes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Indexes625 = () => {
 
         <TaskStateButtons
           topicName= "Indexes625"
-          topicId={1}
-          roadmapName="cs"
+          topicId={625}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pacelc-624"
+          nextTo="/roadmaps/cs/views-626"
         />
       </div>
     </div>

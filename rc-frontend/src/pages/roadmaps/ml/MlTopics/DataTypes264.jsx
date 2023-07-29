@@ -29,17 +29,17 @@ const DataTypes264 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataTypes264</h1>
+        <h1>Data Types</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/control-flow-structures-263"
+          nextTo="/roadmaps/ml/functions-and-modules-265"
         />
         <hr />
 
         <h2>DataTypes264</h2>
         <p>
-          DataTypes264
+        Data Types is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataTypes264 = () => {
 
         <TaskStateButtons
           topicName= "DataTypes264"
-          topicId={1}
-          roadmapName="ml"
+          topicId={264}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/control-flow-structures-263"
+          nextTo="/roadmaps/ml/functions-and-modules-265"
         />
       </div>
     </div>

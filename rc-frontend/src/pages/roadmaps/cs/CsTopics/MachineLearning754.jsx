@@ -29,17 +29,17 @@ const MachineLearning754 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MachineLearning754</h1>
+        <h1>Machine Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/artificial-intelligence-753"
+          nextTo="/roadmaps/cs/natural-language-processing-755"
         />
         <hr />
 
         <h2>MachineLearning754</h2>
         <p>
-          MachineLearning754
+        Machine Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MachineLearning754 = () => {
 
         <TaskStateButtons
           topicName= "MachineLearning754"
-          topicId={1}
-          roadmapName="cs"
+          topicId={754}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/artificial-intelligence-753"
+          nextTo="/roadmaps/cs/natural-language-processing-755"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const CodeGeneration743 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CodeGeneration743</h1>
+        <h1>Code Generation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/code-optimization-742"
+          nextTo="/roadmaps/cs/programming-language-paradigms-744"
         />
         <hr />
 
         <h2>CodeGeneration743</h2>
         <p>
-          CodeGeneration743
+        Code Generation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CodeGeneration743 = () => {
 
         <TaskStateButtons
           topicName= "CodeGeneration743"
-          topicId={1}
-          roadmapName="cs"
+          topicId={743}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/code-optimization-742"
+          nextTo="/roadmaps/cs/programming-language-paradigms-744"
         />
       </div>
     </div>

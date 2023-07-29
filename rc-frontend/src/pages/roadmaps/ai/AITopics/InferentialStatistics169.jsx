@@ -29,17 +29,17 @@ const InferentialStatistics169 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InferentialStatistics169</h1>
+        <h1>Inferential Statistics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/descriptive-statistics-168"
+          nextTo="/roadmaps/ai/hypothesis-testing-170"
         />
         <hr />
 
         <h2>InferentialStatistics169</h2>
         <p>
-          InferentialStatistics169
+        Inferential Statistics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InferentialStatistics169 = () => {
 
         <TaskStateButtons
           topicName= "InferentialStatistics169"
-          topicId={1}
-          roadmapName="ai"
+          topicId={169}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/descriptive-statistics-168"
+          nextTo="/roadmaps/ai/hypothesis-testing-170"
         />
       </div>
     </div>

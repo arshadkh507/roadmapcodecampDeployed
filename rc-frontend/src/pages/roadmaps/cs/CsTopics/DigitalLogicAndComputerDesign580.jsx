@@ -29,17 +29,17 @@ const DigitalLogicAndComputerDesign580 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DigitalLogicAndComputerDesign580</h1>
+        <h1>Digital Logic And Computer Design</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-architecture-579"
+          nextTo="/roadmaps/cs/boolean-algebra-581"
         />
         <hr />
 
         <h2>DigitalLogicAndComputerDesign580</h2>
         <p>
-          DigitalLogicAndComputerDesign580
+        Digital Logic And Computer Design is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DigitalLogicAndComputerDesign580 = () => {
 
         <TaskStateButtons
           topicName= "DigitalLogicAndComputerDesign580"
-          topicId={1}
-          roadmapName="cs"
+          topicId={580}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/computer-architecture-579"
+          nextTo="/roadmaps/cs/boolean-algebra-581"
         />
       </div>
     </div>

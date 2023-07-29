@@ -29,17 +29,17 @@ const Array507 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Array507</h1>
+        <h1>Array</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/data-structures-506"
+          nextTo="/roadmaps/cs/link-lists-508"
         />
         <hr />
 
         <h2>Array507</h2>
         <p>
-          Array507
+        Array is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Array507 = () => {
 
         <TaskStateButtons
           topicName= "Array507"
-          topicId={1}
-          roadmapName="cs"
+          topicId={507}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/data-structures-506"
+          nextTo="/roadmaps/cs/link-lists-508"
         />
       </div>
     </div>

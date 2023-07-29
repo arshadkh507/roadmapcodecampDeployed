@@ -29,17 +29,17 @@ const REST729 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>REST729</h1>
+        <h1>R E S T</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/architectural-styles-728"
+          nextTo="/roadmaps/cs/graphql-730"
         />
         <hr />
 
         <h2>REST729</h2>
         <p>
-          REST729
+        R E S T is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const REST729 = () => {
 
         <TaskStateButtons
           topicName= "REST729"
-          topicId={1}
-          roadmapName="cs"
+          topicId={729}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/architectural-styles-728"
+          nextTo="/roadmaps/cs/graphql-730"
         />
       </div>
     </div>

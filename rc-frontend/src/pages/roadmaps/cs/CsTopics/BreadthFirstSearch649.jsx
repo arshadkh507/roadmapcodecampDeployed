@@ -29,17 +29,17 @@ const BreadthFirstSearch649 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BreadthFirstSearch649</h1>
+        <h1>Breadth First Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/post-order-traversal-648"
+          nextTo="/roadmaps/cs/depth-first-search-650"
         />
         <hr />
 
         <h2>BreadthFirstSearch649</h2>
         <p>
-          BreadthFirstSearch649
+        Breadth First Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BreadthFirstSearch649 = () => {
 
         <TaskStateButtons
           topicName= "BreadthFirstSearch649"
-          topicId={1}
-          roadmapName="cs"
+          topicId={649}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/post-order-traversal-648"
+          nextTo="/roadmaps/cs/depth-first-search-650"
         />
       </div>
     </div>

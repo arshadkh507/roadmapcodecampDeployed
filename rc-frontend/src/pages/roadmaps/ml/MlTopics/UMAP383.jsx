@@ -29,17 +29,17 @@ const UMAP383 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UMAP383</h1>
+        <h1>U M A P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/t-sne-382"
+          nextTo="/roadmaps/ml/ensemble-learning-384"
         />
         <hr />
 
         <h2>UMAP383</h2>
         <p>
-          UMAP383
+        U M A P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UMAP383 = () => {
 
         <TaskStateButtons
           topicName= "UMAP383"
-          topicId={1}
-          roadmapName="ml"
+          topicId={383}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/t-sne-382"
+          nextTo="/roadmaps/ml/ensemble-learning-384"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const FeatureExtractionAndRepresentation209 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FeatureExtractionAndRepresentation209</h1>
+        <h1>Feature Extraction And Representation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/image-processing-208"
+          nextTo="/roadmaps/ai/object-recognition-and-detection-210"
         />
         <hr />
 
         <h2>FeatureExtractionAndRepresentation209</h2>
         <p>
-          FeatureExtractionAndRepresentation209
+        Feature Extraction And Representation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FeatureExtractionAndRepresentation209 = () => {
 
         <TaskStateButtons
           topicName= "FeatureExtractionAndRepresentation209"
-          topicId={1}
-          roadmapName="ai"
+          topicId={209}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/image-processing-208"
+          nextTo="/roadmaps/ai/object-recognition-and-detection-210"
         />
       </div>
     </div>

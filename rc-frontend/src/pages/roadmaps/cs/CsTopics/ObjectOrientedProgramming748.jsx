@@ -29,17 +29,17 @@ const ObjectOrientedProgramming748 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ObjectOrientedProgramming748</h1>
+        <h1>Object Oriented Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-programming-747"
+          nextTo="/roadmaps/cs/aspect-oriented-programming-749"
         />
         <hr />
 
         <h2>ObjectOrientedProgramming748</h2>
         <p>
-          ObjectOrientedProgramming748
+        Object Oriented Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ObjectOrientedProgramming748 = () => {
 
         <TaskStateButtons
           topicName= "ObjectOrientedProgramming748"
-          topicId={1}
-          roadmapName="cs"
+          topicId={748}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logic-programming-747"
+          nextTo="/roadmaps/cs/aspect-oriented-programming-749"
         />
       </div>
     </div>

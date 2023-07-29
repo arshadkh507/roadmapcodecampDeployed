@@ -29,17 +29,17 @@ const Output497 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Output497</h1>
+        <h1>Output</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/modular-programming-496"
+          nextTo="/roadmaps/cs/reading-and-writing-files-498"
         />
         <hr />
 
         <h2>Output497</h2>
         <p>
-          Output497
+        Output is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Output497 = () => {
 
         <TaskStateButtons
           topicName= "Output497"
-          topicId={1}
-          roadmapName="cs"
+          topicId={497}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/modular-programming-496"
+          nextTo="/roadmaps/cs/reading-and-writing-files-498"
         />
       </div>
     </div>

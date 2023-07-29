@@ -29,17 +29,17 @@ const BigNotation531 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BigNotation531</h1>
+        <h1>Big Notation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/big-θ-notation-530"
+          nextTo="/roadmaps/cs/common-runtimes-532"
         />
         <hr />
 
         <h2>BigNotation531</h2>
         <p>
-          BigNotation531
+        Big Notation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BigNotation531 = () => {
 
         <TaskStateButtons
           topicName= "BigNotation531"
-          topicId={1}
-          roadmapName="cs"
+          topicId={531}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/big-θ-notation-530"
+          nextTo="/roadmaps/cs/common-runtimes-532"
         />
       </div>
     </div>

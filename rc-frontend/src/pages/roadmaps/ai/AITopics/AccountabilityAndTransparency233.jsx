@@ -29,17 +29,17 @@ const AccountabilityAndTransparency233 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AccountabilityAndTransparency233</h1>
+        <h1>Accountability And Transparency</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/bias-and-fairness-232"
+          nextTo="/roadmaps/ai/privacy-and-security-234"
         />
         <hr />
 
         <h2>AccountabilityAndTransparency233</h2>
         <p>
-          AccountabilityAndTransparency233
+        Accountability And Transparency is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AccountabilityAndTransparency233 = () => {
 
         <TaskStateButtons
           topicName= "AccountabilityAndTransparency233"
-          topicId={1}
-          roadmapName="ai"
+          topicId={233}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/bias-and-fairness-232"
+          nextTo="/roadmaps/ai/privacy-and-security-234"
         />
       </div>
     </div>

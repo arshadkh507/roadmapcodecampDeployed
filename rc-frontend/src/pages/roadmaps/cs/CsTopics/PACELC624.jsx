@@ -29,17 +29,17 @@ const PACELC624 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PACELC624</h1>
+        <h1>P A C E L C</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cap-theorem-623"
+          nextTo="/roadmaps/cs/indexes-625"
         />
         <hr />
 
         <h2>PACELC624</h2>
         <p>
-          PACELC624
+        P A C E L C is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PACELC624 = () => {
 
         <TaskStateButtons
           topicName= "PACELC624"
-          topicId={1}
-          roadmapName="cs"
+          topicId={624}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cap-theorem-623"
+          nextTo="/roadmaps/cs/indexes-625"
         />
       </div>
     </div>

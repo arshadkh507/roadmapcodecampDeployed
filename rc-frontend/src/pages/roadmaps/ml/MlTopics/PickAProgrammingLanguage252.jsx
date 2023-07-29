@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const PickAProgrammingLanguage252 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PickAProgrammingLanguage252</h1>
+        <h1>Pick A Programming Language</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ml/learn-the-basics-251"
@@ -39,7 +39,7 @@ const PickAProgrammingLanguage252 = () => {
 
         <h2>PickAProgrammingLanguage252</h2>
         <p>
-          PickAProgrammingLanguage252
+        Pick A Programming Language is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,7 +63,7 @@ const PickAProgrammingLanguage252 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="PickAProgrammingLanguage252"
+          topicName= "PickAProgrammingLanguage252"
           topicId={252}
           roadmapName="rcml"
         />
@@ -76,7 +76,7 @@ const PickAProgrammingLanguage252 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default PickAProgrammingLanguage252;

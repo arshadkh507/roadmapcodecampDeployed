@@ -29,17 +29,17 @@ const DAL465 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DAL465</h1>
+        <h1>D A L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/sql-464"
+          nextTo="/roadmaps/ml/nosql-466"
         />
         <hr />
 
         <h2>DAL465</h2>
         <p>
-          DAL465
+        D A L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DAL465 = () => {
 
         <TaskStateButtons
           topicName= "DAL465"
-          topicId={1}
-          roadmapName="ml"
+          topicId={465}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/sql-464"
+          nextTo="/roadmaps/ml/nosql-466"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Parsing739 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Parsing739</h1>
+        <h1>Parsing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lexical-analysis-738"
+          nextTo="/roadmaps/cs/semantic-analysis-740"
         />
         <hr />
 
         <h2>Parsing739</h2>
         <p>
-          Parsing739
+        Parsing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Parsing739 = () => {
 
         <TaskStateButtons
           topicName= "Parsing739"
-          topicId={1}
-          roadmapName="cs"
+          topicId={739}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lexical-analysis-738"
+          nextTo="/roadmaps/cs/semantic-analysis-740"
         />
       </div>
     </div>

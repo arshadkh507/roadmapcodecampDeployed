@@ -29,17 +29,17 @@ const NoSQL466 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NoSQL466</h1>
+        <h1>No S Q L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dal-465"
+          nextTo="/roadmaps/ml/document-467"
         />
         <hr />
 
         <h2>NoSQL466</h2>
         <p>
-          NoSQL466
+        No S Q L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NoSQL466 = () => {
 
         <TaskStateButtons
           topicName= "NoSQL466"
-          topicId={1}
-          roadmapName="ml"
+          topicId={466}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/dal-465"
+          nextTo="/roadmaps/ml/document-467"
         />
       </div>
     </div>

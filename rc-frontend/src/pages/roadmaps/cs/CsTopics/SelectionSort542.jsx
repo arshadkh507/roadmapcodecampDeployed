@@ -29,17 +29,17 @@ const SelectionSort542 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SelectionSort542</h1>
+        <h1>Selection Sort</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bubble-sort-541"
+          nextTo="/roadmaps/cs/insertion-sort-543"
         />
         <hr />
 
         <h2>SelectionSort542</h2>
         <p>
-          SelectionSort542
+        Selection Sort is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SelectionSort542 = () => {
 
         <TaskStateButtons
           topicName= "SelectionSort542"
-          topicId={1}
-          roadmapName="cs"
+          topicId={542}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bubble-sort-541"
+          nextTo="/roadmaps/cs/insertion-sort-543"
         />
       </div>
     </div>

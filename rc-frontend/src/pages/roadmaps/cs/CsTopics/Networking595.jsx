@@ -29,17 +29,17 @@ const Networking595 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Networking595</h1>
+        <h1>Networking</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/regression-analysis-594"
+          nextTo="/roadmaps/cs/osi-model-596"
         />
         <hr />
 
         <h2>Networking595</h2>
         <p>
-          Networking595
+        Networking is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Networking595 = () => {
 
         <TaskStateButtons
           topicName= "Networking595"
-          topicId={1}
-          roadmapName="cs"
+          topicId={595}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/regression-analysis-594"
+          nextTo="/roadmaps/cs/osi-model-596"
         />
       </div>
     </div>

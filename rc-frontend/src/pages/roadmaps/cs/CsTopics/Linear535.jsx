@@ -29,17 +29,17 @@ const Linear535 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Linear535</h1>
+        <h1>Linear</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logarithmic-534"
+          nextTo="/roadmaps/cs/polynomial-536"
         />
         <hr />
 
         <h2>Linear535</h2>
         <p>
-          Linear535
+        Linear is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Linear535 = () => {
 
         <TaskStateButtons
           topicName= "Linear535"
-          topicId={1}
-          roadmapName="cs"
+          topicId={535}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/logarithmic-534"
+          nextTo="/roadmaps/cs/polynomial-536"
         />
       </div>
     </div>

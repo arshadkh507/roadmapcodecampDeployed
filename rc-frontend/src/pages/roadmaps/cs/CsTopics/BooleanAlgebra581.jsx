@@ -29,17 +29,17 @@ const BooleanAlgebra581 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BooleanAlgebra581</h1>
+        <h1>Boolean Algebra</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/digital-logic-and-computer-design-580"
+          nextTo="/roadmaps/cs/logic-gates-and-circuits-582"
         />
         <hr />
 
         <h2>BooleanAlgebra581</h2>
         <p>
-          BooleanAlgebra581
+        Boolean Algebra is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BooleanAlgebra581 = () => {
 
         <TaskStateButtons
           topicName= "BooleanAlgebra581"
-          topicId={1}
-          roadmapName="cs"
+          topicId={581}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/digital-logic-and-computer-design-580"
+          nextTo="/roadmaps/cs/logic-gates-and-circuits-582"
         />
       </div>
     </div>

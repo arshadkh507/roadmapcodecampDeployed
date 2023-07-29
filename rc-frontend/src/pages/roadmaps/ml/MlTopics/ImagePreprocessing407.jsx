@@ -29,17 +29,17 @@ const ImagePreprocessing407 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ImagePreprocessing407</h1>
+        <h1>Image Preprocessing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/computer-vision-406"
+          nextTo="/roadmaps/ml/object-detection-408"
         />
         <hr />
 
         <h2>ImagePreprocessing407</h2>
         <p>
-          ImagePreprocessing407
+        Image Preprocessing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ImagePreprocessing407 = () => {
 
         <TaskStateButtons
           topicName= "ImagePreprocessing407"
-          topicId={1}
-          roadmapName="ml"
+          topicId={407}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/computer-vision-406"
+          nextTo="/roadmaps/ml/object-detection-408"
         />
       </div>
     </div>

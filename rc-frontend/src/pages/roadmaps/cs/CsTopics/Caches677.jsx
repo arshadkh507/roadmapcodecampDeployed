@@ -29,17 +29,17 @@ const Caches677 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Caches677</h1>
+        <h1>Caches</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/suffix-arrays-676"
+          nextTo="/roadmaps/cs/lru-cache-678"
         />
         <hr />
 
         <h2>Caches677</h2>
         <p>
-          Caches677
+        Caches is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Caches677 = () => {
 
         <TaskStateButtons
           topicName= "Caches677"
-          topicId={1}
-          roadmapName="cs"
+          topicId={677}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/suffix-arrays-676"
+          nextTo="/roadmaps/cs/lru-cache-678"
         />
       </div>
     </div>

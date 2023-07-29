@@ -29,17 +29,17 @@ const Proxy725 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Proxy725</h1>
+        <h1>Proxy</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cdn-724"
+          nextTo="/roadmaps/cs/cap-theorem-726"
         />
         <hr />
 
         <h2>Proxy725</h2>
         <p>
-          Proxy725
+        Proxy is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Proxy725 = () => {
 
         <TaskStateButtons
           topicName= "Proxy725"
-          topicId={1}
-          roadmapName="cs"
+          topicId={725}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cdn-724"
+          nextTo="/roadmaps/cs/cap-theorem-726"
         />
       </div>
     </div>

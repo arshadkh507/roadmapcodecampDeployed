@@ -29,17 +29,17 @@ const SpanningTree524 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SpanningTree524</h1>
+        <h1>Spanning Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/undirected-graph-523"
+          nextTo="/roadmaps/cs/adjacency-matrix-525"
         />
         <hr />
 
         <h2>SpanningTree524</h2>
         <p>
-          SpanningTree524
+        Spanning Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SpanningTree524 = () => {
 
         <TaskStateButtons
           topicName= "SpanningTree524"
-          topicId={1}
-          roadmapName="cs"
+          topicId={524}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/undirected-graph-523"
+          nextTo="/roadmaps/cs/adjacency-matrix-525"
         />
       </div>
     </div>

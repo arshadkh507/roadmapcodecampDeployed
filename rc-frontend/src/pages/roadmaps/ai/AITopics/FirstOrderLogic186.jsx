@@ -29,17 +29,17 @@ const FirstOrderLogic186 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FirstOrderLogic186</h1>
+        <h1>First Order Logic</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/logical-equivalence-185"
+          nextTo="/roadmaps/ai/terms-187"
         />
         <hr />
 
         <h2>FirstOrderLogic186</h2>
         <p>
-          FirstOrderLogic186
+        First Order Logic is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FirstOrderLogic186 = () => {
 
         <TaskStateButtons
           topicName= "FirstOrderLogic186"
-          topicId={1}
-          roadmapName="ai"
+          topicId={186}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/logical-equivalence-185"
+          nextTo="/roadmaps/ai/terms-187"
         />
       </div>
     </div>

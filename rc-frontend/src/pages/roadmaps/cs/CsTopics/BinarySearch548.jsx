@@ -29,17 +29,17 @@ const BinarySearch548 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BinarySearch548</h1>
+        <h1>Binary Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/searching-547"
+          nextTo="/roadmaps/cs/linear-search-549"
         />
         <hr />
 
         <h2>BinarySearch548</h2>
         <p>
-          BinarySearch548
+        Binary Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BinarySearch548 = () => {
 
         <TaskStateButtons
           topicName= "BinarySearch548"
-          topicId={1}
-          roadmapName="cs"
+          topicId={548}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/searching-547"
+          nextTo="/roadmaps/cs/linear-search-549"
         />
       </div>
     </div>

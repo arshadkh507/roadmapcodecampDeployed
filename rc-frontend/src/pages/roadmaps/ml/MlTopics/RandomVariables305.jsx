@@ -29,17 +29,17 @@ const RandomVariables305 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RandomVariables305</h1>
+        <h1>Random Variables</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/probability-theory-304"
+          nextTo="/roadmaps/ml/probability-distributions-306"
         />
         <hr />
 
         <h2>RandomVariables305</h2>
         <p>
-          RandomVariables305
+        Random Variables is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RandomVariables305 = () => {
 
         <TaskStateButtons
           topicName= "RandomVariables305"
-          topicId={1}
-          roadmapName="ml"
+          topicId={305}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/probability-theory-304"
+          nextTo="/roadmaps/ml/probability-distributions-306"
         />
       </div>
     </div>

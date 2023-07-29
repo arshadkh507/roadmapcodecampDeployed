@@ -29,17 +29,17 @@ const SQL464 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SQL464</h1>
+        <h1>S Q L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/orm-463"
+          nextTo="/roadmaps/ml/dal-465"
         />
         <hr />
 
         <h2>SQL464</h2>
         <p>
-          SQL464
+        S Q L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SQL464 = () => {
 
         <TaskStateButtons
           topicName= "SQL464"
-          topicId={1}
-          roadmapName="ml"
+          topicId={464}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/orm-463"
+          nextTo="/roadmaps/ml/dal-465"
         />
       </div>
     </div>

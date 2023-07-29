@@ -29,17 +29,17 @@ const ProbabilityDistributions306 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProbabilityDistributions306</h1>
+        <h1>Probability Distributions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/random-variables-305"
+          nextTo="/roadmaps/ml/joint-307"
         />
         <hr />
 
         <h2>ProbabilityDistributions306</h2>
         <p>
-          ProbabilityDistributions306
+        Probability Distributions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProbabilityDistributions306 = () => {
 
         <TaskStateButtons
           topicName= "ProbabilityDistributions306"
-          topicId={1}
-          roadmapName="ml"
+          topicId={306}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/random-variables-305"
+          nextTo="/roadmaps/ml/joint-307"
         />
       </div>
     </div>

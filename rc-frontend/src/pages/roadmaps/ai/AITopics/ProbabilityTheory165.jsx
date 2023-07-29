@@ -29,17 +29,17 @@ const ProbabilityTheory165 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProbabilityTheory165</h1>
+        <h1>Probability Theory</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/stochastic-optimization-164"
+          nextTo="/roadmaps/ai/random-variables-and-distributions-166"
         />
         <hr />
 
         <h2>ProbabilityTheory165</h2>
         <p>
-          ProbabilityTheory165
+        Probability Theory is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProbabilityTheory165 = () => {
 
         <TaskStateButtons
           topicName= "ProbabilityTheory165"
-          topicId={1}
-          roadmapName="ai"
+          topicId={165}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/stochastic-optimization-164"
+          nextTo="/roadmaps/ai/random-variables-and-distributions-166"
         />
       </div>
     </div>

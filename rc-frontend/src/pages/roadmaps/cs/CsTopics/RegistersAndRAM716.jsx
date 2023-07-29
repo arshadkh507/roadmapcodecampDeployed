@@ -29,17 +29,17 @@ const RegistersAndRAM716 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RegistersAndRAM716</h1>
+        <h1>Registers And R A M</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/how-computers-calculate?-715"
+          nextTo="/roadmaps/cs/instructions-and-programs-717"
         />
         <hr />
 
         <h2>RegistersAndRAM716</h2>
         <p>
-          RegistersAndRAM716
+        Registers And R A M is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RegistersAndRAM716 = () => {
 
         <TaskStateButtons
           topicName= "RegistersAndRAM716"
-          topicId={1}
-          roadmapName="cs"
+          topicId={716}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/how-computers-calculate?-715"
+          nextTo="/roadmaps/cs/instructions-and-programs-717"
         />
       </div>
     </div>

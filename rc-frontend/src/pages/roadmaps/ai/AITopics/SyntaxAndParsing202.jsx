@@ -29,17 +29,17 @@ const SyntaxAndParsing202 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SyntaxAndParsing202</h1>
+        <h1>Syntax And Parsing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/language-modeling-201"
+          nextTo="/roadmaps/ai/sentiment-analysis-203"
         />
         <hr />
 
         <h2>SyntaxAndParsing202</h2>
         <p>
-          SyntaxAndParsing202
+        Syntax And Parsing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SyntaxAndParsing202 = () => {
 
         <TaskStateButtons
           topicName= "SyntaxAndParsing202"
-          topicId={1}
-          roadmapName="ai"
+          topicId={202}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/language-modeling-201"
+          nextTo="/roadmaps/ai/sentiment-analysis-203"
         />
       </div>
     </div>

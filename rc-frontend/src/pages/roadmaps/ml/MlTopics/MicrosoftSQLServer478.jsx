@@ -29,17 +29,17 @@ const MicrosoftSQLServer478 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MicrosoftSQLServer478</h1>
+        <h1>Microsoft S Q L Server</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/sqlite-477"
+          nextTo="/roadmaps/ml/machine-learning-(ml)-applications-479"
         />
         <hr />
 
         <h2>MicrosoftSQLServer478</h2>
         <p>
-          MicrosoftSQLServer478
+        Microsoft S Q L Server is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MicrosoftSQLServer478 = () => {
 
         <TaskStateButtons
           topicName= "MicrosoftSQLServer478"
-          topicId={1}
-          roadmapName="ml"
+          topicId={478}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/sqlite-477"
+          nextTo="/roadmaps/ml/machine-learning-(ml)-applications-479"
         />
       </div>
     </div>

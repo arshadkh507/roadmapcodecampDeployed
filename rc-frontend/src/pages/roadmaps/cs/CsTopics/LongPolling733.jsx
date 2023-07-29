@@ -29,17 +29,17 @@ const LongPolling733 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LongPolling733</h1>
+        <h1>Long Polling</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cloud-design-patterns-732"
+          nextTo="/roadmaps/cs/short-polling-734"
         />
         <hr />
 
         <h2>LongPolling733</h2>
         <p>
-          LongPolling733
+        Long Polling is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LongPolling733 = () => {
 
         <TaskStateButtons
           topicName= "LongPolling733"
-          topicId={1}
-          roadmapName="cs"
+          topicId={733}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cloud-design-patterns-732"
+          nextTo="/roadmaps/cs/short-polling-734"
         />
       </div>
     </div>

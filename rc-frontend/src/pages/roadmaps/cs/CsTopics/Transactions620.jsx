@@ -29,17 +29,17 @@ const Transactions620 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Transactions620</h1>
+        <h1>Transactions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/locking-619"
+          nextTo="/roadmaps/cs/acid-model-621"
         />
         <hr />
 
         <h2>Transactions620</h2>
         <p>
-          Transactions620
+        Transactions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Transactions620 = () => {
 
         <TaskStateButtons
           topicName= "Transactions620"
-          topicId={1}
-          roadmapName="cs"
+          topicId={620}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/locking-619"
+          nextTo="/roadmaps/cs/acid-model-621"
         />
       </div>
     </div>

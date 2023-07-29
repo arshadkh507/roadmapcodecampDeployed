@@ -29,17 +29,17 @@ const NormalizingData340 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NormalizingData340</h1>
+        <h1>Normalizing Data</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/scaling-data-339"
+          nextTo="/roadmaps/ml/encoding-categorical-variables-341"
         />
         <hr />
 
         <h2>NormalizingData340</h2>
         <p>
-          NormalizingData340
+        Normalizing Data is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NormalizingData340 = () => {
 
         <TaskStateButtons
           topicName= "NormalizingData340"
-          topicId={1}
-          roadmapName="ml"
+          topicId={340}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/scaling-data-339"
+          nextTo="/roadmaps/ml/encoding-categorical-variables-341"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,17 +29,17 @@ const AAlgorithm656 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AAlgorithm656</h1>
+        <h1>A Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dijkstras-algorithm-655"
+          nextTo="/roadmaps/cs/greedy-algorithms-657"
         />
         <hr />
 
         <h2>AAlgorithm656</h2>
         <p>
-          AAlgorithm656
+        A Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,20 +63,20 @@ const AAlgorithm656 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="AAlgorithm656"
-          topicId={1}
-          roadmapName="cs"
+          topicName= "AAlgorithm656"
+          topicId={656}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dijkstras-algorithm-655"
+          nextTo="/roadmaps/cs/greedy-algorithms-657"
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default AAlgorithm656;

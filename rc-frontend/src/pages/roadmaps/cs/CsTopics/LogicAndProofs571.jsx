@@ -29,17 +29,17 @@ const LogicAndProofs571 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicAndProofs571</h1>
+        <h1>Logic And Proofs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/discrete-mathematics-570"
+          nextTo="/roadmaps/cs/set-theory-572"
         />
         <hr />
 
         <h2>LogicAndProofs571</h2>
         <p>
-          LogicAndProofs571
+        Logic And Proofs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicAndProofs571 = () => {
 
         <TaskStateButtons
           topicName= "LogicAndProofs571"
-          topicId={1}
-          roadmapName="cs"
+          topicId={571}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/discrete-mathematics-570"
+          nextTo="/roadmaps/cs/set-theory-572"
         />
       </div>
     </div>

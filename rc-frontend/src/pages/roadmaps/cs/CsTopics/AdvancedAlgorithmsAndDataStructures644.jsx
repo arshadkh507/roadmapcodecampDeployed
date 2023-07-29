@@ -29,17 +29,17 @@ const AdvancedAlgorithmsAndDataStructures644 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AdvancedAlgorithmsAndDataStructures644</h1>
+        <h1>Advanced Algorithms And Data Structures</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/branch-and-bound-algorithms-643"
+          nextTo="/roadmaps/cs/tree-645"
         />
         <hr />
 
         <h2>AdvancedAlgorithmsAndDataStructures644</h2>
         <p>
-          AdvancedAlgorithmsAndDataStructures644
+        Advanced Algorithms And Data Structures is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AdvancedAlgorithmsAndDataStructures644 = () => {
 
         <TaskStateButtons
           topicName= "AdvancedAlgorithmsAndDataStructures644"
-          topicId={1}
-          roadmapName="cs"
+          topicId={644}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/branch-and-bound-algorithms-643"
+          nextTo="/roadmaps/cs/tree-645"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const VectorSpaces578 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VectorSpaces578</h1>
+        <h1>Vector Spaces</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-transformations-577"
+          nextTo="/roadmaps/cs/computer-architecture-579"
         />
         <hr />
 
         <h2>VectorSpaces578</h2>
         <p>
-          VectorSpaces578
+        Vector Spaces is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VectorSpaces578 = () => {
 
         <TaskStateButtons
           topicName= "VectorSpaces578"
-          topicId={1}
-          roadmapName="cs"
+          topicId={578}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-transformations-577"
+          nextTo="/roadmaps/cs/computer-architecture-579"
         />
       </div>
     </div>

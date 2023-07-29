@@ -29,17 +29,17 @@ const Autoencoders397 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Autoencoders397</h1>
+        <h1>Autoencoders</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/recurrent-neural-networks-396"
+          nextTo="/roadmaps/ml/generative-adversarial-networks-398"
         />
         <hr />
 
         <h2>Autoencoders397</h2>
         <p>
-          Autoencoders397
+        Autoencoders is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Autoencoders397 = () => {
 
         <TaskStateButtons
           topicName= "Autoencoders397"
-          topicId={1}
-          roadmapName="ml"
+          topicId={397}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/recurrent-neural-networks-396"
+          nextTo="/roadmaps/ml/generative-adversarial-networks-398"
         />
       </div>
     </div>

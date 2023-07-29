@@ -29,17 +29,17 @@ const PrimsAlgorithm662 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PrimsAlgorithm662</h1>
+        <h1>Prims Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ford-fulkerson-algorithm-661"
+          nextTo="/roadmaps/cs/back-tracking-663"
         />
         <hr />
 
         <h2>PrimsAlgorithm662</h2>
         <p>
-          PrimsAlgorithm662
+        Prims Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PrimsAlgorithm662 = () => {
 
         <TaskStateButtons
           topicName= "PrimsAlgorithm662"
-          topicId={1}
-          roadmapName="cs"
+          topicId={662}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ford-fulkerson-algorithm-661"
+          nextTo="/roadmaps/cs/back-tracking-663"
         />
       </div>
     </div>

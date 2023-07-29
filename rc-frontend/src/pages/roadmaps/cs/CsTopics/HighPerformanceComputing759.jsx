@@ -29,17 +29,17 @@ const HighPerformanceComputing759 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HighPerformanceComputing759</h1>
+        <h1>High Performance Computing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/distributed-systems-758"
+          nextTo="/roadmaps/cs"
         />
         <hr />
 
         <h2>HighPerformanceComputing759</h2>
         <p>
-          HighPerformanceComputing759
+        High Performance Computing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HighPerformanceComputing759 = () => {
 
         <TaskStateButtons
           topicName= "HighPerformanceComputing759"
-          topicId={1}
-          roadmapName="cs"
+          topicId={759}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/distributed-systems-758"
+          nextTo="/roadmaps/cs"
         />
       </div>
     </div>

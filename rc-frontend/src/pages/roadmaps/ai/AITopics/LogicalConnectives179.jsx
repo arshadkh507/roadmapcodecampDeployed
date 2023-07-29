@@ -29,17 +29,17 @@ const LogicalConnectives179 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicalConnectives179</h1>
+        <h1>Logical Connectives</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/propositional-variables-178"
+          nextTo="/roadmaps/ai/truth-tables-180"
         />
         <hr />
 
         <h2>LogicalConnectives179</h2>
         <p>
-          LogicalConnectives179
+        Logical Connectives is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicalConnectives179 = () => {
 
         <TaskStateButtons
           topicName= "LogicalConnectives179"
-          topicId={1}
-          roadmapName="ai"
+          topicId={179}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/propositional-variables-178"
+          nextTo="/roadmaps/ai/truth-tables-180"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const BellmanFordsAlgorithm654 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BellmanFordsAlgorithm654</h1>
+        <h1>Bellman Fords Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/depth-first-search-653"
+          nextTo="/roadmaps/cs/dijkstras-algorithm-655"
         />
         <hr />
 
         <h2>BellmanFordsAlgorithm654</h2>
         <p>
-          BellmanFordsAlgorithm654
+        Bellman Fords Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BellmanFordsAlgorithm654 = () => {
 
         <TaskStateButtons
           topicName= "BellmanFordsAlgorithm654"
-          topicId={1}
-          roadmapName="cs"
+          topicId={654}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/depth-first-search-653"
+          nextTo="/roadmaps/cs/dijkstras-algorithm-655"
         />
       </div>
     </div>

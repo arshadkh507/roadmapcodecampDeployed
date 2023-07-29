@@ -29,17 +29,17 @@ const UndirectedGraph523 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UndirectedGraph523</h1>
+        <h1>Undirected Graph</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/directed-graph-522"
+          nextTo="/roadmaps/cs/spanning-tree-524"
         />
         <hr />
 
         <h2>UndirectedGraph523</h2>
         <p>
-          UndirectedGraph523
+        Undirected Graph is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UndirectedGraph523 = () => {
 
         <TaskStateButtons
           topicName= "UndirectedGraph523"
-          topicId={1}
-          roadmapName="cs"
+          topicId={523}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/directed-graph-522"
+          nextTo="/roadmaps/cs/spanning-tree-524"
         />
       </div>
     </div>

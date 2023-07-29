@@ -29,17 +29,17 @@ const GradientDivergenceAndCurl154 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GradientDivergenceAndCurl154</h1>
+        <h1>Gradient Divergence And Curl</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/partial-derivatives-153"
+          nextTo="/roadmaps/ai/double-and-triple-integrals-155"
         />
         <hr />
 
         <h2>GradientDivergenceAndCurl154</h2>
         <p>
-          GradientDivergenceAndCurl154
+        Gradient Divergence And Curl is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GradientDivergenceAndCurl154 = () => {
 
         <TaskStateButtons
           topicName= "GradientDivergenceAndCurl154"
-          topicId={1}
-          roadmapName="ai"
+          topicId={154}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/partial-derivatives-153"
+          nextTo="/roadmaps/ai/double-and-triple-integrals-155"
         />
       </div>
     </div>

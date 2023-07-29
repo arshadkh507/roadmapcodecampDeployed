@@ -29,17 +29,17 @@ const InOrderTraversal647 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InOrderTraversal647</h1>
+        <h1>In Order Traversal</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pre-order-traversal-646"
+          nextTo="/roadmaps/cs/post-order-traversal-648"
         />
         <hr />
 
         <h2>InOrderTraversal647</h2>
         <p>
-          InOrderTraversal647
+        In Order Traversal is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InOrderTraversal647 = () => {
 
         <TaskStateButtons
           topicName= "InOrderTraversal647"
-          topicId={1}
-          roadmapName="cs"
+          topicId={647}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/pre-order-traversal-646"
+          nextTo="/roadmaps/cs/post-order-traversal-648"
         />
       </div>
     </div>

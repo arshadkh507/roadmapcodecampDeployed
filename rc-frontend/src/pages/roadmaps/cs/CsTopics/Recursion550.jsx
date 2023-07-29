@@ -29,17 +29,17 @@ const Recursion550 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Recursion550</h1>
+        <h1>Recursion</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-search-549"
+          nextTo="/roadmaps/cs/tail-recursion-551"
         />
         <hr />
 
         <h2>Recursion550</h2>
         <p>
-          Recursion550
+        Recursion is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Recursion550 = () => {
 
         <TaskStateButtons
           topicName= "Recursion550"
-          topicId={1}
-          roadmapName="cs"
+          topicId={550}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-search-549"
+          nextTo="/roadmaps/cs/tail-recursion-551"
         />
       </div>
     </div>

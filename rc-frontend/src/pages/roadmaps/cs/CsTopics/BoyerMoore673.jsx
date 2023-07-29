@@ -29,17 +29,17 @@ const BoyerMoore673 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BoyerMoore673</h1>
+        <h1>Boyer Moore</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/knuth-morris-pratt-672"
+          nextTo="/roadmaps/cs/rabin-karp-674"
         />
         <hr />
 
         <h2>BoyerMoore673</h2>
         <p>
-          BoyerMoore673
+        Boyer Moore is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BoyerMoore673 = () => {
 
         <TaskStateButtons
           topicName= "BoyerMoore673"
-          topicId={1}
-          roadmapName="cs"
+          topicId={673}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/knuth-morris-pratt-672"
+          nextTo="/roadmaps/cs/rabin-karp-674"
         />
       </div>
     </div>

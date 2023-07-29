@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const ControlStructuresAndLoops139 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ControlStructuresAndLoops139</h1>
+        <h1>Control Structures And Loops</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ai/basic-data-structures-and-algorithms-138"
@@ -39,7 +39,7 @@ const ControlStructuresAndLoops139 = () => {
 
         <h2>ControlStructuresAndLoops139</h2>
         <p>
-          ControlStructuresAndLoops139
+        Control Structures And Loops is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,7 +63,7 @@ const ControlStructuresAndLoops139 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="ControlStructuresAndLoops139"
+          topicName= "ControlStructuresAndLoops139"
           topicId={139}
           roadmapName="rcai"
         />
@@ -76,7 +76,7 @@ const ControlStructuresAndLoops139 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default ControlStructuresAndLoops139;

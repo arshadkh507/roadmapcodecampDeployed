@@ -29,17 +29,17 @@ const Factorial538 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Factorial538</h1>
+        <h1>Factorial</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/exponential-537"
+          nextTo="/roadmaps/cs/common-algorithms-539"
         />
         <hr />
 
         <h2>Factorial538</h2>
         <p>
-          Factorial538
+        Factorial is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Factorial538 = () => {
 
         <TaskStateButtons
           topicName= "Factorial538"
-          topicId={1}
-          roadmapName="cs"
+          topicId={538}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/exponential-537"
+          nextTo="/roadmaps/cs/common-algorithms-539"
         />
       </div>
     </div>

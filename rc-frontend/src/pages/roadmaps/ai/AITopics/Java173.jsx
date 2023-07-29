@@ -29,17 +29,17 @@ const Java173 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Java173</h1>
+        <h1>Java</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/python-172"
+          nextTo="/roadmaps/ai/c++-174"
         />
         <hr />
 
         <h2>Java173</h2>
         <p>
-          Java173
+        Java is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Java173 = () => {
 
         <TaskStateButtons
           topicName= "Java173"
-          topicId={1}
-          roadmapName="ai"
+          topicId={173}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/python-172"
+          nextTo="/roadmaps/ai/c++-174"
         />
       </div>
     </div>

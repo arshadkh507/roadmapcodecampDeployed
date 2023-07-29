@@ -29,17 +29,17 @@ const ThreeDComputerVision213 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ThreeDComputerVision213</h1>
+        <h1>Three D Computer Vision</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/video-analysis-212"
+          nextTo="/roadmaps/ai/ontologies-and-knowledge-graphs-214"
         />
         <hr />
 
         <h2>ThreeDComputerVision213</h2>
         <p>
-          ThreeDComputerVision213
+        Three D Computer Vision is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ThreeDComputerVision213 = () => {
 
         <TaskStateButtons
           topicName= "ThreeDComputerVision213"
-          topicId={1}
-          roadmapName="ai"
+          topicId={213}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/video-analysis-212"
+          nextTo="/roadmaps/ai/ontologies-and-knowledge-graphs-214"
         />
       </div>
     </div>

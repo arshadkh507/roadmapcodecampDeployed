@@ -29,17 +29,17 @@ const BusinessUnderstanding452 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BusinessUnderstanding452</h1>
+        <h1>Business Understanding</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/business-and-communication-skills-451"
+          nextTo="/roadmaps/ml/identifying-requirements-453"
         />
         <hr />
 
         <h2>BusinessUnderstanding452</h2>
         <p>
-          BusinessUnderstanding452
+        Business Understanding is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BusinessUnderstanding452 = () => {
 
         <TaskStateButtons
           topicName= "BusinessUnderstanding452"
-          topicId={1}
-          roadmapName="ml"
+          topicId={452}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/business-and-communication-skills-451"
+          nextTo="/roadmaps/ml/identifying-requirements-453"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ArraysAndLists495 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ArraysAndLists495</h1>
+        <h1>Arrays And Lists</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/functions-494"
+          nextTo="/roadmaps/cs/modular-programming-496"
         />
         <hr />
 
         <h2>ArraysAndLists495</h2>
         <p>
-          ArraysAndLists495
+        Arrays And Lists is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ArraysAndLists495 = () => {
 
         <TaskStateButtons
           topicName= "ArraysAndLists495"
-          topicId={1}
-          roadmapName="cs"
+          topicId={495}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/functions-494"
+          nextTo="/roadmaps/cs/modular-programming-496"
         />
       </div>
     </div>

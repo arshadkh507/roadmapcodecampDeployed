@@ -29,17 +29,17 @@ const MFUCache680 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MFUCache680</h1>
+        <h1>M F U Cache</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lfu-cache-679"
+          nextTo="/roadmaps/cs/design-patterns-681"
         />
         <hr />
 
         <h2>MFUCache680</h2>
         <p>
-          MFUCache680
+        M F U Cache is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MFUCache680 = () => {
 
         <TaskStateButtons
           topicName= "MFUCache680"
-          topicId={1}
-          roadmapName="cs"
+          topicId={680}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lfu-cache-679"
+          nextTo="/roadmaps/cs/design-patterns-681"
         />
       </div>
     </div>

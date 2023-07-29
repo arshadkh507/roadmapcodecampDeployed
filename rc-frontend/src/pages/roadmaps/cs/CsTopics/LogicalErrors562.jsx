@@ -29,17 +29,17 @@ const LogicalErrors562 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicalErrors562</h1>
+        <h1>Logical Errors</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/runtime-errors-561"
+          nextTo="/roadmaps/cs/debugging-strategies-563"
         />
         <hr />
 
         <h2>LogicalErrors562</h2>
         <p>
-          LogicalErrors562
+        Logical Errors is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicalErrors562 = () => {
 
         <TaskStateButtons
           topicName= "LogicalErrors562"
-          topicId={1}
-          roadmapName="cs"
+          topicId={562}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/runtime-errors-561"
+          nextTo="/roadmaps/cs/debugging-strategies-563"
         />
       </div>
     </div>

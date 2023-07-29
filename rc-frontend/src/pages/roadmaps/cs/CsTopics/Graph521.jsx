@@ -29,17 +29,17 @@ const Graph521 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Graph521</h1>
+        <h1>Graph</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/unbalanced-tree-520"
+          nextTo="/roadmaps/cs/directed-graph-522"
         />
         <hr />
 
         <h2>Graph521</h2>
         <p>
-          Graph521
+        Graph is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Graph521 = () => {
 
         <TaskStateButtons
           topicName= "Graph521"
-          topicId={1}
-          roadmapName="cs"
+          topicId={521}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/unbalanced-tree-520"
+          nextTo="/roadmaps/cs/directed-graph-522"
         />
       </div>
     </div>

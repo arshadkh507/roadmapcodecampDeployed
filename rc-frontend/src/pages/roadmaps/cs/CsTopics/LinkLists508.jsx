@@ -29,17 +29,17 @@ const LinkLists508 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LinkLists508</h1>
+        <h1>Link Lists</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/array-507"
+          nextTo="/roadmaps/cs/stack-509"
         />
         <hr />
 
         <h2>LinkLists508</h2>
         <p>
-          LinkLists508
+        Link Lists is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LinkLists508 = () => {
 
         <TaskStateButtons
           topicName= "LinkLists508"
-          topicId={1}
-          roadmapName="cs"
+          topicId={508}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/array-507"
+          nextTo="/roadmaps/cs/stack-509"
         />
       </div>
     </div>

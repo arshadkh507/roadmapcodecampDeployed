@@ -29,17 +29,17 @@ const StoredProcedures627 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StoredProcedures627</h1>
+        <h1>Stored Procedures</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/views-626"
+          nextTo="/roadmaps/cs/database-federation-628"
         />
         <hr />
 
         <h2>StoredProcedures627</h2>
         <p>
-          StoredProcedures627
+        Stored Procedures is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StoredProcedures627 = () => {
 
         <TaskStateButtons
           topicName= "StoredProcedures627"
-          topicId={1}
-          roadmapName="cs"
+          topicId={627}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/views-626"
+          nextTo="/roadmaps/cs/database-federation-628"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ChainRule272 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ChainRule272</h1>
+        <h1>Chain Rule</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/derivatives-271"
+          nextTo="/roadmaps/ml/gradient-273"
         />
         <hr />
 
         <h2>ChainRule272</h2>
         <p>
-          ChainRule272
+        Chain Rule is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ChainRule272 = () => {
 
         <TaskStateButtons
           topicName= "ChainRule272"
-          topicId={1}
-          roadmapName="ml"
+          topicId={272}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/derivatives-271"
+          nextTo="/roadmaps/ml/gradient-273"
         />
       </div>
     </div>

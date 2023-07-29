@@ -29,17 +29,17 @@ const LRUCache678 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LRUCache678</h1>
+        <h1>L R U Cache</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/caches-677"
+          nextTo="/roadmaps/cs/lfu-cache-679"
         />
         <hr />
 
         <h2>LRUCache678</h2>
         <p>
-          LRUCache678
+        L R U Cache is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LRUCache678 = () => {
 
         <TaskStateButtons
           topicName= "LRUCache678"
-          topicId={1}
-          roadmapName="cs"
+          topicId={678}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/caches-677"
+          nextTo="/roadmaps/cs/lfu-cache-679"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const TypeObjectPattern686 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TypeObjectPattern686</h1>
+        <h1>Type Object Pattern</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/null-object-pattern-685"
+          nextTo="/roadmaps/cs/complexity-classes-687"
         />
         <hr />
 
         <h2>TypeObjectPattern686</h2>
         <p>
-          TypeObjectPattern686
+        Type Object Pattern is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TypeObjectPattern686 = () => {
 
         <TaskStateButtons
           topicName= "TypeObjectPattern686"
-          topicId={1}
-          roadmapName="cs"
+          topicId={686}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/null-object-pattern-685"
+          nextTo="/roadmaps/cs/complexity-classes-687"
         />
       </div>
     </div>

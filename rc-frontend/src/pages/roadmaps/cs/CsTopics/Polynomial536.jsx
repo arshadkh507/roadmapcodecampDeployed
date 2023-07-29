@@ -29,17 +29,17 @@ const Polynomial536 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Polynomial536</h1>
+        <h1>Polynomial</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-535"
+          nextTo="/roadmaps/cs/exponential-537"
         />
         <hr />
 
         <h2>Polynomial536</h2>
         <p>
-          Polynomial536
+        Polynomial is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Polynomial536 = () => {
 
         <TaskStateButtons
           topicName= "Polynomial536"
-          topicId={1}
-          roadmapName="cs"
+          topicId={536}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-535"
+          nextTo="/roadmaps/cs/exponential-537"
         />
       </div>
     </div>

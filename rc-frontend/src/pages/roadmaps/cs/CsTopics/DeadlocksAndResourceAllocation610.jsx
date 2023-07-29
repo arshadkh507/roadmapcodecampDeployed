@@ -29,17 +29,17 @@ const DeadlocksAndResourceAllocation610 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DeadlocksAndResourceAllocation610</h1>
+        <h1>Deadlocks And Resource Allocation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/process-forking-609"
+          nextTo="/roadmaps/cs/databases-611"
         />
         <hr />
 
         <h2>DeadlocksAndResourceAllocation610</h2>
         <p>
-          DeadlocksAndResourceAllocation610
+        Deadlocks And Resource Allocation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DeadlocksAndResourceAllocation610 = () => {
 
         <TaskStateButtons
           topicName= "DeadlocksAndResourceAllocation610"
-          topicId={1}
-          roadmapName="cs"
+          topicId={610}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/process-forking-609"
+          nextTo="/roadmaps/cs/databases-611"
         />
       </div>
     </div>

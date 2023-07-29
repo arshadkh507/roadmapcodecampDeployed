@@ -29,17 +29,17 @@ const UnsupervisedLearning366 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UnsupervisedLearning366</h1>
+        <h1>Unsupervised Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gaussian-mixture-models-365"
+          nextTo="/roadmaps/ml/clustering-367"
         />
         <hr />
 
         <h2>UnsupervisedLearning366</h2>
         <p>
-          UnsupervisedLearning366
+        Unsupervised Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UnsupervisedLearning366 = () => {
 
         <TaskStateButtons
           topicName= "UnsupervisedLearning366"
-          topicId={1}
-          roadmapName="ml"
+          topicId={366}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gaussian-mixture-models-365"
+          nextTo="/roadmaps/ml/clustering-367"
         />
       </div>
     </div>

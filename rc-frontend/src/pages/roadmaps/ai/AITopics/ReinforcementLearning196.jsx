@@ -29,17 +29,17 @@ const ReinforcementLearning196 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ReinforcementLearning196</h1>
+        <h1>Reinforcement Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/semi-supervised-learning-195"
+          nextTo="/roadmaps/ai/convolutional-neural-networks-cnn-197"
         />
         <hr />
 
         <h2>ReinforcementLearning196</h2>
         <p>
-          ReinforcementLearning196
+        Reinforcement Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ReinforcementLearning196 = () => {
 
         <TaskStateButtons
           topicName= "ReinforcementLearning196"
-          topicId={1}
-          roadmapName="ai"
+          topicId={196}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/semi-supervised-learning-195"
+          nextTo="/roadmaps/ai/convolutional-neural-networks-cnn-197"
         />
       </div>
     </div>

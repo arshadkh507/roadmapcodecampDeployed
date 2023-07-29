@@ -29,17 +29,17 @@ const Scalars279 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Scalars279</h1>
+        <h1>Scalars</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/linear-algebra-278"
+          nextTo="/roadmaps/ml/vectors-280"
         />
         <hr />
 
         <h2>Scalars279</h2>
         <p>
-          Scalars279
+        Scalars is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Scalars279 = () => {
 
         <TaskStateButtons
           topicName= "Scalars279"
-          topicId={1}
-          roadmapName="ml"
+          topicId={279}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/linear-algebra-278"
+          nextTo="/roadmaps/ml/vectors-280"
         />
       </div>
     </div>

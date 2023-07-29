@@ -29,17 +29,17 @@ const ReadingAndWritingFiles498 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ReadingAndWritingFiles498</h1>
+        <h1>Reading And Writing Files</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/output-497"
+          nextTo="/roadmaps/cs/command-line-arguments-499"
         />
         <hr />
 
         <h2>ReadingAndWritingFiles498</h2>
         <p>
-          ReadingAndWritingFiles498
+        Reading And Writing Files is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ReadingAndWritingFiles498 = () => {
 
         <TaskStateButtons
           topicName= "ReadingAndWritingFiles498"
-          topicId={1}
-          roadmapName="cs"
+          topicId={498}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/output-497"
+          nextTo="/roadmaps/cs/command-line-arguments-499"
         />
       </div>
     </div>

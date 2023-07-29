@@ -29,17 +29,17 @@ const StatemachineDiagrams639 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StatemachineDiagrams639</h1>
+        <h1>Statemachine Diagrams</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/activity-diagrams-638"
+          nextTo="/roadmaps/cs/sequence-diagrams-640"
         />
         <hr />
 
         <h2>StatemachineDiagrams639</h2>
         <p>
-          StatemachineDiagrams639
+        Statemachine Diagrams is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StatemachineDiagrams639 = () => {
 
         <TaskStateButtons
           topicName= "StatemachineDiagrams639"
-          topicId={1}
-          roadmapName="cs"
+          topicId={639}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/activity-diagrams-638"
+          nextTo="/roadmaps/cs/sequence-diagrams-640"
         />
       </div>
     </div>

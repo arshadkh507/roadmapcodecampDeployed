@@ -29,17 +29,17 @@ const SkipList706 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SkipList706</h1>
+        <h1>Skip List</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/k-d-trees-705"
+          nextTo="/roadmaps/cs/splay-tree-707"
         />
         <hr />
 
         <h2>SkipList706</h2>
         <p>
-          SkipList706
+        Skip List is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SkipList706 = () => {
 
         <TaskStateButtons
           topicName= "SkipList706"
-          topicId={1}
-          roadmapName="cs"
+          topicId={706}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/k-d-trees-705"
+          nextTo="/roadmaps/cs/splay-tree-707"
         />
       </div>
     </div>

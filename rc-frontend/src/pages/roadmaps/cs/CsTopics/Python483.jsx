@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const Python483 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Python483</h1>
+        <h1>Python</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/cs/c-482"
@@ -39,7 +39,7 @@ const Python483 = () => {
 
         <h2>Python483</h2>
         <p>
-          Python483
+        Python is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,9 +63,9 @@ const Python483 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="Python483"
+          topicName= "Python483"
           topicId={483}
-          roadmapName="cs"
+          roadmapName="rccs"
         />
 
         <hr />
@@ -76,7 +76,7 @@ const Python483 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Python483;

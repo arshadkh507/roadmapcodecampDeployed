@@ -29,17 +29,17 @@ const Terms187 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Terms187</h1>
+        <h1>Terms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/first-order-logic-186"
+          nextTo="/roadmaps/ai/formulas-188"
         />
         <hr />
 
         <h2>Terms187</h2>
         <p>
-          Terms187
+        Terms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Terms187 = () => {
 
         <TaskStateButtons
           topicName= "Terms187"
-          topicId={1}
-          roadmapName="ai"
+          topicId={187}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/first-order-logic-186"
+          nextTo="/roadmaps/ai/formulas-188"
         />
       </div>
     </div>

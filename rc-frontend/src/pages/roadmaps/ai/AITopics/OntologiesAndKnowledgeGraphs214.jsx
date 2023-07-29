@@ -29,17 +29,17 @@ const OntologiesAndKnowledgeGraphs214 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OntologiesAndKnowledgeGraphs214</h1>
+        <h1>Ontologies And Knowledge Graphs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/3d-computer-vision-213"
+          nextTo="/roadmaps/ai/rdf-owl-sparql-215"
         />
         <hr />
 
         <h2>OntologiesAndKnowledgeGraphs214</h2>
         <p>
-          OntologiesAndKnowledgeGraphs214
+        Ontologies And Knowledge Graphs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OntologiesAndKnowledgeGraphs214 = () => {
 
         <TaskStateButtons
           topicName= "OntologiesAndKnowledgeGraphs214"
-          topicId={1}
-          roadmapName="ai"
+          topicId={214}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/3d-computer-vision-213"
+          nextTo="/roadmaps/ai/rdf-owl-sparql-215"
         />
       </div>
     </div>

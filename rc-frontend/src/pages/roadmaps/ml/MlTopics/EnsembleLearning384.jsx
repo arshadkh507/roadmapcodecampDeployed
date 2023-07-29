@@ -29,17 +29,17 @@ const EnsembleLearning384 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>EnsembleLearning384</h1>
+        <h1>Ensemble Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/umap-383"
+          nextTo="/roadmaps/ml/regression-385"
         />
         <hr />
 
         <h2>EnsembleLearning384</h2>
         <p>
-          EnsembleLearning384
+        Ensemble Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const EnsembleLearning384 = () => {
 
         <TaskStateButtons
           topicName= "EnsembleLearning384"
-          topicId={1}
-          roadmapName="ml"
+          topicId={384}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/umap-383"
+          nextTo="/roadmaps/ml/regression-385"
         />
       </div>
     </div>

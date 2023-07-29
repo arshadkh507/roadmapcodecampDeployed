@@ -29,17 +29,17 @@ const SemiSupervisedLearning195 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SemiSupervisedLearning195</h1>
+        <h1>Semi Supervised Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/unsupervised-learning-194"
+          nextTo="/roadmaps/ai/reinforcement-learning-196"
         />
         <hr />
 
         <h2>SemiSupervisedLearning195</h2>
         <p>
-          SemiSupervisedLearning195
+        Semi Supervised Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SemiSupervisedLearning195 = () => {
 
         <TaskStateButtons
           topicName= "SemiSupervisedLearning195"
-          topicId={1}
-          roadmapName="ai"
+          topicId={195}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/unsupervised-learning-194"
+          nextTo="/roadmaps/ai/reinforcement-learning-196"
         />
       </div>
     </div>

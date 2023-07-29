@@ -29,17 +29,17 @@ const LinearSearch549 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LinearSearch549</h1>
+        <h1>Linear Search</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/binary-search-548"
+          nextTo="/roadmaps/cs/recursion-550"
         />
         <hr />
 
         <h2>LinearSearch549</h2>
         <p>
-          LinearSearch549
+        Linear Search is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LinearSearch549 = () => {
 
         <TaskStateButtons
           topicName= "LinearSearch549"
-          topicId={1}
-          roadmapName="cs"
+          topicId={549}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/binary-search-548"
+          nextTo="/roadmaps/cs/recursion-550"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ConvexOptimization161 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ConvexOptimization161</h1>
+        <h1>Convex Optimization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/eigenvalues-and-eigenvectors-160"
+          nextTo="/roadmaps/ai/nonlinear-optimization-162"
         />
         <hr />
 
         <h2>ConvexOptimization161</h2>
         <p>
-          ConvexOptimization161
+        Convex Optimization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ConvexOptimization161 = () => {
 
         <TaskStateButtons
           topicName= "ConvexOptimization161"
-          topicId={1}
-          roadmapName="ai"
+          topicId={161}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/eigenvalues-and-eigenvectors-160"
+          nextTo="/roadmaps/ai/nonlinear-optimization-162"
         />
       </div>
     </div>

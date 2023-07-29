@@ -29,17 +29,17 @@ const Searching547 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Searching547</h1>
+        <h1>Searching</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/merge-sort-546"
+          nextTo="/roadmaps/cs/binary-search-548"
         />
         <hr />
 
         <h2>Searching547</h2>
         <p>
-          Searching547
+        Searching is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Searching547 = () => {
 
         <TaskStateButtons
           topicName= "Searching547"
-          topicId={1}
-          roadmapName="cs"
+          topicId={547}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/merge-sort-546"
+          nextTo="/roadmaps/cs/binary-search-548"
         />
       </div>
     </div>

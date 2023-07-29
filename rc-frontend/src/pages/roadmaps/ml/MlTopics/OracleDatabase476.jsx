@@ -29,17 +29,17 @@ const OracleDatabase476 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OracleDatabase476</h1>
+        <h1>Oracle Database</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/postgresql-475"
+          nextTo="/roadmaps/ml/sqlite-477"
         />
         <hr />
 
         <h2>OracleDatabase476</h2>
         <p>
-          OracleDatabase476
+        Oracle Database is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OracleDatabase476 = () => {
 
         <TaskStateButtons
           topicName= "OracleDatabase476"
-          topicId={1}
-          roadmapName="ml"
+          topicId={476}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/postgresql-475"
+          nextTo="/roadmaps/ml/sqlite-477"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Optimization146 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Optimization146</h1>
+        <h1>Optimization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/derivatives-145"
+          nextTo="/roadmaps/ai/integral-calculus-147"
         />
         <hr />
 
         <h2>Optimization146</h2>
         <p>
-          Optimization146
+        Optimization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const Optimization146 = () => {
         <TaskStateButtons
           topicName= "Optimization146"
           topicId={146}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/derivatives-145"
+          nextTo="/roadmaps/ai/integral-calculus-147"
         />
       </div>
     </div>

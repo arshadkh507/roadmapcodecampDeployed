@@ -29,17 +29,17 @@ const PropositionalVariables178 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PropositionalVariables178</h1>
+        <h1>Propositional Variables</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/propositional-logic-177"
+          nextTo="/roadmaps/ai/logical-connectives-179"
         />
         <hr />
 
         <h2>PropositionalVariables178</h2>
         <p>
-          PropositionalVariables178
+        Propositional Variables is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PropositionalVariables178 = () => {
 
         <TaskStateButtons
           topicName= "PropositionalVariables178"
-          topicId={1}
-          roadmapName="ai"
+          topicId={178}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/propositional-logic-177"
+          nextTo="/roadmaps/ai/logical-connectives-179"
         />
       </div>
     </div>

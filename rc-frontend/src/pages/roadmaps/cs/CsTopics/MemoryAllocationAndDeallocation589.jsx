@@ -29,17 +29,17 @@ const MemoryAllocationAndDeallocation589 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MemoryAllocationAndDeallocation589</h1>
+        <h1>Memory Allocation And Deallocation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/virtual-memory-588"
+          nextTo="/roadmaps/cs/probability-and-statistics-590"
         />
         <hr />
 
         <h2>MemoryAllocationAndDeallocation589</h2>
         <p>
-          MemoryAllocationAndDeallocation589
+        Memory Allocation And Deallocation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MemoryAllocationAndDeallocation589 = () => {
 
         <TaskStateButtons
           topicName= "MemoryAllocationAndDeallocation589"
-          topicId={1}
-          roadmapName="cs"
+          topicId={589}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/virtual-memory-588"
+          nextTo="/roadmaps/cs/probability-and-statistics-590"
         />
       </div>
     </div>

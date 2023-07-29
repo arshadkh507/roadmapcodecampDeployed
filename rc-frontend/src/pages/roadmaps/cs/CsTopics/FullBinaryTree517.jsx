@@ -29,17 +29,17 @@ const FullBinaryTree517 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FullBinaryTree517</h1>
+        <h1>Full Binary Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/binary-search-tree-516"
+          nextTo="/roadmaps/cs/complete-binary-tree-518"
         />
         <hr />
 
         <h2>FullBinaryTree517</h2>
         <p>
-          FullBinaryTree517
+        Full Binary Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FullBinaryTree517 = () => {
 
         <TaskStateButtons
           topicName= "FullBinaryTree517"
-          topicId={1}
-          roadmapName="cs"
+          topicId={517}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/binary-search-tree-516"
+          nextTo="/roadmaps/cs/complete-binary-tree-518"
         />
       </div>
     </div>

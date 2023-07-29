@@ -29,17 +29,17 @@ const ComputerVision406 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ComputerVision406</h1>
+        <h1>Computer Vision</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/language-translation-405"
+          nextTo="/roadmaps/ml/image-preprocessing-407"
         />
         <hr />
 
         <h2>ComputerVision406</h2>
         <p>
-          ComputerVision406
+        Computer Vision is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ComputerVision406 = () => {
 
         <TaskStateButtons
           topicName= "ComputerVision406"
-          topicId={1}
-          roadmapName="ml"
+          topicId={406}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/language-translation-405"
+          nextTo="/roadmaps/ml/image-preprocessing-407"
         />
       </div>
     </div>

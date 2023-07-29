@@ -29,17 +29,17 @@ const RDFOWLSPARQL215 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RDFOWLSPARQL215</h1>
+        <h1>R D F O W L S P A R Q L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/ontologies-and-knowledge-graphs-214"
+          nextTo="/roadmaps/ai/reasoning-216"
         />
         <hr />
 
         <h2>RDFOWLSPARQL215</h2>
         <p>
-          RDFOWLSPARQL215
+        R D F O W L S P A R Q L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RDFOWLSPARQL215 = () => {
 
         <TaskStateButtons
           topicName= "RDFOWLSPARQL215"
-          topicId={1}
-          roadmapName="ai"
+          topicId={215}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/ontologies-and-knowledge-graphs-214"
+          nextTo="/roadmaps/ai/reasoning-216"
         />
       </div>
     </div>

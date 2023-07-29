@@ -29,17 +29,17 @@ const Hessian274 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Hessian274</h1>
+        <h1>Hessian</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gradient-273"
+          nextTo="/roadmaps/ml/jacobian-275"
         />
         <hr />
 
         <h2>Hessian274</h2>
         <p>
-          Hessian274
+        Hessian is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Hessian274 = () => {
 
         <TaskStateButtons
           topicName= "Hessian274"
-          topicId={1}
-          roadmapName="ml"
+          topicId={274}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gradient-273"
+          nextTo="/roadmaps/ml/jacobian-275"
         />
       </div>
     </div>

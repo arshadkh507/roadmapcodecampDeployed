@@ -29,17 +29,17 @@ const MonteCarloIntegration314 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MonteCarloIntegration314</h1>
+        <h1>Monte Carlo Integration</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/map-313"
+          nextTo="/roadmaps/ml/naive-bayes-classifiers-315"
         />
         <hr />
 
         <h2>MonteCarloIntegration314</h2>
         <p>
-          MonteCarloIntegration314
+        Monte Carlo Integration is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MonteCarloIntegration314 = () => {
 
         <TaskStateButtons
           topicName= "MonteCarloIntegration314"
-          topicId={1}
-          roadmapName="ml"
+          topicId={314}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/map-313"
+          nextTo="/roadmaps/ml/naive-bayes-classifiers-315"
         />
       </div>
     </div>

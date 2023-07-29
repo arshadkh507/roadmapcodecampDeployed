@@ -29,17 +29,17 @@ const BiasAndFairness232 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BiasAndFairness232</h1>
+        <h1>Bias And Fairness</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-ethics-and-governance-231"
+          nextTo="/roadmaps/ai/accountability-and-transparency-233"
         />
         <hr />
 
         <h2>BiasAndFairness232</h2>
         <p>
-          BiasAndFairness232
+        Bias And Fairness is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BiasAndFairness232 = () => {
 
         <TaskStateButtons
           topicName= "BiasAndFairness232"
-          topicId={1}
-          roadmapName="ai"
+          topicId={232}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-ethics-and-governance-231"
+          nextTo="/roadmaps/ai/accountability-and-transparency-233"
         />
       </div>
     </div>

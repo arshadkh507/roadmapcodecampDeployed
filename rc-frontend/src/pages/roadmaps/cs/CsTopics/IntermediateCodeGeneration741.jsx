@@ -29,17 +29,17 @@ const IntermediateCodeGeneration741 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>IntermediateCodeGeneration741</h1>
+        <h1>Intermediate Code Generation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/semantic-analysis-740"
+          nextTo="/roadmaps/cs/code-optimization-742"
         />
         <hr />
 
         <h2>IntermediateCodeGeneration741</h2>
         <p>
-          IntermediateCodeGeneration741
+        Intermediate Code Generation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const IntermediateCodeGeneration741 = () => {
 
         <TaskStateButtons
           topicName= "IntermediateCodeGeneration741"
-          topicId={1}
-          roadmapName="cs"
+          topicId={741}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/semantic-analysis-740"
+          nextTo="/roadmaps/cs/code-optimization-742"
         />
       </div>
     </div>

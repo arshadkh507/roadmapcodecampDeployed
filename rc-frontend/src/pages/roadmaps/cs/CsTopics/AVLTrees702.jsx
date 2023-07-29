@@ -29,17 +29,17 @@ const AVLTrees702 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AVLTrees702</h1>
+        <h1>A V L Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tries-701"
+          nextTo="/roadmaps/cs/-black-trees-703"
         />
         <hr />
 
         <h2>AVLTrees702</h2>
         <p>
-          AVLTrees702
+        A V L Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AVLTrees702 = () => {
 
         <TaskStateButtons
           topicName= "AVLTrees702"
-          topicId={1}
-          roadmapName="cs"
+          topicId={702}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tries-701"
+          nextTo="/roadmaps/cs/-black-trees-703"
         />
       </div>
     </div>

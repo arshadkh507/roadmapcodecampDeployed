@@ -29,17 +29,17 @@ const CommonRuntimes532 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CommonRuntimes532</h1>
+        <h1>Common Runtimes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/big-ω-notation-531"
+          nextTo="/roadmaps/cs/constant-533"
         />
         <hr />
 
         <h2>CommonRuntimes532</h2>
         <p>
-          CommonRuntimes532
+        Common Runtimes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CommonRuntimes532 = () => {
 
         <TaskStateButtons
           topicName= "CommonRuntimes532"
-          topicId={1}
-          roadmapName="cs"
+          topicId={532}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/big-ω-notation-531"
+          nextTo="/roadmaps/cs/constant-533"
         />
       </div>
     </div>

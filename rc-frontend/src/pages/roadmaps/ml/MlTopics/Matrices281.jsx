@@ -29,17 +29,17 @@ const Matrices281 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Matrices281</h1>
+        <h1>Matrices</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/vectors-280"
+          nextTo="/roadmaps/ml/tensors-282"
         />
         <hr />
 
         <h2>Matrices281</h2>
         <p>
-          Matrices281
+        Matrices is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Matrices281 = () => {
 
         <TaskStateButtons
           topicName= "Matrices281"
-          topicId={1}
-          roadmapName="ml"
+          topicId={281}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/vectors-280"
+          nextTo="/roadmaps/ml/tensors-282"
         />
       </div>
     </div>

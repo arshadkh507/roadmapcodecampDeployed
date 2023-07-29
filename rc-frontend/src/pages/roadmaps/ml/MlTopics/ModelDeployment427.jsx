@@ -29,17 +29,17 @@ const ModelDeployment427 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ModelDeployment427</h1>
+        <h1>Model Deployment</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/deployment-and-production-426"
+          nextTo="/roadmaps/ml/containerization-and-orchestration-428"
         />
         <hr />
 
         <h2>ModelDeployment427</h2>
         <p>
-          ModelDeployment427
+        Model Deployment is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ModelDeployment427 = () => {
 
         <TaskStateButtons
           topicName= "ModelDeployment427"
-          topicId={1}
-          roadmapName="ml"
+          topicId={427}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/deployment-and-production-426"
+          nextTo="/roadmaps/ml/containerization-and-orchestration-428"
         />
       </div>
     </div>

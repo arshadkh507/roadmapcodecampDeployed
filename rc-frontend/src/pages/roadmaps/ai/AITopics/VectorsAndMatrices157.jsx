@@ -29,17 +29,17 @@ const VectorsAndMatrices157 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VectorsAndMatrices157</h1>
+        <h1>Vectors And Matrices</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/line-integrals-and-surface-integrals-156"
+          nextTo="/roadmaps/ai/matrix-multiplication-158"
         />
         <hr />
 
         <h2>VectorsAndMatrices157</h2>
         <p>
-          VectorsAndMatrices157
+        Vectors And Matrices is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VectorsAndMatrices157 = () => {
 
         <TaskStateButtons
           topicName= "VectorsAndMatrices157"
-          topicId={1}
-          roadmapName="ai"
+          topicId={157}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/line-integrals-and-surface-integrals-156"
+          nextTo="/roadmaps/ai/matrix-multiplication-158"
         />
       </div>
     </div>

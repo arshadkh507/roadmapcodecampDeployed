@@ -29,17 +29,17 @@ const DependencyInjection684 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DependencyInjection684</h1>
+        <h1>Dependency Injection</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/architectural-patterns-683"
+          nextTo="/roadmaps/cs/null-object-pattern-685"
         />
         <hr />
 
         <h2>DependencyInjection684</h2>
         <p>
-          DependencyInjection684
+        Dependency Injection is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DependencyInjection684 = () => {
 
         <TaskStateButtons
           topicName= "DependencyInjection684"
-          topicId={1}
-          roadmapName="cs"
+          topicId={684}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/architectural-patterns-683"
+          nextTo="/roadmaps/cs/null-object-pattern-685"
         />
       </div>
     </div>

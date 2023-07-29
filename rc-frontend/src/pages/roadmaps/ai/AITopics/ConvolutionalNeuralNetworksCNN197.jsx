@@ -29,17 +29,17 @@ const ConvolutionalNeuralNetworksCNN197 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ConvolutionalNeuralNetworksCNN197</h1>
+        <h1>Convolutional Neural Networks C N N</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/reinforcement-learning-196"
+          nextTo="/roadmaps/ai/recurrent-neural-networks-rnn-198"
         />
         <hr />
 
         <h2>ConvolutionalNeuralNetworksCNN197</h2>
         <p>
-          ConvolutionalNeuralNetworksCNN197
+        Convolutional Neural Networks C N N is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ConvolutionalNeuralNetworksCNN197 = () => {
 
         <TaskStateButtons
           topicName= "ConvolutionalNeuralNetworksCNN197"
-          topicId={1}
-          roadmapName="ai"
+          topicId={197}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/reinforcement-learning-196"
+          nextTo="/roadmaps/ai/recurrent-neural-networks-rnn-198"
         />
       </div>
     </div>

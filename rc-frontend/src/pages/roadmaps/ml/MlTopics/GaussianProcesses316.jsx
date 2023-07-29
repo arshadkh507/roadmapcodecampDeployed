@@ -29,17 +29,17 @@ const GaussianProcesses316 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GaussianProcesses316</h1>
+        <h1>Gaussian Processes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/naive-bayes-classifiers-315"
+          nextTo="/roadmaps/ml/hidden-markov-models-317"
         />
         <hr />
 
         <h2>GaussianProcesses316</h2>
         <p>
-          GaussianProcesses316
+        Gaussian Processes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GaussianProcesses316 = () => {
 
         <TaskStateButtons
           topicName= "GaussianProcesses316"
-          topicId={1}
-          roadmapName="ml"
+          topicId={316}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/naive-bayes-classifiers-315"
+          nextTo="/roadmaps/ml/hidden-markov-models-317"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ObjectRecognitionAndTracking223 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ObjectRecognitionAndTracking223</h1>
+        <h1>Object Recognition And Tracking</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/sensing-and-mapping-222"
+          nextTo="/roadmaps/ai/robot-kinematics-224"
         />
         <hr />
 
         <h2>ObjectRecognitionAndTracking223</h2>
         <p>
-          ObjectRecognitionAndTracking223
+        Object Recognition And Tracking is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ObjectRecognitionAndTracking223 = () => {
 
         <TaskStateButtons
           topicName= "ObjectRecognitionAndTracking223"
-          topicId={1}
-          roadmapName="ai"
+          topicId={223}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/sensing-and-mapping-222"
+          nextTo="/roadmaps/ai/robot-kinematics-224"
         />
       </div>
     </div>

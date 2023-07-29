@@ -29,17 +29,17 @@ const Transpose285 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Transpose285</h1>
+        <h1>Transpose</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matrix-inverse-284"
+          nextTo="/roadmaps/ml/eigendecomposition-286"
         />
         <hr />
 
         <h2>Transpose285</h2>
         <p>
-          Transpose285
+        Transpose is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Transpose285 = () => {
 
         <TaskStateButtons
           topicName= "Transpose285"
-          topicId={1}
-          roadmapName="ml"
+          topicId={285}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/matrix-inverse-284"
+          nextTo="/roadmaps/ml/eigendecomposition-286"
         />
       </div>
     </div>

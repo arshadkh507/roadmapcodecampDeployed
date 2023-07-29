@@ -29,17 +29,17 @@ const DescriptionLogicReasoning218 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DescriptionLogicReasoning218</h1>
+        <h1>Description Logic Reasoning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/rule-based-reasoning-217"
+          nextTo="/roadmaps/ai/knowledge-graph-embeddings-219"
         />
         <hr />
 
         <h2>DescriptionLogicReasoning218</h2>
         <p>
-          DescriptionLogicReasoning218
+        Description Logic Reasoning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DescriptionLogicReasoning218 = () => {
 
         <TaskStateButtons
           topicName= "DescriptionLogicReasoning218"
-          topicId={1}
-          roadmapName="ai"
+          topicId={218}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/rule-based-reasoning-217"
+          nextTo="/roadmaps/ai/knowledge-graph-embeddings-219"
         />
       </div>
     </div>

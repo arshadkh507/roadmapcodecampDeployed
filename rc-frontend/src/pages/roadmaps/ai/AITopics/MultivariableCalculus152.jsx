@@ -29,17 +29,17 @@ const MultivariableCalculus152 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MultivariableCalculus152</h1>
+        <h1>Multivariable Calculus</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/differential-equations-151"
+          nextTo="/roadmaps/ai/partial-derivatives-153"
         />
         <hr />
 
         <h2>MultivariableCalculus152</h2>
         <p>
-          MultivariableCalculus152
+        Multivariable Calculus is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MultivariableCalculus152 = () => {
 
         <TaskStateButtons
           topicName= "MultivariableCalculus152"
-          topicId={1}
-          roadmapName="ai"
+          topicId={152}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/differential-equations-151"
+          nextTo="/roadmaps/ai/partial-derivatives-153"
         />
       </div>
     </div>

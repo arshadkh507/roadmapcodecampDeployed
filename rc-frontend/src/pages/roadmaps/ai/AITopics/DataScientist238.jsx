@@ -29,17 +29,17 @@ const DataScientist238 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataScientist238</h1>
+        <h1>Data Scientist</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/machine-learning-engineer-237"
+          nextTo="/roadmaps/ai/ai-research-scientist-239"
         />
         <hr />
 
         <h2>DataScientist238</h2>
         <p>
-          DataScientist238
+        Data Scientist is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataScientist238 = () => {
 
         <TaskStateButtons
           topicName= "DataScientist238"
-          topicId={1}
-          roadmapName="ai"
+          topicId={238}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/machine-learning-engineer-237"
+          nextTo="/roadmaps/ai/ai-research-scientist-239"
         />
       </div>
     </div>

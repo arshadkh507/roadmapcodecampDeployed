@@ -29,17 +29,17 @@ const SoftwareEngineeringAndDevOps432 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SoftwareEngineeringAndDevOps432</h1>
+        <h1>Software Engineering And Dev Ops</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/security-and-compliance-431"
+          nextTo="/roadmaps/ml/code-version-control-433"
         />
         <hr />
 
         <h2>SoftwareEngineeringAndDevOps432</h2>
         <p>
-          SoftwareEngineeringAndDevOps432
+        Software Engineering And Dev Ops is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SoftwareEngineeringAndDevOps432 = () => {
 
         <TaskStateButtons
           topicName= "SoftwareEngineeringAndDevOps432"
-          topicId={1}
-          roadmapName="ml"
+          topicId={432}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/security-and-compliance-431"
+          nextTo="/roadmaps/ml/code-version-control-433"
         />
       </div>
     </div>

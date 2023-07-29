@@ -29,17 +29,17 @@ const RabinKarp674 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RabinKarp674</h1>
+        <h1>Rabin Karp</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/boyer-moore-673"
+          nextTo="/roadmaps/cs/search-pattern-in-text-675"
         />
         <hr />
 
         <h2>RabinKarp674</h2>
         <p>
-          RabinKarp674
+        Rabin Karp is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RabinKarp674 = () => {
 
         <TaskStateButtons
           topicName= "RabinKarp674"
-          topicId={1}
-          roadmapName="cs"
+          topicId={674}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/boyer-moore-673"
+          nextTo="/roadmaps/cs/search-pattern-in-text-675"
         />
       </div>
     </div>

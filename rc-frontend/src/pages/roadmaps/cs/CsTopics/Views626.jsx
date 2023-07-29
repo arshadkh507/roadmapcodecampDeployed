@@ -29,17 +29,17 @@ const Views626 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Views626</h1>
+        <h1>Views</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/indexes-625"
+          nextTo="/roadmaps/cs/stored-procedures-627"
         />
         <hr />
 
         <h2>Views626</h2>
         <p>
-          Views626
+        Views is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Views626 = () => {
 
         <TaskStateButtons
           topicName= "Views626"
-          topicId={1}
-          roadmapName="cs"
+          topicId={626}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/indexes-625"
+          nextTo="/roadmaps/cs/stored-procedures-627"
         />
       </div>
     </div>

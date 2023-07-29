@@ -29,17 +29,17 @@ const Tries701 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Tries701</h1>
+        <h1>Tries</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/b-tree-700"
+          nextTo="/roadmaps/cs/avl-trees-702"
         />
         <hr />
 
         <h2>Tries701</h2>
         <p>
-          Tries701
+        Tries is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Tries701 = () => {
 
         <TaskStateButtons
           topicName= "Tries701"
-          topicId={1}
-          roadmapName="cs"
+          topicId={701}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/b-tree-700"
+          nextTo="/roadmaps/cs/avl-trees-702"
         />
       </div>
     </div>

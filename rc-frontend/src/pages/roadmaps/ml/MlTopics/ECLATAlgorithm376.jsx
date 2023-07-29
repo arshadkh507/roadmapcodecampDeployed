@@ -29,17 +29,17 @@ const ECLATAlgorithm376 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ECLATAlgorithm376</h1>
+        <h1>E C L A T Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/apriori-algorithm-375"
+          nextTo="/roadmaps/ml/fp-trees-377"
         />
         <hr />
 
         <h2>ECLATAlgorithm376</h2>
         <p>
-          ECLATAlgorithm376
+        E C L A T Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ECLATAlgorithm376 = () => {
 
         <TaskStateButtons
           topicName= "ECLATAlgorithm376"
-          topicId={1}
-          roadmapName="ml"
+          topicId={376}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/apriori-algorithm-375"
+          nextTo="/roadmaps/ml/fp-trees-377"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const TextProcessing200 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TextProcessing200</h1>
+        <h1>Text Processing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/generative-models-199"
+          nextTo="/roadmaps/ai/language-modeling-201"
         />
         <hr />
 
         <h2>TextProcessing200</h2>
         <p>
-          TextProcessing200
+        Text Processing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TextProcessing200 = () => {
 
         <TaskStateButtons
           topicName= "TextProcessing200"
-          topicId={1}
-          roadmapName="ai"
+          topicId={200}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/generative-models-199"
+          nextTo="/roadmaps/ai/language-modeling-201"
         />
       </div>
     </div>

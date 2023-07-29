@@ -29,17 +29,17 @@ const Tree514 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Tree514</h1>
+        <h1>Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graph-513"
+          nextTo="/roadmaps/cs/binary-tree-515"
         />
         <hr />
 
         <h2>Tree514</h2>
         <p>
-          Tree514
+        Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Tree514 = () => {
 
         <TaskStateButtons
           topicName= "Tree514"
-          topicId={1}
-          roadmapName="cs"
+          topicId={514}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graph-513"
+          nextTo="/roadmaps/cs/binary-tree-515"
         />
       </div>
     </div>

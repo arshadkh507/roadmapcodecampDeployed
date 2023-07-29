@@ -29,17 +29,17 @@ const SearchPatternInText675 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SearchPatternInText675</h1>
+        <h1>Search Pattern In Text</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/rabin-karp-674"
+          nextTo="/roadmaps/cs/suffix-arrays-676"
         />
         <hr />
 
         <h2>SearchPatternInText675</h2>
         <p>
-          SearchPatternInText675
+        Search Pattern In Text is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SearchPatternInText675 = () => {
 
         <TaskStateButtons
           topicName= "SearchPatternInText675"
-          topicId={1}
-          roadmapName="cs"
+          topicId={675}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/rabin-karp-674"
+          nextTo="/roadmaps/cs/suffix-arrays-676"
         />
       </div>
     </div>

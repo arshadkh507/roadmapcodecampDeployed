@@ -29,17 +29,17 @@ const InferentialStatistics294 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>InferentialStatistics294</h1>
+        <h1>Inferential Statistics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/descriptive-statistics-293"
+          nextTo="/roadmaps/ml/hypothesis-testing-295"
         />
         <hr />
 
         <h2>InferentialStatistics294</h2>
         <p>
-          InferentialStatistics294
+        Inferential Statistics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const InferentialStatistics294 = () => {
 
         <TaskStateButtons
           topicName= "InferentialStatistics294"
-          topicId={1}
-          roadmapName="ml"
+          topicId={294}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/descriptive-statistics-293"
+          nextTo="/roadmaps/ml/hypothesis-testing-295"
         />
       </div>
     </div>

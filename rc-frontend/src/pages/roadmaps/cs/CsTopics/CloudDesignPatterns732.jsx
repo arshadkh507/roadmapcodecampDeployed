@@ -29,17 +29,17 @@ const CloudDesignPatterns732 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CloudDesignPatterns732</h1>
+        <h1>Cloud Design Patterns</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/grpc-731"
+          nextTo="/roadmaps/cs/long-polling-733"
         />
         <hr />
 
         <h2>CloudDesignPatterns732</h2>
         <p>
-          CloudDesignPatterns732
+        Cloud Design Patterns is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CloudDesignPatterns732 = () => {
 
         <TaskStateButtons
           topicName= "CloudDesignPatterns732"
-          topicId={1}
-          roadmapName="cs"
+          topicId={732}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/grpc-731"
+          nextTo="/roadmaps/cs/long-polling-733"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const FaceRecognition410 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FaceRecognition410</h1>
+        <h1>Face Recognition</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-segmentation-409"
+          nextTo="/roadmaps/ml/time-series-analysis-411"
         />
         <hr />
 
         <h2>FaceRecognition410</h2>
         <p>
-          FaceRecognition410
+        Face Recognition is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FaceRecognition410 = () => {
 
         <TaskStateButtons
           topicName= "FaceRecognition410"
-          topicId={1}
-          roadmapName="ml"
+          topicId={410}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/image-segmentation-409"
+          nextTo="/roadmaps/ml/time-series-analysis-411"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const TrendAnalysis412 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TrendAnalysis412</h1>
+        <h1>Trend Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/time-series-analysis-411"
+          nextTo="/roadmaps/ml/seasonality-analysis-413"
         />
         <hr />
 
         <h2>TrendAnalysis412</h2>
         <p>
-          TrendAnalysis412
+        Trend Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TrendAnalysis412 = () => {
 
         <TaskStateButtons
           topicName= "TrendAnalysis412"
-          topicId={1}
-          roadmapName="ml"
+          topicId={412}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/time-series-analysis-411"
+          nextTo="/roadmaps/ml/seasonality-analysis-413"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const NumPyBroadcasting321 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NumPyBroadcasting321</h1>
+        <h1>Num Py Broadcasting</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-arrays-320"
+          nextTo="/roadmaps/ml/numpy-indexing-322"
         />
         <hr />
 
         <h2>NumPyBroadcasting321</h2>
         <p>
-          NumPyBroadcasting321
+        Num Py Broadcasting is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NumPyBroadcasting321 = () => {
 
         <TaskStateButtons
           topicName= "NumPyBroadcasting321"
-          topicId={1}
-          roadmapName="ml"
+          topicId={321}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-arrays-320"
+          nextTo="/roadmaps/ml/numpy-indexing-322"
         />
       </div>
     </div>

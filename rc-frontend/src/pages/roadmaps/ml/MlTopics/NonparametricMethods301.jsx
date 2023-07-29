@@ -29,17 +29,17 @@ const NonparametricMethods301 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NonparametricMethods301</h1>
+        <h1>Nonparametric Methods</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/time-series-analysis-300"
+          nextTo="/roadmaps/ml/bayesian-statistics-302"
         />
         <hr />
 
         <h2>NonparametricMethods301</h2>
         <p>
-          NonparametricMethods301
+        Nonparametric Methods is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NonparametricMethods301 = () => {
 
         <TaskStateButtons
           topicName= "NonparametricMethods301"
-          topicId={1}
-          roadmapName="ml"
+          topicId={301}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/time-series-analysis-300"
+          nextTo="/roadmaps/ml/bayesian-statistics-302"
         />
       </div>
     </div>

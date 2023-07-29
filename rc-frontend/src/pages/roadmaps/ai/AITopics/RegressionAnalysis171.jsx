@@ -29,17 +29,17 @@ const RegressionAnalysis171 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RegressionAnalysis171</h1>
+        <h1>Regression Analysis</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/hypothesis-testing-170"
+          nextTo="/roadmaps/ai/python-172"
         />
         <hr />
 
         <h2>RegressionAnalysis171</h2>
         <p>
-          RegressionAnalysis171
+        Regression Analysis is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RegressionAnalysis171 = () => {
 
         <TaskStateButtons
           topicName= "RegressionAnalysis171"
-          topicId={1}
-          roadmapName="ai"
+          topicId={171}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/hypothesis-testing-170"
+          nextTo="/roadmaps/ai/python-172"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,17 +29,17 @@ const AreasAndVolumes150 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AreasAndVolumes150</h1>
+        <h1>Areas And Volumes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/indefinite-integrals-149"
+          nextTo="/roadmaps/ai/differential-equations-151"
         />
         <hr />
 
         <h2>AreasAndVolumes150</h2>
         <p>
-          AreasAndVolumes150
+        Areas And Volumes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,20 +63,20 @@ const AreasAndVolumes150 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="AreasAndVolumes150"
+          topicName= "AreasAndVolumes150"
           topicId={150}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/indefinite-integrals-149"
+          nextTo="/roadmaps/ai/differential-equations-151"
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default AreasAndVolumes150;

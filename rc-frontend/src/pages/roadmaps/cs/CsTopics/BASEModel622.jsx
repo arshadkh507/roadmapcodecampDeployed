@@ -29,17 +29,17 @@ const BASEModel622 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BASEModel622</h1>
+        <h1>B A S E Model</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/acid-model-621"
+          nextTo="/roadmaps/cs/cap-theorem-623"
         />
         <hr />
 
         <h2>BASEModel622</h2>
         <p>
-          BASEModel622
+        B A S E Model is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BASEModel622 = () => {
 
         <TaskStateButtons
           topicName= "BASEModel622"
-          topicId={1}
-          roadmapName="cs"
+          topicId={622}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/acid-model-621"
+          nextTo="/roadmaps/cs/cap-theorem-623"
         />
       </div>
     </div>

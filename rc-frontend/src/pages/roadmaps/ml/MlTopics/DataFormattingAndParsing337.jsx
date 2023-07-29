@@ -29,17 +29,17 @@ const DataFormattingAndParsing337 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DataFormattingAndParsing337</h1>
+        <h1>Data Formatting And Parsing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/inconsistencies-336"
+          nextTo="/roadmaps/ml/data-transformation-338"
         />
         <hr />
 
         <h2>DataFormattingAndParsing337</h2>
         <p>
-          DataFormattingAndParsing337
+        Data Formatting And Parsing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DataFormattingAndParsing337 = () => {
 
         <TaskStateButtons
           topicName= "DataFormattingAndParsing337"
-          topicId={1}
-          roadmapName="ml"
+          topicId={337}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/inconsistencies-336"
+          nextTo="/roadmaps/ml/data-transformation-338"
         />
       </div>
     </div>

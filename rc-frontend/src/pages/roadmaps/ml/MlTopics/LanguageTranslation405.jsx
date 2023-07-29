@@ -29,17 +29,17 @@ const LanguageTranslation405 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LanguageTranslation405</h1>
+        <h1>Language Translation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/named-entity-recognition-404"
+          nextTo="/roadmaps/ml/computer-vision-406"
         />
         <hr />
 
         <h2>LanguageTranslation405</h2>
         <p>
-          LanguageTranslation405
+        Language Translation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LanguageTranslation405 = () => {
 
         <TaskStateButtons
           topicName= "LanguageTranslation405"
-          topicId={1}
-          roadmapName="ml"
+          topicId={405}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/named-entity-recognition-404"
+          nextTo="/roadmaps/ml/computer-vision-406"
         />
       </div>
     </div>

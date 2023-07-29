@@ -29,17 +29,17 @@ const LinearTransformations159 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LinearTransformations159</h1>
+        <h1>Linear Transformations</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/matrix-multiplication-158"
+          nextTo="/roadmaps/ai/eigenvalues-and-eigenvectors-160"
         />
         <hr />
 
         <h2>LinearTransformations159</h2>
         <p>
-          LinearTransformations159
+        Linear Transformations is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LinearTransformations159 = () => {
 
         <TaskStateButtons
           topicName= "LinearTransformations159"
-          topicId={1}
-          roadmapName="ai"
+          topicId={159}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/matrix-multiplication-158"
+          nextTo="/roadmaps/ai/eigenvalues-and-eigenvectors-160"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const CommonUMLDiagrams635 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CommonUMLDiagrams635</h1>
+        <h1>Common U M L Diagrams</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/software-design-patterns-634"
+          nextTo="/roadmaps/cs/class-diagrams-636"
         />
         <hr />
 
         <h2>CommonUMLDiagrams635</h2>
         <p>
-          CommonUMLDiagrams635
+        Common U M L Diagrams is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CommonUMLDiagrams635 = () => {
 
         <TaskStateButtons
           topicName= "CommonUMLDiagrams635"
-          topicId={1}
-          roadmapName="cs"
+          topicId={635}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/software-design-patterns-634"
+          nextTo="/roadmaps/cs/class-diagrams-636"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const SSE736 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SSE736</h1>
+        <h1>S S E</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/web-sockets-735"
+          nextTo="/roadmaps/cs/compiler-design-737"
         />
         <hr />
 
         <h2>SSE736</h2>
         <p>
-          SSE736
+        S S E is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SSE736 = () => {
 
         <TaskStateButtons
           topicName= "SSE736"
-          topicId={1}
-          roadmapName="cs"
+          topicId={736}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/web-sockets-735"
+          nextTo="/roadmaps/cs/compiler-design-737"
         />
       </div>
     </div>

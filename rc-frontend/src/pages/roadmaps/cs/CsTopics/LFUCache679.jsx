@@ -29,17 +29,17 @@ const LFUCache679 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LFUCache679</h1>
+        <h1>L F U Cache</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lru-cache-678"
+          nextTo="/roadmaps/cs/mfu-cache-680"
         />
         <hr />
 
         <h2>LFUCache679</h2>
         <p>
-          LFUCache679
+        L F U Cache is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LFUCache679 = () => {
 
         <TaskStateButtons
           topicName= "LFUCache679"
-          topicId={1}
-          roadmapName="cs"
+          topicId={679}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/lru-cache-678"
+          nextTo="/roadmaps/cs/mfu-cache-680"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const HypothesisTesting170 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HypothesisTesting170</h1>
+        <h1>Hypothesis Testing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/inferential-statistics-169"
+          nextTo="/roadmaps/ai/regression-analysis-171"
         />
         <hr />
 
         <h2>HypothesisTesting170</h2>
         <p>
-          HypothesisTesting170
+        Hypothesis Testing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HypothesisTesting170 = () => {
 
         <TaskStateButtons
           topicName= "HypothesisTesting170"
-          topicId={1}
-          roadmapName="ai"
+          topicId={170}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/inferential-statistics-169"
+          nextTo="/roadmaps/ai/regression-analysis-171"
         />
       </div>
     </div>

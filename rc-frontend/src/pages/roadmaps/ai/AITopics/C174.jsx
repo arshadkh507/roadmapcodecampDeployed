@@ -29,17 +29,17 @@ const C174 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>C174</h1>
+        <h1>C</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/java-173"
+          nextTo="/roadmaps/ai/javascript-175"
         />
         <hr />
 
         <h2>C174</h2>
         <p>
-          C174
+        C is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const C174 = () => {
 
         <TaskStateButtons
           topicName= "C174"
-          topicId={1}
-          roadmapName="ai"
+          topicId={174}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/java-173"
+          nextTo="/roadmaps/ai/javascript-175"
         />
       </div>
     </div>

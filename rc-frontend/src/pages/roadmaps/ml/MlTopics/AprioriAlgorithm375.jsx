@@ -29,17 +29,17 @@ const AprioriAlgorithm375 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AprioriAlgorithm375</h1>
+        <h1>Apriori Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/association-rule-learning-374"
+          nextTo="/roadmaps/ml/eclat-algorithm-376"
         />
         <hr />
 
         <h2>AprioriAlgorithm375</h2>
         <p>
-          AprioriAlgorithm375
+        Apriori Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AprioriAlgorithm375 = () => {
 
         <TaskStateButtons
           topicName= "AprioriAlgorithm375"
-          topicId={1}
-          roadmapName="ml"
+          topicId={375}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/association-rule-learning-374"
+          nextTo="/roadmaps/ml/eclat-algorithm-376"
         />
       </div>
     </div>

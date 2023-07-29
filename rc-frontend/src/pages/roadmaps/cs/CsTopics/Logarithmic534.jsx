@@ -29,17 +29,17 @@ const Logarithmic534 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Logarithmic534</h1>
+        <h1>Logarithmic</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/constant-533"
+          nextTo="/roadmaps/cs/linear-535"
         />
         <hr />
 
         <h2>Logarithmic534</h2>
         <p>
-          Logarithmic534
+        Logarithmic is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Logarithmic534 = () => {
 
         <TaskStateButtons
           topicName= "Logarithmic534"
-          topicId={1}
-          roadmapName="cs"
+          topicId={534}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/constant-533"
+          nextTo="/roadmaps/cs/linear-535"
         />
       </div>
     </div>

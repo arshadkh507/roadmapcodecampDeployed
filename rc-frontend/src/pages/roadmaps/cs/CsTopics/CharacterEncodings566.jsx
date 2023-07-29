@@ -29,17 +29,17 @@ const CharacterEncodings566 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CharacterEncodings566</h1>
+        <h1>Character Encodings</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/floating-point-numbers-565"
+          nextTo="/roadmaps/cs/unicode-567"
         />
         <hr />
 
         <h2>CharacterEncodings566</h2>
         <p>
-          CharacterEncodings566
+        Character Encodings is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CharacterEncodings566 = () => {
 
         <TaskStateButtons
           topicName= "CharacterEncodings566"
-          topicId={1}
-          roadmapName="cs"
+          topicId={566}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/floating-point-numbers-565"
+          nextTo="/roadmaps/cs/unicode-567"
         />
       </div>
     </div>

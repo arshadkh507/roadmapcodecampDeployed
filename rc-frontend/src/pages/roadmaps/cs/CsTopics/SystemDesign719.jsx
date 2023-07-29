@@ -29,17 +29,17 @@ const SystemDesign719 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SystemDesign719</h1>
+        <h1>System Design</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cpu-cache-718"
+          nextTo="/roadmaps/cs/horizontal-vs-vertical-scaling-720"
         />
         <hr />
 
         <h2>SystemDesign719</h2>
         <p>
-          SystemDesign719
+        System Design is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SystemDesign719 = () => {
 
         <TaskStateButtons
           topicName= "SystemDesign719"
-          topicId={1}
-          roadmapName="cs"
+          topicId={719}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cpu-cache-718"
+          nextTo="/roadmaps/cs/horizontal-vs-vertical-scaling-720"
         />
       </div>
     </div>

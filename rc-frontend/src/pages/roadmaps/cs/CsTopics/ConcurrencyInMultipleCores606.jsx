@@ -29,17 +29,17 @@ const ConcurrencyInMultipleCores606 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ConcurrencyInMultipleCores606</h1>
+        <h1>Concurrency In Multiple Cores</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/scheduling-algorithms-605"
+          nextTo="/roadmaps/cs/-semaphore-607"
         />
         <hr />
 
         <h2>ConcurrencyInMultipleCores606</h2>
         <p>
-          ConcurrencyInMultipleCores606
+        Concurrency In Multiple Cores is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ConcurrencyInMultipleCores606 = () => {
 
         <TaskStateButtons
           topicName= "ConcurrencyInMultipleCores606"
-          topicId={1}
-          roadmapName="cs"
+          topicId={606}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/scheduling-algorithms-605"
+          nextTo="/roadmaps/cs/-semaphore-607"
         />
       </div>
     </div>

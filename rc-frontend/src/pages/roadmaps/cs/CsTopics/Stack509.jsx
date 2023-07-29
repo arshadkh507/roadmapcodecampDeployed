@@ -29,17 +29,17 @@ const Stack509 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Stack509</h1>
+        <h1>Stack</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/link-lists-508"
+          nextTo="/roadmaps/cs/queue-510"
         />
         <hr />
 
         <h2>Stack509</h2>
         <p>
-          Stack509
+        Stack is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Stack509 = () => {
 
         <TaskStateButtons
           topicName= "Stack509"
-          topicId={1}
-          roadmapName="cs"
+          topicId={509}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/link-lists-508"
+          nextTo="/roadmaps/cs/queue-510"
         />
       </div>
     </div>

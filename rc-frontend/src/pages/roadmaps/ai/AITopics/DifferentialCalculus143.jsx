@@ -29,17 +29,17 @@ const DifferentialCalculus143 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DifferentialCalculus143</h1>
+        <h1>Differential Calculus</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/mathematics-142"
+          nextTo="/roadmaps/ai/limits-and-continuity-144"
         />
         <hr />
 
         <h2>DifferentialCalculus143</h2>
         <p>
-          DifferentialCalculus143
+        Differential Calculus is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const DifferentialCalculus143 = () => {
         <TaskStateButtons
           topicName= "DifferentialCalculus143"
           topicId={143}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/mathematics-142"
+          nextTo="/roadmaps/ai/limits-and-continuity-144"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const StochasticOptimization164 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StochasticOptimization164</h1>
+        <h1>Stochastic Optimization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/gradient-descent-163"
+          nextTo="/roadmaps/ai/probability-theory-165"
         />
         <hr />
 
         <h2>StochasticOptimization164</h2>
         <p>
-          StochasticOptimization164
+        Stochastic Optimization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StochasticOptimization164 = () => {
 
         <TaskStateButtons
           topicName= "StochasticOptimization164"
-          topicId={1}
-          roadmapName="ai"
+          topicId={164}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/gradient-descent-163"
+          nextTo="/roadmaps/ai/probability-theory-165"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const CodeVersionControl433 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CodeVersionControl433</h1>
+        <h1>Code Version Control</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/software-engineering-and-devops-432"
+          nextTo="/roadmaps/ml/git-and-github-434"
         />
         <hr />
 
         <h2>CodeVersionControl433</h2>
         <p>
-          CodeVersionControl433
+        Code Version Control is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CodeVersionControl433 = () => {
 
         <TaskStateButtons
           topicName= "CodeVersionControl433"
-          topicId={1}
-          roadmapName="ml"
+          topicId={433}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/software-engineering-and-devops-432"
+          nextTo="/roadmaps/ml/git-and-github-434"
         />
       </div>
     </div>

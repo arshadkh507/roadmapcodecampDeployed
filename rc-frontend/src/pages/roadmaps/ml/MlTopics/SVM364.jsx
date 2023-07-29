@@ -29,17 +29,17 @@ const SVM364 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SVM364</h1>
+        <h1>S V M</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/k-nearest-neighbour-363"
+          nextTo="/roadmaps/ml/gaussian-mixture-models-365"
         />
         <hr />
 
         <h2>SVM364</h2>
         <p>
-          SVM364
+        S V M is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SVM364 = () => {
 
         <TaskStateButtons
           topicName= "SVM364"
-          topicId={1}
-          roadmapName="ml"
+          topicId={364}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/k-nearest-neighbour-363"
+          nextTo="/roadmaps/ml/gaussian-mixture-models-365"
         />
       </div>
     </div>

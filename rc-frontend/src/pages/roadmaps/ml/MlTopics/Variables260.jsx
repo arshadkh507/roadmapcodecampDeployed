@@ -29,17 +29,17 @@ const Variables260 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Variables260</h1>
+        <h1>Variables</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/programming-fundamentals-259"
+          nextTo="/roadmaps/ml/expressions-261"
         />
         <hr />
 
         <h2>Variables260</h2>
         <p>
-          Variables260
+        Variables is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Variables260 = () => {
 
         <TaskStateButtons
           topicName= "Variables260"
-          topicId={1}
-          roadmapName="ml"
+          topicId={260}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/programming-fundamentals-259"
+          nextTo="/roadmaps/ml/expressions-261"
         />
       </div>
     </div>

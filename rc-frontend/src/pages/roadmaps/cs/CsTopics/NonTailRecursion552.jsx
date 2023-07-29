@@ -29,17 +29,17 @@ const NonTailRecursion552 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NonTailRecursion552</h1>
+        <h1>Non Tail Recursion</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tail-recursion-551"
+          nextTo="/roadmaps/cs/debugging-techniques-553"
         />
         <hr />
 
         <h2>NonTailRecursion552</h2>
         <p>
-          NonTailRecursion552
+        Non Tail Recursion is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NonTailRecursion552 = () => {
 
         <TaskStateButtons
           topicName= "NonTailRecursion552"
-          topicId={1}
-          roadmapName="cs"
+          topicId={552}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/tail-recursion-551"
+          nextTo="/roadmaps/cs/debugging-techniques-553"
         />
       </div>
     </div>

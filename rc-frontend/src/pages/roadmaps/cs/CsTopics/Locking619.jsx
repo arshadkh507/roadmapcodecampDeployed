@@ -29,17 +29,17 @@ const Locking619 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Locking619</h1>
+        <h1>Locking</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dcl-618"
+          nextTo="/roadmaps/cs/transactions-620"
         />
         <hr />
 
         <h2>Locking619</h2>
         <p>
-          Locking619
+        Locking is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Locking619 = () => {
 
         <TaskStateButtons
           topicName= "Locking619"
-          topicId={1}
-          roadmapName="cs"
+          topicId={619}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/dcl-618"
+          nextTo="/roadmaps/cs/transactions-620"
         />
       </div>
     </div>

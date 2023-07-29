@@ -29,17 +29,17 @@ const AssociationRuleLearning374 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AssociationRuleLearning374</h1>
+        <h1>Association Rule Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mean-shift-373"
+          nextTo="/roadmaps/ml/apriori-algorithm-375"
         />
         <hr />
 
         <h2>AssociationRuleLearning374</h2>
         <p>
-          AssociationRuleLearning374
+        Association Rule Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AssociationRuleLearning374 = () => {
 
         <TaskStateButtons
           topicName= "AssociationRuleLearning374"
-          topicId={1}
-          roadmapName="ml"
+          topicId={374}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/mean-shift-373"
+          nextTo="/roadmaps/ml/apriori-algorithm-375"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const ClassDiagrams636 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ClassDiagrams636</h1>
+        <h1>Class Diagrams</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/common-uml-diagrams-635"
+          nextTo="/roadmaps/cs/usecase-diagrams-637"
         />
         <hr />
 
         <h2>ClassDiagrams636</h2>
         <p>
-          ClassDiagrams636
+        Class Diagrams is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ClassDiagrams636 = () => {
 
         <TaskStateButtons
           topicName= "ClassDiagrams636"
-          topicId={1}
-          roadmapName="cs"
+          topicId={636}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/common-uml-diagrams-635"
+          nextTo="/roadmaps/cs/usecase-diagrams-637"
         />
       </div>
     </div>

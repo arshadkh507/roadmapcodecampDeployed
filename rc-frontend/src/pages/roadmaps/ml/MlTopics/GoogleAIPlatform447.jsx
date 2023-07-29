@@ -29,17 +29,17 @@ const GoogleAIPlatform447 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GoogleAIPlatform447</h1>
+        <h1>Google A I Platform</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/aws-sagemaker-446"
+          nextTo="/roadmaps/ml/azure-automatedml-448"
         />
         <hr />
 
         <h2>GoogleAIPlatform447</h2>
         <p>
-          GoogleAIPlatform447
+        Google A I Platform is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GoogleAIPlatform447 = () => {
 
         <TaskStateButtons
           topicName= "GoogleAIPlatform447"
-          topicId={1}
-          roadmapName="ml"
+          topicId={447}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/aws-sagemaker-446"
+          nextTo="/roadmaps/ml/azure-automatedml-448"
         />
       </div>
     </div>

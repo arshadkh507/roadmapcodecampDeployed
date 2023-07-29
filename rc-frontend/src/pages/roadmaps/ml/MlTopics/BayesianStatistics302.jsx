@@ -29,17 +29,17 @@ const BayesianStatistics302 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BayesianStatistics302</h1>
+        <h1>Bayesian Statistics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/non-parametric-methods-301"
+          nextTo="/roadmaps/ml/experimental-design-303"
         />
         <hr />
 
         <h2>BayesianStatistics302</h2>
         <p>
-          BayesianStatistics302
+        Bayesian Statistics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BayesianStatistics302 = () => {
 
         <TaskStateButtons
           topicName= "BayesianStatistics302"
-          topicId={1}
-          roadmapName="ml"
+          topicId={302}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/non-parametric-methods-301"
+          nextTo="/roadmaps/ml/experimental-design-303"
         />
       </div>
     </div>

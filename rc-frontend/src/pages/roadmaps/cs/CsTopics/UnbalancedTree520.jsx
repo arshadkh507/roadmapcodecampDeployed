@@ -29,17 +29,17 @@ const UnbalancedTree520 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UnbalancedTree520</h1>
+        <h1>Unbalanced Tree</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/balanced-tree-519"
+          nextTo="/roadmaps/cs/graph-521"
         />
         <hr />
 
         <h2>UnbalancedTree520</h2>
         <p>
-          UnbalancedTree520
+        Unbalanced Tree is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UnbalancedTree520 = () => {
 
         <TaskStateButtons
           topicName= "UnbalancedTree520"
-          topicId={1}
-          roadmapName="cs"
+          topicId={520}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/balanced-tree-519"
+          nextTo="/roadmaps/cs/graph-521"
         />
       </div>
     </div>

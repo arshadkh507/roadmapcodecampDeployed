@@ -29,17 +29,17 @@ const Encoding710 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Encoding710</h1>
+        <h1>Encoding</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/public-key-cryptography-709"
+          nextTo="/roadmaps/cs/hashing-algorithms-711"
         />
         <hr />
 
         <h2>Encoding710</h2>
         <p>
-          Encoding710
+        Encoding is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Encoding710 = () => {
 
         <TaskStateButtons
           topicName= "Encoding710"
-          topicId={1}
-          roadmapName="cs"
+          topicId={710}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/public-key-cryptography-709"
+          nextTo="/roadmaps/cs/hashing-algorithms-711"
         />
       </div>
     </div>

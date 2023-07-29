@@ -29,17 +29,17 @@ const CrossValidation417 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CrossValidation417</h1>
+        <h1>Cross Validation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/overfitting-and-underfitting-416"
+          nextTo="/roadmaps/ml/hyperparameter-tuning-418"
         />
         <hr />
 
         <h2>CrossValidation417</h2>
         <p>
-          CrossValidation417
+        Cross Validation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CrossValidation417 = () => {
 
         <TaskStateButtons
           topicName= "CrossValidation417"
-          topicId={1}
-          roadmapName="ml"
+          topicId={417}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/overfitting-and-underfitting-416"
+          nextTo="/roadmaps/ml/hyperparameter-tuning-418"
         />
       </div>
     </div>

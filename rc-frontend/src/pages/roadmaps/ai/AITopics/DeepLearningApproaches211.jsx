@@ -29,17 +29,17 @@ const DeepLearningApproaches211 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DeepLearningApproaches211</h1>
+        <h1>Deep Learning Approaches</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/object-recognition-and-detection-210"
+          nextTo="/roadmaps/ai/video-analysis-212"
         />
         <hr />
 
         <h2>DeepLearningApproaches211</h2>
         <p>
-          DeepLearningApproaches211
+        Deep Learning Approaches is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DeepLearningApproaches211 = () => {
 
         <TaskStateButtons
           topicName= "DeepLearningApproaches211"
-          topicId={1}
-          roadmapName="ai"
+          topicId={211}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/object-recognition-and-detection-210"
+          nextTo="/roadmaps/ai/video-analysis-212"
         />
       </div>
     </div>

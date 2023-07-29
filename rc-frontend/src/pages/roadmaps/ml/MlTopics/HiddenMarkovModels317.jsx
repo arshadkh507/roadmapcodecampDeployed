@@ -29,17 +29,17 @@ const HiddenMarkovModels317 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HiddenMarkovModels317</h1>
+        <h1>Hidden Markov Models</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gaussian-processes-316"
+          nextTo="/roadmaps/ml/libraries-318"
         />
         <hr />
 
         <h2>HiddenMarkovModels317</h2>
         <p>
-          HiddenMarkovModels317
+        Hidden Markov Models is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HiddenMarkovModels317 = () => {
 
         <TaskStateButtons
           topicName= "HiddenMarkovModels317"
-          topicId={1}
-          roadmapName="ml"
+          topicId={317}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/gaussian-processes-316"
+          nextTo="/roadmaps/ml/libraries-318"
         />
       </div>
     </div>

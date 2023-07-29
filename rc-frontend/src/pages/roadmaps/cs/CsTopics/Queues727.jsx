@@ -29,17 +29,17 @@ const Queues727 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Queues727</h1>
+        <h1>Queues</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cap-theorem-726"
+          nextTo="/roadmaps/cs/architectural-styles-728"
         />
         <hr />
 
         <h2>Queues727</h2>
         <p>
-          Queues727
+        Queues is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Queues727 = () => {
 
         <TaskStateButtons
           topicName= "Queues727"
-          topicId={1}
-          roadmapName="cs"
+          topicId={727}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cap-theorem-726"
+          nextTo="/roadmaps/cs/architectural-styles-728"
         />
       </div>
     </div>

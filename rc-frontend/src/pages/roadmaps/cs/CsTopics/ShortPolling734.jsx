@@ -29,17 +29,17 @@ const ShortPolling734 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ShortPolling734</h1>
+        <h1>Short Polling</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/long-polling-733"
+          nextTo="/roadmaps/cs/web-sockets-735"
         />
         <hr />
 
         <h2>ShortPolling734</h2>
         <p>
-          ShortPolling734
+        Short Polling is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ShortPolling734 = () => {
 
         <TaskStateButtons
           topicName= "ShortPolling734"
-          topicId={1}
-          roadmapName="cs"
+          topicId={734}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/long-polling-733"
+          nextTo="/roadmaps/cs/web-sockets-735"
         />
       </div>
     </div>

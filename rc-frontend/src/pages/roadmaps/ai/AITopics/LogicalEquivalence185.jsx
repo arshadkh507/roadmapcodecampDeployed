@@ -29,17 +29,17 @@ const LogicalEquivalence185 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicalEquivalence185</h1>
+        <h1>Logical Equivalence</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/predicates-184"
+          nextTo="/roadmaps/ai/first-order-logic-186"
         />
         <hr />
 
         <h2>LogicalEquivalence185</h2>
         <p>
-          LogicalEquivalence185
+        Logical Equivalence is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicalEquivalence185 = () => {
 
         <TaskStateButtons
           topicName= "LogicalEquivalence185"
-          topicId={1}
-          roadmapName="ai"
+          topicId={185}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/predicates-184"
+          nextTo="/roadmaps/ai/first-order-logic-186"
         />
       </div>
     </div>

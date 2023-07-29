@@ -29,17 +29,17 @@ const AIProductManager244 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AIProductManager244</h1>
+        <h1>A I Product Manager</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-ethics-and-governance-specialist-243"
+          nextTo="/roadmaps/ai/ai-consultant-245"
         />
         <hr />
 
         <h2>AIProductManager244</h2>
         <p>
-          AIProductManager244
+        A I Product Manager is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AIProductManager244 = () => {
 
         <TaskStateButtons
           topicName= "AIProductManager244"
-          topicId={1}
-          roadmapName="ai"
+          topicId={244}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/ai-ethics-and-governance-specialist-243"
+          nextTo="/roadmaps/ai/ai-consultant-245"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const NP689 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NP689</h1>
+        <h1>N P</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/p-688"
+          nextTo="/roadmaps/cs/co-np-690"
         />
         <hr />
 
         <h2>NP689</h2>
         <p>
-          NP689
+        N P is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NP689 = () => {
 
         <TaskStateButtons
           topicName= "NP689"
-          topicId={1}
-          roadmapName="cs"
+          topicId={689}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/p-688"
+          nextTo="/roadmaps/cs/co-np-690"
         />
       </div>
     </div>

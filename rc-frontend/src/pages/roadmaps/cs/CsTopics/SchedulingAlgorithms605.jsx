@@ -29,17 +29,17 @@ const SchedulingAlgorithms605 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SchedulingAlgorithms605</h1>
+        <h1>Scheduling Algorithms</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cpu-interrupts-604"
+          nextTo="/roadmaps/cs/concurrency-in-multiple-cores-606"
         />
         <hr />
 
         <h2>SchedulingAlgorithms605</h2>
         <p>
-          SchedulingAlgorithms605
+        Scheduling Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SchedulingAlgorithms605 = () => {
 
         <TaskStateButtons
           topicName= "SchedulingAlgorithms605"
-          topicId={1}
-          roadmapName="cs"
+          topicId={605}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/cpu-interrupts-604"
+          nextTo="/roadmaps/cs/concurrency-in-multiple-cores-606"
         />
       </div>
     </div>

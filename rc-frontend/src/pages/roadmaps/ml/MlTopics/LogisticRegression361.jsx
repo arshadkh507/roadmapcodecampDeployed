@@ -29,17 +29,17 @@ const LogisticRegression361 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogisticRegression361</h1>
+        <h1>Logistic Regression</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/decision-trees-360"
+          nextTo="/roadmaps/ml/naïve-bayes-classifiers-362"
         />
         <hr />
 
         <h2>LogisticRegression361</h2>
         <p>
-          LogisticRegression361
+        Logistic Regression is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogisticRegression361 = () => {
 
         <TaskStateButtons
           topicName= "LogisticRegression361"
-          topicId={1}
-          roadmapName="ml"
+          topicId={361}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/decision-trees-360"
+          nextTo="/roadmaps/ml/naïve-bayes-classifiers-362"
         />
       </div>
     </div>

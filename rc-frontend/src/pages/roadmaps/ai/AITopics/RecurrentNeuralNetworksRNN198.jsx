@@ -29,17 +29,17 @@ const RecurrentNeuralNetworksRNN198 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RecurrentNeuralNetworksRNN198</h1>
+        <h1>Recurrent Neural Networks R N N</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/convolutional-neural-networks-cnn-197"
+          nextTo="/roadmaps/ai/generative-models-199"
         />
         <hr />
 
         <h2>RecurrentNeuralNetworksRNN198</h2>
         <p>
-          RecurrentNeuralNetworksRNN198
+        Recurrent Neural Networks R N N is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RecurrentNeuralNetworksRNN198 = () => {
 
         <TaskStateButtons
           topicName= "RecurrentNeuralNetworksRNN198"
-          topicId={1}
-          roadmapName="ai"
+          topicId={198}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/convolutional-neural-networks-cnn-197"
+          nextTo="/roadmaps/ai/generative-models-199"
         />
       </div>
     </div>

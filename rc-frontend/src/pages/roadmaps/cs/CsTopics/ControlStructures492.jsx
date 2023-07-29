@@ -29,17 +29,17 @@ const ControlStructures492 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ControlStructures492</h1>
+        <h1>Control Structures</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/operators-491"
+          nextTo="/roadmaps/cs/basic-syntax-493"
         />
         <hr />
 
         <h2>ControlStructures492</h2>
         <p>
-          ControlStructures492
+        Control Structures is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ControlStructures492 = () => {
 
         <TaskStateButtons
           topicName= "ControlStructures492"
-          topicId={1}
-          roadmapName="cs"
+          topicId={492}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/operators-491"
+          nextTo="/roadmaps/cs/basic-syntax-493"
         />
       </div>
     </div>

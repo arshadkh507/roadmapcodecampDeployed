@@ -29,17 +29,17 @@ const ClassesAndObjects502 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ClassesAndObjects502</h1>
+        <h1>Classes And Objects</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/object-oriented-programming-501"
+          nextTo="/roadmaps/cs/inheritance-and-polymorphism-503"
         />
         <hr />
 
         <h2>ClassesAndObjects502</h2>
         <p>
-          ClassesAndObjects502
+        Classes And Objects is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ClassesAndObjects502 = () => {
 
         <TaskStateButtons
           topicName= "ClassesAndObjects502"
-          topicId={1}
-          roadmapName="cs"
+          topicId={502}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/object-oriented-programming-501"
+          nextTo="/roadmaps/cs/inheritance-and-polymorphism-503"
         />
       </div>
     </div>

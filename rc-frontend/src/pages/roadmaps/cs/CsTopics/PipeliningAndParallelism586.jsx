@@ -29,17 +29,17 @@ const PipeliningAndParallelism586 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PipeliningAndParallelism586</h1>
+        <h1>Pipelining And Parallelism</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/memory-hierarchy-585"
+          nextTo="/roadmaps/cs/cache-design-587"
         />
         <hr />
 
         <h2>PipeliningAndParallelism586</h2>
         <p>
-          PipeliningAndParallelism586
+        Pipelining And Parallelism is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PipeliningAndParallelism586 = () => {
 
         <TaskStateButtons
           topicName= "PipeliningAndParallelism586"
-          topicId={1}
-          roadmapName="cs"
+          topicId={586}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/memory-hierarchy-585"
+          nextTo="/roadmaps/cs/cache-design-587"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Functions494 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Functions494</h1>
+        <h1>Functions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/basic-syntax-493"
+          nextTo="/roadmaps/cs/arrays-and-lists-495"
         />
         <hr />
 
         <h2>Functions494</h2>
         <p>
-          Functions494
+        Functions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Functions494 = () => {
 
         <TaskStateButtons
           topicName= "Functions494"
-          topicId={1}
-          roadmapName="cs"
+          topicId={494}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/basic-syntax-493"
+          nextTo="/roadmaps/cs/arrays-and-lists-495"
         />
       </div>
     </div>

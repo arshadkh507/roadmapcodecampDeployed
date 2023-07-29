@@ -29,7 +29,7 @@ const LearnTheBasics251 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LearnTheBasics251</h1>
+        <h1>Learn The Basics</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ml"
@@ -39,7 +39,7 @@ const LearnTheBasics251 = () => {
 
         <h2>LearnTheBasics251</h2>
         <p>
-          LearnTheBasics251
+        Learn The Basics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -69,7 +69,6 @@ const LearnTheBasics251 = () => {
         />
 
         <hr />
-
         <PaginationButtons
           prevTo="/roadmaps/ml"
           nextTo="/roadmaps/ml/pick-a-programming-language-252"

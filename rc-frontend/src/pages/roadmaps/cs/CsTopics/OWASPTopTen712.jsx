@@ -29,17 +29,17 @@ const OWASPTopTen712 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OWASPTopTen712</h1>
+        <h1>O W A S P Top Ten</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/hashing-algorithms-711"
+          nextTo="/roadmaps/cs/how-computers-work-713"
         />
         <hr />
 
         <h2>OWASPTopTen712</h2>
         <p>
-          OWASPTopTen712
+        O W A S P Top Ten is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OWASPTopTen712 = () => {
 
         <TaskStateButtons
           topicName= "OWASPTopTen712"
-          topicId={1}
-          roadmapName="cs"
+          topicId={712}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/hashing-algorithms-711"
+          nextTo="/roadmaps/cs/how-computers-work-713"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const Replication629 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Replication629</h1>
+        <h1>Replication</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/database-federation-628"
+          nextTo="/roadmaps/cs/sharding-630"
         />
         <hr />
 
         <h2>Replication629</h2>
         <p>
-          Replication629
+        Replication is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Replication629 = () => {
 
         <TaskStateButtons
           topicName= "Replication629"
-          topicId={1}
-          roadmapName="cs"
+          topicId={629}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/database-federation-628"
+          nextTo="/roadmaps/cs/sharding-630"
         />
       </div>
     </div>

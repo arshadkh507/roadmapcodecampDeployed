@@ -29,17 +29,17 @@ const ProcessesVsThreads603 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ProcessesVsThreads603</h1>
+        <h1>Processes Vs Threads</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/operating-systems-602"
+          nextTo="/roadmaps/cs/cpu-interrupts-604"
         />
         <hr />
 
         <h2>ProcessesVsThreads603</h2>
         <p>
-          ProcessesVsThreads603
+        Processes Vs Threads is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ProcessesVsThreads603 = () => {
 
         <TaskStateButtons
           topicName= "ProcessesVsThreads603"
-          topicId={1}
-          roadmapName="cs"
+          topicId={603}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/operating-systems-602"
+          nextTo="/roadmaps/cs/cpu-interrupts-604"
         />
       </div>
     </div>

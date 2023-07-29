@@ -29,17 +29,17 @@ const LogicProgramming747 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicProgramming747</h1>
+        <h1>Logic Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/functional-programming-746"
+          nextTo="/roadmaps/cs/object-oriented-programming-748"
         />
         <hr />
 
         <h2>LogicProgramming747</h2>
         <p>
-          LogicProgramming747
+        Logic Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicProgramming747 = () => {
 
         <TaskStateButtons
           topicName= "LogicProgramming747"
-          topicId={1}
-          roadmapName="cs"
+          topicId={747}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/functional-programming-746"
+          nextTo="/roadmaps/cs/object-oriented-programming-748"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const EdgeList527 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>EdgeList527</h1>
+        <h1>Edge List</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/adjacency-list-526"
+          nextTo="/roadmaps/cs/asymptotic-notation-528"
         />
         <hr />
 
         <h2>EdgeList527</h2>
         <p>
-          EdgeList527
+        Edge List is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const EdgeList527 = () => {
 
         <TaskStateButtons
           topicName= "EdgeList527"
-          topicId={1}
-          roadmapName="cs"
+          topicId={527}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/adjacency-list-526"
+          nextTo="/roadmaps/cs/asymptotic-notation-528"
         />
       </div>
     </div>

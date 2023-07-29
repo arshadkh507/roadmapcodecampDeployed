@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -29,7 +29,7 @@ const BasicDataStructuresAndAlgorithms138 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BasicDataStructuresAndAlgorithms138</h1>
+        <h1>Basic Data Structures And Algorithms</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ai/programming-fundamentals-137"
@@ -39,7 +39,7 @@ const BasicDataStructuresAndAlgorithms138 = () => {
 
         <h2>BasicDataStructuresAndAlgorithms138</h2>
         <p>
-          BasicDataStructuresAndAlgorithms138
+        Basic Data Structures And Algorithms is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,7 +63,7 @@ const BasicDataStructuresAndAlgorithms138 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="BasicDataStructuresAndAlgorithms138"
+          topicName= "BasicDataStructuresAndAlgorithms138"
           topicId={138}
           roadmapName="rcai"
         />
@@ -76,7 +76,7 @@ const BasicDataStructuresAndAlgorithms138 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default BasicDataStructuresAndAlgorithms138;

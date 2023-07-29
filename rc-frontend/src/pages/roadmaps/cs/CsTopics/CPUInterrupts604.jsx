@@ -29,17 +29,17 @@ const CPUInterrupts604 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CPUInterrupts604</h1>
+        <h1>C P U Interrupts</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/processes-vs-threads-603"
+          nextTo="/roadmaps/cs/scheduling-algorithms-605"
         />
         <hr />
 
         <h2>CPUInterrupts604</h2>
         <p>
-          CPUInterrupts604
+        C P U Interrupts is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CPUInterrupts604 = () => {
 
         <TaskStateButtons
           topicName= "CPUInterrupts604"
-          topicId={1}
-          roadmapName="cs"
+          topicId={604}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/processes-vs-threads-603"
+          nextTo="/roadmaps/cs/scheduling-algorithms-605"
         />
       </div>
     </div>

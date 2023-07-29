@@ -29,17 +29,17 @@ const MatrixOperations576 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MatrixOperations576</h1>
+        <h1>Matrix Operations</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-algebra-575"
+          nextTo="/roadmaps/cs/linear-transformations-577"
         />
         <hr />
 
         <h2>MatrixOperations576</h2>
         <p>
-          MatrixOperations576
+        Matrix Operations is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MatrixOperations576 = () => {
 
         <TaskStateButtons
           topicName= "MatrixOperations576"
-          topicId={1}
-          roadmapName="cs"
+          topicId={576}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/linear-algebra-575"
+          nextTo="/roadmaps/cs/linear-transformations-577"
         />
       </div>
     </div>

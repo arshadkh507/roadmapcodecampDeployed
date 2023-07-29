@@ -29,17 +29,17 @@ const TestingAndQualityAssurance633 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TestingAndQualityAssurance633</h1>
+        <h1>Testing And Quality Assurance</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/agile-development-632"
+          nextTo="/roadmaps/cs/software-design-patterns-634"
         />
         <hr />
 
         <h2>TestingAndQualityAssurance633</h2>
         <p>
-          TestingAndQualityAssurance633
+        Testing And Quality Assurance is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TestingAndQualityAssurance633 = () => {
 
         <TaskStateButtons
           topicName= "TestingAndQualityAssurance633"
-          topicId={1}
-          roadmapName="cs"
+          topicId={633}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/agile-development-632"
+          nextTo="/roadmaps/cs/software-design-patterns-634"
         />
       </div>
     </div>

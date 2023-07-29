@@ -29,17 +29,17 @@ const NumPyArrays320 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NumPyArrays320</h1>
+        <h1>Num Py Arrays</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-319"
+          nextTo="/roadmaps/ml/numpy-broadcasting-321"
         />
         <hr />
 
         <h2>NumPyArrays320</h2>
         <p>
-          NumPyArrays320
+        Num Py Arrays is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NumPyArrays320 = () => {
 
         <TaskStateButtons
           topicName= "NumPyArrays320"
-          topicId={1}
-          roadmapName="ml"
+          topicId={320}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-319"
+          nextTo="/roadmaps/ml/numpy-broadcasting-321"
         />
       </div>
     </div>

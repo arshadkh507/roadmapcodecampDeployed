@@ -29,17 +29,17 @@ const MongoDB469 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MongoDB469</h1>
+        <h1>Mongo D B</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/key-value-468"
+          nextTo="/roadmaps/ml/redis-470"
         />
         <hr />
 
         <h2>MongoDB469</h2>
         <p>
-          MongoDB469
+        Mongo D B is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MongoDB469 = () => {
 
         <TaskStateButtons
           topicName= "MongoDB469"
-          topicId={1}
-          roadmapName="ml"
+          topicId={469}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/key-value-468"
+          nextTo="/roadmaps/ml/redis-470"
         />
       </div>
     </div>

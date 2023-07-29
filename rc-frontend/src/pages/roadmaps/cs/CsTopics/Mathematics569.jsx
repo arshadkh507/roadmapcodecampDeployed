@@ -29,17 +29,17 @@ const Mathematics569 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Mathematics569</h1>
+        <h1>Mathematics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ascii-568"
+          nextTo="/roadmaps/cs/discrete-mathematics-570"
         />
         <hr />
 
         <h2>Mathematics569</h2>
         <p>
-          Mathematics569
+        Mathematics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Mathematics569 = () => {
 
         <TaskStateButtons
           topicName= "Mathematics569"
-          topicId={1}
-          roadmapName="cs"
+          topicId={569}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ascii-568"
+          nextTo="/roadmaps/cs/discrete-mathematics-570"
         />
       </div>
     </div>

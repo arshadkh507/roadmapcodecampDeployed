@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,44 +7,53 @@ const CSSColors017 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "CSS Colors (MDN Docs)",
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "CSS Colors (W3Schools)",
+      url: "https://www.w3schools.com/cssref/css_colors.php",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CSS Colors Explained",
+      url: "https://www.sitepoint.com/css-colors-explained/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "CSS Colors: A Complete Guide",
+      url: "https://www.digitalocean.com/community/tutorials/css-colors-a-complete-guide",
     },
   ];
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSSColors017</h1>
+        <h1>CSS Colors</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-selectors-16"
+          nextTo="/roadmaps/frontend/css-typography-18"
         />
         <hr />
 
-        <h2>CSSColors017</h2>
+        <h2>CSS Colors</h2>
         <p>
-          CSSColors017
+          CSS colors are used to define the color of HTML elements. They can be
+          used to set the background color of an element, the text color, or any
+          other color property. CSS colors can be specified in a variety of
+          ways, including by name, by hexadecimal value, by RGB value, and more.
+          By using CSS colors effectively, you can create visually appealing and
+          engaging webpages.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="CSS Colors Tutorial"
+          videoSrc="https://www.youtube.com/embed/Ddc-IIrIot0"
+        />
+        <TopicVideoPlayer
+          videoTitle="CSS Colors Explained"
+          videoSrc="https://www.youtube.com/embed/srg4sIbzE1k"
         />
 
         <hr />
@@ -63,20 +72,20 @@ const CSSColors017 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "CSSColors017"
-          topicId={1}
-          roadmapName="frontend"
+          topicName="CSSColors017"
+          topicId={17}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-selectors-16"
+          nextTo="/roadmaps/frontend/css-typography-18"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CSSColors017;

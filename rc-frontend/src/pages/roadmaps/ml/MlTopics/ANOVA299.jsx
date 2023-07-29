@@ -29,17 +29,17 @@ const ANOVA299 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ANOVA299</h1>
+        <h1>A N O V A</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/regression-298"
+          nextTo="/roadmaps/ml/time-series-analysis-300"
         />
         <hr />
 
         <h2>ANOVA299</h2>
         <p>
-          ANOVA299
+        A N O V A is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ANOVA299 = () => {
 
         <TaskStateButtons
           topicName= "ANOVA299"
-          topicId={1}
-          roadmapName="ml"
+          topicId={299}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/regression-298"
+          nextTo="/roadmaps/ml/time-series-analysis-300"
         />
       </div>
     </div>

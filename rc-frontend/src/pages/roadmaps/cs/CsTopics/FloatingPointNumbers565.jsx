@@ -29,17 +29,17 @@ const FloatingPointNumbers565 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FloatingPointNumbers565</h1>
+        <h1>Floating Point Numbers</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bitwise-operators-564"
+          nextTo="/roadmaps/cs/character-encodings-566"
         />
         <hr />
 
         <h2>FloatingPointNumbers565</h2>
         <p>
-          FloatingPointNumbers565
+        Floating Point Numbers is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FloatingPointNumbers565 = () => {
 
         <TaskStateButtons
           topicName= "FloatingPointNumbers565"
-          topicId={1}
-          roadmapName="cs"
+          topicId={565}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/bitwise-operators-564"
+          nextTo="/roadmaps/cs/character-encodings-566"
         />
       </div>
     </div>

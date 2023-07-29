@@ -29,17 +29,17 @@ const TruthTables180 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TruthTables180</h1>
+        <h1>Truth Tables</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/logical-connectives-179"
+          nextTo="/roadmaps/ai/predicate-logic-181"
         />
         <hr />
 
         <h2>TruthTables180</h2>
         <p>
-          TruthTables180
+        Truth Tables is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TruthTables180 = () => {
 
         <TaskStateButtons
           topicName= "TruthTables180"
-          topicId={1}
-          roadmapName="ai"
+          topicId={180}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/logical-connectives-179"
+          nextTo="/roadmaps/ai/predicate-logic-181"
         />
       </div>
     </div>

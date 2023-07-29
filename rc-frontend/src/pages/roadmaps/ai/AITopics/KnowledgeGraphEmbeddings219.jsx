@@ -29,17 +29,17 @@ const KnowledgeGraphEmbeddings219 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>KnowledgeGraphEmbeddings219</h1>
+        <h1>Knowledge Graph Embeddings</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/description-logic-reasoning-218"
+          nextTo="/roadmaps/ai/robotics-220"
         />
         <hr />
 
         <h2>KnowledgeGraphEmbeddings219</h2>
         <p>
-          KnowledgeGraphEmbeddings219
+        Knowledge Graph Embeddings is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const KnowledgeGraphEmbeddings219 = () => {
 
         <TaskStateButtons
           topicName= "KnowledgeGraphEmbeddings219"
-          topicId={1}
-          roadmapName="ai"
+          topicId={219}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/description-logic-reasoning-218"
+          nextTo="/roadmaps/ai/robotics-220"
         />
       </div>
     </div>

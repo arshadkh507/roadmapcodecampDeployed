@@ -29,17 +29,17 @@ const EthicsAndBiasInML421 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>EthicsAndBiasInML421</h1>
+        <h1>Ethics And Bias In M L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/model-deployment-420"
+          nextTo="/roadmaps/ml/fairness-in-machine-learning-422"
         />
         <hr />
 
         <h2>EthicsAndBiasInML421</h2>
         <p>
-          EthicsAndBiasInML421
+        Ethics And Bias In M L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const EthicsAndBiasInML421 = () => {
 
         <TaskStateButtons
           topicName= "EthicsAndBiasInML421"
-          topicId={1}
-          roadmapName="ml"
+          topicId={421}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/model-deployment-420"
+          nextTo="/roadmaps/ml/fairness-in-machine-learning-422"
         />
       </div>
     </div>

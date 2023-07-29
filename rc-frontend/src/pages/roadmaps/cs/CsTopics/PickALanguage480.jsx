@@ -29,7 +29,7 @@ const PickALanguage480 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PickALanguage480</h1>
+        <h1>Pick A Language</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/cs"
@@ -39,7 +39,7 @@ const PickALanguage480 = () => {
 
         <h2>PickALanguage480</h2>
         <p>
-          PickALanguage480
+        Pick A Language is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,7 +65,7 @@ const PickALanguage480 = () => {
         <TaskStateButtons
           topicName= "PickALanguage480"
           topicId={480}
-          roadmapName="cs"
+          roadmapName="rccs"
         />
 
         <hr />

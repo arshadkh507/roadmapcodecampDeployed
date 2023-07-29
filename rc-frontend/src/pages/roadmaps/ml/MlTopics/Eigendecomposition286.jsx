@@ -29,17 +29,17 @@ const Eigendecomposition286 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Eigendecomposition286</h1>
+        <h1>Eigendecomposition</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/transpose-285"
+          nextTo="/roadmaps/ml/eigenvalues-287"
         />
         <hr />
 
         <h2>Eigendecomposition286</h2>
         <p>
-          Eigendecomposition286
+        Eigendecomposition is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Eigendecomposition286 = () => {
 
         <TaskStateButtons
           topicName= "Eigendecomposition286"
-          topicId={1}
-          roadmapName="ml"
+          topicId={286}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/transpose-285"
+          nextTo="/roadmaps/ml/eigenvalues-287"
         />
       </div>
     </div>

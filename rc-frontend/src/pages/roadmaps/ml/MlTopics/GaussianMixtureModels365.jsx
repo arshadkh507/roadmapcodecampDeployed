@@ -29,17 +29,17 @@ const GaussianMixtureModels365 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GaussianMixtureModels365</h1>
+        <h1>Gaussian Mixture Models</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/svm-364"
+          nextTo="/roadmaps/ml/unsupervised-learning-366"
         />
         <hr />
 
         <h2>GaussianMixtureModels365</h2>
         <p>
-          GaussianMixtureModels365
+        Gaussian Mixture Models is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GaussianMixtureModels365 = () => {
 
         <TaskStateButtons
           topicName= "GaussianMixtureModels365"
-          topicId={1}
-          roadmapName="ml"
+          topicId={365}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/svm-364"
+          nextTo="/roadmaps/ml/unsupervised-learning-366"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const RandomVariablesAndDistributions166 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RandomVariablesAndDistributions166</h1>
+        <h1>Random Variables And Distributions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/probability-theory-165"
+          nextTo="/roadmaps/ai/bayes-theorem-167"
         />
         <hr />
 
         <h2>RandomVariablesAndDistributions166</h2>
         <p>
-          RandomVariablesAndDistributions166
+        Random Variables And Distributions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RandomVariablesAndDistributions166 = () => {
 
         <TaskStateButtons
           topicName= "RandomVariablesAndDistributions166"
-          topicId={1}
-          roadmapName="ai"
+          topicId={166}
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/probability-theory-165"
+          nextTo="/roadmaps/ai/bayes-theorem-167"
         />
       </div>
     </div>

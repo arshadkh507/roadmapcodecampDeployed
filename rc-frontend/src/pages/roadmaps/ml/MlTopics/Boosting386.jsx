@@ -29,17 +29,17 @@ const Boosting386 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Boosting386</h1>
+        <h1>Boosting</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/regression-385"
+          nextTo="/roadmaps/ml/bagging-387"
         />
         <hr />
 
         <h2>Boosting386</h2>
         <p>
-          Boosting386
+        Boosting is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Boosting386 = () => {
 
         <TaskStateButtons
           topicName= "Boosting386"
-          topicId={1}
-          roadmapName="ml"
+          topicId={386}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/regression-385"
+          nextTo="/roadmaps/ml/bagging-387"
         />
       </div>
     </div>

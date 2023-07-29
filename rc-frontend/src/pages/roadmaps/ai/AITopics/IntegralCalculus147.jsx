@@ -29,17 +29,17 @@ const IntegralCalculus147 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>IntegralCalculus147</h1>
+        <h1>Integral Calculus</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/ai/optimization-146"
+          nextTo="/roadmaps/ai/definite-integrals-148"
         />
         <hr />
 
         <h2>IntegralCalculus147</h2>
         <p>
-          IntegralCalculus147
+        Integral Calculus is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -65,14 +65,14 @@ const IntegralCalculus147 = () => {
         <TaskStateButtons
           topicName= "IntegralCalculus147"
           topicId={147}
-          roadmapName="ai"
+          roadmapName="rcai"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ai"
-          nextTo="/roadmaps/ai/what-is-http-02"
+          prevTo="/roadmaps/ai/optimization-146"
+          nextTo="/roadmaps/ai/definite-integrals-148"
         />
       </div>
     </div>

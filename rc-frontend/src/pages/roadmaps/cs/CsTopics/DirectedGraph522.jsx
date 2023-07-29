@@ -29,17 +29,17 @@ const DirectedGraph522 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DirectedGraph522</h1>
+        <h1>Directed Graph</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graph-521"
+          nextTo="/roadmaps/cs/undirected-graph-523"
         />
         <hr />
 
         <h2>DirectedGraph522</h2>
         <p>
-          DirectedGraph522
+        Directed Graph is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DirectedGraph522 = () => {
 
         <TaskStateButtons
           topicName= "DirectedGraph522"
-          topicId={1}
-          roadmapName="cs"
+          topicId={522}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/graph-521"
+          nextTo="/roadmaps/cs/undirected-graph-523"
         />
       </div>
     </div>

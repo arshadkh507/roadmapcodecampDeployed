@@ -29,17 +29,17 @@ const Regression385 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Regression385</h1>
+        <h1>Regression</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/ensemble-learning-384"
+          nextTo="/roadmaps/ml/boosting-386"
         />
         <hr />
 
         <h2>Regression385</h2>
         <p>
-          Regression385
+        Regression is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Regression385 = () => {
 
         <TaskStateButtons
           topicName= "Regression385"
-          topicId={1}
-          roadmapName="ml"
+          topicId={385}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/ensemble-learning-384"
+          nextTo="/roadmaps/ml/boosting-386"
         />
       </div>
     </div>

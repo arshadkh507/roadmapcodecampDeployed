@@ -29,17 +29,17 @@ const OperatingSystems602 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OperatingSystems602</h1>
+        <h1>Operating Systems</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sockets-601"
+          nextTo="/roadmaps/cs/processes-vs-threads-603"
         />
         <hr />
 
         <h2>OperatingSystems602</h2>
         <p>
-          OperatingSystems602
+        Operating Systems is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OperatingSystems602 = () => {
 
         <TaskStateButtons
           topicName= "OperatingSystems602"
-          topicId={1}
-          roadmapName="cs"
+          topicId={602}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sockets-601"
+          nextTo="/roadmaps/cs/processes-vs-threads-603"
         />
       </div>
     </div>

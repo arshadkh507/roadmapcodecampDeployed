@@ -29,17 +29,17 @@ const NumPyIndexing322 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NumPyIndexing322</h1>
+        <h1>Num Py Indexing</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-broadcasting-321"
+          nextTo="/roadmaps/ml/numpy-linear-algebra-323"
         />
         <hr />
 
         <h2>NumPyIndexing322</h2>
         <p>
-          NumPyIndexing322
+        Num Py Indexing is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NumPyIndexing322 = () => {
 
         <TaskStateButtons
           topicName= "NumPyIndexing322"
-          topicId={1}
-          roadmapName="ml"
+          topicId={322}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/numpy-broadcasting-321"
+          nextTo="/roadmaps/ml/numpy-linear-algebra-323"
         />
       </div>
     </div>

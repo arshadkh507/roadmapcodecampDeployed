@@ -29,17 +29,17 @@ const Constant533 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Constant533</h1>
+        <h1>Constant</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/common-runtimes-532"
+          nextTo="/roadmaps/cs/logarithmic-534"
         />
         <hr />
 
         <h2>Constant533</h2>
         <p>
-          Constant533
+        Constant is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Constant533 = () => {
 
         <TaskStateButtons
           topicName= "Constant533"
-          topicId={1}
-          roadmapName="cs"
+          topicId={533}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/common-runtimes-532"
+          nextTo="/roadmaps/cs/logarithmic-534"
         />
       </div>
     </div>

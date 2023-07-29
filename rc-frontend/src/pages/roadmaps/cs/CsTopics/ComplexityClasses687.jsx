@@ -29,17 +29,17 @@ const ComplexityClasses687 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ComplexityClasses687</h1>
+        <h1>Complexity Classes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/type-object-pattern-686"
+          nextTo="/roadmaps/cs/p-688"
         />
         <hr />
 
         <h2>ComplexityClasses687</h2>
         <p>
-          ComplexityClasses687
+        Complexity Classes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ComplexityClasses687 = () => {
 
         <TaskStateButtons
           topicName= "ComplexityClasses687"
-          topicId={1}
-          roadmapName="cs"
+          topicId={687}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/type-object-pattern-686"
+          nextTo="/roadmaps/cs/p-688"
         />
       </div>
     </div>

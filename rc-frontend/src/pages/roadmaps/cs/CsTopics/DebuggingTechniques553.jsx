@@ -29,17 +29,17 @@ const DebuggingTechniques553 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DebuggingTechniques553</h1>
+        <h1>Debugging Techniques</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/non-tail-recursion-552"
+          nextTo="/roadmaps/cs/debugging-tools-554"
         />
         <hr />
 
         <h2>DebuggingTechniques553</h2>
         <p>
-          DebuggingTechniques553
+        Debugging Techniques is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DebuggingTechniques553 = () => {
 
         <TaskStateButtons
           topicName= "DebuggingTechniques553"
-          topicId={1}
-          roadmapName="cs"
+          topicId={553}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/non-tail-recursion-552"
+          nextTo="/roadmaps/cs/debugging-tools-554"
         />
       </div>
     </div>

@@ -29,17 +29,17 @@ const LogicGatesAndCircuits582 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LogicGatesAndCircuits582</h1>
+        <h1>Logic Gates And Circuits</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/boolean-algebra-581"
+          nextTo="/roadmaps/cs/computer-organization-583"
         />
         <hr />
 
         <h2>LogicGatesAndCircuits582</h2>
         <p>
-          LogicGatesAndCircuits582
+        Logic Gates And Circuits is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LogicGatesAndCircuits582 = () => {
 
         <TaskStateButtons
           topicName= "LogicGatesAndCircuits582"
-          topicId={1}
-          roadmapName="cs"
+          topicId={582}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/boolean-algebra-581"
+          nextTo="/roadmaps/cs/computer-organization-583"
         />
       </div>
     </div>

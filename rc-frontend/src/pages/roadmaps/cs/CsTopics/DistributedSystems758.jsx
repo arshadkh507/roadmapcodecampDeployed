@@ -29,17 +29,17 @@ const DistributedSystems758 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DistributedSystems758</h1>
+        <h1>Distributed Systems</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/distributed-systems-and-security-757"
+          nextTo="/roadmaps/cs/high-performance-computing-759"
         />
         <hr />
 
         <h2>DistributedSystems758</h2>
         <p>
-          DistributedSystems758
+        Distributed Systems is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DistributedSystems758 = () => {
 
         <TaskStateButtons
           topicName= "DistributedSystems758"
-          topicId={1}
-          roadmapName="cs"
+          topicId={758}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/distributed-systems-and-security-757"
+          nextTo="/roadmaps/cs/high-performance-computing-759"
         />
       </div>
     </div>

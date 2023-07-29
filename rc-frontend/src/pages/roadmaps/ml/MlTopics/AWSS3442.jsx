@@ -29,17 +29,17 @@ const AWSS3442 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AWSS3442</h1>
+        <h1>A W S S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/storage-441"
+          nextTo="/roadmaps/ml/google-storage-443"
         />
         <hr />
 
         <h2>AWSS3442</h2>
         <p>
-          AWSS3442
+        A W S S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AWSS3442 = () => {
 
         <TaskStateButtons
           topicName= "AWSS3442"
-          topicId={1}
-          roadmapName="ml"
+          topicId={3442}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/storage-441"
+          nextTo="/roadmaps/ml/google-storage-443"
         />
       </div>
     </div>

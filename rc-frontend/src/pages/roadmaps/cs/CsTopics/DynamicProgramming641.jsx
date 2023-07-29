@@ -29,17 +29,17 @@ const DynamicProgramming641 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DynamicProgramming641</h1>
+        <h1>Dynamic Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sequence-diagrams-640"
+          nextTo="/roadmaps/cs/divide-and-conquer-algorithms-642"
         />
         <hr />
 
         <h2>DynamicProgramming641</h2>
         <p>
-          DynamicProgramming641
+        Dynamic Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DynamicProgramming641 = () => {
 
         <TaskStateButtons
           topicName= "DynamicProgramming641"
-          topicId={1}
-          roadmapName="cs"
+          topicId={641}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/sequence-diagrams-640"
+          nextTo="/roadmaps/cs/divide-and-conquer-algorithms-642"
         />
       </div>
     </div>

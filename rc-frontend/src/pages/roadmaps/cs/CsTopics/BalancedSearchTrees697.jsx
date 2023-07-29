@@ -29,17 +29,17 @@ const BalancedSearchTrees697 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BalancedSearchTrees697</h1>
+        <h1>Balanced Search Trees</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/longest-path-problem-696"
+          nextTo="/roadmaps/cs/two-three-four-trees-698"
         />
         <hr />
 
         <h2>BalancedSearchTrees697</h2>
         <p>
-          BalancedSearchTrees697
+        Balanced Search Trees is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BalancedSearchTrees697 = () => {
 
         <TaskStateButtons
           topicName= "BalancedSearchTrees697"
-          topicId={1}
-          roadmapName="cs"
+          topicId={697}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/longest-path-problem-696"
+          nextTo="/roadmaps/cs/two-three-four-trees-698"
         />
       </div>
     </div>

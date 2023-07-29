@@ -29,17 +29,17 @@ const RabinKarpAlgorithm668 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RabinKarpAlgorithm668</h1>
+        <h1>Rabin Karp Algorithm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/the-knights-tour-problem-667"
+          nextTo="/roadmaps/cs/string-search-and-manipulations-669"
         />
         <hr />
 
         <h2>RabinKarpAlgorithm668</h2>
         <p>
-          RabinKarpAlgorithm668
+        Rabin Karp Algorithm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RabinKarpAlgorithm668 = () => {
 
         <TaskStateButtons
           topicName= "RabinKarpAlgorithm668"
-          topicId={1}
-          roadmapName="cs"
+          topicId={668}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/the-knights-tour-problem-667"
+          nextTo="/roadmaps/cs/string-search-and-manipulations-669"
         />
       </div>
     </div>

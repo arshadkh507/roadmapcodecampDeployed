@@ -29,17 +29,17 @@ const TLSHTTPS600 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TLSHTTPS600</h1>
+        <h1>T L S H T T P S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/http-599"
+          nextTo="/roadmaps/cs/sockets-601"
         />
         <hr />
 
         <h2>TLSHTTPS600</h2>
         <p>
-          TLSHTTPS600
+        T L S H T T P S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TLSHTTPS600 = () => {
 
         <TaskStateButtons
           topicName= "TLSHTTPS600"
-          topicId={1}
-          roadmapName="cs"
+          topicId={600}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/http-599"
+          nextTo="/roadmaps/cs/sockets-601"
         />
       </div>
     </div>

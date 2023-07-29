@@ -29,17 +29,17 @@ const FairnessInMachineLearning422 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>FairnessInMachineLearning422</h1>
+        <h1>Fairness In Machine Learning</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/ethics-and-bias-in-ml-421"
+          nextTo="/roadmaps/ml/bias-in-machine-learning-423"
         />
         <hr />
 
         <h2>FairnessInMachineLearning422</h2>
         <p>
-          FairnessInMachineLearning422
+        Fairness In Machine Learning is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const FairnessInMachineLearning422 = () => {
 
         <TaskStateButtons
           topicName= "FairnessInMachineLearning422"
-          topicId={1}
-          roadmapName="ml"
+          topicId={422}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/ethics-and-bias-in-ml-421"
+          nextTo="/roadmaps/ml/bias-in-machine-learning-423"
         />
       </div>
     </div>

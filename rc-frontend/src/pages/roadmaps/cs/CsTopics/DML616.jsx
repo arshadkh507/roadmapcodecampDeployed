@@ -29,17 +29,17 @@ const DML616 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DML616</h1>
+        <h1>D M L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ddl-615"
+          nextTo="/roadmaps/cs/dql-617"
         />
         <hr />
 
         <h2>DML616</h2>
         <p>
-          DML616
+        D M L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DML616 = () => {
 
         <TaskStateButtons
           topicName= "DML616"
-          topicId={1}
-          roadmapName="cs"
+          topicId={616}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/ddl-615"
+          nextTo="/roadmaps/cs/dql-617"
         />
       </div>
     </div>

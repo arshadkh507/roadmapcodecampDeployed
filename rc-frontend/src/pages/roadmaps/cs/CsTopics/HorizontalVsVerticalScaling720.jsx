@@ -29,17 +29,17 @@ const HorizontalVsVerticalScaling720 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HorizontalVsVerticalScaling720</h1>
+        <h1>Horizontal Vs Vertical Scaling</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/system-design-719"
+          nextTo="/roadmaps/cs/load-balancing-721"
         />
         <hr />
 
         <h2>HorizontalVsVerticalScaling720</h2>
         <p>
-          HorizontalVsVerticalScaling720
+        Horizontal Vs Vertical Scaling is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HorizontalVsVerticalScaling720 = () => {
 
         <TaskStateButtons
           topicName= "HorizontalVsVerticalScaling720"
-          topicId={1}
-          roadmapName="cs"
+          topicId={720}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/system-design-719"
+          nextTo="/roadmaps/cs/load-balancing-721"
         />
       </div>
     </div>

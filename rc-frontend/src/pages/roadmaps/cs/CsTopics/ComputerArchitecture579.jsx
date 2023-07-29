@@ -29,17 +29,17 @@ const ComputerArchitecture579 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ComputerArchitecture579</h1>
+        <h1>Computer Architecture</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/vector-spaces-578"
+          nextTo="/roadmaps/cs/digital-logic-and-computer-design-580"
         />
         <hr />
 
         <h2>ComputerArchitecture579</h2>
         <p>
-          ComputerArchitecture579
+        Computer Architecture is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ComputerArchitecture579 = () => {
 
         <TaskStateButtons
           topicName= "ComputerArchitecture579"
-          topicId={1}
-          roadmapName="cs"
+          topicId={579}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/vector-spaces-578"
+          nextTo="/roadmaps/cs/digital-logic-and-computer-design-580"
         />
       </div>
     </div>

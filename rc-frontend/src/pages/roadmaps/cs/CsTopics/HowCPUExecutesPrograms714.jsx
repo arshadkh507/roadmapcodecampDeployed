@@ -29,17 +29,17 @@ const HowCPUExecutesPrograms714 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HowCPUExecutesPrograms714</h1>
+        <h1>How C P U Executes Programs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/how-computers-work-713"
+          nextTo="/roadmaps/cs/how-computers-calculate?-715"
         />
         <hr />
 
         <h2>HowCPUExecutesPrograms714</h2>
         <p>
-          HowCPUExecutesPrograms714
+        How C P U Executes Programs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HowCPUExecutesPrograms714 = () => {
 
         <TaskStateButtons
           topicName= "HowCPUExecutesPrograms714"
-          topicId={1}
-          roadmapName="cs"
+          topicId={714}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/how-computers-work-713"
+          nextTo="/roadmaps/cs/how-computers-calculate?-715"
         />
       </div>
     </div>

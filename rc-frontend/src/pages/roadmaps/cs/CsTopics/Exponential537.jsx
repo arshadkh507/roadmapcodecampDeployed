@@ -29,17 +29,17 @@ const Exponential537 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Exponential537</h1>
+        <h1>Exponential</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/polynomial-536"
+          nextTo="/roadmaps/cs/factorial-538"
         />
         <hr />
 
         <h2>Exponential537</h2>
         <p>
-          Exponential537
+        Exponential is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Exponential537 = () => {
 
         <TaskStateButtons
           topicName= "Exponential537"
-          topicId={1}
-          roadmapName="cs"
+          topicId={537}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/polynomial-536"
+          nextTo="/roadmaps/cs/factorial-538"
         />
       </div>
     </div>

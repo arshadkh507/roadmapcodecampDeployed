@@ -29,17 +29,17 @@ const PublicKeyCryptography709 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PublicKeyCryptography709</h1>
+        <h1>Public Key Cryptography</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/security-708"
+          nextTo="/roadmaps/cs/-encoding-710"
         />
         <hr />
 
         <h2>PublicKeyCryptography709</h2>
         <p>
-          PublicKeyCryptography709
+        Public Key Cryptography is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PublicKeyCryptography709 = () => {
 
         <TaskStateButtons
           topicName= "PublicKeyCryptography709"
-          topicId={1}
-          roadmapName="cs"
+          topicId={709}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/security-708"
+          nextTo="/roadmaps/cs/-encoding-710"
         />
       </div>
     </div>

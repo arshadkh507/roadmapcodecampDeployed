@@ -29,17 +29,17 @@ const ModularProgramming496 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ModularProgramming496</h1>
+        <h1>Modular Programming</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/arrays-and-lists-495"
+          nextTo="/roadmaps/cs/output-497"
         />
         <hr />
 
         <h2>ModularProgramming496</h2>
         <p>
-          ModularProgramming496
+        Modular Programming is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ModularProgramming496 = () => {
 
         <TaskStateButtons
           topicName= "ModularProgramming496"
-          topicId={1}
-          roadmapName="cs"
+          topicId={496}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/arrays-and-lists-495"
+          nextTo="/roadmaps/cs/output-497"
         />
       </div>
     </div>

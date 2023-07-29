@@ -29,17 +29,17 @@ const BayesRule309 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BayesRule309</h1>
+        <h1>Bayes Rule</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/marginal-308"
+          nextTo="/roadmaps/ml/probability-density-functions-310"
         />
         <hr />
 
         <h2>BayesRule309</h2>
         <p>
-          BayesRule309
+        Bayes Rule is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BayesRule309 = () => {
 
         <TaskStateButtons
           topicName= "BayesRule309"
-          topicId={1}
-          roadmapName="ml"
+          topicId={309}
+          roadmapName="rcml"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/ml"
-          nextTo="/roadmaps/ml/what-is-http-02"
+          prevTo="/roadmaps/ml/marginal-308"
+          nextTo="/roadmaps/ml/probability-density-functions-310"
         />
       </div>
     </div>

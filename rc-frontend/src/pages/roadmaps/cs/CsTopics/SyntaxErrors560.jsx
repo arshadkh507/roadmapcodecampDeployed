@@ -29,17 +29,17 @@ const SyntaxErrors560 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SyntaxErrors560</h1>
+        <h1>Syntax Errors</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/troubleshooting-common-errors-559"
+          nextTo="/roadmaps/cs/runtime-errors-561"
         />
         <hr />
 
         <h2>SyntaxErrors560</h2>
         <p>
-          SyntaxErrors560
+        Syntax Errors is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SyntaxErrors560 = () => {
 
         <TaskStateButtons
           topicName= "SyntaxErrors560"
-          topicId={1}
-          roadmapName="cs"
+          topicId={560}
+          roadmapName="rccs"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/cs"
-          nextTo="/roadmaps/cs/what-is-http-02"
+          prevTo="/roadmaps/cs/troubleshooting-common-errors-559"
+          nextTo="/roadmaps/cs/runtime-errors-561"
         />
       </div>
     </div>
