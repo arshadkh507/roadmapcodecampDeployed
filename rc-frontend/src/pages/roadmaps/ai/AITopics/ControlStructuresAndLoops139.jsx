@@ -7,23 +7,28 @@ const ControlStructuresAndLoops139 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Control Structures in Python",
+      url: "https://www.w3schools.com/python/python_conditions.asp",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Loops in Python",
+      url: "https://www.w3schools.com/python/python_for_loops.asp",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Control Structures and Loops in AI",
+      url: "https://www.analyticsvidhya.com/blog/2021/05/control-structures-and-loops-in-python-for-data-science/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Control Structures and Loops in Machine Learning",
+      url: "https://towardsdatascience.com/loops-and-iteration-in-python-6f2dbe34cf68",
+    },
+    {
+      id: 5,
+      title: "Control Structures and Loops in Deep Learning",
+      url: "https://www.geeksforgeeks.org/loops-in-python/",
     },
   ];
   return (
@@ -37,15 +42,23 @@ const ControlStructuresAndLoops139 = () => {
         />
         <hr />
 
-        <h2>ControlStructuresAndLoops139</h2>
+        <h2>Control Structures And Loops</h2>
         <p>
-        Control Structures And Loops is currently under development. Please check back soon for updates.
+        Control Structures and Loops are fundamental concepts in programming that are crucial for AI. Control structures allow your program to make decisions based on certain conditions, while loops enable your program to perform repetitive tasks efficiently. Understanding these concepts is key to implementing complex AI algorithms and models.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Control Structures in Python"
+  videoSrc="https://www.youtube.com/embed/5QlCw1_N6xk"
+/>
+<TopicVideoPlayer
+  videoTitle="Loops in Python"
+  videoSrc="https://www.youtube.com/embed/6iF8Xb7Z3wQ"
+/>
+<TopicVideoPlayer
+  videoTitle="Control Structures and Loops in AI"
+  videoSrc="https://www.youtube.com/embed/RVYY7zMiPbg"
+/>
 
         <hr />
 

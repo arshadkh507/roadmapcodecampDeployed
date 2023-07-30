@@ -7,7 +7,7 @@ const VCSBasicCommand027 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const VCSBasicCommand027 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VCSBasicCommand027</h1>
+        <h1>V C S Basic Command</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-26"
+          nextTo="/roadmaps/frontend/version-control-systems-branching-28"
         />
         <hr />
 
         <h2>VCSBasicCommand027</h2>
         <p>
-          VCSBasicCommand027
+        V C S Basic Command is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VCSBasicCommand027 = () => {
 
         <TaskStateButtons
           topicName= "VCSBasicCommand027"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={27}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-26"
+          nextTo="/roadmaps/frontend/version-control-systems-branching-28"
         />
       </div>
     </div>

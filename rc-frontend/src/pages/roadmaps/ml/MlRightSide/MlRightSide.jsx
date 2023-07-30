@@ -23,31 +23,31 @@ const MlRightSide = () => {
           <RoadmapRightSideCard
             website="Coursera"
             title="Machine Learning"
-            image="https://i.imgur.com/0WwHMTe.jpg"
+            image="https://venturebeat.com/wp-content/uploads/2020/04/coursera-social-logo.png?w=1200&strip=all"
             link="https://www.coursera.org/learn/machine-learning"
           />
           <RoadmapRightSideCard
             website="Fast.ai"
             title="Fast.ai"
-            image="https://i.imgur.com/8sW7Cye.jpg"
+            image="https://tse1.mm.bing.net/th?id=OIP.R19cvVFeOywO09RWFbj7DQHaD3&pid=Api&P=0&h=180"
             link="https://www.fast.ai/"
           />
           <RoadmapRightSideCard
             website="Stanford University"
             title="CS229: Machine Learning"
-            image="https://i.imgur.com/2S2mPfK.jpg"
+            image="https://tse1.mm.bing.net/th?id=OIP.BILU3a1liEu6HHwPyCSbAgHaHa&pid=Api&P=0&h=180"
             link="https://see.stanford.edu/Course/CS229"
           />
           <RoadmapRightSideCard
             website="Udacity"
             title="Machine Learning Engineer Nanodegree"
-            image="https://i.imgur.com/PpA6ZBO.jpg"
+            image="https://tse2.mm.bing.net/th?id=OIP.VqUfhw5PDAT5oqKxk024qAHaD4&pid=Api&P=0&h=180"
             link="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
           />
           <RoadmapRightSideCard
             website="Machine Learning Mastery"
             title="Machine Learning Mastery"
-            image="https://i.imgur.com/wMdw42x.jpg"
+            image="https://machinelearningmastery.com/wp-content/uploads/2014/07/MachineLearningMastery.png"
             link="https://machinelearningmastery.com/start-here/"
           />
         </div>

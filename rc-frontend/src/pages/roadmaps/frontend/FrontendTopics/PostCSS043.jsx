@@ -7,7 +7,7 @@ const PostCSS043 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PostCSS043 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PostCSS043</h1>
+        <h1>Post C S S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-less-42"
+          nextTo="/roadmaps/frontend/advance-javascript-higher-order-functions-44"
         />
         <hr />
 
         <h2>PostCSS043</h2>
         <p>
-          PostCSS043
+        Post C S S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PostCSS043 = () => {
 
         <TaskStateButtons
           topicName= "PostCSS043"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={43}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-less-42"
+          nextTo="/roadmaps/frontend/advance-javascript-higher-order-functions-44"
         />
       </div>
     </div>

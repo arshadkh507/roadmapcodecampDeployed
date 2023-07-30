@@ -7,7 +7,7 @@ const UsingLighthouse102 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const UsingLighthouse102 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UsingLighthouse102</h1>
+        <h1>Using Lighthouse</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/performance-metrics-101"
+          nextTo="/roadmaps/frontend/using-devtools-103"
         />
         <hr />
 
         <h2>UsingLighthouse102</h2>
         <p>
-          UsingLighthouse102
+        Using Lighthouse is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UsingLighthouse102 = () => {
 
         <TaskStateButtons
           topicName= "UsingLighthouse102"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={102}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/performance-metrics-101"
+          nextTo="/roadmaps/frontend/using-devtools-103"
         />
       </div>
     </div>

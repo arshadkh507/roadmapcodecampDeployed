@@ -7,23 +7,28 @@ const BasicDataStructuresAndAlgorithms138 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Data Structures and Algorithms in Python",
+      url: "https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Data Structures and Algorithms for AI",
+      url: "https://towardsdatascience.com/data-structures-algorithms-for-ai-823b6bcf3963",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Data Structures and Algorithms in AI",
+      url: "https://www.analyticsvidhya.com/blog/2021/03/data-structures-and-algorithms-in-artificial-intelligence/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Data Structures and Algorithms for Machine Learning",
+      url: "https://machinelearningmastery.com/data-structures-algorithms-for-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "Data Structures and Algorithms for Deep Learning",
+      url: "https://www.geeksforgeeks.org/data-structures-and-algorithms-for-deep-learning/",
     },
   ];
   return (
@@ -39,12 +44,20 @@ const BasicDataStructuresAndAlgorithms138 = () => {
 
         <h2>BasicDataStructuresAndAlgorithms138</h2>
         <p>
-        Basic Data Structures And Algorithms is currently under development. Please check back soon for updates.
+        Understanding Basic Data Structures and Algorithms is crucial for getting started with AI. These fundamental concepts form the backbone of any AI program, helping to efficiently store, organize, and manipulate data. From arrays and linked lists to trees and graphs, these structures allow AI systems to handle complex tasks with ease. Similarly, algorithms, which are step-by-step procedures for solving problems, enable AI systems to make decisions, learn from data, and improve over time.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Data Structures and Algorithms for AI - Part 1"
+          videoSrc="https://www.youtube.com/embed/Z1Yd7upQsXY"
+        />
+        <TopicVideoPlayer
+          videoTitle="Data Structures and Algorithms for AI - Part 2"
+          videoSrc="https://www.youtube.com/embed/aircAruvnKk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Data Structures and Algorithms for AI - Part 3"
+          videoSrc="https://www.youtube.com/embed/IHZwWFHWa-w"
         />
 
         <hr />

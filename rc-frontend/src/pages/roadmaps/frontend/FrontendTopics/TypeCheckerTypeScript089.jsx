@@ -7,7 +7,7 @@ const TypeCheckerTypeScript089 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const TypeCheckerTypeScript089 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>TypeCheckerTypeScript089</h1>
+        <h1>Type Checker Type Script</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-shadow-dom-88"
+          nextTo="/roadmaps/frontend/pwa-storage-90"
         />
         <hr />
 
         <h2>TypeCheckerTypeScript089</h2>
         <p>
-          TypeCheckerTypeScript089
+        Type Checker Type Script is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const TypeCheckerTypeScript089 = () => {
 
         <TaskStateButtons
           topicName= "TypeCheckerTypeScript089"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={89}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-shadow-dom-88"
+          nextTo="/roadmaps/frontend/pwa-storage-90"
         />
       </div>
     </div>

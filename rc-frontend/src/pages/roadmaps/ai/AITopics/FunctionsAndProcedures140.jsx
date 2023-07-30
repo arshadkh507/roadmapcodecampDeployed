@@ -7,23 +7,28 @@ const FunctionsAndProcedures140 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Functions in Python",
+      url: "https://www.w3schools.com/python/python_functions.asp",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Procedures in Python",
+      url: "https://www.geeksforgeeks.org/procedures-in-python/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Functions and Procedures in AI",
+      url: "https://www.analyticsvidhya.com/blog/2021/05/functions-and-procedures-in-python-for-data-science/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Functions and Procedures in Machine Learning",
+      url: "https://towardsdatascience.com/understanding-functions-in-python-3a3b0522d764",
+    },
+    {
+      id: 5,
+      title: "Functions and Procedures in Deep Learning",
+      url: "https://www.geeksforgeeks.org/python-functions/",
     },
   ];
   return (
@@ -37,14 +42,22 @@ const FunctionsAndProcedures140 = () => {
         />
         <hr />
 
-        <h2>FunctionsAndProcedures140</h2>
+        <h2>Functions And Procedures</h2>
         <p>
-        Functions And Procedures is currently under development. Please check back soon for updates.
+        Functions and Procedures are fundamental building blocks in any programming language, and they are crucial for AI. Functions are reusable pieces of code that perform a specific task, while procedures are a series of computational steps to be carried out. Any complex AI model can be broken down into a series of functions and procedures.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Functions in Python"
+          videoSrc="https://www.youtube.com/embed/9Os0o3wzS_I"
+        />
+        <TopicVideoPlayer
+          videoTitle="Procedures in Python"
+          videoSrc="https://www.youtube.com/embed/hEgO047GxaQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Functions and Procedures in python"
+          videoSrc="https://www.youtube.com/embed/dyvxxJSGUsE"
         />
 
         <hr />

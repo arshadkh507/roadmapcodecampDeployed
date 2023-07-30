@@ -7,7 +7,7 @@ const Eleventy115 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Eleventy115 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Eleventy115</h1>
+        <h1>Eleventy</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/static-site-generators-114"
+          nextTo="/roadmaps/frontend/astro-static-site-generation-116"
         />
         <hr />
 
         <h2>Eleventy115</h2>
         <p>
-          Eleventy115
+        Eleventy is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Eleventy115 = () => {
 
         <TaskStateButtons
           topicName= "Eleventy115"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={115}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/static-site-generators-114"
+          nextTo="/roadmaps/frontend/astro-static-site-generation-116"
         />
       </div>
     </div>

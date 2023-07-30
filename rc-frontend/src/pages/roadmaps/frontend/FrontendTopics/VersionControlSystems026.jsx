@@ -7,7 +7,7 @@ const VersionControlSystems026 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const VersionControlSystems026 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VersionControlSystems026</h1>
+        <h1>Version Control Systems</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/understand-the-concepts-25"
+          nextTo="/roadmaps/frontend/version-control-systems-basic-command-27"
         />
         <hr />
 
         <h2>VersionControlSystems026</h2>
         <p>
-          VersionControlSystems026
+        Version Control Systems is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VersionControlSystems026 = () => {
 
         <TaskStateButtons
           topicName= "VersionControlSystems026"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={26}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/understand-the-concepts-25"
+          nextTo="/roadmaps/frontend/version-control-systems-basic-command-27"
         />
       </div>
     </div>

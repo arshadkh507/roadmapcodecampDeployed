@@ -7,7 +7,7 @@ const MaterialUI074 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const MaterialUI074 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MaterialUI074</h1>
+        <h1>Material U I</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-chakra-ui-73"
+          nextTo="/roadmaps/frontend/css-frameworks-daisyui-75"
         />
         <hr />
 
         <h2>MaterialUI074</h2>
         <p>
-          MaterialUI074
+        Material U I is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MaterialUI074 = () => {
 
         <TaskStateButtons
           topicName= "MaterialUI074"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={74}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-chakra-ui-73"
+          nextTo="/roadmaps/frontend/css-frameworks-daisyui-75"
         />
       </div>
     </div>

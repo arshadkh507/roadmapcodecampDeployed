@@ -7,7 +7,7 @@ const Jekyll120 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Jekyll120 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Jekyll120</h1>
+        <h1>Jekyll</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/vuepress-static-site-generation-119"
+          nextTo="/roadmaps/frontend/hugo-static-site-generation-121"
         />
         <hr />
 
         <h2>Jekyll120</h2>
         <p>
-          Jekyll120
+        Jekyll is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Jekyll120 = () => {
 
         <TaskStateButtons
           topicName= "Jekyll120"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={120}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/vuepress-static-site-generation-119"
+          nextTo="/roadmaps/frontend/hugo-static-site-generation-121"
         />
       </div>
     </div>

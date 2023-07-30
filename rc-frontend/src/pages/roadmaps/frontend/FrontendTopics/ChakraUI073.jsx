@@ -7,7 +7,7 @@ const ChakraUI073 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ChakraUI073 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ChakraUI073</h1>
+        <h1>Chakra U I</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-tailwind-72"
+          nextTo="/roadmaps/frontend/css-frameworks-material-ui-74"
         />
         <hr />
 
         <h2>ChakraUI073</h2>
         <p>
-          ChakraUI073
+        Chakra U I is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ChakraUI073 = () => {
 
         <TaskStateButtons
           topicName= "ChakraUI073"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={73}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-tailwind-72"
+          nextTo="/roadmaps/frontend/css-frameworks-material-ui-74"
         />
       </div>
     </div>

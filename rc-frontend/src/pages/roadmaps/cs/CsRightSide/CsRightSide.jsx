@@ -23,19 +23,19 @@ const CsRightSide = () => {
           <RoadmapRightSideCard
             website="edX"
             title="Introduction to Computer Science"
-            image="https://via.placeholder.com/400x225?text=Placeholder+Image"
+            image="https://partnerships.edx.org/hubfs/Logo%20Files/edX%20Logo%20-%20SVG.svg"
             link="https://www.edx.org/course/cs50s-introduction-to-computer-science"
           />
           <RoadmapRightSideCard
             website="Coursera"
             title="Algorithms and Data Structures Specialization"
-            image="https://via.placeholder.com/400x225?text=Placeholder+Image"
+            image="https://venturebeat.com/wp-content/uploads/2020/04/coursera-social-logo.png?w=1200&strip=all"
             link="https://www.coursera.org/specializations/algorithms"
           />
           <RoadmapRightSideCard
             website="Codecademy"
             title="Data Science Career Path"
-            image="https://via.placeholder.com/400x225?text=Placeholder+Image"
+            image="https://getlogovector.com/wp-content/uploads/2020/11/codecademy-logo-vector.png"
             link="https://www.codecademy.com/learn/paths/data-science"
           />
         </div>

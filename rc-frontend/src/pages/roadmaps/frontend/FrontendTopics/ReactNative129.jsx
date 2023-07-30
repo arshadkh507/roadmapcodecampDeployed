@@ -7,7 +7,7 @@ const ReactNative129 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ReactNative129 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ReactNative129</h1>
+        <h1>React Native</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-react-native-128"
+          nextTo="/roadmaps/frontend/mobile-applications-flutter-130"
         />
         <hr />
 
         <h2>ReactNative129</h2>
         <p>
-          ReactNative129
+        React Native is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ReactNative129 = () => {
 
         <TaskStateButtons
           topicName= "ReactNative129"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={129}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-react-native-128"
+          nextTo="/roadmaps/frontend/mobile-applications-flutter-130"
         />
       </div>
     </div>

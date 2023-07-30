@@ -7,7 +7,7 @@ const DeviceOrientation096 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const DeviceOrientation096 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>DeviceOrientation096</h1>
+        <h1>Device Orientation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-notifications-95"
+          nextTo="/roadmaps/frontend/pwa-payments-97"
         />
         <hr />
 
         <h2>DeviceOrientation096</h2>
         <p>
-          DeviceOrientation096
+        Device Orientation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const DeviceOrientation096 = () => {
 
         <TaskStateButtons
           topicName= "DeviceOrientation096"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={96}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-notifications-95"
+          nextTo="/roadmaps/frontend/pwa-payments-97"
         />
       </div>
     </div>

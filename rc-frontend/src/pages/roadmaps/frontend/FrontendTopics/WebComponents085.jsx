@@ -7,7 +7,7 @@ const WebComponents085 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const WebComponents085 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>WebComponents085</h1>
+        <h1>Web Components</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/authentication-strategies-84"
+          nextTo="/roadmaps/frontend/wc-html-templates-86"
         />
         <hr />
 
         <h2>WebComponents085</h2>
         <p>
-          WebComponents085
+        Web Components is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const WebComponents085 = () => {
 
         <TaskStateButtons
           topicName= "WebComponents085"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={85}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/authentication-strategies-84"
+          nextTo="/roadmaps/frontend/wc-html-templates-86"
         />
       </div>
     </div>

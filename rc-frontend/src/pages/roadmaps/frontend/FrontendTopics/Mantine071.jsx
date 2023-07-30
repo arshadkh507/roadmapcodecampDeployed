@@ -7,7 +7,7 @@ const Mantine071 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Mantine071 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Mantine071</h1>
+        <h1>Mantine</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-emotion-70"
+          nextTo="/roadmaps/frontend/css-frameworks-tailwind-72"
         />
         <hr />
 
         <h2>Mantine071</h2>
         <p>
-          Mantine071
+        Mantine is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Mantine071 = () => {
 
         <TaskStateButtons
           topicName= "Mantine071"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={71}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-emotion-70"
+          nextTo="/roadmaps/frontend/css-frameworks-tailwind-72"
         />
       </div>
     </div>

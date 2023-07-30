@@ -7,7 +7,7 @@ const BuildToolsPrettier053 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const BuildToolsPrettier053 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BuildToolsPrettier053</h1>
+        <h1>Build Tools Prettier</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-linters-and-formatters-52"
+          nextTo="/roadmaps/frontend/build-tools-eslint-54"
         />
         <hr />
 
         <h2>BuildToolsPrettier053</h2>
         <p>
-          BuildToolsPrettier053
+        Build Tools Prettier is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BuildToolsPrettier053 = () => {
 
         <TaskStateButtons
           topicName= "BuildToolsPrettier053"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={53}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-linters-and-formatters-52"
+          nextTo="/roadmaps/frontend/build-tools-eslint-54"
         />
       </div>
     </div>

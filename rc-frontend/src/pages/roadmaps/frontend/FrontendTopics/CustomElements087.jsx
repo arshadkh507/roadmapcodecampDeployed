@@ -7,7 +7,7 @@ const CustomElements087 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const CustomElements087 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CustomElements087</h1>
+        <h1>Custom Elements</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-html-templates-86"
+          nextTo="/roadmaps/frontend/wc-shadow-dom-88"
         />
         <hr />
 
         <h2>CustomElements087</h2>
         <p>
-          CustomElements087
+        Custom Elements is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CustomElements087 = () => {
 
         <TaskStateButtons
           topicName= "CustomElements087"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={87}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-html-templates-86"
+          nextTo="/roadmaps/frontend/wc-shadow-dom-88"
         />
       </div>
     </div>

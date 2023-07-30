@@ -7,7 +7,7 @@ const ShadowDOM088 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ShadowDOM088 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ShadowDOM088</h1>
+        <h1>Shadow D O M</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-custom-elements-87"
+          nextTo="/roadmaps/frontend/type-checker-typescript-89"
         />
         <hr />
 
         <h2>ShadowDOM088</h2>
         <p>
-          ShadowDOM088
+        Shadow D O M is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ShadowDOM088 = () => {
 
         <TaskStateButtons
           topicName= "ShadowDOM088"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={88}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/wc-custom-elements-87"
+          nextTo="/roadmaps/frontend/type-checker-typescript-89"
         />
       </div>
     </div>

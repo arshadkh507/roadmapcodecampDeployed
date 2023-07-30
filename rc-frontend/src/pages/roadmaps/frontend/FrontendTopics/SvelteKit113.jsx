@@ -7,7 +7,7 @@ const SvelteKit113 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const SvelteKit113 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SvelteKit113</h1>
+        <h1>Svelte Kit</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nuxtjs-server-side-rendering-ssr-112"
+          nextTo="/roadmaps/frontend/static-site-generators-114"
         />
         <hr />
 
         <h2>SvelteKit113</h2>
         <p>
-          SvelteKit113
+        Svelte Kit is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SvelteKit113 = () => {
 
         <TaskStateButtons
           topicName= "SvelteKit113"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={113}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nuxtjs-server-side-rendering-ssr-112"
+          nextTo="/roadmaps/frontend/static-site-generators-114"
         />
       </div>
     </div>

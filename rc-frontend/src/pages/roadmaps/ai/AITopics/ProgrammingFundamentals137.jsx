@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,23 +7,25 @@ const ProgrammingFundamentals137 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Artificial Intelligence: A Modern Approach",
+      url: "http://aima.cs.berkeley.edu/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title:
+        "Artificial Intelligence: Structures and Strategies for Complex Problem Solving",
+      url: "https://www.amazon.com/Artificial-Intelligence-Structures-Strategies-Complex/dp/0321545893",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title:
+        "Programming Collective Intelligence: Building Smart Web 2.0 Applications",
+      url: "https://www.amazon.com/Programming-Collective-Intelligence-Building-Applications/dp/0596529325",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Artificial Intelligence: A Guide to Intelligent Systems",
+      url: "https://www.amazon.com/Artificial-Intelligence-Guide-Intelligent-Systems/dp/0321204662",
     },
   ];
   return (
@@ -37,14 +39,27 @@ const ProgrammingFundamentals137 = () => {
         />
         <hr />
 
-        <h2>ProgrammingFundamentals137</h2>
+        <h2>Programming Fundamentals</h2>
         <p>
-        Programming Fundamentals is currently under development. Please check back soon for updates.
+          Programming Fundamentals for AI involves understanding the basics of
+          programming languages, data structures, algorithms, and software
+          development principles. It also includes learning about AI-specific
+          programming concepts such as machine learning algorithms, neural
+          networks, and natural language processing. This knowledge forms the
+          foundation for developing AI applications and systems.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Programming Fundamentals for Artificial Intelligence - Part 1"
+          videoSrc="https://www.youtube.com/embed/Z1Yd7upQsXY"
+        />
+        <TopicVideoPlayer
+          videoTitle="Programming Fundamentals for Artificial Intelligence - Part 2"
+          videoSrc="https://www.youtube.com/embed/aircAruvnKk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Programming Fundamentals for Artificial Intelligence - Part 3"
+          videoSrc="https://www.youtube.com/embed/IHZwWFHWa-w"
         />
 
         <hr />
@@ -63,7 +78,7 @@ const ProgrammingFundamentals137 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "ProgrammingFundamentals137"
+          topicName="ProgrammingFundamentals137"
           topicId={137}
           roadmapName="rcai"
         />
@@ -76,7 +91,7 @@ const ProgrammingFundamentals137 = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ProgrammingFundamentals137;

@@ -12,7 +12,7 @@ const testimonialsData = [
     profession: "Web Developer",
     image: "images/testimonial/arshad-khan.jpeg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula euismod nulla, eget accumsan nisl aliquet quis. Sed dictum blandit tellus, sed gravida orci ultricies vel.",
+      " I'm a Frontend Web Developer with over 3 years of experience in the industry. My expertise lies in creating seamless user interfaces and optimizing website performance to enhance user experience. My current focus is on ReactJS.",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const testimonialsData = [
   {
     id: 6,
     name: "Dr Ghani Ur Rehman Sir",
-    profession: "Faculty Lecturer",
+    profession: "Lecturer",
     image: "images/testimonial/ghani-sir.png",
     description:
       "Nam dapibus orci id risus dignissim tincidunt. Nullam commodo sem eu leo euismod tincidunt. Curabitur quis commodo nunc. Sed maximus justo felis, sed efficitur ex viverra non.",

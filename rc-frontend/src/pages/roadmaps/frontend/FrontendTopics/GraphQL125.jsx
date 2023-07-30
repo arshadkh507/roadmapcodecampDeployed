@@ -7,7 +7,7 @@ const GraphQL125 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const GraphQL125 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GraphQL125</h1>
+        <h1>Graph Q L</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-124"
+          nextTo="/roadmaps/frontend/apollo-graph-126"
         />
         <hr />
 
         <h2>GraphQL125</h2>
         <p>
-          GraphQL125
+        Graph Q L is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GraphQL125 = () => {
 
         <TaskStateButtons
           topicName= "GraphQL125"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={125}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-124"
+          nextTo="/roadmaps/frontend/apollo-graph-126"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const RepoHostinigServiceGitLab031 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const RepoHostinigServiceGitLab031 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RepoHostinigServiceGitLab031</h1>
+        <h1>Repo Hostinig Service Git Lab</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/repo-hosting-service-github-30"
+          nextTo="/roadmaps/frontend/repo-hosting-service-bitbucket-32"
         />
         <hr />
 
         <h2>RepoHostinigServiceGitLab031</h2>
         <p>
-          RepoHostinigServiceGitLab031
+        Repo Hostinig Service Git Lab is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RepoHostinigServiceGitLab031 = () => {
 
         <TaskStateButtons
           topicName= "RepoHostinigServiceGitLab031"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={31}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/repo-hosting-service-github-30"
+          nextTo="/roadmaps/frontend/repo-hosting-service-bitbucket-32"
         />
       </div>
     </div>

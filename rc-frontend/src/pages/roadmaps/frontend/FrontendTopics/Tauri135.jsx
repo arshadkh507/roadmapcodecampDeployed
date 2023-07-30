@@ -7,7 +7,7 @@ const Tauri135 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Tauri135 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Tauri135</h1>
+        <h1>Tauri</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-electron-134"
+          nextTo="/roadmaps/frontend/desktop-applications-flutter-136"
         />
         <hr />
 
         <h2>Tauri135</h2>
         <p>
-          Tauri135
+        Tauri is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Tauri135 = () => {
 
         <TaskStateButtons
           topicName= "Tauri135"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={135}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-electron-134"
+          nextTo="/roadmaps/frontend/desktop-applications-flutter-136"
         />
       </div>
     </div>

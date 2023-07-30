@@ -7,7 +7,7 @@ const StaticSiteGenerators114 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const StaticSiteGenerators114 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StaticSiteGenerators114</h1>
+        <h1>Static Site Generators</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-113"
+          nextTo="/roadmaps/frontend/eleventy-static-site-generation-115"
         />
         <hr />
 
         <h2>StaticSiteGenerators114</h2>
         <p>
-          StaticSiteGenerators114
+        Static Site Generators is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StaticSiteGenerators114 = () => {
 
         <TaskStateButtons
           topicName= "StaticSiteGenerators114"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={114}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-113"
+          nextTo="/roadmaps/frontend/eleventy-static-site-generation-115"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const Sass041 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Sass041 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Sass041</h1>
+        <h1>Sass</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-architecture-bem-40"
+          nextTo="/roadmaps/frontend/css-preprocessors-less-42"
         />
         <hr />
 
         <h2>Sass041</h2>
         <p>
-          Sass041
+        Sass is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Sass041 = () => {
 
         <TaskStateButtons
           topicName= "Sass041"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={41}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-architecture-bem-40"
+          nextTo="/roadmaps/frontend/css-preprocessors-less-42"
         />
       </div>
     </div>

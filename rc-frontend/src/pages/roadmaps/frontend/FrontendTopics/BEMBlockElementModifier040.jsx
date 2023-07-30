@@ -7,7 +7,7 @@ const BEMBlockElementModifier040 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const BEMBlockElementModifier040 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BEMBlockElementModifier040</h1>
+        <h1>B E M Block Element Modifier</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/package-managers-pnpm-39"
+          nextTo="/roadmaps/frontend/css-preprocessors-sass-41"
         />
         <hr />
 
         <h2>BEMBlockElementModifier040</h2>
         <p>
-          BEMBlockElementModifier040
+        B E M Block Element Modifier is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BEMBlockElementModifier040 = () => {
 
         <TaskStateButtons
           topicName= "BEMBlockElementModifier040"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={40}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/package-managers-pnpm-39"
+          nextTo="/roadmaps/frontend/css-preprocessors-sass-41"
         />
       </div>
     </div>

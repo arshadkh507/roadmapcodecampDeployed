@@ -7,7 +7,7 @@ const LearnDOMManipulation022 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const LearnDOMManipulation022 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LearnDOMManipulation022</h1>
+        <h1>Learn D O M Manipulation</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/javascript-syntax-and-basics-constructs-21"
+          nextTo="/roadmaps/frontend/learn-ajax-and-apis-23"
         />
         <hr />
 
         <h2>LearnDOMManipulation022</h2>
         <p>
-          LearnDOMManipulation022
+        Learn D O M Manipulation is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LearnDOMManipulation022 = () => {
 
         <TaskStateButtons
           topicName= "LearnDOMManipulation022"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={22}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/javascript-syntax-and-basics-constructs-21"
+          nextTo="/roadmaps/frontend/learn-ajax-and-apis-23"
         />
       </div>
     </div>

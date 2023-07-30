@@ -7,7 +7,7 @@ const ModuleBundlersEsbuild058 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ModuleBundlersEsbuild058 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ModuleBundlersEsbuild058</h1>
+        <h1>Module Bundlers Esbuild</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-module-bundlers-vite-57"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-webpack-59"
         />
         <hr />
 
         <h2>ModuleBundlersEsbuild058</h2>
         <p>
-          ModuleBundlersEsbuild058
+        Module Bundlers Esbuild is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ModuleBundlersEsbuild058 = () => {
 
         <TaskStateButtons
           topicName= "ModuleBundlersEsbuild058"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={58}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-module-bundlers-vite-57"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-webpack-59"
         />
       </div>
     </div>

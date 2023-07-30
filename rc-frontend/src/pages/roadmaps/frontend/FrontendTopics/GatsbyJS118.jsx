@@ -7,7 +7,7 @@ const GatsbyJS118 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const GatsbyJS118 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>GatsbyJS118</h1>
+        <h1>Gatsby J S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nextjs-static-site-generation-117"
+          nextTo="/roadmaps/frontend/vuepress-static-site-generation-119"
         />
         <hr />
 
         <h2>GatsbyJS118</h2>
         <p>
-          GatsbyJS118
+        Gatsby J S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const GatsbyJS118 = () => {
 
         <TaskStateButtons
           topicName= "GatsbyJS118"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={118}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nextjs-static-site-generation-117"
+          nextTo="/roadmaps/frontend/vuepress-static-site-generation-119"
         />
       </div>
     </div>

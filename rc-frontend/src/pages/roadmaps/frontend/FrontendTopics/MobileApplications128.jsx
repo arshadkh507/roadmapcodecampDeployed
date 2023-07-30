@@ -7,7 +7,7 @@ const MobileApplications128 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const MobileApplications128 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>MobileApplications128</h1>
+        <h1>Mobile Applications</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/relay-modern-graphql-127"
+          nextTo="/roadmaps/frontend/mobile-applications-react-native-129"
         />
         <hr />
 
         <h2>MobileApplications128</h2>
         <p>
-          MobileApplications128
+        Mobile Applications is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const MobileApplications128 = () => {
 
         <TaskStateButtons
           topicName= "MobileApplications128"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={128}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/relay-modern-graphql-127"
+          nextTo="/roadmaps/frontend/mobile-applications-react-native-129"
         />
       </div>
     </div>

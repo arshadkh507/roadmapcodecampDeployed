@@ -7,7 +7,7 @@ const RelayModern127 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const RelayModern127 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>RelayModern127</h1>
+        <h1>Relay Modern</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/apollo-graph-126"
+          nextTo="/roadmaps/frontend/mobile-applications-react-native-128"
         />
         <hr />
 
         <h2>RelayModern127</h2>
         <p>
-          RelayModern127
+        Relay Modern is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const RelayModern127 = () => {
 
         <TaskStateButtons
           topicName= "RelayModern127"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={127}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/apollo-graph-126"
+          nextTo="/roadmaps/frontend/mobile-applications-react-native-128"
         />
       </div>
     </div>

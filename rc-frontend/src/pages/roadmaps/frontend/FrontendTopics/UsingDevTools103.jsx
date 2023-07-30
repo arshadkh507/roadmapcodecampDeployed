@@ -7,7 +7,7 @@ const UsingDevTools103 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const UsingDevTools103 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UsingDevTools103</h1>
+        <h1>Using Dev Tools</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/using-lighthouse-102"
+          nextTo="/roadmaps/frontend/server-side-rendering-ssr-104"
         />
         <hr />
 
         <h2>UsingDevTools103</h2>
         <p>
-          UsingDevTools103
+        Using Dev Tools is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UsingDevTools103 = () => {
 
         <TaskStateButtons
           topicName= "UsingDevTools103"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={103}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/using-lighthouse-102"
+          nextTo="/roadmaps/frontend/server-side-rendering-ssr-104"
         />
       </div>
     </div>

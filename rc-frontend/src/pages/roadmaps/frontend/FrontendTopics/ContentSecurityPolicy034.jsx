@@ -7,7 +7,7 @@ const ContentSecurityPolicy034 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ContentSecurityPolicy034 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ContentSecurityPolicy034</h1>
+        <h1>Content Security Policy</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-https-33"
+          nextTo="/roadmaps/frontend/web-security-knowledge-cors-35"
         />
         <hr />
 
         <h2>ContentSecurityPolicy034</h2>
         <p>
-          ContentSecurityPolicy034
+        Content Security Policy is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ContentSecurityPolicy034 = () => {
 
         <TaskStateButtons
           topicName= "ContentSecurityPolicy034"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={34}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-https-33"
+          nextTo="/roadmaps/frontend/web-security-knowledge-cors-35"
         />
       </div>
     </div>

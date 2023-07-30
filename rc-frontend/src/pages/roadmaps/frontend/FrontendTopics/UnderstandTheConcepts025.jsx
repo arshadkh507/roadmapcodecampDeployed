@@ -7,7 +7,7 @@ const UnderstandTheConcepts025 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const UnderstandTheConcepts025 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>UnderstandTheConcepts025</h1>
+        <h1>Understand The Concepts</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/es6-and-modular-javascript-24"
+          nextTo="/roadmaps/frontend/version-control-systems-26"
         />
         <hr />
 
         <h2>UnderstandTheConcepts025</h2>
         <p>
-          UnderstandTheConcepts025
+        Understand The Concepts is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const UnderstandTheConcepts025 = () => {
 
         <TaskStateButtons
           topicName= "UnderstandTheConcepts025"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={25}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/es6-and-modular-javascript-24"
+          nextTo="/roadmaps/frontend/version-control-systems-26"
         />
       </div>
     </div>

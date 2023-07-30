@@ -7,7 +7,7 @@ const Flutter136 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Flutter136 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Flutter136</h1>
+        <h1>Flutter</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-tauri-135"
+          nextTo="/roadmaps/frontend"
         />
         <hr />
 
         <h2>Flutter136</h2>
         <p>
-          Flutter136
+        Flutter is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Flutter136 = () => {
 
         <TaskStateButtons
           topicName= "Flutter136"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={136}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-tauri-135"
+          nextTo="/roadmaps/frontend"
         />
       </div>
     </div>

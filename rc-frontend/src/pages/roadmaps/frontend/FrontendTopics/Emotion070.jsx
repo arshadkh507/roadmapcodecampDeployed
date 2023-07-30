@@ -7,7 +7,7 @@ const Emotion070 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Emotion070 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Emotion070</h1>
+        <h1>Emotion</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-styled-jsx-69"
+          nextTo="/roadmaps/frontend/css-frameworks-mantine-71"
         />
         <hr />
 
         <h2>Emotion070</h2>
         <p>
-          Emotion070
+        Emotion is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Emotion070 = () => {
 
         <TaskStateButtons
           topicName= "Emotion070"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={70}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-styled-jsx-69"
+          nextTo="/roadmaps/frontend/css-frameworks-mantine-71"
         />
       </div>
     </div>

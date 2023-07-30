@@ -7,7 +7,7 @@ const ModuleBundlersVite057 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ModuleBundlersVite057 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ModuleBundlersVite057</h1>
+        <h1>Module Bundlers Vite</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-npm-scripts-56"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-esbuild-58"
         />
         <hr />
 
         <h2>ModuleBundlersVite057</h2>
         <p>
-          ModuleBundlersVite057
+        Module Bundlers Vite is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ModuleBundlersVite057 = () => {
 
         <TaskStateButtons
           topicName= "ModuleBundlersVite057"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={57}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-npm-scripts-56"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-esbuild-58"
         />
       </div>
     </div>

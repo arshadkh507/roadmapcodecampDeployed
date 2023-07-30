@@ -7,7 +7,7 @@ const React062 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const React062 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>React062</h1>
+        <h1>React</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-module-bundlers-parcel-61"
+          nextTo="/roadmaps/frontend/pick-a-framework-angular-63"
         />
         <hr />
 
         <h2>React062</h2>
         <p>
-          React062
+        React is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const React062 = () => {
 
         <TaskStateButtons
           topicName= "React062"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={62}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-module-bundlers-parcel-61"
+          nextTo="/roadmaps/frontend/pick-a-framework-angular-63"
         />
       </div>
     </div>

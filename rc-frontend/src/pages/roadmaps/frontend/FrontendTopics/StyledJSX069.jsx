@@ -7,7 +7,7 @@ const StyledJSX069 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const StyledJSX069 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StyledJSX069</h1>
+        <h1>Styled J S X</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-css-modules-68"
+          nextTo="/roadmaps/frontend/modern-css-emotion-70"
         />
         <hr />
 
         <h2>StyledJSX069</h2>
         <p>
-          StyledJSX069
+        Styled J S X is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StyledJSX069 = () => {
 
         <TaskStateButtons
           topicName= "StyledJSX069"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={69}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-css-modules-68"
+          nextTo="/roadmaps/frontend/modern-css-emotion-70"
         />
       </div>
     </div>

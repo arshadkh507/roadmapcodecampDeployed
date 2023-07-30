@@ -7,7 +7,7 @@ const Svelte065 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Svelte065 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Svelte065</h1>
+        <h1>Svelte</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-vuejs-64"
+          nextTo="/roadmaps/frontend/pick-a-framework-solid-js-66"
         />
         <hr />
 
         <h2>Svelte065</h2>
         <p>
-          Svelte065
+        Svelte is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Svelte065 = () => {
 
         <TaskStateButtons
           topicName= "Svelte065"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={65}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-vuejs-64"
+          nextTo="/roadmaps/frontend/pick-a-framework-solid-js-66"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const HTTPS033 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const HTTPS033 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTTPS033</h1>
+        <h1>H T T P S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/repo-hosting-service-bitbucket-32"
+          nextTo="/roadmaps/frontend/web-security-knowledge-content-security-policy-34"
         />
         <hr />
 
         <h2>HTTPS033</h2>
         <p>
-          HTTPS033
+        H T T P S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HTTPS033 = () => {
 
         <TaskStateButtons
           topicName= "HTTPS033"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={33}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/repo-hosting-service-bitbucket-32"
+          nextTo="/roadmaps/frontend/web-security-knowledge-content-security-policy-34"
         />
       </div>
     </div>

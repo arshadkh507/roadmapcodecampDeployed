@@ -7,7 +7,7 @@ const Tailwind072 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Tailwind072 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Tailwind072</h1>
+        <h1>Tailwind</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-mantine-71"
+          nextTo="/roadmaps/frontend/css-frameworks-chakra-ui-73"
         />
         <hr />
 
         <h2>Tailwind072</h2>
         <p>
-          Tailwind072
+        Tailwind is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Tailwind072 = () => {
 
         <TaskStateButtons
           topicName= "Tailwind072"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={72}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-mantine-71"
+          nextTo="/roadmaps/frontend/css-frameworks-chakra-ui-73"
         />
       </div>
     </div>

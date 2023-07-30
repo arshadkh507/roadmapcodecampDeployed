@@ -7,7 +7,7 @@ const Payments097 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Payments097 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Payments097</h1>
+        <h1>Payments</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-device-orientation-96"
+          nextTo="/roadmaps/frontend/pwa-credentials-98"
         />
         <hr />
 
         <h2>Payments097</h2>
         <p>
-          Payments097
+        Payments is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Payments097 = () => {
 
         <TaskStateButtons
           topicName= "Payments097"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={97}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-device-orientation-96"
+          nextTo="/roadmaps/frontend/pwa-credentials-98"
         />
       </div>
     </div>

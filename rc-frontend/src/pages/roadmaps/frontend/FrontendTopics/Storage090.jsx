@@ -7,7 +7,7 @@ const Storage090 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Storage090 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Storage090</h1>
+        <h1>Storage</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/type-checker-typescript-89"
+          nextTo="/roadmaps/frontend/pwa-web-sockets-91"
         />
         <hr />
 
         <h2>Storage090</h2>
         <p>
-          Storage090
+        Storage is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Storage090 = () => {
 
         <TaskStateButtons
           topicName= "Storage090"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={90}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/type-checker-typescript-89"
+          nextTo="/roadmaps/frontend/pwa-web-sockets-91"
         />
       </div>
     </div>

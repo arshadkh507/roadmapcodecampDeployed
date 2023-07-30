@@ -7,7 +7,7 @@ const EventLoopConcurrency047 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const EventLoopConcurrency047 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>EventLoopConcurrency047</h1>
+        <h1>Event Loop Concurrency</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-promises-async-await-46"
+          nextTo="/roadmaps/frontend/advance-javascript-performance-optimization-48"
         />
         <hr />
 
         <h2>EventLoopConcurrency047</h2>
         <p>
-          EventLoopConcurrency047
+        Event Loop Concurrency is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const EventLoopConcurrency047 = () => {
 
         <TaskStateButtons
           topicName= "EventLoopConcurrency047"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={47}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-promises-async-await-46"
+          nextTo="/roadmaps/frontend/advance-javascript-performance-optimization-48"
         />
       </div>
     </div>

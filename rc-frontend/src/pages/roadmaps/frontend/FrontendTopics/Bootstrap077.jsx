@@ -7,7 +7,7 @@ const Bootstrap077 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Bootstrap077 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Bootstrap077</h1>
+        <h1>Bootstrap</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-radix-ui-76"
+          nextTo="/roadmaps/frontend/css-frameworks-bulma-78"
         />
         <hr />
 
         <h2>Bootstrap077</h2>
         <p>
-          Bootstrap077
+        Bootstrap is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Bootstrap077 = () => {
 
         <TaskStateButtons
           topicName= "Bootstrap077"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={77}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-frameworks-radix-ui-76"
+          nextTo="/roadmaps/frontend/css-frameworks-bulma-78"
         />
       </div>
     </div>

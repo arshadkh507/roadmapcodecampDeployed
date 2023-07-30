@@ -7,7 +7,7 @@ const LearnAjaxAndAPIs023 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const LearnAjaxAndAPIs023 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>LearnAjaxAndAPIs023</h1>
+        <h1>Learn Ajax And A P Is</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/learn-dom-manipulation-22"
+          nextTo="/roadmaps/frontend/es6-and-modular-javascript-24"
         />
         <hr />
 
         <h2>LearnAjaxAndAPIs023</h2>
         <p>
-          LearnAjaxAndAPIs023
+        Learn Ajax And A P Is is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const LearnAjaxAndAPIs023 = () => {
 
         <TaskStateButtons
           topicName= "LearnAjaxAndAPIs023"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={23}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/learn-dom-manipulation-22"
+          nextTo="/roadmaps/frontend/es6-and-modular-javascript-24"
         />
       </div>
     </div>

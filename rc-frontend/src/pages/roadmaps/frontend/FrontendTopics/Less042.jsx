@@ -7,7 +7,7 @@ const Less042 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Less042 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Less042</h1>
+        <h1>Less</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-sass-41"
+          nextTo="/roadmaps/frontend/css-preprocessors-postcss-43"
         />
         <hr />
 
         <h2>Less042</h2>
         <p>
-          Less042
+        Less is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Less042 = () => {
 
         <TaskStateButtons
           topicName= "Less042"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={42}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-sass-41"
+          nextTo="/roadmaps/frontend/css-preprocessors-postcss-43"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const CSSModules068 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const CSSModules068 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSSModules068</h1>
+        <h1>C S S Modules</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-styled-components-67"
+          nextTo="/roadmaps/frontend/modern-css-styled-jsx-69"
         />
         <hr />
 
         <h2>CSSModules068</h2>
         <p>
-          CSSModules068
+        C S S Modules is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const CSSModules068 = () => {
 
         <TaskStateButtons
           topicName= "CSSModules068"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={68}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/modern-css-styled-components-67"
+          nextTo="/roadmaps/frontend/modern-css-styled-jsx-69"
         />
       </div>
     </div>

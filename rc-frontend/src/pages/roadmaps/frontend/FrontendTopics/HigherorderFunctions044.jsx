@@ -7,7 +7,7 @@ const HigherorderFunctions044 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const HigherorderFunctions044 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HigherorderFunctions044</h1>
+        <h1>Higherorder Functions</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-postcss-43"
+          nextTo="/roadmaps/frontend/advance-javascript-closures-45"
         />
         <hr />
 
         <h2>HigherorderFunctions044</h2>
         <p>
-          HigherorderFunctions044
+        Higherorder Functions is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HigherorderFunctions044 = () => {
 
         <TaskStateButtons
           topicName= "HigherorderFunctions044"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={44}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/css-preprocessors-postcss-43"
+          nextTo="/roadmaps/frontend/advance-javascript-closures-45"
         />
       </div>
     </div>

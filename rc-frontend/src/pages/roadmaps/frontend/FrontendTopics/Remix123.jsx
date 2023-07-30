@@ -7,7 +7,7 @@ const Remix123 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Remix123 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Remix123</h1>
+        <h1>Remix</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nuxtjs-static-site-generation-122"
+          nextTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-124"
         />
         <hr />
 
         <h2>Remix123</h2>
         <p>
-          Remix123
+        Remix is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Remix123 = () => {
 
         <TaskStateButtons
           topicName= "Remix123"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={123}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/nuxtjs-static-site-generation-122"
+          nextTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-124"
         />
       </div>
     </div>

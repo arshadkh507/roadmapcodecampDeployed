@@ -7,7 +7,7 @@ const ES6AndModularJavaScript024 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ES6AndModularJavaScript024 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ES6AndModularJavaScript024</h1>
+        <h1>E S6 And Modular Java Script</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/learn-ajax-and-apis-23"
+          nextTo="/roadmaps/frontend/understand-the-concepts-25"
         />
         <hr />
 
         <h2>ES6AndModularJavaScript024</h2>
         <p>
-          ES6AndModularJavaScript024
+        E S6 And Modular Java Script is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ES6AndModularJavaScript024 = () => {
 
         <TaskStateButtons
           topicName= "ES6AndModularJavaScript024"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={24}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/learn-ajax-and-apis-23"
+          nextTo="/roadmaps/frontend/understand-the-concepts-25"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const Nextjs117 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Nextjs117 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Nextjs117</h1>
+        <h1>Nextjs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/astro-static-site-generation-116"
+          nextTo="/roadmaps/frontend/gatsbyjs-static-site-generation-118"
         />
         <hr />
 
         <h2>Nextjs117</h2>
         <p>
-          Nextjs117
+        Nextjs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Nextjs117 = () => {
 
         <TaskStateButtons
           topicName= "Nextjs117"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={117}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/astro-static-site-generation-116"
+          nextTo="/roadmaps/frontend/gatsbyjs-static-site-generation-118"
         />
       </div>
     </div>

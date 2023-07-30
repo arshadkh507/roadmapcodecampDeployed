@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,7 +7,7 @@ const JavaScript020 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,7 +29,7 @@ const JavaScript020 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>JavaScript020</h1>
+        <h1>Java Script</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/css-box-model-19"
@@ -39,7 +39,7 @@ const JavaScript020 = () => {
 
         <h2>JavaScript020</h2>
         <p>
-          JavaScript020
+        Java Script is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -63,7 +63,7 @@ const JavaScript020 = () => {
         </div>
 
         <TaskStateButtons
-          topicName="JavaScript020"
+          topicName= "JavaScript020"
           topicId={20}
           roadmapName="rcfrontend"
         />
@@ -76,7 +76,7 @@ const JavaScript020 = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default JavaScript020;

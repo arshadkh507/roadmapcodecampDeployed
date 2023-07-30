@@ -7,7 +7,7 @@ const Notifications095 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Notifications095 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Notifications095</h1>
+        <h1>Notifications</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-location-94"
+          nextTo="/roadmaps/frontend/pwa-device-orientation-96"
         />
         <hr />
 
         <h2>Notifications095</h2>
         <p>
-          Notifications095
+        Notifications is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Notifications095 = () => {
 
         <TaskStateButtons
           topicName= "Notifications095"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={95}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-location-94"
+          nextTo="/roadmaps/frontend/pwa-device-orientation-96"
         />
       </div>
     </div>

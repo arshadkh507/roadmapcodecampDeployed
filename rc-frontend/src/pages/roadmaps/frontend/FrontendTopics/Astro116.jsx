@@ -7,7 +7,7 @@ const Astro116 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Astro116 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Astro116</h1>
+        <h1>Astro</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/eleventy-static-site-generation-115"
+          nextTo="/roadmaps/frontend/nextjs-static-site-generation-117"
         />
         <hr />
 
         <h2>Astro116</h2>
         <p>
-          Astro116
+        Astro is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Astro116 = () => {
 
         <TaskStateButtons
           topicName= "Astro116"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={116}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/eleventy-static-site-generation-115"
+          nextTo="/roadmaps/frontend/nextjs-static-site-generation-117"
         />
       </div>
     </div>

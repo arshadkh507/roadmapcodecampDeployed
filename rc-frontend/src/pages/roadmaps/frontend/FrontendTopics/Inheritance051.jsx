@@ -7,7 +7,7 @@ const Inheritance051 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Inheritance051 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Inheritance051</h1>
+        <h1>Inheritance</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-prototypes-50"
+          nextTo="/roadmaps/frontend/build-tools-linters-and-formatters-52"
         />
         <hr />
 
         <h2>Inheritance051</h2>
         <p>
-          Inheritance051
+        Inheritance is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Inheritance051 = () => {
 
         <TaskStateButtons
           topicName= "Inheritance051"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={51}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-prototypes-50"
+          nextTo="/roadmaps/frontend/build-tools-linters-and-formatters-52"
         />
       </div>
     </div>

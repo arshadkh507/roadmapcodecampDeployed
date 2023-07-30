@@ -164,7 +164,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="programming-fundamentals-137">
+            <g className={styles.headingClickableGroup} data-topic-id="programming-fundamentals-137">
               <rect
                 x={353.35}
                 y={268.35}
@@ -211,7 +211,7 @@ const AIRoadmap = () => {
               strokeMiterlimit={0}
               strokeLinejoin="bevel"
             />
-            <g className={styles.clickableGroup} dataTopicId="basic-data-structures-and-algorithms-138">
+            <g className={styles.clickableGroup} data-topic-id="basic-data-structures-and-algorithms-138">
               <rect
                 x={17.35}
                 y={237.35}
@@ -245,7 +245,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="control-structures-and-loops-139">
+            <g className={styles.clickableGroup} data-topic-id="control-structures-and-loops-139">
               <rect
                 x={17.35}
                 y={310.35}
@@ -286,7 +286,7 @@ const AIRoadmap = () => {
               className={styles.topicPath}
             />
 
-            <g className={styles.headingClickableGroup} dataTopicId="differential-calculus-143">
+            <g className={styles.headingClickableGroup} data-topic-id="differential-calculus-143">
               <rect
                 x={57.35}
                 y={406.35}
@@ -317,7 +317,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="propositional-logic-177">
+            <g className={styles.headingClickableGroup} data-topic-id="propositional-logic-177">
 
               <rect
                 x={38.35}
@@ -349,7 +349,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="first-order-logic-186">
+            <g className={styles.headingClickableGroup} data-topic-id="first-order-logic-186">
               <rect
                 x={359.35}
                 y={1242.35}
@@ -380,7 +380,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="predicate-logic-181">
+            <g className={styles.headingClickableGroup} data-topic-id="predicate-logic-181">
               <rect
                 x={38.35}
                 y={1334.35}
@@ -411,7 +411,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="multivariable-calculus-152">
+            <g className={styles.headingClickableGroup} data-topic-id="multivariable-calculus-152">
               <rect
                 x={394.35}
                 y={484.35}
@@ -442,7 +442,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="probability-theory-165">
+            <g className={styles.headingClickableGroup} data-topic-id="probability-theory-165">
               <rect
                 x={75.35}
                 y={658.35}
@@ -505,7 +505,7 @@ const AIRoadmap = () => {
             </g>
 
 
-            <g className={styles.clickableGroup} dataTopicId="limits-and-continuity-144">
+            <g className={styles.clickableGroup} data-topic-id="limits-and-continuity-144">
               <rect
                 x={57.35}
                 y={475.35}
@@ -536,7 +536,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="derivatives-145">
+            <g className={styles.clickableGroup} data-topic-id="derivatives-145">
               <rect
                 x={57.35}
                 y={525.35}
@@ -567,7 +567,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="optimization-146">
+            <g className={styles.clickableGroup} data-topic-id="optimization-146">
               <rect
                 x={57.35}
                 y={575.35}
@@ -598,7 +598,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="propositional-variables-178">
+            <g className={styles.clickableGroup} data-topic-id="propositional-variables-178">
               <rect
                 x={38.35}
                 y={1170.35}
@@ -629,7 +629,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="logical-connectives-179">
+            <g className={styles.clickableGroup} data-topic-id="logical-connectives-179">
               <rect
                 x={38.35}
                 y={1220.35}
@@ -660,7 +660,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="truth-tables-180">
+            <g className={styles.clickableGroup} data-topic-id="truth-tables-180">
               <rect
                 x={38.35}
                 y={1270.35}
@@ -691,7 +691,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="terms-187">
+            <g className={styles.clickableGroup} data-topic-id="terms-187">
               <rect
                 x={359.35}
                 y={1311.35}
@@ -722,7 +722,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="formulas-188">
+            <g className={styles.clickableGroup} data-topic-id="formulas-188">
 
               <rect
                 x={472.35}
@@ -754,7 +754,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="inference-rules-189">
+            <g className={styles.clickableGroup} data-topic-id="inference-rules-189">
               <rect
                 x={359.35}
                 y={1361.35}
@@ -785,7 +785,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="soundness-190">
+            <g className={styles.clickableGroup} data-topic-id="soundness-190">
               <rect
                 x={359.35}
                 y={1411.35}
@@ -816,7 +816,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="completeness-191"><rect
+            <g className={styles.clickableGroup} data-topic-id="completeness-191"><rect
               x={359.35}
               y={1461.35}
               width={217.3}
@@ -846,7 +846,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="quantifiers-182">
+            <g className={styles.clickableGroup} data-topic-id="quantifiers-182">
               <rect
                 x={38.35}
                 y={1390.35}
@@ -877,7 +877,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="variables-183">
+            <g className={styles.clickableGroup} data-topic-id="variables-183">
               <rect
                 x={38.35}
                 y={1440.35}
@@ -908,7 +908,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="predicates-184">
+            <g className={styles.clickableGroup} data-topic-id="predicates-184">
               <rect
                 x={151.35}
                 y={1440.35}
@@ -939,7 +939,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="logical-equivalence-185">
+            <g className={styles.clickableGroup} data-topic-id="logical-equivalence-185">
               <rect
                 x={38.35}
                 y={1490.35}
@@ -970,7 +970,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="partial-derivatives-153">
+            <g className={styles.clickableGroup} data-topic-id="partial-derivatives-153">
               <rect
                 x={356.35}
                 y={553.35}
@@ -1001,7 +1001,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="gradient-divergence-and-curl-154">
+            <g className={styles.clickableGroup} data-topic-id="gradient-divergence-and-curl-154">
               <rect
                 x={356.35}
                 y={603.35}
@@ -1032,7 +1032,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="double-and-triple-integrals-155">
+            <g className={styles.clickableGroup} data-topic-id="double-and-triple-integrals-155">
               <rect
                 x={356.35}
                 y={653.35}
@@ -1063,7 +1063,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="line-integrals-and-surface-integrals-156">
+            <g className={styles.clickableGroup} data-topic-id="line-integrals-and-surface-integrals-156">
               <rect
                 x={356.35}
                 y={703.35}
@@ -1094,7 +1094,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="probability-theory-165">
+            <g className={styles.clickableGroup} data-topic-id="probability-theory-165">
               <rect
                 x={37.35}
                 y={727.35}
@@ -1125,7 +1125,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="random-variables-and-distributions-166">
+            <g className={styles.clickableGroup} data-topic-id="random-variables-and-distributions-166">
               <rect
                 x={37.35}
                 y={777.35}
@@ -1156,7 +1156,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="bayes-theorem-167">
+            <g className={styles.clickableGroup} data-topic-id="bayes-theorem-167">
               <rect
                 x={37.35}
                 y={827.35}
@@ -1187,7 +1187,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="descriptive-statistics-168">
+            <g className={styles.clickableGroup} data-topic-id="descriptive-statistics-168">
               <rect
                 x={37.35}
                 y={877.35}
@@ -1218,7 +1218,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="inferential-statistics-169">
+            <g className={styles.clickableGroup} data-topic-id="inferential-statistics-169">
               <rect
                 x={37.35}
                 y={927.35}
@@ -1249,7 +1249,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="hypothesis-testing-170">
+            <g className={styles.clickableGroup} data-topic-id="hypothesis-testing-170">
               <rect
                 x={37.35}
                 y={977.35}
@@ -1280,7 +1280,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="regression-analysis-171">
+            <g className={styles.clickableGroup} data-topic-id="regression-analysis-171">
               <rect
                 x={37.35}
                 y={1027.35}
@@ -1311,7 +1311,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="vectors-and-matrices-157">
+            <g className={styles.clickableGroup} data-topic-id="vectors-and-matrices-157">
               <rect
                 x={688.35}
                 y={750.35}
@@ -1342,7 +1342,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="matrix-multiplication-158">
+            <g className={styles.clickableGroup} data-topic-id="matrix-multiplication-158">
               <rect
                 x={688.35}
                 y={800.35}
@@ -1373,7 +1373,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="linear-transformations-159">
+            <g className={styles.clickableGroup} data-topic-id="linear-transformations-159">
               <rect
                 x={688.35}
                 y={850.35}
@@ -1404,7 +1404,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="eigenvalues-and-eigenvectors-160">
+            <g className={styles.clickableGroup} data-topic-id="eigenvalues-and-eigenvectors-160">
 
               <rect
                 x={688.35}
@@ -1436,7 +1436,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="convex-optimization-161"><rect
+            <g className={styles.clickableGroup} data-topic-id="convex-optimization-161"><rect
               x={374.35}
               y={841.35}
               width={257.3}
@@ -1465,7 +1465,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               /></g>
 
-            <g className={styles.clickableGroup} dataTopicId="nonlinear-optimization-162">
+            <g className={styles.clickableGroup} data-topic-id="nonlinear-optimization-162">
               <rect
                 x={374.35}
                 y={891.35}
@@ -1496,7 +1496,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="gradient-descent-163">
+            <g className={styles.clickableGroup} data-topic-id="gradient-descent-163">
               <rect
                 x={374.35}
                 y={941.35}
@@ -1527,7 +1527,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="stochastic-optimization-164">
+            <g className={styles.clickableGroup} data-topic-id="stochastic-optimization-164">
               <rect
                 x={374.35}
                 y={991.35}
@@ -1558,7 +1558,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="supervised-learning-193">
+            <g className={styles.clickableGroup} data-topic-id="supervised-learning-193">
               <rect
                 x={681.35}
                 y={1301.35}
@@ -1589,7 +1589,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="unsupervised-learning-194">
+            <g className={styles.clickableGroup} data-topic-id="unsupervised-learning-194">
               <rect
                 x={681.35}
                 y={1351.35}
@@ -1620,7 +1620,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="semi-supervised-learning-195">
+            <g className={styles.clickableGroup} data-topic-id="semi-supervised-learning-195">
               <rect
                 x={681.35}
                 y={1401.35}
@@ -1651,7 +1651,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="reinforcement-learning-196">
+            <g className={styles.clickableGroup} data-topic-id="reinforcement-learning-196">
               <rect
                 x={681.35}
                 y={1451.35}
@@ -1682,7 +1682,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="text-processing-200">
+            <g className={styles.clickableGroup} data-topic-id="text-processing-200">
 
               <rect
                 x={341.35}
@@ -1713,7 +1713,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="language-modeling-201">
+            <g className={styles.clickableGroup} data-topic-id="language-modeling-201">
               <rect
                 x={341.35}
                 y={1696.35}
@@ -1744,7 +1744,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="syntax-and-parsing-202">
+            <g className={styles.clickableGroup} data-topic-id="syntax-and-parsing-202">
               <rect
                 x={341.35}
                 y={1746.35}
@@ -1775,7 +1775,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="sentiment-analysis-203">
+            <g className={styles.clickableGroup} data-topic-id="sentiment-analysis-203">
               <rect
                 x={341.35}
                 y={1796.35}
@@ -1806,7 +1806,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="named-entity-recognition-204">
+            <g className={styles.clickableGroup} data-topic-id="named-entity-recognition-204">
               <rect
                 x={341.35}
                 y={1846.35}
@@ -1837,7 +1837,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="machine-translation-205">
+            <g className={styles.clickableGroup} data-topic-id="machine-translation-205">
 
               <rect
                 x={341.35}
@@ -1869,7 +1869,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="information-extraction-206">
+            <g className={styles.clickableGroup} data-topic-id="information-extraction-206">
               <rect
                 x={341.35}
                 y={1946.35}
@@ -1900,7 +1900,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="topic-modeling-207">
+            <g className={styles.clickableGroup} data-topic-id="topic-modeling-207">
               <rect
                 x={341.35}
                 y={1996.35}
@@ -1931,7 +1931,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="perception-221">
+            <g className={styles.clickableGroup} data-topic-id="perception-221">
               <rect
                 x={334.35}
                 y={2147.35}
@@ -1962,7 +1962,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="sensing-and-mapping-222">
+            <g className={styles.clickableGroup} data-topic-id="sensing-and-mapping-222">
               <rect
                 x={334.35}
                 y={2197.35}
@@ -1993,7 +1993,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="object-recognition-and-tracking-223">
+            <g className={styles.clickableGroup} data-topic-id="object-recognition-and-tracking-223">
               <rect
                 x={334.35}
                 y={2247.35}
@@ -2024,7 +2024,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="robot-kinematics-224">
+            <g className={styles.clickableGroup} data-topic-id="robot-kinematics-224">
               <rect
                 x={334.35}
                 y={2297.35}
@@ -2055,7 +2055,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="robot-control-225">
+            <g className={styles.clickableGroup} data-topic-id="robot-control-225">
               <rect
                 x={334.35}
                 y={2347.35}
@@ -2086,7 +2086,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="machine-learning-engineer-237">
+            <g className={styles.clickableGroup} data-topic-id="machine-learning-engineer-237">
               <rect
                 x={367.35}
                 y={2576.35}
@@ -2117,7 +2117,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="data-scientist-238">
+            <g className={styles.clickableGroup} data-topic-id="data-scientist-238">
 
               <rect
                 x={367.35}
@@ -2148,7 +2148,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ai-research-scientist-239">
+            <g className={styles.clickableGroup} data-topic-id="ai-research-scientist-239">
               <rect
                 x={367.35}
                 y={2680.35}
@@ -2178,7 +2178,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="nlp-engineer-240">
+            <g className={styles.clickableGroup} data-topic-id="nlp-engineer-240">
               <rect
                 x={367.35}
                 y={2732.35}
@@ -2208,7 +2208,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="computer-vision-engineer-241">
+            <g className={styles.clickableGroup} data-topic-id="computer-vision-engineer-241">
               <rect
                 x={367.35}
                 y={2784.35}
@@ -2239,7 +2239,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="robotics-engineer-242">
+            <g className={styles.clickableGroup} data-topic-id="robotics-engineer-242">
               <rect
                 x={367.35}
                 y={2836.35}
@@ -2269,7 +2269,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ai-ethics-and-governance-specialist-243">
+            <g className={styles.clickableGroup} data-topic-id="ai-ethics-and-governance-specialist-243">
               <rect
                 x={367.35}
                 y={2888.35}
@@ -2302,7 +2302,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ai-product-manager-244">
+            <g className={styles.clickableGroup} data-topic-id="ai-product-manager-244">
               <rect
                 x={688.35}
                 y={2576.35}
@@ -2334,7 +2334,7 @@ const AIRoadmap = () => {
             </g>
 
 
-            <g className={styles.clickableGroup} dataTopicId="ai-consultant-245">
+            <g className={styles.clickableGroup} data-topic-id="ai-consultant-245">
               <rect
                 x={688.35}
                 y={2628.35}
@@ -2365,7 +2365,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="ai-trainer-instructor-246">
+            <g className={styles.clickableGroup} data-topic-id="ai-trainer-instructor-246">
               <rect
                 x={688.35}
                 y={2680.35}
@@ -2396,7 +2396,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="ai-business-analyst-247">
+            <g className={styles.clickableGroup} data-topic-id="ai-business-analyst-247">
               <rect
                 x={688.35}
                 y={2732.35}
@@ -2426,7 +2426,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ai-technical-writer-248">
+            <g className={styles.clickableGroup} data-topic-id="ai-technical-writer-248">
               <rect
                 x={688.35}
                 y={2784.35}
@@ -2457,7 +2457,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="ai-hardware-engineer-249">
+            <g className={styles.clickableGroup} data-topic-id="ai-hardware-engineer-249">
               <rect
                 x={688.35}
                 y={2836.35}
@@ -2487,7 +2487,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ai-quality-assurance-engineer-250">
+            <g className={styles.clickableGroup} data-topic-id="ai-quality-assurance-engineer-250">
               <rect
                 x={688.35}
                 y={2888.35}
@@ -2518,7 +2518,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="robot-dynamics-226">
+            <g className={styles.clickableGroup} data-topic-id="robot-dynamics-226">
               <rect
                 x={17.35}
                 y={2077.35}
@@ -2549,7 +2549,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="robot-planning-and-navigation-227">
+            <g className={styles.clickableGroup} data-topic-id="robot-planning-and-navigation-227">
               <rect
                 x={17.35}
                 y={2127.35}
@@ -2579,7 +2579,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="robotics-software-development-228">
+            <g className={styles.clickableGroup} data-topic-id="robotics-software-development-228">
               <rect
                 x={17.35}
                 y={2177.35}
@@ -2609,7 +2609,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="human-robot-interaction-229">
+            <g className={styles.clickableGroup} data-topic-id="human-robot-interaction-229">
               <rect
                 x={17.35}
                 y={2227.35}
@@ -2639,7 +2639,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="robot-learning-and-reinforcement-learning-230">
+            <g className={styles.clickableGroup} data-topic-id="robot-learning-and-reinforcement-learning-230">
               <rect
                 x={17.35}
                 y={2277.35}
@@ -2672,7 +2672,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="ontologies-and-knowledge-graphs-214">
+            <g className={styles.clickableGroup} data-topic-id="ontologies-and-knowledge-graphs-214">
               <rect
                 x={673.35}
                 y={1833.35}
@@ -2703,7 +2703,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="rdf-owl-sparql-215">
+            <g className={styles.clickableGroup} data-topic-id="rdf-owl-sparql-215">
               <rect
                 x={673.35}
                 y={1883.35}
@@ -2733,7 +2733,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="reasoning-216">
+            <g className={styles.clickableGroup} data-topic-id="reasoning-216">
               <rect
                 x={673.35}
                 y={1933.35}
@@ -2763,7 +2763,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="rule-based-reasoning-217">
+            <g className={styles.clickableGroup} data-topic-id="rule-based-reasoning-217">
               <rect
                 x={787.35}
                 y={1933.35}
@@ -2793,7 +2793,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="description-logic-reasoning-218">
+            <g className={styles.clickableGroup} data-topic-id="description-logic-reasoning-218">
               <rect
                 x={673.35}
                 y={1983.35}
@@ -2824,7 +2824,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="knowledge-graph-embeddings-219">
+            <g className={styles.clickableGroup} data-topic-id="knowledge-graph-embeddings-219">
               <rect
                 x={673.35}
                 y={2033.35}
@@ -2854,7 +2854,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="image-processing-208">
+            <g className={styles.clickableGroup} data-topic-id="image-processing-208">
               <rect
                 x={17.35}
                 y={1628.85}
@@ -2885,7 +2885,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="feature-extraction-and-representation-209">
+            <g className={styles.clickableGroup} data-topic-id="feature-extraction-and-representation-209">
               <rect
                 x={17.35}
                 y={1678.85}
@@ -2919,7 +2919,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="object-recognition-and-detection-210">
+            <g className={styles.clickableGroup} data-topic-id="object-recognition-and-detection-210">
               <rect
                 x={17.35}
                 y={1751.85}
@@ -2952,7 +2952,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="deep-learning-approaches-211">
+            <g className={styles.clickableGroup} data-topic-id="deep-learning-approaches-211">
               <rect
                 x={17.35}
                 y={1824.85}
@@ -2982,7 +2982,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="video-analysis-212">
+            <g className={styles.clickableGroup} data-topic-id="video-analysis-212">
               <rect
                 x={17.35}
                 y={1874.85}
@@ -3012,7 +3012,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="3d-computer-vision-213">
+            <g className={styles.clickableGroup} data-topic-id="3d-computer-vision-213">
               <rect
                 x={17.35}
                 y={1924.85}
@@ -3043,7 +3043,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="bias-and-fairness-232">
+            <g className={styles.clickableGroup} data-topic-id="bias-and-fairness-232">
               <rect
                 x={687.35}
                 y={2191.85}
@@ -3074,7 +3074,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="accountability-and-transparency-233">
+            <g className={styles.clickableGroup} data-topic-id="accountability-and-transparency-233">
               <rect
                 x={687.35}
                 y={2241.85}
@@ -3105,7 +3105,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="privacy-and-security-234">
+            <g className={styles.clickableGroup} data-topic-id="privacy-and-security-234">
               <rect
                 x={687.35}
                 y={2291.85}
@@ -3136,7 +3136,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="convolutional-neural-networks-cnn-197">
+            <g className={styles.clickableGroup} data-topic-id="convolutional-neural-networks-cnn-197">
               <rect
                 x={671.35}
                 y={1588.35}
@@ -3166,7 +3166,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="recurrent-neural-networks-rnn-198">
+            <g className={styles.clickableGroup} data-topic-id="recurrent-neural-networks-rnn-198">
               <rect
                 x={671.35}
                 y={1638.35}
@@ -3196,7 +3196,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="generative-models-199">
+            <g className={styles.clickableGroup} data-topic-id="generative-models-199">
               <rect
                 x={671.35}
                 y={1688.35}
@@ -3298,7 +3298,7 @@ const AIRoadmap = () => {
               strokeDasharray="1 8"
               className={styles.topicPath}
             />
-            <g className={styles.clickableGroup} dataTopicId="definite-integrals-148">
+            <g className={styles.clickableGroup} data-topic-id="definite-integrals-148">
               <rect
                 x={731.35}
                 y={469.35}
@@ -3328,7 +3328,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="indefinite-integrals-149">
+            <g className={styles.clickableGroup} data-topic-id="indefinite-integrals-149">
               <rect
                 x={731.35}
                 y={519.35}
@@ -3358,7 +3358,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="areas-and-volumes-150">
+            <g className={styles.clickableGroup} data-topic-id="areas-and-volumes-150">
               <rect
                 x={731.35}
                 y={569.35}
@@ -3389,7 +3389,7 @@ const AIRoadmap = () => {
               />
 
             </g>
-            <g className={styles.clickableGroup} dataTopicId="differential-equations-151">
+            <g className={styles.clickableGroup} data-topic-id="differential-equations-151">
               <rect
                 x={731.35}
                 y={619.35}
@@ -3419,7 +3419,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.headingClickableGroup} dataTopicId="integral-calculus-147">
+            <g className={styles.headingClickableGroup} data-topic-id="integral-calculus-147">
               <rect
                 x={731.35}
                 y={406.35}
@@ -3471,7 +3471,7 @@ const AIRoadmap = () => {
               strokeDasharray="1 8"
               className={styles.topicPath}
             />
-            <g className={styles.clickableGroup} dataTopicId="functions-and-procedures-140">
+            <g className={styles.clickableGroup} data-topic-id="functions-and-procedures-140">
               <rect
                 x={688.35}
                 y={247.35}
@@ -3501,7 +3501,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.clickableGroup} dataTopicId="input-output-operations-141">
+            <g className={styles.clickableGroup} data-topic-id="input-output-operations-141">
               <rect
                 x={688.35}
                 y={297.35}
@@ -3549,7 +3549,7 @@ const AIRoadmap = () => {
               strokeDasharray="1 8"
               className={styles.topicPath}
             />
-            <g className={styles.headingClickableGroup} dataTopicId="mathematics-142">
+            <g className={styles.headingClickableGroup} data-topic-id="mathematics-142">
               <rect
                 x={356.35}
                 y={406.35}
@@ -3641,7 +3641,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.headingClickableGroup} dataTopicId="machine-learning-192">
+            <g className={styles.headingClickableGroup} data-topic-id="machine-learning-192">
               <rect
                 x={679.35}
                 y={1242.35}
@@ -3704,7 +3704,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.headingClickableGroup} dataTopicId="robotics-220">
+            <g className={styles.headingClickableGroup} data-topic-id="robotics-220">
               <rect
                 x={334.35}
                 y={2077.35}
@@ -3734,7 +3734,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.headingClickableGroup} dataTopicId="career-paths-in-ai-236">
+            <g className={styles.headingClickableGroup} data-topic-id="career-paths-in-ai-236">
               <rect
                 x={539.35}
                 y={2469.35}
@@ -3764,7 +3764,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.headingClickableGroup} dataTopicId="artificial-intelligence-applications-235">
+            <g className={styles.headingClickableGroup} data-topic-id="artificial-intelligence-applications-235">
               <rect
                 x={10.35}
                 y={2469.35}
@@ -3857,7 +3857,7 @@ const AIRoadmap = () => {
                 strokeWidth={2.7}
               />
             </g>
-            <g className={styles.headingClickableGroup} dataTopicId="ai-ethics-and-governance-231">
+            <g className={styles.headingClickableGroup} data-topic-id="ai-ethics-and-governance-231">
               <rect
                 x={688.35}
                 y={2131.35}
@@ -4054,7 +4054,7 @@ const AIRoadmap = () => {
               strokeDasharray="1 8"
               className={styles.topicPath}
             />
-            <g className={styles.headingClickableGroup} dataTopicId="optimization-146"><rect
+            <g className={styles.headingClickableGroup} data-topic-id="optimization-146"><rect
               x={374.35}
               y={778.35}
               width={257.3}
@@ -4210,7 +4210,7 @@ const AIRoadmap = () => {
               className={styles.topicPath}
             />
 
-            <g className={styles.clickableGroup} dataTopicId="python-172">
+            <g className={styles.clickableGroup} data-topic-id="python-172">
               <rect
                 x={761.35}
                 y={964.35}
@@ -4241,7 +4241,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="java-173">
+            <g className={styles.clickableGroup} data-topic-id="java-173">
               <rect
                 x={761.35}
                 y={1014.35}
@@ -4272,7 +4272,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="c++-174">
+            <g className={styles.clickableGroup} data-topic-id="c++-174">
               <rect
                 x={761.35}
                 y={1064.35}
@@ -4304,7 +4304,7 @@ const AIRoadmap = () => {
 
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="javascript-175">
+            <g className={styles.clickableGroup} data-topic-id="javascript-175">
               <rect
                 x={761.35}
                 y={1114.35}
@@ -4335,7 +4335,7 @@ const AIRoadmap = () => {
               />
             </g>
 
-            <g className={styles.clickableGroup} dataTopicId="r-176">
+            <g className={styles.clickableGroup} data-topic-id="r-176">
               <rect
                 x={761.35}
                 y={1164.35}

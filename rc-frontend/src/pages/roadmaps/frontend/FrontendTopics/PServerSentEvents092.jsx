@@ -7,7 +7,7 @@ const PServerSentEvents092 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PServerSentEvents092 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PServerSentEvents092</h1>
+        <h1>P Server Sent Events</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-web-sockets-91"
+          nextTo="/roadmaps/frontend/pwa-service-workers-93"
         />
         <hr />
 
         <h2>PServerSentEvents092</h2>
         <p>
-          PServerSentEvents092
+        P Server Sent Events is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PServerSentEvents092 = () => {
 
         <TaskStateButtons
           topicName= "PServerSentEvents092"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={92}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-web-sockets-91"
+          nextTo="/roadmaps/frontend/pwa-service-workers-93"
         />
       </div>
     </div>

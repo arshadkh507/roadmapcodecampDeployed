@@ -7,7 +7,7 @@ const SolidJS066 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const SolidJS066 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>SolidJS066</h1>
+        <h1>Solid J S</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-svelte-65"
+          nextTo="/roadmaps/frontend/modern-css-styled-components-67"
         />
         <hr />
 
         <h2>SolidJS066</h2>
         <p>
-          SolidJS066
+        Solid J S is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const SolidJS066 = () => {
 
         <TaskStateButtons
           topicName= "SolidJS066"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={66}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-svelte-65"
+          nextTo="/roadmaps/frontend/modern-css-styled-components-67"
         />
       </div>
     </div>

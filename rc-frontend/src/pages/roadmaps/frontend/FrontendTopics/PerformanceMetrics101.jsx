@@ -7,7 +7,7 @@ const PerformanceMetrics101 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PerformanceMetrics101 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PerformanceMetrics101</h1>
+        <h1>Performance Metrics</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/rail-model-100"
+          nextTo="/roadmaps/frontend/using-lighthouse-102"
         />
         <hr />
 
         <h2>PerformanceMetrics101</h2>
         <p>
-          PerformanceMetrics101
+        Performance Metrics is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PerformanceMetrics101 = () => {
 
         <TaskStateButtons
           topicName= "PerformanceMetrics101"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={101}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/rail-model-100"
+          nextTo="/roadmaps/frontend/using-lighthouse-102"
         />
       </div>
     </div>

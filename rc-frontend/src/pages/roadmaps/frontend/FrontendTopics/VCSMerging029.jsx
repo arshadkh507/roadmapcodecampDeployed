@@ -7,7 +7,7 @@ const VCSMerging029 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const VCSMerging029 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VCSMerging029</h1>
+        <h1>V C S Merging</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-branching-28"
+          nextTo="/roadmaps/frontend/repo-hosting-service-github-30"
         />
         <hr />
 
         <h2>VCSMerging029</h2>
         <p>
-          VCSMerging029
+        V C S Merging is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VCSMerging029 = () => {
 
         <TaskStateButtons
           topicName= "VCSMerging029"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={29}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-branching-28"
+          nextTo="/roadmaps/frontend/repo-hosting-service-github-30"
         />
       </div>
     </div>

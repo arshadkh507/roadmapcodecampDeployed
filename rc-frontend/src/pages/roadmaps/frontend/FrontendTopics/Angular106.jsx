@@ -7,7 +7,7 @@ const Angular106 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Angular106 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Angular106</h1>
+        <h1>Angular</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/react-server-side-rendering-ssr-105"
+          nextTo="/roadmaps/frontend/vuejs-server-side-rendering-ssr-107"
         />
         <hr />
 
         <h2>Angular106</h2>
         <p>
-          Angular106
+        Angular is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Angular106 = () => {
 
         <TaskStateButtons
           topicName= "Angular106"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={106}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/react-server-side-rendering-ssr-105"
+          nextTo="/roadmaps/frontend/vuejs-server-side-rendering-ssr-107"
         />
       </div>
     </div>

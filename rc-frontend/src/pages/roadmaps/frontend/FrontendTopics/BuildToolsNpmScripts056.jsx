@@ -7,7 +7,7 @@ const BuildToolsNpmScripts056 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const BuildToolsNpmScripts056 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>BuildToolsNpmScripts056</h1>
+        <h1>Build Tools Npm Scripts</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-task-runners-55"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-vite-57"
         />
         <hr />
 
         <h2>BuildToolsNpmScripts056</h2>
         <p>
-          BuildToolsNpmScripts056
+        Build Tools Npm Scripts is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const BuildToolsNpmScripts056 = () => {
 
         <TaskStateButtons
           topicName= "BuildToolsNpmScripts056"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={56}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/build-tools-task-runners-55"
+          nextTo="/roadmaps/frontend/build-tools-module-bundlers-vite-57"
         />
       </div>
     </div>

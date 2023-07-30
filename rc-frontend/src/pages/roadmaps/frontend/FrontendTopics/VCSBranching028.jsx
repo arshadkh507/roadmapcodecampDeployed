@@ -7,7 +7,7 @@ const VCSBranching028 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const VCSBranching028 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>VCSBranching028</h1>
+        <h1>V C S Branching</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-basic-command-27"
+          nextTo="/roadmaps/frontend/version-control-systems-merging-29"
         />
         <hr />
 
         <h2>VCSBranching028</h2>
         <p>
-          VCSBranching028
+        V C S Branching is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const VCSBranching028 = () => {
 
         <TaskStateButtons
           topicName= "VCSBranching028"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={28}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/version-control-systems-basic-command-27"
+          nextTo="/roadmaps/frontend/version-control-systems-merging-29"
         />
       </div>
     </div>

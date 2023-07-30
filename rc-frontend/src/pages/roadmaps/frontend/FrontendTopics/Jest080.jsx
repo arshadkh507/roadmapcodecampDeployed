@@ -7,7 +7,7 @@ const Jest080 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Jest080 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Jest080</h1>
+        <h1>Jest</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-79"
+          nextTo="/roadmaps/frontend/testing-your-apps-react-testing-library-81"
         />
         <hr />
 
         <h2>Jest080</h2>
         <p>
-          Jest080
+        Jest is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Jest080 = () => {
 
         <TaskStateButtons
           topicName= "Jest080"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={80}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-79"
+          nextTo="/roadmaps/frontend/testing-your-apps-react-testing-library-81"
         />
       </div>
     </div>

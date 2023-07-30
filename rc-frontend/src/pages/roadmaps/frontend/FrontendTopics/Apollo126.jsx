@@ -7,7 +7,7 @@ const Apollo126 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Apollo126 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Apollo126</h1>
+        <h1>Apollo</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/graphql-125"
+          nextTo="/roadmaps/frontend/relay-modern-graphql-127"
         />
         <hr />
 
         <h2>Apollo126</h2>
         <p>
-          Apollo126
+        Apollo is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Apollo126 = () => {
 
         <TaskStateButtons
           topicName= "Apollo126"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={126}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/graphql-125"
+          nextTo="/roadmaps/frontend/relay-modern-graphql-127"
         />
       </div>
     </div>

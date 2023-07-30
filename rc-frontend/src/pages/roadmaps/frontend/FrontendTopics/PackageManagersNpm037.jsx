@@ -7,7 +7,7 @@ const PackageManagersNpm037 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PackageManagersNpm037 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PackageManagersNpm037</h1>
+        <h1>Package Managers Npm</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-owasp-security-risks-36"
+          nextTo="/roadmaps/frontend/package-managers-yarn-38"
         />
         <hr />
 
         <h2>PackageManagersNpm037</h2>
         <p>
-          PackageManagersNpm037
+        Package Managers Npm is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PackageManagersNpm037 = () => {
 
         <TaskStateButtons
           topicName= "PackageManagersNpm037"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={37}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-owasp-security-risks-36"
+          nextTo="/roadmaps/frontend/package-managers-yarn-38"
         />
       </div>
     </div>

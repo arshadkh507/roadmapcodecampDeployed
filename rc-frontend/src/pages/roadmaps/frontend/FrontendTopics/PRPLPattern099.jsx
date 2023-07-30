@@ -7,7 +7,7 @@ const PRPLPattern099 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PRPLPattern099 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PRPLPattern099</h1>
+        <h1>P R P L Pattern</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-credentials-98"
+          nextTo="/roadmaps/frontend/rail-model-100"
         />
         <hr />
 
         <h2>PRPLPattern099</h2>
         <p>
-          PRPLPattern099
+        P R P L Pattern is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PRPLPattern099 = () => {
 
         <TaskStateButtons
           topicName= "PRPLPattern099"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={99}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-credentials-98"
+          nextTo="/roadmaps/frontend/rail-model-100"
         />
       </div>
     </div>

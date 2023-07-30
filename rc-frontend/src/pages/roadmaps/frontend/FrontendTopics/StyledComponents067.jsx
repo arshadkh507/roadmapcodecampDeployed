@@ -7,7 +7,7 @@ const StyledComponents067 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const StyledComponents067 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>StyledComponents067</h1>
+        <h1>Styled Components</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-solid-js-66"
+          nextTo="/roadmaps/frontend/modern-css-css-modules-68"
         />
         <hr />
 
         <h2>StyledComponents067</h2>
         <p>
-          StyledComponents067
+        Styled Components is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const StyledComponents067 = () => {
 
         <TaskStateButtons
           topicName= "StyledComponents067"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={67}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pick-a-framework-solid-js-66"
+          nextTo="/roadmaps/frontend/modern-css-css-modules-68"
         />
       </div>
     </div>

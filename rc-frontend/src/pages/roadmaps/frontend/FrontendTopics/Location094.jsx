@@ -7,7 +7,7 @@ const Location094 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Location094 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Location094</h1>
+        <h1>Location</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-service-workers-93"
+          nextTo="/roadmaps/frontend/pwa-notifications-95"
         />
         <hr />
 
         <h2>Location094</h2>
         <p>
-          Location094
+        Location is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Location094 = () => {
 
         <TaskStateButtons
           topicName= "Location094"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={94}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-service-workers-93"
+          nextTo="/roadmaps/frontend/pwa-notifications-95"
         />
       </div>
     </div>

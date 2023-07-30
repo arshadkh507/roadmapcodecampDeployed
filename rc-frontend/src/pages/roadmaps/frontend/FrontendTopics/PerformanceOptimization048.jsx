@@ -7,7 +7,7 @@ const PerformanceOptimization048 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const PerformanceOptimization048 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>PerformanceOptimization048</h1>
+        <h1>Performance Optimization</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-event-loop-concurrency-47"
+          nextTo="/roadmaps/frontend/advance-javascript-classes-49"
         />
         <hr />
 
         <h2>PerformanceOptimization048</h2>
         <p>
-          PerformanceOptimization048
+        Performance Optimization is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const PerformanceOptimization048 = () => {
 
         <TaskStateButtons
           topicName= "PerformanceOptimization048"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={48}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-event-loop-concurrency-47"
+          nextTo="/roadmaps/frontend/advance-javascript-classes-49"
         />
       </div>
     </div>

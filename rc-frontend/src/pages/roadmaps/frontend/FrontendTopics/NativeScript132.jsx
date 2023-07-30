@@ -7,7 +7,7 @@ const NativeScript132 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const NativeScript132 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>NativeScript132</h1>
+        <h1>Native Script</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-ionic-131"
+          nextTo="/roadmaps/frontend/desktop-applications-electron-133"
         />
         <hr />
 
         <h2>NativeScript132</h2>
         <p>
-          NativeScript132
+        Native Script is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const NativeScript132 = () => {
 
         <TaskStateButtons
           topicName= "NativeScript132"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={132}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-ionic-131"
+          nextTo="/roadmaps/frontend/desktop-applications-electron-133"
         />
       </div>
     </div>

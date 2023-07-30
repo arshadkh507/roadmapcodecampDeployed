@@ -7,23 +7,28 @@ const OutputOperations141 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Output Operations in Python",
+      url: "https://www.w3schools.com/python/ref_func_print.asp",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Python Output Operations",
+      url: "https://www.geeksforgeeks.org/python-output-using-print-function/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Output Operations in Programming",
+      url: "https://www.tutorialspoint.com/computer_programming/computer_programming_io.htm",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Output Operations in AI",
+      url: "https://www.analyticsvidhya.com/blog/2021/05/output-operations-in-python-for-data-science/",
+    },
+    {
+      id: 5,
+      title: "Output Operations in Machine Learning",
+      url: "https://machinelearningmastery.com/save-load-machine-learning-models-python-scikit-learn/",
     },
   ];
   return (
@@ -37,16 +42,23 @@ const OutputOperations141 = () => {
         />
         <hr />
 
-        <h2>OutputOperations141</h2>
+        <h2>Output Operations</h2>
         <p>
-        Output Operations is currently under development. Please check back soon for updates.
+        Output Operations in programming, particularly in Python, refer to how a program displays the result of an operation to the user. This could be anything from printing a simple message on the screen, writing data to a file, or sending data over a network. In the context of AI, output operations are often used to present the results of a computation or analysis.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Output Operations in Python"
+          videoSrc="https://www.youtube.com/embed/rfscVS0vtbw"
         />
-
+        <TopicVideoPlayer
+          videoTitle="Python Output Operations"
+          videoSrc="https://www.youtube.com/embed/7XOhibxgBlQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Output Operations in AI"
+          videoSrc="https://www.youtube.com/embed/aircAruvnKk"
+        />
         <hr />
 
         <div className={styles.topicResources}>

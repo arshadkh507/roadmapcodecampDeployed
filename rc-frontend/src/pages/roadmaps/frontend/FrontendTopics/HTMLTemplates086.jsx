@@ -7,7 +7,7 @@ const HTMLTemplates086 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const HTMLTemplates086 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>HTMLTemplates086</h1>
+        <h1>H T M L Templates</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-components-85"
+          nextTo="/roadmaps/frontend/wc-custom-elements-87"
         />
         <hr />
 
         <h2>HTMLTemplates086</h2>
         <p>
-          HTMLTemplates086
+        H T M L Templates is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const HTMLTemplates086 = () => {
 
         <TaskStateButtons
           topicName= "HTMLTemplates086"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={86}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-components-85"
+          nextTo="/roadmaps/frontend/wc-custom-elements-87"
         />
       </div>
     </div>

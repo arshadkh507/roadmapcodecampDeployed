@@ -7,7 +7,7 @@ const Vuepress119 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Vuepress119 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Vuepress119</h1>
+        <h1>Vuepress</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/gatsbyjs-static-site-generation-118"
+          nextTo="/roadmaps/frontend/jekyll-static-site-generation-120"
         />
         <hr />
 
         <h2>Vuepress119</h2>
         <p>
-          Vuepress119
+        Vuepress is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Vuepress119 = () => {
 
         <TaskStateButtons
           topicName= "Vuepress119"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={119}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/gatsbyjs-static-site-generation-118"
+          nextTo="/roadmaps/frontend/jekyll-static-site-generation-120"
         />
       </div>
     </div>

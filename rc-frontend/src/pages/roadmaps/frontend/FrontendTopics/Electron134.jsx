@@ -7,7 +7,7 @@ const Electron134 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Electron134 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Electron134</h1>
+        <h1>Electron</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-electron-133"
+          nextTo="/roadmaps/frontend/desktop-applications-tauri-135"
         />
         <hr />
 
         <h2>Electron134</h2>
         <p>
-          Electron134
+        Electron is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Electron134 = () => {
 
         <TaskStateButtons
           topicName= "Electron134"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={134}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/desktop-applications-electron-133"
+          nextTo="/roadmaps/frontend/desktop-applications-tauri-135"
         />
       </div>
     </div>

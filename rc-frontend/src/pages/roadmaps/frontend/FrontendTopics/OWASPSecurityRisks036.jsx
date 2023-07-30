@@ -7,7 +7,7 @@ const OWASPSecurityRisks036 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const OWASPSecurityRisks036 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>OWASPSecurityRisks036</h1>
+        <h1>O W A S P Security Risks</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-cors-35"
+          nextTo="/roadmaps/frontend/package-managers-npm-37"
         />
         <hr />
 
         <h2>OWASPSecurityRisks036</h2>
         <p>
-          OWASPSecurityRisks036
+        O W A S P Security Risks is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const OWASPSecurityRisks036 = () => {
 
         <TaskStateButtons
           topicName= "OWASPSecurityRisks036"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={36}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/web-security-knowledge-cors-35"
+          nextTo="/roadmaps/frontend/package-managers-npm-37"
         />
       </div>
     </div>

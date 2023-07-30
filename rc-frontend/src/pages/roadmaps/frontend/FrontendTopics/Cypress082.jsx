@@ -7,7 +7,7 @@ const Cypress082 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Cypress082 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Cypress082</h1>
+        <h1>Cypress</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-react-testing-library-81"
+          nextTo="/roadmaps/frontend/testing-your-apps-playwright-83"
         />
         <hr />
 
         <h2>Cypress082</h2>
         <p>
-          Cypress082
+        Cypress is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Cypress082 = () => {
 
         <TaskStateButtons
           topicName= "Cypress082"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={82}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-react-testing-library-81"
+          nextTo="/roadmaps/frontend/testing-your-apps-playwright-83"
         />
       </div>
     </div>

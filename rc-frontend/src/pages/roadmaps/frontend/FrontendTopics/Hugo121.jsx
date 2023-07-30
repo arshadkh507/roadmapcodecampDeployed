@@ -7,7 +7,7 @@ const Hugo121 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Hugo121 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Hugo121</h1>
+        <h1>Hugo</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/jekyll-static-site-generation-120"
+          nextTo="/roadmaps/frontend/nuxtjs-static-site-generation-122"
         />
         <hr />
 
         <h2>Hugo121</h2>
         <p>
-          Hugo121
+        Hugo is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Hugo121 = () => {
 
         <TaskStateButtons
           topicName= "Hugo121"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={121}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/jekyll-static-site-generation-120"
+          nextTo="/roadmaps/frontend/nuxtjs-static-site-generation-122"
         />
       </div>
     </div>

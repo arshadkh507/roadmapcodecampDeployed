@@ -7,7 +7,7 @@ const JavaScriptSyntaxBasicsConstructs021 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const JavaScriptSyntaxBasicsConstructs021 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>JavaScriptSyntaxBasicsConstructs021</h1>
+        <h1>Java Script Syntax Basics Constructs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/javascript-20"
+          nextTo="/roadmaps/frontend/learn-dom-manipulation-22"
         />
         <hr />
 
         <h2>JavaScriptSyntaxBasicsConstructs021</h2>
         <p>
-          JavaScriptSyntaxBasicsConstructs021
+        Java Script Syntax Basics Constructs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const JavaScriptSyntaxBasicsConstructs021 = () => {
 
         <TaskStateButtons
           topicName= "JavaScriptSyntaxBasicsConstructs021"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={21}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/javascript-20"
+          nextTo="/roadmaps/frontend/learn-dom-manipulation-22"
         />
       </div>
     </div>

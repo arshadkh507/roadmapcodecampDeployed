@@ -7,7 +7,7 @@ const Nuxtjs112 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Nuxtjs112 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Nuxtjs112</h1>
+        <h1>Nuxtjs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/universal-server-side-rendering-ssr-111"
+          nextTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-113"
         />
         <hr />
 
         <h2>Nuxtjs112</h2>
         <p>
-          Nuxtjs112
+        Nuxtjs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Nuxtjs112 = () => {
 
         <TaskStateButtons
           topicName= "Nuxtjs112"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={112}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/universal-server-side-rendering-ssr-111"
+          nextTo="/roadmaps/frontend/svelte-kit-server-side-rendering-ssr-113"
         />
       </div>
     </div>

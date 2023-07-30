@@ -7,7 +7,7 @@ const Closures045 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Closures045 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Closures045</h1>
+        <h1>Closures</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-higher-order-functions-44"
+          nextTo="/roadmaps/frontend/advance-javascript-promises-async-await-46"
         />
         <hr />
 
         <h2>Closures045</h2>
         <p>
-          Closures045
+        Closures is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Closures045 = () => {
 
         <TaskStateButtons
           topicName= "Closures045"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={45}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-higher-order-functions-44"
+          nextTo="/roadmaps/frontend/advance-javascript-promises-async-await-46"
         />
       </div>
     </div>

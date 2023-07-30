@@ -7,7 +7,7 @@ const Ionic131 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Ionic131 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Ionic131</h1>
+        <h1>Ionic</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-flutter-130"
+          nextTo="/roadmaps/frontend/mobile-applications-nativescript-132"
         />
         <hr />
 
         <h2>Ionic131</h2>
         <p>
-          Ionic131
+        Ionic is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Ionic131 = () => {
 
         <TaskStateButtons
           topicName= "Ionic131"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={131}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/mobile-applications-flutter-130"
+          nextTo="/roadmaps/frontend/mobile-applications-nativescript-132"
         />
       </div>
     </div>

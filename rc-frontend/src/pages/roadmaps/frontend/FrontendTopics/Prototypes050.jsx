@@ -7,7 +7,7 @@ const Prototypes050 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Prototypes050 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Prototypes050</h1>
+        <h1>Prototypes</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-classes-49"
+          nextTo="/roadmaps/frontend/advance-javascript-inheritance-51"
         />
         <hr />
 
         <h2>Prototypes050</h2>
         <p>
-          Prototypes050
+        Prototypes is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Prototypes050 = () => {
 
         <TaskStateButtons
           topicName= "Prototypes050"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={50}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/advance-javascript-classes-49"
+          nextTo="/roadmaps/frontend/advance-javascript-inheritance-51"
         />
       </div>
     </div>

@@ -7,7 +7,7 @@ const ServerSideRenderingSSR104 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const ServerSideRenderingSSR104 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>ServerSideRenderingSSR104</h1>
+        <h1>Server Side Rendering S S R</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/using-devtools-103"
+          nextTo="/roadmaps/frontend/react-server-side-rendering-ssr-105"
         />
         <hr />
 
         <h2>ServerSideRenderingSSR104</h2>
         <p>
-          ServerSideRenderingSSR104
+        Server Side Rendering S S R is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const ServerSideRenderingSSR104 = () => {
 
         <TaskStateButtons
           topicName= "ServerSideRenderingSSR104"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={104}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/using-devtools-103"
+          nextTo="/roadmaps/frontend/react-server-side-rendering-ssr-105"
         />
       </div>
     </div>

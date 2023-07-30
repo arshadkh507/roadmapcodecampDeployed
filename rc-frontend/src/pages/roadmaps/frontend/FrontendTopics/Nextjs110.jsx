@@ -7,7 +7,7 @@ const Nextjs110 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Nextjs110 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Nextjs110</h1>
+        <h1>Nextjs</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/remix-server-side-rendering-ssr-109"
+          nextTo="/roadmaps/frontend/universal-server-side-rendering-ssr-111"
         />
         <hr />
 
         <h2>Nextjs110</h2>
         <p>
-          Nextjs110
+        Nextjs is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Nextjs110 = () => {
 
         <TaskStateButtons
           topicName= "Nextjs110"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={110}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/remix-server-side-rendering-ssr-109"
+          nextTo="/roadmaps/frontend/universal-server-side-rendering-ssr-111"
         />
       </div>
     </div>

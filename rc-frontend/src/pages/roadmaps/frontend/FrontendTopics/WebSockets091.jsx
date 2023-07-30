@@ -7,7 +7,7 @@ const WebSockets091 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const WebSockets091 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>WebSockets091</h1>
+        <h1>Web Sockets</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-storage-90"
+          nextTo="/roadmaps/frontend/pwa-server-sent-events-92"
         />
         <hr />
 
         <h2>WebSockets091</h2>
         <p>
-          WebSockets091
+        Web Sockets is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const WebSockets091 = () => {
 
         <TaskStateButtons
           topicName= "WebSockets091"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={91}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/pwa-storage-90"
+          nextTo="/roadmaps/frontend/pwa-server-sent-events-92"
         />
       </div>
     </div>

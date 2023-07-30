@@ -7,23 +7,28 @@ const Mathematics142 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Mathematics for Machine Learning",
+      url: "https://www.coursera.org/specializations/mathematics-machine-learning",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "The Mathematics of Machine Learning",
+      url: "https://towardsdatascience.com/the-mathematics-of-machine-learning-894f046c568",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Essential Math for Data Science",
+      url: "https://towardsdatascience.com/the-5-must-knows-of-math-for-data-science-7765b3a0bb05",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mathematics for Artificial Intelligence",
+      url: "https://www.analyticsvidhya.com/blog/2019/07/5-math-skills-data-science-python/",
+    },
+    {
+      id: 5,
+      title: "Mathematics for AI: All the essential math topics you need",
+      url: "https://www.freecodecamp.org/news/mathematics-for-artificial-intelligence-all-the-essential-math-topics-you-need-to-know-1b3b95976f3a/",
     },
   ];
   return (
@@ -39,12 +44,16 @@ const Mathematics142 = () => {
 
         <h2>Mathematics142</h2>
         <p>
-        Mathematics is currently under development. Please check back soon for updates.
+        Mathematics plays a crucial role in AI. It provides a way to understand and model the complexity of the real world that AI seeks to mimic. From linear algebra and calculus to probability and statistics, these mathematical concepts form the backbone of most AI algorithms. Understanding these concepts is key to understanding how AI works and how to implement it effectively.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Mathematics for AI"
+          videoSrc="https://www.youtube.com/embed/8onB7rPG4Pk"
+        />
+         <TopicVideoPlayer
+          videoTitle="Mathematics for AI"
+          videoSrc="https://www.youtube.com/embed/z9O2ThhsIjs"
         />
 
         <hr />

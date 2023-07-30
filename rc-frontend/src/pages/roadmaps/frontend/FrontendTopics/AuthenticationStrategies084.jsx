@@ -7,7 +7,7 @@ const AuthenticationStrategies084 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const AuthenticationStrategies084 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>AuthenticationStrategies084</h1>
+        <h1>Authentication Strategies</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-playwright-83"
+          nextTo="/roadmaps/frontend/web-components-85"
         />
         <hr />
 
         <h2>AuthenticationStrategies084</h2>
         <p>
-          AuthenticationStrategies084
+        Authentication Strategies is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const AuthenticationStrategies084 = () => {
 
         <TaskStateButtons
           topicName= "AuthenticationStrategies084"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={84}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-playwright-83"
+          nextTo="/roadmaps/frontend/web-components-85"
         />
       </div>
     </div>

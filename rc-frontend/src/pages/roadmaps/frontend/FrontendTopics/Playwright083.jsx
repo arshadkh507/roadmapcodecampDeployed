@@ -7,7 +7,7 @@ const Playwright083 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
+      title: "frontend How does the Internet Work?",
       url: "https://cs.fyi/guide/how-does-internet-work",
     },
     {
@@ -29,17 +29,17 @@ const Playwright083 = () => {
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Playwright083</h1>
+        <h1>Playwright</h1>
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-cypress-82"
+          nextTo="/roadmaps/frontend/authentication-strategies-84"
         />
         <hr />
 
         <h2>Playwright083</h2>
         <p>
-          Playwright083
+        Playwright is currently under development. Please check back soon for updates.
         </p>
 
         <TopicVideoPlayer
@@ -64,15 +64,15 @@ const Playwright083 = () => {
 
         <TaskStateButtons
           topicName= "Playwright083"
-          topicId={1}
-          roadmapName="frontend"
+          topicId={83}
+          roadmapName="rcfrontend"
         />
 
         <hr />
 
         <PaginationButtons
-          prevTo="/roadmaps/frontend"
-          nextTo="/roadmaps/frontend/what-is-http-02"
+          prevTo="/roadmaps/frontend/testing-your-apps-cypress-82"
+          nextTo="/roadmaps/frontend/authentication-strategies-84"
         />
       </div>
     </div>
