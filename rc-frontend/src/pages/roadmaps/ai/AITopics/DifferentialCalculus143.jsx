@@ -7,25 +7,26 @@ const DifferentialCalculus143 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Differential Calculus for AI",
+      url: "https://www.someurl.com/differential-calculus-for-ai",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Differential Calculus in AI",
+      url: "https://www.someurl.com/understanding-differential-calculus-in-ai",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Application of Differential Calculus in AI",
+      url: "https://www.someurl.com/application-of-differential-calculus-in-ai",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Differential Calculus in AI: A Comprehensive Guide",
+      url: "https://www.someurl.com/differential-calculus-in-ai-guide",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,24 @@ const DifferentialCalculus143 = () => {
 
         <h2>DifferentialCalculus143</h2>
         <p>
-        Differential Calculus is currently under development. Please check back soon for updates.
+        Differential Calculus, in the context of Artificial Intelligence, is a fundamental mathematical tool. It helps us understand how changes in input values can affect the output of a function. This is particularly useful in AI for optimizing algorithms, such as gradient descent, where we iteratively adjust parameters to minimize a cost function. By understanding the rate of change (the derivative), we can make intelligent decisions about how to adjust our parameters to achieve the most efficient learning.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Differential Calculus for AI - Khan Academy"
+          videoSrc="https://www.youtube.com/embed/best_video_link_1?autoplay=1&mute=1"
         />
+        <TopicVideoPlayer
+          videoTitle="Understanding Differential Calculus in AI - 3Blue1Brown"
+          videoSrc="https://www.youtube.com/embed/best_video_link_2?autoplay=1&mute=1"
+        />
+        <TopicVideoPlayer
+          videoTitle="Application of Differential Calculus in AI - MIT OpenCourseWare"
+          videoSrc="https://www.youtube.com/embed/best_video_link_3?autoplay=1&mute=1"
+        />
+
+
 
         <hr />
 

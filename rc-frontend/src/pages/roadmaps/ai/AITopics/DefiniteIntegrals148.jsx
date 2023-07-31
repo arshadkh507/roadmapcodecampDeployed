@@ -7,25 +7,26 @@ const DefiniteIntegrals148 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Definite Integrals",
+      url: "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-1/a/definite-integrals-intro",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why are Definite Integrals Important in AI?",
+      url: "https://towardsdatascience.com/understanding-the-role-of-integrals-in-ai-9f4183b5c3e",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to Use Definite Integrals in AI",
+      url: "https://www.analyticsvidhya.com/blog/2020/02/integral-calculus-ai-machine-learning/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Applications of Definite Integrals in AI",
+      url: "https://www.researchgate.net/publication/331933608_The_Use_of_Integral_Calculus_in_Artificial_Intelligence",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const DefiniteIntegrals148 = () => {
         />
         <hr />
 
-        <h2>DefiniteIntegrals148</h2>
+        <h2>Definite Integrals</h2>
         <p>
-        Definite Integrals is currently under development. Please check back soon for updates.
+        Definite integrals are a fundamental concept in calculus, often used in the field of Artificial Intelligence (AI). They help in calculating the total sum of discrete data points, which is crucial in many AI algorithms.
+        <br /><br />
+        For instance, in machine learning, definite integrals are used in the training process where the aim is to minimize the error function. This process involves integrating over all the possible values of the input data. Similarly, in robotics, definite integrals are used to calculate the total distance traveled by a robot given its speed at different times.
+        <br /><br />
+        
+        A real-world example of its use in AI is in the field of computer vision, where definite integrals are used to calculate the area under the curve of an object's boundary. This helps in identifying and distinguishing between different objects.
+        <br /><br />
+        
+        In simple terms, think of definite integrals as a tool that helps AI systems to add up all the little pieces of information they have, to make sense of the bigger picture.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Definite Integrals in AI - Introduction"
+          videoSrc="https://www.youtube.com/embed/rCWOdfQ3cwQ"
         />
+
 
         <hr />
 

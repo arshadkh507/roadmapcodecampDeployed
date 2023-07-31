@@ -7,25 +7,26 @@ const IndefiniteIntegrals149 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Indefinite Integrals",
+      url: "https://www.mathsisfun.com/calculus/indefinite-integrals.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Indefinite Integrals in AI: Why and How?",
+      url: "https://www.analyticsvidhya.com/blog/2020/02/integral-calculus-ai-machine-learning/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Application of Indefinite Integrals in AI",
+      url: "https://towardsdatascience.com/integrals-and-ai-df3b6fb389e2",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Indefinite Integrals: A Comprehensive Guide",
+      url: "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-1/a/indefinite-integrals",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,22 @@ const IndefiniteIntegrals149 = () => {
 
         <h2>IndefiniteIntegrals149</h2>
         <p>
-        Indefinite Integrals is currently under development. Please check back soon for updates.
+        Indefinite integrals, often simply called integrals, are fundamental concepts in calculus. They represent the 'opposite' of derivatives, and their main function is to calculate the area under a curve. <br /><br />
+        In the field of Artificial Intelligence (AI), indefinite integrals play a crucial role in various areas. They are used in algorithms for learning, predicting, and data analysis. For instance, they are used in the backpropagation process of training neural networks, where the aim is to minimize the error function.<br /><br />
+        Understanding indefinite integrals can provide a deeper insight into how these AI algorithms work and can lead to the development of more efficient and effective models. So, keep exploring and happy learning!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What are Indefinite Integrals?"
+          videoSrc="https://www.youtube.com/embed/o75AqTInKDU"
         />
+        <TopicVideoPlayer
+          videoTitle="Why use Indefinite Integrals in AI?"
+          videoSrc="https://www.khanacademy.org/math/integral-calculus"
+        />
+
+
 
         <hr />
 

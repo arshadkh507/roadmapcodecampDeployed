@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "../../roadmapsAssets/topics.module.css";
 import PaginationButtons from "../../roadmapComponents/PaginationButtons";
 import TaskStateButtons from "../../roadmapComponents/TaskStateButtons";
@@ -7,25 +7,26 @@ const Optimization146 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ai How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is Optimization?",
+      url: "https://en.wikipedia.org/wiki/Optimization",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "How to Optimize?",
+      url: "https://www.optimization101.org/how-to-optimize/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Optimization in Context of AI",
+      url: "https://towardsdatascience.com/optimization-in-ai-an-overview-6a19a0a6137",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Optimization Techniques in AI (Video)",
+      url: "https://www.youtube.com/watch?v=0qUAb94CpOw",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +40,18 @@ const Optimization146 = () => {
 
         <h2>Optimization146</h2>
         <p>
-        Optimization is currently under development. Please check back soon for updates.
+          Optimization, in simple terms, is the process of making something
+          better or more effective. In the context of AI, optimization involves
+          fine-tuning algorithms and models to improve their performance and
+          efficiency. This could mean reducing errors, improving speed, or
+          maximizing accuracy. The role of optimization in AI is crucial as it
+          directly impacts the effectiveness of AI solutions. Stay tuned for
+          more detailed insights and practical tips on how to optimize AI.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to Optimization in AI"
+          videoSrc="https://www.youtube.com/embed/Q2dewZweAtU"
         />
 
         <hr />
@@ -63,7 +70,7 @@ const Optimization146 = () => {
         </div>
 
         <TaskStateButtons
-          topicName= "Optimization146"
+          topicName="Optimization146"
           topicId={146}
           roadmapName="rcai"
         />
@@ -76,7 +83,7 @@ const Optimization146 = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Optimization146;

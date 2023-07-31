@@ -7,25 +7,26 @@ const R254 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to R for Machine Learning",
+      url: "https://www.datacamp.com/courses/introduction-to-r-for-machine-learning",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Machine Learning with R for beginners",
+      url: "https://www.analyticsvidhya.com/blog/2015/09/full-cheatsheet-machine-learning-algorithms/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Why R is the best data science language to learn today?",
+      url: "https://towardsdatascience.com/why-r-is-the-best-data-science-language-to-learn-today-4986b5f4566",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Getting started with Machine Learning using R",
+      url: "https://www.youtube.com/watch?v=G70qNPeMj8k",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +40,20 @@ const R254 = () => {
 
         <h2>R254</h2>
         <p>
-        R is currently under development. Please check back soon for updates.
+        R is a powerful programming language that's widely used in the field of machine learning. It's known for its statistical computing capabilities and graphical features, which make it an excellent tool for data analysis and visualization. With R, you can easily manipulate data, perform complex statistical operations, and create stunning visualizations. Moreover, R has a vast collection of packages specifically designed for machine learning, making it easier to implement and experiment with various algorithms. So, if you're diving into machine learning, R is definitely a language worth considering!
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is R for Machine Learning?"
+          videoSrc="https://www.youtube.com/embed/your_video_id_1"
+        />
+        <TopicVideoPlayer
+          videoTitle="Why use R for Machine Learning?"
+          videoSrc="https://www.youtube.com/embed/your_video_id_2"
+        />
+        <TopicVideoPlayer
+          videoTitle="How to use R for Machine Learning?"
+          videoSrc="https://www.youtube.com/embed/your_video_id_3"
         />
 
         <hr />

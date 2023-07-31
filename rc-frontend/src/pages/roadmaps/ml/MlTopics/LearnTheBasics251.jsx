@@ -7,25 +7,31 @@ const LearnTheBasics251 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Machine Learning Basics: What, Why, and How",
+      url: "https://towardsdatascience.com/machine-learning-basics-what-why-and-how-78a4b330e36d",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "A Gentle Introduction to Machine Learning",
+      url: "https://machinelearningmastery.com/a-gentle-introduction-to-machine-learning/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Machine Learning",
+      url: "https://www.coursera.org/learn/machine-learning",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Machine Learning for Beginners: An Introduction to Neural Networks",
+      url: "https://victorzhou.com/blog/intro-to-neural-networks/",
+    },
+    {
+      id: 5,
+      title: "Understanding Machine Learning: From Theory to Algorithms",
+      url: "https://www.cse.huji.ac.il/~shais/UnderstandingMachineLearning/index.html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,23 @@ const LearnTheBasics251 = () => {
         />
         <hr />
 
-        <h2>LearnTheBasics251</h2>
+        <h2>Learn The Basics</h2>
         <p>
-        Learn The Basics is currently under development. Please check back soon for updates.
+        Welcome to the basics of Machine Learning! Here, we'll start our journey into this fascinating world. We'll cover the fundamental concepts and techniques, from what Machine Learning is, why it's important, to how it works. So, buckle up and let's dive into the world of Machine Learning together!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Machine Learning Basics"
+          videoSrc="https://www.youtube.com/embed/GwIo3gDZCVQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Introduction to Machine Learning"
+          videoSrc="https://www.youtube.com/embed/IpGxLWOIZy4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Getting Started with Machine Learning"
+          videoSrc="https://www.youtube.com/embed/nKW8Ndu7Mjw"
         />
 
         <hr />

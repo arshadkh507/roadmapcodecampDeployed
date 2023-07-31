@@ -7,25 +7,26 @@ const Python253 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is Machine Learning? A definition - Expert System",
+      url: "https://www.expert.ai/blog/machine-learning-definition/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why Python for Machine Learning? Towards Data Science",
+      url: "https://towardsdatascience.com/why-python-is-popular-among-data-scientists-8097b6a8ed3d",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Getting started with Machine Learning using Python",
+      url: "https://www.geeksforgeeks.org/getting-started-machine-learning-python/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Python Machine Learning Tutorial",
+      url: "https://www.youtube.com/watch?v=7eh4d6sabA0",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,30 @@ const Python253 = () => {
         />
         <hr />
 
-        <h2>Python253</h2>
+        <h2>Python</h2>
         <p>
-        Python is currently under development. Please check back soon for updates.
+        Python is a high-level, interpreted programming language known for its simplicity and readability. It's a versatile language, widely used in various fields, but it shines particularly in the realm of machine learning.
+        <br /><br />
+        Why use Python for machine learning, you ask? Well, Python's extensive selection of libraries and frameworks, such as TensorFlow, PyTorch, and Scikit-learn, makes it an ideal choice for machine learning. These tools simplify complex tasks, allowing you to focus on the bigger picture rather than getting lost in the details.
+        <br /><br />
+        
+        Furthermore, Python's large and active community means you'll never be alone in your machine learning journey. There's a wealth of resources and people ready to help, making Python not just a tool, but a companion in your exploration of machine learning.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Python Machine Learning Tutorial for Beginners"
+          videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"
         />
+        <TopicVideoPlayer
+          videoTitle="Python for Machine Learning - Full Course"
+          videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"
+        />
+        <TopicVideoPlayer
+          videoTitle="How to Start Learning Python for Machine Learning"
+          videoSrc="https://www.youtube.com/embed/KdgQvgE3ji4"
+        />
+
 
         <hr />
 

@@ -7,25 +7,31 @@ const PickAProgrammingLanguage252 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Choosing the Right Programming Language for Machine Learning",
+      url: "https://towardsdatascience.com/choosing-the-right-programming-language-for-machine-learning-a5b5bd4bd4f",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Best Programming Languages for Machine Learning",
+      url: "https://www.geeksforgeeks.org/best-programming-languages-for-machine-learning/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "A Guide to Picking the Right Programming Language for ML",
+      url: "https://www.analyticsvidhya.com/blog/2020/05/which-programming-language-to-choose-for-machine-learning-and-data-science-jobs-a-comparison-between-python-r-and-sas/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "How to Choose a Programming Language for Machine Learning",
+      url: "https://www.freecodecamp.org/news/best-programming-language-for-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "Python vs R vs other languages for Machine Learning",
+      url: "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,34 @@ const PickAProgrammingLanguage252 = () => {
         />
         <hr />
 
-        <h2>PickAProgrammingLanguage252</h2>
+        <h2>Pick A Programming Language</h2>
         <p>
-        Pick A Programming Language is currently under development. Please check back soon for updates.
+        When starting with machine learning, the choice of programming language is crucial. It can affect the ease of learning, the availability of libraries and tools, and the performance of the final models.
+        <br /><br />
+        Python and R are the most popular languages for machine learning due to their powerful libraries and community support. Python is often preferred for its simplicity and readability, making it a good choice for beginners. R, on the other hand, is favored for statistical analysis and visualization.
+        <br /><br />
+        
+        However, the choice of language should also depend on your specific needs and background. If you're coming from a computer science background, you might find languages like Java or C++ more familiar. If you're dealing with large-scale data, languages like Scala or Julia that can handle parallel computing might be more suitable.
+        <br /><br />
+        
+        Ultimately, the best way to choose a language is to consider your needs, evaluate the pros and cons of each language, and try them out for yourself.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Should I study Machine Learning? Is it required for Placements? "
+          videoSrc="https://www.youtube.com/embed/jyd4uH5dWJ8"
         />
+        <TopicVideoPlayer
+          videoTitle="How to Get Started with Machine Learning in Python"
+          videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"
+        />
+        <TopicVideoPlayer
+          videoTitle="Which Programming Language to Pick for Machine Learning"
+          videoSrc="https://www.youtube.com/embed/6kZ-OPLNcgE"
+        />
+
+
 
         <hr />
 

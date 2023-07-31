@@ -1,10 +1,17 @@
 For the topic "CSS Selectors", please complete the following tasks:
 
-1. Generate a recommendedReading array with up to 5 articles related to "CSS Selectors". The articles should be relevant and contain workable links.
+1--- generate it for "learn th Basics" needed for learning or get started machine learning. you
+can generte any number of reading from any source or site.
+
+2-- generate or pick video title and url from youtube for why, how,which to pick a
+programming language to get started machine learning.
+
+1. Generate a recommended Reading array  related to "CSS Selectors". what, why , how is used "CSS Selectors". you
+can generte any number of reading from any source or site.
 
 2. Write a short paragraph that defines the "CSS Selectors" in a humanized tone. The paragraph should be easy to understand and provide a clear overview of the topic.
 
-3. For the TopicVideoPlayer component, provide the title and embedded YouTube video links related to "CSS Selectors". The videos should be relevant and workable.
+3. For the TopicVideoPlayer component, provide the title and embedded YouTube video links related to "CSS Selectors". The videos should be relevant and workable. what, why , how to use  "CSS Selectors"
 
 Example for "CSS Selectors" topic:
 
