@@ -7,25 +7,31 @@ const VersionControlSystems026 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is Version Control? - Atlassian",
+      url: "https://www.atlassian.com/git/tutorials/what-is-version-control",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why Use Version Control Systems - GeeksforGeeks",
+      url: "https://www.geeksforgeeks.org/why-version-control-systems/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to use Git & GitHub - GitHub Docs",
+      url: "https://docs.github.com/en/get-started/quickstart/set-up-git",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Version Control Systems - Tutorialspoint",
+      url: "https://www.tutorialspoint.com/Version-Control-Systems",
+    },
+    {
+      id: 5,
+      title: "Understanding Version Control Systems - Medium",
+      url: "https://medium.com/@aenon/understanding-version-control-systems-1d97c668f1a3",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,27 @@ const VersionControlSystems026 = () => {
         />
         <hr />
 
-        <h2>VersionControlSystems026</h2>
+        <h2>Version Control Systems</h2>
         <p>
-        Version Control Systems is currently under development. Please check back soon for updates.
+        Version Control Systems, often referred to as VCS, are a type of software tools that help software teams manage changes to source code over time. They keep track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+<br /> <br />
+        We use VCS for several reasons. It allows us to collaborate with others, making it possible for multiple developers to work on a single project without stepping on each other's toes. It gives us a safety net, where we can experiment without worrying about breaking things permanently. And lastly, it provides us with a history of our project, making it easier to find out when and why a particular change was made.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is Version Control | Version Control System in Hindi"
+          videoSrc="https://www.youtube.com/embed/VyMDCJwTYVk"
         />
+        <TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners - Crash Course"
+          videoSrc="https://www.youtube.com/embed/RGOj5yH7evk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners Tutorial"
+          videoSrc="https://www.youtube.com/embed/tRZGeaHPoaw"
+        />
+
 
         <hr />
 

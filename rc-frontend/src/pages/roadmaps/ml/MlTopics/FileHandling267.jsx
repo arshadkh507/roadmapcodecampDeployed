@@ -7,25 +7,31 @@ const FileHandling267 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is File Handling in Programming?",
+      url: "https://www.geeksforgeeks.org/file-handling-in-java-using-filewriter-and-filereader/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why Use File Handling in Programming?",
+      url: "https://www.tutorialspoint.com/why-do-we-need-file-handling-in-cplusplus",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to File Handling",
+      url: "https://www.javatpoint.com/file-handling-in-c",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "File Handling in Python",
+      url: "https://www.w3schools.com/python/python_file_handling.asp",
+    },
+    {
+      id: 5,
+      title: "File Handling in JavaScript",
+      url: "https://www.geeksforgeeks.org/javascript-file-handling/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,22 @@ const FileHandling267 = () => {
         />
         <hr />
 
-        <h2>FileHandling267</h2>
+        <h2>File Handling</h2>
         <p>
-        File Handling is currently under development. Please check back soon for updates.
+        File handling, in the realm of programming, is a fundamental concept that deals with the creation, reading, writing, and deletion of files. It's like a librarian organizing books in a library. Without file handling, our programs would have a hard time storing and retrieving data. It's crucial for tasks such as saving user settings, recording logs, or storing data for long-term usage. So, in essence, we need file handling to bring persistence to our data in programming. Stay tuned as we delve deeper into this topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is File Handling?"
+          videoSrc="https://www.youtube.com/embed/aequTxAvQq4"
         />
+        <TopicVideoPlayer
+          videoTitle="File Handling in Python"
+          videoSrc="https://www.youtube.com/embed/N8X-fhGLkoM"
+        />
+
+
 
         <hr />
 

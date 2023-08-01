@@ -7,25 +7,26 @@ const Limits270 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Limits in Calculus",
+      url: "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Limits and Its Applications",
+      url: "https://www.mathsisfun.com/calculus/limits.html",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to Use Limits in Machine Learning",
+      url: "https://towardsdatascience.com/understanding-limits-in-machine-learning-8c3fe4137c30",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Limits in Machine Learning: A Detailed Guide",
+      url: "https://www.analyticsvidhya.com/blog/2021/05/understanding-limits-in-machine-learning-a-detailed-guide/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +38,23 @@ const Limits270 = () => {
         />
         <hr />
 
-        <h2>Limits270</h2>
+        <h2>Limits</h2>
         <p>
-        Limits is currently under development. Please check back soon for updates.
+        In calculus, limits are used to define continuity, derivatives, and integrals. They help us understand the behavior of functions as they approach certain points. <br /><br />
+        In the realm of machine learning, limits play a crucial role in optimization algorithms, such as gradient descent, where we iteratively adjust parameters to minimize a cost function. 
+        A real-world example of using limits would be in a navigation system, where the system continuously recalculates the shortest path, adjusting as new information becomes available. <br /><br />
+        So, whether you're calculating the speed of a car at a specific moment or training a neural network to recognize handwriting, limits are an essential tool in your mathematical toolbox.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to limits | Limits | Differential Calculus | Khan Academy"
+          videoSrc="https://www.youtube.com/embed/riXcZT2ICjA"
+        />
+
+          <TopicVideoPlayer
+          videoTitle="Calculus for Beginners full course | Calculus for Machine learning"
+          videoSrc="https://www.youtube.com/embed/8stueNPVl-I"
         />
 
         <hr />

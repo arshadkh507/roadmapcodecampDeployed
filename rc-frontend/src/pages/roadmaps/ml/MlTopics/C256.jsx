@@ -7,25 +7,31 @@ const C256 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is C?",
+      url: "https://www.cprogramming.com/tutorial/c/lesson1.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why use C for Machine Learning?",
+      url: "https://www.quora.com/Why-is-C-used-in-machine-learning",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to use C in Machine Learning?",
+      url: "https://www.geeksforgeeks.org/machine-learning-in-c/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "C Programming for Machine Learning",
+      url: "https://www.udemy.com/course/machine-learning-with-c/",
+    },
+    {
+      id: 5,
+      title: "C Libraries for Machine Learning",
+      url: "https://analyticsindiamag.com/top-8-c-libraries-developers-should-know-for-machine-learning/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,29 @@ const C256 = () => {
         />
         <hr />
 
-        <h2>C256</h2>
+        <h2>C</h2>
         <p>
-        C is currently under development. Please check back soon for updates.
+        C is a powerful general-purpose programming language. It is fast, portable and available on all platforms. 
+        In the context of Machine Learning, C can be incredibly efficient, especially in areas where computation speed is critical. <br /><br />
+        While it may not be as easy to use as Python or R for Machine Learning, it provides a level of control and efficiency that is hard to match.
+        Stay tuned as we delve deeper into how we can leverage C in the field of Machine Learning.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is C?"
+          videoSrc="https://www.youtube.com/embed/irqbmMNs2Bo"
         />
+        <TopicVideoPlayer
+          videoTitle="C in 100 Seconds
+          "
+          videoSrc="https://www.youtube.com/embed/U3aXWizDbQ4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Machine Learning for Everybody – Full Course"
+          videoSrc="https://www.youtube.com/embed/i_LwzRVP7bg"
+        />
+
 
         <hr />
 

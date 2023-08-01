@@ -7,25 +7,31 @@ const JavaScript258 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Machine Learning with JavaScript",
+      url: "https://www.freecodecamp.org/news/machine-learning-in-javascript/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why Machine Learning with JavaScript is on the rise?",
+      url: "https://towardsdatascience.com/why-machine-learning-with-javascript-is-on-the-rise-5243d589a449",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to use Machine Learning in JavaScript",
+      url: "https://heartbeat.fritz.ai/how-to-use-machine-learning-in-javascript-b0e8d6bdb5a2",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "JavaScript for Machine Learning using TensorFlow.js",
+      url: "https://www.youtube.com/watch?v=Qt3ZABW5lD0",
+    },
+    {
+      id: 5,
+      title: "Introduction to Machine Learning in JavaScript with TensorFlow.js",
+      url: "https://www.youtube.com/watch?v=9Hz3P1VgLz4",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,25 @@ const JavaScript258 = () => {
 
         <h2>JavaScript258</h2>
         <p>
-        Java Script is currently under development. Please check back soon for updates.
+        JavaScript is a powerful and versatile programming language widely used in web development. It's dynamic, interpreted, and supports object-oriented programming. <br /><br />
+        In the context of Machine Learning (ML), JavaScript plays a significant role. With libraries like TensorFlow.js, it allows developers to build and train ML models right in the browser. 
+        This opens up a world of possibilities for interactive web applications that can learn from user input, adapt, and improve over time. So, let's dive into the fascinating world of Machine Learning with JavaScript!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Javascript Introduction"
+          videoSrc="https://www.youtube.com/embed/B7wHpNUUT4Y"
         />
+        <TopicVideoPlayer
+          videoTitle="Learn TensorFlow.js - Deep Learning and Neural Networks with JavaScript"
+          videoSrc="https://www.youtube.com/embed/EoYfa6mYOG4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Machine Learning Tutorial for Beginners - USING JAVASCRIPT!"
+          videoSrc="https://www.youtube.com/embed/9Hz3P1VgLz4"
+        />
+
 
         <hr />
 

@@ -7,25 +7,26 @@ const UnderstandTheConcepts025 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Version Control Systems",
+      url: "https://www.atlassian.com/git/tutorials/what-is-version-control",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Introduction to Repository Hosting Services",
+      url: "https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-hosting-platforms",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Version Control in Software Engineering",
+      url: "https://www.geeksforgeeks.org/version-control-systems/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Choosing a Repository Hosting Service",
+      url: "https://www.linode.com/docs/guides/choosing-a-repository-hosting-service/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,22 @@ const UnderstandTheConcepts025 = () => {
 
         <h2>UnderstandTheConcepts025</h2>
         <p>
-        Understand The Concepts is currently under development. Please check back soon for updates.
+        "Understand The Concepts" is a topic that delves into the heart of version control systems and repository hosting services. It's a fascinating journey that will take you through the intricacies of managing and storing your code efficiently. Stay tuned as we're working hard to bring this content to you soon.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is Version Control | Version Control System in Hindi"
+          videoSrc="https://www.youtube.com/embed/VyMDCJwTYVk"
         />
+        <TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners - Crash Course"
+          videoSrc="https://www.youtube.com/embed/RGOj5yH7evk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners Tutorial"
+          videoSrc="https://www.youtube.com/embed/tRZGeaHPoaw"
+        />
+
 
         <hr />
 

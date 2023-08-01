@@ -7,25 +7,31 @@ const ProgrammingFundamentals259 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Machine Learning Basics: What does a machine learning model do?",
+      url: "https://towardsdatascience.com/machine-learning-basics-what-does-a-machine-learning-model-do-37aaf7db66ef",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Python for Data Science: Basics #1 of 8 - Python Basics",
+      url: "https://www.youtube.com/watch?v=gtejJ3RCddE",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Machine Learning",
+      url: "https://developers.google.com/machine-learning/crash-course/ml-intro",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "A Gentle Introduction to Machine Learning",
+      url: "https://machinelearningmastery.com/a-gentle-introduction-to-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "Understanding Data Types in Python",
+      url: "https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,18 @@ const ProgrammingFundamentals259 = () => {
         />
         <hr />
 
-        <h2>ProgrammingFundamentals259</h2>
+        <h2>Programming Fundamentals</h2>
         <p>
-        Programming Fundamentals is currently under development. Please check back soon for updates.
+        To dive into the world of Machine Learning, it's essential to have a solid understanding of programming fundamentals. These include concepts like variables, data types, control structures (like loops and conditionals), and functions. Don't worry if you're not an expert yet - everyone starts somewhere, and you're already on the right path. Keep going, and happy coding!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Python Machine Learning Tutorial (Data Science)"
+          videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"
         />
+      
+
 
         <hr />
 

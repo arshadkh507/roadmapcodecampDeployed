@@ -49,10 +49,7 @@ const Python253 = () => {
 
         </p>
 
-        <TopicVideoPlayer
-          videoTitle="Python Machine Learning Tutorial for Beginners"
-          videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"
-        />
+
         <TopicVideoPlayer
           videoTitle="Python for Machine Learning - Full Course"
           videoSrc="https://www.youtube.com/embed/7eh4d6sabA0"

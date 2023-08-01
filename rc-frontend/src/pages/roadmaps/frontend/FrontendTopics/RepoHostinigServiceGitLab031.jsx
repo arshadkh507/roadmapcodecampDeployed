@@ -7,29 +7,35 @@ const RepoHostinigServiceGitLab031 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "GitLab Basics: Create and Add your SSH Public Key",
+      url: "https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "GitLab Flow",
+      url: "https://docs.gitlab.com/ee/topics/gitlab_flow.html",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to GitLab CI/CD",
+      url: "https://docs.gitlab.com/ee/ci/introduction/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Working with merge requests in GitLab",
+      url: "https://docs.gitlab.com/ee/user/project/merge_requests/",
+    },
+    {
+      id: 5,
+      title: "GitLab and Kubernetes: Everything you need to know",
+      url: "https://www.gitlab.com/topics/kubernetes/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Repo Hostinig Service Git Lab</h1>
+        <h1>Repo Hostinig Service GitLab</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/repo-hosting-service-github-30"
@@ -37,14 +43,23 @@ const RepoHostinigServiceGitLab031 = () => {
         />
         <hr />
 
-        <h2>RepoHostinigServiceGitLab031</h2>
+        <h2>Repo Hostinig Service GitLab</h2>
         <p>
-        Repo Hostinig Service Git Lab is currently under development. Please check back soon for updates.
+        GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration/continuous deployment pipeline features, using an open-source license. It's a place where developers can host their projects, collaborate on code, and track progress of their tasks. It's widely used by many organizations for its seamless integration with various tools and its ability to automate most of the manual work in the development lifecycle.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="GitLab Tutorial For Beginners | What Is GitLab And How To Use It? | GitLab Tutorial "
+          videoSrc="https://www.youtube.com/embed/mX7lKoabmDw"
+        />
+        <TopicVideoPlayer
+          videoTitle="GitLab CI CD Tutorial for Beginners [Crash Course]"
+          videoSrc="https://www.youtube.com/embed/qP8kir2GUgo"
+        />
+        <TopicVideoPlayer
+          videoTitle="how to create git repository and push to gitlab"
+          videoSrc="https://www.youtube.com/embed/aA4S3Fl45jo"
         />
 
         <hr />

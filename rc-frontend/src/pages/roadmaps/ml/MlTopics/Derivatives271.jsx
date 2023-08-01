@@ -7,25 +7,26 @@ const Derivatives271 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is a Derivative?",
+      url: "https://www.mathsisfun.com/calculus/derivatives-introduction.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why do we use Derivatives in Machine Learning?",
+      url: "https://towardsdatascience.com/why-do-we-use-derivatives-in-machine-learning-2a67f5db5935",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Where and How are Derivatives used in Machine Learning?",
+      url: "https://www.analyticsvidhya.com/blog/2020/02/what-are-derivatives-machine-learning/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Understanding Derivatives in Machine Learning",
+      url: "https://www.youtube.com/watch?v=WUvTyaaNkzM",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,21 @@ const Derivatives271 = () => {
 
         <h2>Derivatives271</h2>
         <p>
-        Derivatives is currently under development. Please check back soon for updates.
+        Derivatives, in the simplest terms, are a measure of how a function changes as its inputs change. They're a fundamental concept in calculus and have a wide range of applications in various fields, including machine learning. <br /><br />
+        In machine learning, derivatives play a crucial role in optimization algorithms, such as gradient descent, which are used to minimize the error function by iteratively adjusting the model parameters. By understanding how the error changes as the parameters change, we can find the direction to adjust the parameters that will minimize the error. <br /><br />
+        So, in a nutshell, derivatives help our machine learning models learn from their mistakes and improve their predictions. Stay tuned for more detailed content on this topic.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Derivatives (C1W2L05)"
+          videoSrc="https://www.youtube.com/embed/GzphoJOVEcE"
         />
+        <TopicVideoPlayer
+          videoTitle="Derivative of a Matrix : Data Science Basics"
+          videoSrc="https://www.youtube.com/embed/e73033jZTCI"
+        />
+
 
         <hr />
 

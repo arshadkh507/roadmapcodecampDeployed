@@ -7,25 +7,31 @@ const Operators262 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What are operators in programming?",
+      url: "https://www.geeksforgeeks.org/operators-in-c-c/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why use operators in programming?",
+      url: "https://www.tutorialspoint.com/computer_programming/computer_programming_operators.htm",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to use operators in programming?",
+      url: "https://www.javatpoint.com/operators-in-java",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Types of operators in programming",
+      url: "https://www.w3schools.com/js/js_operators.asp",
+    },
+    {
+      id: 5,
+      title: "Understanding operators in programming",
+      url: "https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-syntax/cheatsheet",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,23 @@ const Operators262 = () => {
         />
         <hr />
 
-        <h2>Operators262</h2>
+        <h2>Operators</h2>
         <p>
-        Operators is currently under development. Please check back soon for updates.
+        Operators are fundamental building blocks in programming. They allow us to perform different types of operations on our data. 
+        There are various types of operators such as arithmetic operators for mathematical operations, comparison operators for comparing values, 
+        logical operators for logical operations, and so on. 
+        We use operators to manipulate data and control the flow of our programs. They help us create more complex and dynamic programs. 
+        
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Operators in Python"
+          videoSrc="https://www.youtube.com/embed/v5MR5JnKcZI"
+        />
+
+<TopicVideoPlayer
+          videoTitle="Operators in C language in hindi | what is operator?"
+          videoSrc="https://www.youtube.com/embed/r-M3ESr8WLY"
         />
 
         <hr />

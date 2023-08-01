@@ -7,29 +7,40 @@ const JavaScript020 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "JavaScript Guide - Mozilla Developer Network",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "JavaScript Tutorial - W3Schools",
+      url: "https://www.w3schools.com/js/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript - Wikipedia",
+      url: "https://en.wikipedia.org/wiki/JavaScript",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "JavaScript Fundamentals - JavaScript.info",
+      url: "https://javascript.info/first-steps",
+    },
+    {
+      id: 5,
+      title: "Why Use JavaScript? - Stack Overflow",
+      url: "https://stackoverflow.com/questions/209126/why-use-javascript",
+    },
+    {
+      id: 6,
+      title: "How JavaScript works: an overview of the engine, the runtime, and the call stack",
+      url: "https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Java Script</h1>
+        <h1>JavaScript</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/css-box-model-19"
@@ -37,15 +48,22 @@ const JavaScript020 = () => {
         />
         <hr />
 
-        <h2>JavaScript020</h2>
+        <h2>JavaScript</h2>
         <p>
-        Java Script is currently under development. Please check back soon for updates.
+        JavaScript is a powerful programming language that brings life to the web. It's the magic behind the interactive elements on websites, from simple animations to complex single-page applications.  <br /> <br />
+         As a frontend developer, we use JavaScript to manipulate the Document Object Model (DOM), handle events, and even fetch data from servers. It's the language that allows us to create dynamic, responsive, and user-friendly interfaces. So, let's dive into the world of JavaScript and explore its potential together!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour"
+          videoSrc="https://www.youtube.com/embed/W6NZfCO5SIk"
         />
+        <TopicVideoPlayer
+          videoTitle="Learn JavaScript - Full Course for Beginners"
+          videoSrc="https://www.youtube.com/embed/PkZNo7MFNFg"
+        />
+
 
         <hr />
 

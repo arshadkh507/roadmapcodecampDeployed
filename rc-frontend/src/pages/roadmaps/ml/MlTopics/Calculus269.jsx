@@ -7,25 +7,26 @@ const Calculus269 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is Calculus?",
+      url: "https://www.mathsisfun.com/calculus/index.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Calculus in Machine Learning",
+      url: "https://towardsdatascience.com/why-calculus-is-important-for-machine-learning-1f4c4212298b",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Calculus",
+      url: "https://www.khanacademy.org/math/calculus-1",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Applications of Calculus in Machine Learning",
+      url: "https://analyticsindiamag.com/role-of-calculus-in-understanding-the-algorithms-of-machine-learning/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,27 @@ const Calculus269 = () => {
         />
         <hr />
 
-        <h2>Calculus269</h2>
+        <h2>Calculus</h2>
         <p>
-        Calculus is currently under development. Please check back soon for updates.
+        Calculus is a branch of mathematics that deals with rates of change and accumulation of quantities. It's like a system for understanding the dynamic nature of the world around us. <br /><br />
+        In the realm of Machine Learning, calculus is used in a variety of ways. For instance, it's used to optimize loss functions in models, helping to improve their accuracy. It's also used in backpropagation, a method used to train neural networks by adjusting the weights of the nodes. <br /><br />
+        So, while calculus might seem like an abstract concept, it's actually a powerful tool that helps us create more effective and efficient machine learning models. Stay tuned as we delve deeper into this fascinating topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Calculus for Machine Learning"
+          videoSrc="https://www.youtube.com/embed/en6cnME"
         />
+        <TopicVideoPlayer
+          videoTitle="Calculus for Beginners full course | Calculus for Machine learning"
+          videoSrc="https://www.youtube.com/embed/8stueNPVl-I"
+        />
+        <TopicVideoPlayer
+          videoTitle="10 Math Concepts for Programmers"
+          videoSrc="https://www.youtube.com/embed/bOCHTHkBoAs"
+        />
+
 
         <hr />
 

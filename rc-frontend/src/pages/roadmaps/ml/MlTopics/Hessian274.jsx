@@ -7,25 +7,31 @@ const Hessian274 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding the Hessian Matrix",
+      url: "https://towardsdatascience.com/understanding-the-hessian-matrix-eb56b404b8c6",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why and How to use the Hessian for Machine Learning",
+      url: "https://www.machinelearningmindset.com/hessian-for-machine-learning/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "The Role of the Hessian Matrix in Machine Learning",
+      url: "https://www.analyticsvidhya.com/blog/2020/03/hessian-matrix-machine-learning/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Hessian Matrix and its role in Machine Learning",
+      url: "https://www.youtube.com/watch?v=2abN1icNjsk",
+    },
+    {
+      id: 5,
+      title: "Hessian Matrix in Machine Learning: A Detailed Overview",
+      url: "https://www.mygreatlearning.com/blog/hessian-matrix-in-machine-learning/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,26 @@ const Hessian274 = () => {
         />
         <hr />
 
-        <h2>Hessian274</h2>
+        <h2>Hessian</h2>
         <p>
-        Hessian is currently under development. Please check back soon for updates.
+        The Hessian is a type of matrix that's used in the world of machine learning. It's a square matrix of second-order partial derivatives of a scalar function. That might sound a bit complex, but essentially, it's a way to analyze a multivariable function and find its maxima, minima, and saddle points.
+<br /><br />
+        In machine learning, we often use the Hessian when we're doing optimization tasks, like finding the minimum or maximum of a function. It's particularly useful when we're working with large datasets and complex models, as it can help speed up the learning process.
+        <br /><br />
+
+        So why do we use it? Well, the Hessian gives us a way to understand the curvature of a function. If we know the curvature, we can make more informed decisions about how to adjust our model's parameters during the learning process. This can lead to more accurate models, faster training times, and ultimately, better results.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+      <TopicVideoPlayer
+          videoTitle="The Hessian matrix | Multivariable calculus | Khan Academy"
+          videoSrc="https://www.youtube.com/embed/LbBcuZukCAw"
         />
+      <TopicVideoPlayer
+          videoTitle="Multivariable Calculus: Lecture 3 Hessian Matrix : Optimization for a three variable function"
+          videoSrc="https://www.youtube.com/embed/zomvvohLwr4"
+        />
+
 
         <hr />
 

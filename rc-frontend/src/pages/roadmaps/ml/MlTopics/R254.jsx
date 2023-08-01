@@ -45,15 +45,15 @@ const R254 = () => {
 
         <TopicVideoPlayer
           videoTitle="What is R for Machine Learning?"
-          videoSrc="https://www.youtube.com/embed/your_video_id_1"
+          videoSrc="https://www.youtube.com/embed/6dEUTmoXz0w"
         />
         <TopicVideoPlayer
-          videoTitle="Why use R for Machine Learning?"
-          videoSrc="https://www.youtube.com/embed/your_video_id_2"
+          videoTitle="Python vs R - Which One is Best For ML and Data Science? | GeeksforGeeks"
+          videoSrc="https://www.youtube.com/embed/5YYdFsvtDoM"
         />
         <TopicVideoPlayer
-          videoTitle="How to use R for Machine Learning?"
-          videoSrc="https://www.youtube.com/embed/your_video_id_3"
+          videoTitle="R Programming Tutorial - Learn the Basics of Statistical Computing"
+          videoSrc="https://www.youtube.com/embed/_V8eKsto3Ug"
         />
 
         <hr />

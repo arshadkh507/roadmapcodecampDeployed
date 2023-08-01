@@ -7,29 +7,30 @@ const VCSMerging029 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Version Control System (VCS) Merging",
+      url: "https://www.atlassian.com/git/tutorials/using-branches/merge-strategy",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "How to use Git Merge: A Guide",
+      url: "https://www.freecodecamp.org/news/git-merge-branch/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "VCS Merging: Why and How to Use It",
+      url: "https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Resolving merge conflicts in Git",
+      url: "https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>V C S Merging</h1>
+        <h1>VCS Merging</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/version-control-systems-branching-28"
@@ -37,14 +38,28 @@ const VCSMerging029 = () => {
         />
         <hr />
 
-        <h2>VCSMerging029</h2>
+        <h2>VCS Merging</h2>
         <p>
-        V C S Merging is currently under development. Please check back soon for updates.
+        VCS Merging is a process in Version Control Systems where the contents of different branches are combined. It's like taking two separate paths of development and joining them together. This is done by creating a new commit that has pointers to the two recent commits being merged. It's a powerful tool that allows teams to efficiently collaborate and manage changes to a project. <br /> <br />
+        To do a merge, you typically use the 'git merge' command followed by the name of the branch you want to merge into the current working branch. Remember, merging is a crucial part of any collaborative coding environment, so it's important to do it carefully to avoid conflicts.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Git Branching and Merging with Example"
+          videoSrc="https://www.youtube.com/embed/hufGg2mf7eA"
+        />
+
+
+<TopicVideoPlayer
+          videoTitle="Git Branching and Merging Tutorial"
+          videoSrc="https://www.youtube.com/embed/FyAAIHHClqI"
+        />
+
+
+<TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners - Crash Course"
+          videoSrc="https://www.youtube.com/embed/RGOj5yH7evk"
         />
 
         <hr />

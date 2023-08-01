@@ -7,29 +7,35 @@ const CORS035 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding CORS",
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "CORS: Cross-Origin Resource Sharing",
+      url: "https://www.codecademy.com/articles/what-is-cors",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CORS guide on MDN",
+      url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "CORS tutorial",
+      url: "https://www.youtube.com/watch?v=4KHiSt0o8rM",
+    },
+    {
+      id: 5,
+      title: "CORS explained",
+      url: "https://www.youtube.com/watch?v=x_Z6iYY5ibc",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>C O R S</h1>
+        <h1>CORS</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/web-security-knowledge-content-security-policy-34"
@@ -37,15 +43,27 @@ const CORS035 = () => {
         />
         <hr />
 
-        <h2>CORS035</h2>
+        <h2>CORS (Cross Origin Resource Sharing)</h2>
         <p>
-        C O R S is currently under development. Please check back soon for updates.
+        CORS, or Cross-Origin Resource Sharing, is a mechanism that allows many resources (e.g., fonts, JavaScript, etc.) on a web page to be requested from another domain outside the domain from which the resource originated. It's a clever technique that empowers the web server to securely allow its resources to be accessed by a web page from a different domain. This cross-domain sharing helps in creating a way for user-agents to safely perform cross-site HTTP requests.
+<br /> <br />
+        We use CORS because it provides a secure way to handle cross-origin requests. It allows servers to specify who can access its assets and how the assets can be accessed. CORS is essential because it maintains the security in the handling of requests and prevents malicious activity.
+        <br /> <br />
+
+        Implementing CORS involves setting appropriate HTTP headers. For example, the Access-Control-Allow-Origin header can be used to specify which domains are allowed to access the resources. If a browser receives a response that doesn't match the origin of the request, it will block the request for security reasons.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="CORS in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/4KHiSt0oLJ0"
         />
+        <TopicVideoPlayer
+          videoTitle="Cross Origin Resource Sharing (Explained by Example)"
+          videoSrc="https://www.youtube.com/embed/Ka8vG5miErk"
+        />
+    
+
 
         <hr />
 

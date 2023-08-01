@@ -7,29 +7,30 @@ const VCSBranching028 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is VCS Branching?",
+      url: "https://www.atlassian.com/git/tutorials/using-branches",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why do we use VCS Branching?",
+      url: "https://www.perforce.com/blog/vcs/what-branching-and-why-does-it-matter",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to do VCS Branching?",
+      url: "https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/branching-can-change-your-life",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "VCS Branching Best Practices",
+      url: "https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/best-practices",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>V C S Branching</h1>
+        <h1>VCS Branching</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/version-control-systems-basic-command-27"
@@ -37,14 +38,27 @@ const VCSBranching028 = () => {
         />
         <hr />
 
-        <h2>VCSBranching028</h2>
+        <h2>VCS Branching</h2>
         <p>
-        V C S Branching is currently under development. Please check back soon for updates.
+        VCS Branching is a powerful feature in version control systems that allows developers to create a separate line of development. This can be very useful when you want to develop new features or fix bugs without affecting the main codebase. 
+        <br /> <br />
+        To create a new branch, you can use the command `git branch (branch-name)`. To switch to your newly created branch, you can use `git checkout (branch-name)`. Remember, branching is your friend. It keeps your project organized and allows you to work on different tasks simultaneously without chaos.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Git Branching - Creating, Switching, and Deleting Branches"
+          videoSrc="https://www.youtube.com/embed/sgzkY5vFKQQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Git Branching and Merging Tutorial"
+          videoSrc="https://www.youtube.com/embed/FyAAIHHClqI"
+        />
+
+
+<TopicVideoPlayer
+          videoTitle="Git and GitHub for Beginners - Crash Course"
+          videoSrc="https://www.youtube.com/embed/RGOj5yH7evk"
         />
 
         <hr />

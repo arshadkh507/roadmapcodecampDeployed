@@ -7,25 +7,31 @@ const Jacobian275 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding the Jacobian Matrix",
+      url: "https://www.coursera.org/lecture/machine-learning/understanding-the-jacobian-matrix",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "The Jacobian Matrix and Its Applications in Machine Learning",
+      url: "https://towardsdatascience.com/the-jacobian-matrix-and-its-applications-in-machine-learning-3844a148fc4e",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Jacobian Matrix and Determinant",
+      url: "https://www.youtube.com/watch?v=pJzmiywagfY",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Why the Jacobian is Important in Machine Learning",
+      url: "https://www.analyticsvidhya.com/blog/2020/03/jacobian-matrix-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "How to Use the Jacobian in Machine Learning",
+      url: "https://machinelearningmastery.com/jacobian-in-machine-learning/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,27 @@ const Jacobian275 = () => {
         />
         <hr />
 
-        <h2>Jacobian275</h2>
+        <h2>Jacobian</h2>
         <p>
-        Jacobian is currently under development. Please check back soon for updates.
+        The Jacobian is a mathematical concept that's quite important in the world of machine learning. It's a matrix that contains all the first-order partial derivatives of a vector-valued function. In simpler terms, it's a tool that helps us understand how changes in input can affect the output of a function.
+<br /><br />
+        Now, you might be wondering where we use it in machine learning. Well, the Jacobian plays a crucial role in optimization problems, which are a big part of machine learning algorithms. It's used in backpropagation in neural networks, helping to calculate the gradients needed for updating the weights. So, understanding the Jacobian can really help you grasp the inner workings of machine learning models.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is Jacobian? | The right way of thinking derivatives and integrals"
+          videoSrc="https://www.youtube.com/embed/wCZ1VEmVjVo"
         />
+        <TopicVideoPlayer
+          videoTitle="The Jacobian matrix"
+          videoSrc="https://www.youtube.com/embed/bohL918kXQk"
+        />
+        <TopicVideoPlayer
+          videoTitle="The Jacobian : Data Science Basics"
+          videoSrc="https://www.youtube.com/embed/AdV5w8CY3pw"
+        />
+
 
         <hr />
 

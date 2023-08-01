@@ -7,25 +7,31 @@ const RepoHostinigServiceBitbucket032 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Bitbucket Tutorial for Beginners",
+      url: "https://www.tutorialspoint.com/bitbucket/index.htm",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Bitbucket vs GitHub: The Best Version Control Software for Business?",
+      url: "https://stackify.com/bitbucket-vs-github/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to use Bitbucket",
+      url: "https://www.youtube.com/watch?v=BtO8jF6wQmo",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Getting Started with Bitbucket for Version Control",
+      url: "https://www.youtube.com/watch?v=jiP45rEOEbA",
+    },
+    {
+      id: 5,
+      title: "Bitbucket Repository Management",
+      url: "https://confluence.atlassian.com/bitbucket/repository-setup-877174034.html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const RepoHostinigServiceBitbucket032 = () => {
         />
         <hr />
 
-        <h2>RepoHostinigServiceBitbucket032</h2>
+        <h2>Repo Hostinig Service Bitbucket</h2>
         <p>
-        Repo Hostinig Service Bitbucket is currently under development. Please check back soon for updates.
+        Bitbucket is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use either Mercurial or Git revision control systems. Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010, Bitbucket also provides a number of features such as pull requests with code review and comments, Jira and Trello integration for issue tracking, and Wiki for the repositories.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What Is Bitbucket | How To Use Bitbucket | Bitbucket | Introduction To Bitbucket"
+          videoSrc="https://www.youtube.com/embed/AOnMg50-ttE"
         />
+        <TopicVideoPlayer
+          videoTitle="Git Tutorial - Git Crash Course using BitBucket"
+          videoSrc="https://www.youtube.com/embed/1tC6Z57AOkY"
+        />
+        <TopicVideoPlayer
+          videoTitle="How to create BitBucket Repo and BitBucket CI/CD Pipelines? | Tech Primers"
+          videoSrc="https://www.youtube.com/embed/JJct0MV6YDs"
+        />
+
 
         <hr />
 

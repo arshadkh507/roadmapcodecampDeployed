@@ -7,25 +7,26 @@ const Variables260 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is a Variable in Programming? - GeeksforGeeks",
+      url: "https://www.geeksforgeeks.org/what-is-a-variable-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Variables in JavaScript - MDN Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "How to Use Variables in Programming - Codecademy",
+      url: "https://www.codecademy.com/learn/learn-how-to-code/modules/learn-how-to-code-variables",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Variables in Programming - YouTube",
+      url: "https://www.youtube.com/watch?v=cZ1ZJa6A5TY",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,19 @@ const Variables260 = () => {
 
         <h2>Variables260</h2>
         <p>
-        Variables is currently under development. Please check back soon for updates.
+        In programming, a variable is like a container or a storage box. It holds data that we can use and manipulate as we write our code. We use variables to store, retrieve, and use data. They're essential because they allow our programs to handle data in a dynamic, flexible way. Think of them as the memory of a program. Without variables, our code would be static and rigid, unable to respond to different situations and inputs. So, in a nutshell, variables make our code smarter and our lives as programmers easier.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What is Variable in Python and How to Create Variables in Python"
+          videoSrc="https://www.youtube.com/embed/o-pRdr8IMWg"
         />
+        <TopicVideoPlayer
+          videoTitle="Variables in JavaScript Tutorial in Hindi  "
+          videoSrc="https://www.youtube.com/embed/0n93WS4MSME"
+        />
+
 
         <hr />
 

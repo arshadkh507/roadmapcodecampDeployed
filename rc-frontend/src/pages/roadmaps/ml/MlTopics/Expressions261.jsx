@@ -7,25 +7,31 @@ const Expressions261 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Expressions in Programming: An Overview",
+      url: "https://www.geeksforgeeks.org/expressions-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Expressions, Statements, and Blocks in JavaScript",
+      url: "https://www.digitalocean.com/community/tutorials/understanding-expressions-statements-and-blocks-in-javascript",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "What is an Expression in Programming?",
+      url: "https://www.computerhope.com/jargon/e/expression.htm",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "How to Use Expressions in Programming",
+      url: "https://www.dummies.com/programming/programming-basics/how-to-use-expressions-in-programming/",
+    },
+    {
+      id: 5,
+      title: "Why Expressions Matter in Programming",
+      url: "https://www.infoworld.com/article/3022425/why-expressions-matter-in-programming.html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,19 @@ const Expressions261 = () => {
 
         <h2>Expressions261</h2>
         <p>
-        Expressions is currently under development. Please check back soon for updates.
+        In programming, an expression is a piece of code that produces a value when it's evaluated. Expressions can include variables, operators, literals, and function calls. For example, in the expression "2 + 3", "2" and "3" are integer literals, "+" is an operator, and the whole expression produces the value "5" when evaluated. Stay tuned as we dive deeper into expressions in the upcoming sections.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Expressions In Python Full Tutorial"
+          videoSrc="https://www.youtube.com/embed/KUsYcJ-04Gk"
         />
+        <TopicVideoPlayer
+          videoTitle="Expressions vs. Statements in JS"
+          videoSrc="https://www.youtube.com/embed/WVyCrI1cHi8"
+        />
+
 
         <hr />
 

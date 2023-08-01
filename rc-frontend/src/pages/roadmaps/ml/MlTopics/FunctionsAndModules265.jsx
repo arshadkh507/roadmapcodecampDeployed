@@ -7,25 +7,36 @@ const FunctionsAndModules265 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Functions in Python",
+      url: "https://realpython.com/defining-your-own-python-function/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Python Modules: How to Create a Python Module",
+      url: "https://www.datacamp.com/community/tutorials/modules-in-python",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Python Functions Tutorial",
+      url: "https://www.tutorialsteacher.com/python/python-function",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Python Modules: An Introduction",
+      url: "https://www.w3schools.com/python/python_modules.asp",
+    },
+    {
+      id: 5,
+      title: "Why and How to use Python Functions",
+      url: "https://www.educative.io/edpresso/why-and-how-to-use-python-functions",
+    },
+    {
+      id: 6,
+      title: "Why and How to use Python Modules",
+      url: "https://www.geeksforgeeks.org/python-modules/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +48,31 @@ const FunctionsAndModules265 = () => {
         />
         <hr />
 
-        <h2>FunctionsAndModules265</h2>
+        <h2>Functions And Modules</h2>
         <p>
-        Functions And Modules is currently under development. Please check back soon for updates.
+        In programming, functions and modules play a crucial role. A function is a block of reusable code that performs a specific task. You can call it anywhere in your program, which saves you from writing the same code repeatedly. It makes your code more organized and manageable.
+<br /><br />
+        On the other hand, a module is a file containing Python definitions and statements. It provides a way of grouping related Python code for easy understanding and usage. You can define functions, classes, and variables in a module. You can also include runnable code. By using modules, you can break down large programs into small manageable and organized files.
+        <br /><br />
+
+        So, functions help you to organize and reuse your code, while modules help you to organize your functions and other code blocks. Both are essential for efficient and effective programming.
+        <br /><br />
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Python Functions Explained"
+          videoSrc="https://www.youtube.com/embed/9Os0o3wzS_I"
         />
+        <TopicVideoPlayer
+          videoTitle="Python Modules Explained"
+          videoSrc="https://www.youtube.com/embed/sugvnHA7ElY"
+        />
+        <TopicVideoPlayer
+          videoTitle="How Functions and Modules Work in Python"
+          videoSrc="https://www.youtube.com/embed/6tNS--WetLI"
+        />
+
 
         <hr />
 

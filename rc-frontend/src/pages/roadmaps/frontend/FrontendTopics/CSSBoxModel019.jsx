@@ -7,29 +7,30 @@ const CSSBoxModel019 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "CSS Box Model Explained",
+      url: "https://www.w3schools.com/css/css_boxmodel.asp",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding the CSS Box Model",
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CSS Box Model Tutorial",
+      url: "https://www.youtube.com/watch?v=rIO5326FgPE",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "How to use the CSS Box Model",
+      url: "https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>CSSBoxModel019</h1>
+        <h1>CSS Box Model</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/css-typography-18"
@@ -37,15 +38,25 @@ const CSSBoxModel019 = () => {
         />
         <hr />
 
-        <h2>CSSBoxModel019</h2>
+        <h2>CSS Box Mode</h2>
         <p>
-          CSSBoxModel019
+          The CSS Box Model is a fundamental concept in web design and development. It's a box that wraps around every HTML element, consisting of: the content, padding, border, and margin. This model allows us to place elements in relation to others, control their spacing, and design in a more structured and precise way. We use it by setting CSS properties like width, height, padding, border, and margin to control how elements interact with each other on the page.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="CSS Box Model, Margin and Padding | Web Development Tutorials"
+          videoSrc="https://www.youtube.com/embed/5koxb4JaDqc"
         />
+        <TopicVideoPlayer
+          videoTitle="CSS Tutorial for Beginners | Complete CSS with Project, Notes & Code"
+          videoSrc="https://www.youtube.com/embed/ESnrn1kAD4E"
+        />
+        <TopicVideoPlayer
+          videoTitle="10 CSS Pro Tips - Code this, NOT that!"
+          videoSrc="https://www.youtube.com/embed/Qhaz36TZG5Y"
+        />
+
 
         <hr />
 

@@ -7,25 +7,27 @@ const MATLAB257 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "What is MATLAB and Why is it Used in Machine Learning?",
+      url: "https://www.mathworks.com/discovery/machine-learning.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "MATLAB in Real-World Machine Learning Applications",
+      url: "https://www.mathworks.com/company/newsletters/articles/developing-an-isolation-forest-anomaly-detection-model-with-matlab.html",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to MATLAB for Machine Learning",
+      url: "https://www.coursera.org/learn/machine-learning-with-matlab",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Why MATLAB is the Foundation of Deep Learning",
+      url: "https://www.youtube.com/watch?v=ZzZ1dxzYtwA",
     },
+  
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +39,29 @@ const MATLAB257 = () => {
         />
         <hr />
 
-        <h2>MATLAB257</h2>
+        <h2>MATLAB</h2>
         <p>
-        M A T L A B is currently under development. Please check back soon for updates.
+        MATLAB, short for Matrix Laboratory, is a high-level programming language and environment designed specifically for numerical computation. It's a popular tool in Machine Learning (ML) because it simplifies many complex computations and visualizations. 
+        <br /><br />
+        In ML, MATLAB is often used for algorithm development, data analysis, visualization, and numerical computation. Its built-in libraries and functions make it easy to implement ML algorithms without having to code from scratch. Plus, it's interactive environment allows for immediate algorithm testing and modification, which is crucial in the iterative process of ML model development.
+        <br /><br />
+        So, whether you're developing complex neural networks or simple regression models, MATLAB can be a powerful tool in your ML toolkit.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="MATLAB Crash Course for Beginners"
+          videoSrc="https://www.youtube.com/embed/7f50sQYjNRA"
         />
+        <TopicVideoPlayer
+          videoTitle="Essential Tools for Machine Learning - MATLAB Video"
+          videoSrc="https://www.youtube.com/embed/k_BrPj3TcTE"
+        />
+        <TopicVideoPlayer
+          videoTitle="Introduction to Machine Learning with MATLAB!"
+          videoSrc="https://www.youtube.com/embed/D2vZmz-JsLw"
+        />
+
 
         <hr />
 
