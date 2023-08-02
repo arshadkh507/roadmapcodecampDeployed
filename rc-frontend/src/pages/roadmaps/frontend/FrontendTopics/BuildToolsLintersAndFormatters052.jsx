@@ -7,25 +7,26 @@ const BuildToolsLintersAndFormatters052 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Build Tools, Linters, and Formatters",
+      url: "https://www.sitepoint.com/understanding-build-tools/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "A Guide to Properly Using a Linter and Formatter",
+      url: "https://www.smashingmagazine.com/2020/07/guide-linting-formatting-javascript/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Build Tools",
+      url: "https://www.youtube.com/watch?v=3aGSqasVPsI",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Why You Should Use a Linter and Formatter",
+      url: "https://www.youtube.com/watch?v=5MZl8TUrtoM",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const BuildToolsLintersAndFormatters052 = () => {
         />
         <hr />
 
-        <h2>BuildToolsLintersAndFormatters052</h2>
+        <h2>Build Tools Linters And Formatters</h2>
         <p>
-        Build Tools Linters And Formatters is currently under development. Please check back soon for updates.
+        Build Tools, Linters, and Formatters are essential parts of modern JavaScript development. Build tools like Webpack or Babel help us to bundle and transform our code, making it ready for the browser. Linters like ESLint, on the other hand, help us catch errors and maintain a consistent coding style, improving the overall quality of our code. Formatters like Prettier automatically format our code to a certain style, saving us from the tedious task of manual formatting. By integrating these tools into our development process, we can write more efficient, clean, and error-free JavaScript code.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Video 1"
+          videoSrc="https://www.youtube.com/embed/video1"
         />
+        <TopicVideoPlayer
+          videoTitle="Video 2"
+          videoSrc="https://www.youtube.com/embed/video2"
+        />
+        <TopicVideoPlayer
+          videoTitle="Video 3"
+          videoSrc="https://www.youtube.com/embed/video3"
+        />
+
 
         <hr />
 

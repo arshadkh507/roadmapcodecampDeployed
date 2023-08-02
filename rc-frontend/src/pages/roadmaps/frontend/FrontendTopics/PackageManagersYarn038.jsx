@@ -7,25 +7,31 @@ const PackageManagersYarn038 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Yarn: A new package manager for JavaScript",
+      url: "https://engineering.fb.com/2016/10/05/web/yarn-a-new-package-manager-for-javascript/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Yarn vs npm: Everything You Need to Know",
+      url: "https://www.sitepoint.com/yarn-vs-npm/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Yarn Package Manager: An Improvement over npm",
+      url: "https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Migrating from npm to Yarn",
+      url: "https://classic.yarnpkg.com/en/docs/migrating/",
+    },
+    {
+      id: 5,
+      title: "Workspaces in Yarn",
+      url: "https://classic.yarnpkg.com/en/docs/workspaces/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const PackageManagersYarn038 = () => {
         />
         <hr />
 
-        <h2>PackageManagersYarn038</h2>
+        <h2>Package Managers Yarn</h2>
         <p>
-        Package Managers Yarn is currently under development. Please check back soon for updates.
+        Yarn is a popular package manager for JavaScript, providing a faster, more reliable way to manage project dependencies. It's widely used in frontend development, especially in large-scale projects, due to its efficient caching system, improved network performance, and automatic retries for failed requests. Stay tuned as we delve deeper into how Yarn can enhance your development workflow.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="NPM vs Yarn | Which is the best Package Manager?"
+          videoSrc="https://www.youtube.com/embed/0DGClZD5LEM"
         />
+        <TopicVideoPlayer
+          videoTitle="Yarn Package Manager Crash Course"
+          videoSrc="https://www.youtube.com/embed/g9_6KmiBISk"
+        />
+        <TopicVideoPlayer
+          videoTitle="How to Install Yarn | Yarn Package Manager"
+          videoSrc="https://www.youtube.com/embed/pyvurlqIMMM"
+        />
+
 
         <hr />
 

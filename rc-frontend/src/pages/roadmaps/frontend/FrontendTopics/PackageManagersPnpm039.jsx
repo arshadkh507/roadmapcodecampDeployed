@@ -7,25 +7,31 @@ const PackageManagersPnpm039 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "PNPM: Fast, disk space efficient package manager",
+      url: "https://pnpm.io/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Why should we use pnpm?",
+      url: "https://www.kochan.io/nodejs/why-should-we-use-pnpm.html",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "PNPM vs NPM vs Yarn",
+      url: "https://www.youtube.com/watch?v=J4iG4tg1vAQ",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Getting started with pnpm",
+      url: "https://pnpm.io/getting-started",
+    },
+    {
+      id: 5,
+      title: "PNPM - The Best JavaScript Package Manager?",
+      url: "https://dev.to/alex_barashkov/pnpm-the-best-javascript-package-manager-just-got-better-24m6",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +45,26 @@ const PackageManagersPnpm039 = () => {
 
         <h2>PackageManagersPnpm039</h2>
         <p>
-        Package Managers Pnpm is currently under development. Please check back soon for updates.
+        PNPM, or Performing Node Package Manager, is a powerful tool used in the JavaScript ecosystem. It's a package manager that offers a unique feature: it saves disk space by reusing packages. Instead of duplicating packages, PNPM creates a hard link from a global store directory to the project's node_modules directory.
+<br /><br />
+        This unique approach not only saves disk space but also speeds up the installation process. It's particularly useful in large projects where multiple packages are used, and disk space efficiency is a concern.
+        <br /><br />
+
+        PNPM is used in various development environments, from small personal projects to large-scale enterprise applications. It's a reliable and efficient alternative to other package managers like npm and Yarn.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="NPM 👉 New Fast & Disk Efficient Package Manager ❤️‍🔥"
+          videoSrc="https://www.youtube.com/embed/iYBuIgwFjQo"
+        />
+        <TopicVideoPlayer
+          videoTitle="Why I Switched From NPM/Yarn to PNPM And Why You Should Too!"
+          videoSrc="https://www.youtube.com/embed/d1E31WPR70g"
+        />
+        <TopicVideoPlayer
+          videoTitle="Get Started with pnpm"
+          videoSrc="https://www.youtube.com/embed/MvbReZDSKHI"
         />
 
         <hr />

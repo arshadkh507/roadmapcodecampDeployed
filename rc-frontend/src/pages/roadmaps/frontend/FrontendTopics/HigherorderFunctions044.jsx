@@ -7,29 +7,30 @@ const HigherorderFunctions044 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Higher Order Functions in JavaScript",
+      url: "https://eloquentjavascript.net/05_higher_order.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Higher-Order Functions in JavaScript",
+      url: "https://www.digitalocean.com/community/tutorials/js-higher-order-functions-map-filter-reduce",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Higher Order Functions in JavaScript - MDN Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#higher-order_functions",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "JavaScript Higher Order Functions & Arrays",
+      url: "https://www.youtube.com/watch?v=rRgD1yVwIvE",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Higherorder Functions</h1>
+        <h1>Higher Order Functions</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/css-preprocessors-postcss-43"
@@ -37,14 +38,28 @@ const HigherorderFunctions044 = () => {
         />
         <hr />
 
-        <h2>HigherorderFunctions044</h2>
+        <h2>Higher Order Functions</h2>
         <p>
-        Higherorder Functions is currently under development. Please check back soon for updates.
+        Higher order functions are a fundamental concept in JavaScript, and they're quite magical. They are functions that operate on other functions, either by taking them as arguments or by returning them. In simple terms, a Higher Order function is a function that receives a function as an input or returns a function as output or both.
+<br /> <br />
+        Why do we use them? Well, Higher Order Functions allow us to create more abstract and reusable code. They help us to write cleaner and more concise code by allowing us to extract common tasks into reusable functions. 
+        <br /> <br />
+
+        Where do we use them? They're used extensively in JavaScript, especially in modern frameworks and libraries like React and Lodash. They're also the backbone of functional programming in JavaScript, making our code more readable, maintainable, and testable.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Higher-Order Functions ft. Functional Programming | Namaste JavaScript"
+          videoSrc="https://www.youtube.com/embed/HkWxvB1RJq0"
+        />
+        <TopicVideoPlayer
+          videoTitle="JavaScript Higher Order Functions & Arrays"
+          videoSrc="https://www.youtube.com/embed/rRgD1yVwIvE"
+        />
+        <TopicVideoPlayer
+          videoTitle="Higher Order Functions - JavaScript Tutorial"
+          videoSrc="https://www.youtube.com/embed/0aKZvNNf8BA"
         />
 
         <hr />

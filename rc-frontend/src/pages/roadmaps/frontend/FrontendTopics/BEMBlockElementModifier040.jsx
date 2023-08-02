@@ -7,29 +7,35 @@ const BEMBlockElementModifier040 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "BEM — Block Element Modifier Introduction",
+      url: "https://en.bem.info/methodology/quick-start/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "BEM 101 on CSS-Tricks",
+      url: "https://css-tricks.com/bem-101/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to BEM (Block Element Modifier)",
+      url: "https://www.youtube.com/watch?v=JcT5V3U_TxY",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "BEM For Beginners: Why You Need BEM",
+      url: "https://www.smashingmagazine.com/2018/06/bem-for-beginners/",
+    },
+    {
+      id: 5,
+      title: "Mastering BEM Naming Convention",
+      url: "https://medium.com/@dmitrypashkevich/mastering-bem-naming-convention-7b437a0f8b25",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>B E M Block Element Modifier</h1>
+        <h1>BEM Block Element Modifier</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/package-managers-pnpm-39"
@@ -37,15 +43,27 @@ const BEMBlockElementModifier040 = () => {
         />
         <hr />
 
-        <h2>BEMBlockElementModifier040</h2>
+        <h2>BEM Block Element Modifier</h2>
         <p>
-        B E M Block Element Modifier is currently under development. Please check back soon for updates.
+        BEM, which stands for Block Element Modifier, is a highly useful methodology for writing maintainable and scalable CSS. It's a naming convention that makes your CSS easier to read and understand. It also makes your styles more predictable and easier to work with. <br /> <br />
+        In BEM, a Block is a standalone entity that is meaningful on its own. An Element is a part of a Block that has no standalone meaning and is semantically tied to its Block. A Modifier is a property of a Block or an Element that can alter its look or behavior.<br /> <br />
+        We use BEM in large-scale projects where maintainability and scalability are of high importance. It's a great way to keep your code organized and prevent styles from "leaking" out into other elements.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Why I use the BEM naming convention for my CSS"
+          videoSrc="https://www.youtube.com/embed/SLjHSVwXYq4"
         />
+        <TopicVideoPlayer
+          videoTitle="You Probably Need BEM CSS in Your Life (Tutorial)"
+          videoSrc="https://www.youtube.com/embed/er1JEDuPbZQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="CSS BEM - The What, How, and Why | Block Element Modifier Methodology"
+          videoSrc="https://www.youtube.com/embed/aKenj9ZQwJg"
+        />
+
 
         <hr />
 

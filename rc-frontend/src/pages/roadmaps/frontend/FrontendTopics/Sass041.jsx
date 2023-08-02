@@ -7,25 +7,31 @@ const Sass041 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Sass Basics",
+      url: "https://sass-lang.com/guide",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Sass Tutorial by MDN",
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS/Sass",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Sass Tutorial by W3Schools",
+      url: "https://www.w3schools.com/sass/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Sass vs SCSS: which one to choose?",
+      url: "https://www.bettercoder.io/tutorials/sass-vs-scss",
+    },
+    {
+      id: 5,
+      title: "Sass Crash Course",
+      url: "https://www.youtube.com/watch?v=Zz6eOVaaelI",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,27 @@ const Sass041 = () => {
         />
         <hr />
 
-        <h2>Sass041</h2>
+        <h2>Sass</h2>
         <p>
-        Sass is currently under development. Please check back soon for updates.
+        Sass, short for Syntactically Awesome Stylesheets, is a powerful tool in the modern web development toolkit. It's a CSS preprocessor that allows us to use features that don't exist in CSS yet like variables, nesting, mixins, inheritance, and more.
+        <br /> <br /> 
+        Why do we use it? Well, it adds a whole lot of functionality to our stylesheets that makes our CSS more maintainable, themeable, and extendable. It helps keep large stylesheets well-organized and makes it easy to share design within and across projects. So, if you're looking to take your CSS to the next level, Sass is a great place to start!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Sass in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/akDIJa0AP5c"
         />
+        <TopicVideoPlayer
+          videoTitle="Sass Tutorial for Beginners - CSS With Superpowers"
+          videoSrc="https://www.youtube.com/embed/_a5j7KoflTs"
+        />
+        <TopicVideoPlayer
+          videoTitle="Sass Crash Course"
+          videoSrc="https://www.youtube.com/embed/nu5mdN2JIwM"
+        />
+
 
         <hr />
 

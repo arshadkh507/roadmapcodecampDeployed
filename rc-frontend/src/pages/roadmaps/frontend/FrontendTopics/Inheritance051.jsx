@@ -7,25 +7,31 @@ const Inheritance051 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Inheritance in JavaScript - W3Schools",
+      url: "https://www.w3schools.com/js/js_object_prototypes.asp",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Prototypes and Inheritance in JavaScript - DigitalOcean",
+      url: "https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript Inheritance and the Prototype Chain - MDN Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "JavaScript Inheritance - GeeksforGeeks",
+      url: "https://www.geeksforgeeks.org/javascript-inheritance/",
+    },
+    {
+      id: 5,
+      title: "Inheritance in JavaScript - JavaScript.Info",
+      url: "https://javascript.info/prototype-inheritance",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,24 @@ const Inheritance051 = () => {
         />
         <hr />
 
-        <h2>Inheritance051</h2>
+        <h2>Inheritance</h2>
         <p>
-        Inheritance is currently under development. Please check back soon for updates.
-        </p>
+        Inheritance in JavaScript is a concept that allows one object to gain the properties and methods of another object. This is a powerful feature that promotes code reusability and modularity. It's commonly used when you have objects that are similar but need additional or more specific features. For example, you might have a 'Vehicle' object and then 'Car' and 'Motorcycle' objects that inherit from it, each with their own additional properties or methods.
 
+        </p>
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Inheritance & extends Keyword in JavaScript | JavaScript Tutorial in Hindi"
+          videoSrc="https://www.youtube.com/embed/9loYq8W8rsg"
         />
+        <TopicVideoPlayer
+          videoTitle="Advance Javascript - Class Inheritance Tutorial in Hindi "
+          videoSrc="https://www.youtube.com/embed/2ZNbdUyjGUY"
+        />
+        <TopicVideoPlayer
+          videoTitle="JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)"
+          videoSrc="https://www.youtube.com/embed/nZ1DMMsyVyI"
+        />
+
 
         <hr />
 

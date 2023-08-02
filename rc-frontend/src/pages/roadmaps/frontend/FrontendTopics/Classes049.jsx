@@ -7,25 +7,26 @@ const Classes049 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "JavaScript Classes - MDN Docs",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding Classes in JavaScript",
+      url: "https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript Classes - W3Schools",
+      url: "https://www.w3schools.com/js/js_classes.asp",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "ES6 Classes in Depth",
+      url: "https://www.youtube.com/watch?v=T-HGdc8L-7w",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +40,26 @@ const Classes049 = () => {
 
         <h2>Classes049</h2>
         <p>
-        Classes is currently under development. Please check back soon for updates.
+        Classes in JavaScript are a blueprint for creating objects. They encapsulate data with code to manipulate that data. Classes in JS are primarily syntactical sugar over JavaScript's existing prototype-based inheritance. The class syntax does not introduce a new object-oriented inheritance model to JavaScript.
+<br /><br />
+        We use classes in JavaScript when we want to create multiple objects of the same kind. For instance, if we want to create multiple objects representing individual students in a school, we can create a 'Student' class and use it to instantiate as many student objects as we need.
+        <br /><br />
+
+        Classes are a fundamental part of JavaScript and a powerful tool for developers. They make our code more efficient, easier to read and maintain, and provide a foundation for object-oriented programming in JavaScript.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Advance Javascript - OOP Introduction Tutorial in Hindi / Urdu"
+          videoSrc="https://www.youtube.com/embed/ckdDIhQyK_A"
+        />
+        <TopicVideoPlayer
+          videoTitle="JavaScript Classes Tutorial"
+          videoSrc="https://www.youtube.com/embed/2ZphE5HcQPQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Classes and Objects in JavaScript | JavaScript Tutorial in Hindi "
+          videoSrc="https://www.youtube.com/embed/7RpdfkSyJfU"
         />
 
         <hr />
