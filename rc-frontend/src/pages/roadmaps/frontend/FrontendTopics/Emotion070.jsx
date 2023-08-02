@@ -7,25 +7,31 @@ const Emotion070 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Emotion: The Next Generation of CSS-in-JS",
+      url: "https://emotion.sh/docs/introduction",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Emotion in React: An Overview",
+      url: "https://www.smashingmagazine.com/2020/11/emotion-react-overview/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Styling in React with Emotion",
+      url: "https://www.youtube.com/watch?v=O2eB3V5v8kU",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Emotion CSS Prop - Deep Dive",
+      url: "https://www.youtube.com/watch?v=6D8EiZDIDFQ",
+    },
+    {
+      id: 5,
+      title: "Emotion vs Styled-components: A performance perspective",
+      url: "https://pustelto.com/blog/emotion-vs-styled-components/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,15 @@ const Emotion070 = () => {
         />
         <hr />
 
-        <h2>Emotion070</h2>
+        <h2>Emotion</h2>
         <p>
-        Emotion is currently under development. Please check back soon for updates.
+        Emotion is a powerful CSS-in-JS library. It allows you to write CSS styles with JavaScript, giving you the full power of JavaScript within your CSS. It's particularly useful when you want to style your components based on props or a global theme. Emotion is widely used in the React community due to its ease of use, performance, and flexibility. Stay tuned as we dive deeper into how to use Emotion in your projects.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Styled Components VS Emotion - Which performs better?"
+          videoSrc="https://www.youtube.com/embed/MN3RWhGudvw"
         />
 
         <hr />

@@ -7,29 +7,35 @@ const CSSModules068 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "CSS Modules by Example",
+      url: "https://www.javascriptstuff.com/css-modules-by-example/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding CSS Modules",
+      url: "https://medium.com/nulogy/understanding-css-modules-dba4629961b8",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "CSS Modules Explained",
+      url: "https://www.youtube.com/watch?v=3-4KsXPO2Q4",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "CSS Modules & Sass in Create React App",
+      url: "https://www.youtube.com/watch?v=6Urm0v1XV7U",
+    },
+    {
+      id: 5,
+      title: "CSS Modules vs CSS in JS",
+      url: "https://blog.bitsrc.io/css-modules-vs-css-in-js-265bd7e95c5e",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>C S S Modules</h1>
+        <h1>CSS Modules</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/modern-css-styled-components-67"
@@ -37,15 +43,25 @@ const CSSModules068 = () => {
         />
         <hr />
 
-        <h2>CSSModules068</h2>
+        <h2>CSS Modules</h2>
         <p>
-        C S S Modules is currently under development. Please check back soon for updates.
+        CSS Modules is a CSS file in which all class names and animation names are scoped locally by default. It's like a personal stylist for your components, ensuring they always look good and never have wardrobe clashes. We use CSS Modules to help manage and organize our CSS, especially in large projects where it's easy to accidentally reuse class names. With CSS Modules, we can avoid this issue, making our CSS more maintainable and our components more reliable. So, it's like having a personal assistant who keeps your wardrobe (or in this case, your styles) perfectly organized!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="7 ways to deal with CSS"
+          videoSrc="https://www.youtube.com/embed/ouncVBiye_M"
         />
+        <TopicVideoPlayer
+          videoTitle="CSS Modules: Why are they great?"
+          videoSrc="https://www.youtube.com/embed/pKMWU9OrA2s"
+        />
+        <TopicVideoPlayer
+          videoTitle="Setup React CSS Modules (with SASS, multiple classes and more)"
+          videoSrc="https://www.youtube.com/embed/kFA-ZJ9KTqs"
+        />
+
 
         <hr />
 

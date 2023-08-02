@@ -7,25 +7,31 @@ const BuildToolsPrettier053 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Prettier: An Opinionated Code Formatter",
+      url: "https://prettier.io/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Integrating Prettier with ESLint and VS Code",
+      url: "https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Prettier - The Complete Guide",
+      url: "https://flaviocopes.com/prettier/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Prettier Setup for Your JavaScript and TypeScript Projects",
+      url: "https://www.sitepoint.com/prettier-setup-javascript-typescript-projects/",
+    },
+    {
+      id: 5,
+      title: "How to use Prettier in VS Code",
+      url: "https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const BuildToolsPrettier053 = () => {
         />
         <hr />
 
-        <h2>BuildToolsPrettier053</h2>
+        <h2>Build Tools Prettier</h2>
         <p>
-        Build Tools Prettier is currently under development. Please check back soon for updates.
+        Prettier is a popular tool in the coding world. It's an opinionated code formatter that enforces a consistent style by parsing your code and reprinting it with its own rules. This takes the load off of you having to decide on a particular style and stick to it. It's like having a personal assistant that tidies up your code for you! We use Prettier because it helps in maintaining a consistent code style, especially when working in a team. It's a real time-saver and a must-have in your build tools arsenal.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="How to use Prettier in VS Code - Code Formatting"
+          videoSrc="https://www.youtube.com/embed/__eiQumLOEo"
         />
+        <TopicVideoPlayer
+          videoTitle="How To Setup Prettier"
+          videoSrc="https://www.youtube.com/embed/DqfQ4DPnRqI"
+        />
+        <TopicVideoPlayer
+          videoTitle="5 Tools that make you Code Faster | using VSCode Extensions"
+          videoSrc="https://www.youtube.com/embed/EFUD2MulXY0"
+        />
+
 
         <hr />
 

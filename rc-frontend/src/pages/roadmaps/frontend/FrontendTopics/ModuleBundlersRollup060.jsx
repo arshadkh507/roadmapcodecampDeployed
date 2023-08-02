@@ -7,25 +7,26 @@ const ModuleBundlersRollup060 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Rollup.js Guide",
+      url: "https://rollupjs.org/guide/en/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Rollup.js: The Basics",
+      url: "https://dev.to/iggredible/what-is-rollup-js-and-why-use-it-3605",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Rollup.js",
+      url: "https://www.youtube.com/watch?v=-IFFtKj3z38",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Rollup.js Tutorial - Replace Webpack with Rollup",
+      url: "https://www.youtube.com/watch?v=UhQz-0QVmQ0",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +40,21 @@ const ModuleBundlersRollup060 = () => {
 
         <h2>ModuleBundlersRollup060</h2>
         <p>
-        Module Bundlers Rollup is currently under development. Please check back soon for updates.
+        Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application. It uses the new standardized format for code modules included in the ES6 revision of JavaScript, instead of previous idiosyncratic solutions such as require.js and browserify. Rollup allows you to write your code using the latest JavaScript version, and then it will compile it back down to version that can run in all browsers. It's a key tool in modern JavaScript development.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Rollup JavaScript Bundler For Beginners - Lightweight & Fast"
+          videoSrc="https://www.youtube.com/embed/IdxAJaKwuxQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="How to make your JavaScript Bundle Smaller"
+          videoSrc="https://www.youtube.com/embed/kwUfeWe7DCw"
+        />
+        <TopicVideoPlayer
+          videoTitle="Typescript Module Bundling With Rollup - Create Frontend Build System #2"
+          videoSrc="https://www.youtube.com/embed/rH6EcM68ots"
         />
 
         <hr />

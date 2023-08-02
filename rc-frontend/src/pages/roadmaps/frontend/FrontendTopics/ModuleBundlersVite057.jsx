@@ -7,25 +7,31 @@ const ModuleBundlersVite057 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Vite.js Guide",
+      url: "https://vitejs.dev/guide/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Vite.js GitHub Repository",
+      url: "https://github.com/vitejs/vite",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Vite.js",
+      url: "https://www.youtube.com/watch?v=1R6D1E6ofIs",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Vite.js: Faster Frontend Tooling",
+      url: "https://www.youtube.com/watch?v=4l5Hh66vQhE",
+    },
+    {
+      id: 5,
+      title: "Vite.js vs Webpack",
+      url: "https://blog.logrocket.com/vite-vs-webpack/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,20 @@ const ModuleBundlersVite057 = () => {
 
         <h2>ModuleBundlersVite057</h2>
         <p>
-        Module Bundlers Vite is currently under development. Please check back soon for updates.
+        Vite is a modern front-end build tool, created by Evan You (the creator of Vue.js). It offers a faster and leaner development experience for modern web projects. Vite provides features like hot module replacement and esbuild powered fast bundling in production. It's used to speed up the development process, making it a great choice for developers who want to build web applications quickly and efficiently.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+          videoTitle="Vite in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/KCrXgy8qtjM"
+        /> <TopicVideoPlayer
+        videoTitle="How to make your JavaScript Bundle Smaller"
+        videoSrc="https://www.youtube.com/embed/kwUfeWe7DCw"
+      /> <TopicVideoPlayer
+      videoTitle="Vite: The Death of Webpack? 😨"
+      videoSrc="https://www.youtube.com/embed/nBYo2B2XN5s"
+    />
 
         <hr />
 

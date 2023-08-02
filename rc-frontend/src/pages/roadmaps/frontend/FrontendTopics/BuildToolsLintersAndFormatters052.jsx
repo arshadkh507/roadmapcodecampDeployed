@@ -45,16 +45,16 @@ const BuildToolsLintersAndFormatters052 = () => {
         </p>
 
         <TopicVideoPlayer
-          videoTitle="Video 1"
-          videoSrc="https://www.youtube.com/embed/video1"
+          videoTitle="What is a Linter and Why You Should Use One | Linters EXPLAINED"
+          videoSrc="https://www.youtube.com/embed/HDQXWr5TOnI"
         />
         <TopicVideoPlayer
-          videoTitle="Video 2"
-          videoSrc="https://www.youtube.com/embed/video2"
+          videoTitle="Linters and fixers: never worry about code formatting again (Vim + Ale + Flake8 & Black for Python)"
+          videoSrc="https://www.youtube.com/embed/4FKPySR6HLk"
         />
         <TopicVideoPlayer
-          videoTitle="Video 3"
-          videoSrc="https://www.youtube.com/embed/video3"
+          videoTitle="Linting and Formatting JavaScript with ESLint in Visual Studio Code"
+          videoSrc="https://www.youtube.com/embed/slEtjbr8sVY"
         />
 
 

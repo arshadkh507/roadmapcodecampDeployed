@@ -7,25 +7,31 @@ const StyledComponents067 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Styled Components Official Documentation",
+      url: "https://styled-components.com/docs",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Mastering Styled Components",
+      url: "https://www.udemy.com/course/styled-components-tutorial-and-project-course/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Styled Components: A Quick Start Guide",
+      url: "https://www.smashingmagazine.com/2020/07/styled-components-react/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Styled Components vs CSS Modules",
+      url: "https://blog.logrocket.com/styled-components-vs-css-modules/",
+    },
+    {
+      id: 5,
+      title: "Theming with Styled Components",
+      url: "https://www.gatsbyjs.com/tutorial/styled-components/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const StyledComponents067 = () => {
         />
         <hr />
 
-        <h2>StyledComponents067</h2>
+        <h2>Styled Components</h2>
         <p>
-        Styled Components is currently under development. Please check back soon for updates.
+        Styled Components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS. This means you can keep your CSS code right alongside your JavaScript code. It's a powerful tool that can make your code more readable, reusable, and scalable. It's especially useful when you want to create small, reusable components, and when you want to leverage the power of JavaScript to create dynamic styles.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="React Styled Components - 1 - Introduction"
+          videoSrc="https://www.youtube.com/embed/FSCSdAlLsYM"
         />
+        <TopicVideoPlayer
+          videoTitle="Styled Component in React in Hindi"
+          videoSrc="https://www.youtube.com/embed/-9ZPBAcjmh4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Styled Components Crash Course & Project"
+          videoSrc="https://www.youtube.com/embed/02zO0hZmwnw"
+        />
+
 
         <hr />
 

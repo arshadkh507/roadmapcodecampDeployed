@@ -7,25 +7,36 @@ const Vuejs064 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Vue.js Guide",
+      url: "https://vuejs.org/v2/guide/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Vue.js API",
+      url: "https://vuejs.org/v2/api/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Vue.js Style Guide",
+      url: "https://vuejs.org/v2/style-guide/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Vue.js Examples",
+      url: "https://vuejsexamples.com/",
+    },
+    {
+      id: 5,
+      title: "Vue.js Tutorial for Beginners",
+      url: "https://www.tutorialspoint.com/vuejs/index.htm",
+    },
+    {
+      id: 6,
+      title: "Vue.js - The Progressive JavaScript Framework",
+      url: "https://www.youtube.com/watch?v=4deVCNJq3qc",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +50,23 @@ const Vuejs064 = () => {
 
         <h2>Vuejs064</h2>
         <p>
-        Vuejs is currently under development. Please check back soon for updates.
+        Vue.js is a progressive JavaScript framework that's designed to be approachable, versatile, and performant. Its core library focuses on the view layer only, making it easy to integrate with other libraries or existing projects. But what truly sets Vue.js apart is its simplicity and ease of use. It's designed from the ground up to be incrementally adoptable. The core library focuses on declarative rendering and component composition, and it's easy to understand and pick up. This makes it a great choice for both beginners and seasoned developers alike.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Vue.js Explained in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/nhBVL41-_Cw"
         />
+        <TopicVideoPlayer
+          videoTitle="Vue.js Tutorial: Beginner to Front-End Developer"
+          videoSrc="https://www.youtube.com/embed/1GNsWa_EZdw"
+        />
+        <TopicVideoPlayer
+          videoTitle="Vue JS Crash Course"
+          videoSrc="https://www.youtube.com/embed/qZXt1Aom3Cs"
+        />
+
 
         <hr />
 

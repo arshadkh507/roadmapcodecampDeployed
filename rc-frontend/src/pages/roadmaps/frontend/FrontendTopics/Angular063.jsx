@@ -7,25 +7,31 @@ const Angular063 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Angular - Official Documentation",
+      url: "https://angular.io/docs",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Angular Tutorial for Beginners: Learn Angular & TypeScript",
+      url: "https://www.youtube.com/watch?v=k5E2AVpwsko",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Angular - Wikipedia",
+      url: "https://en.wikipedia.org/wiki/Angular_(web_framework)",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Learn Angular - Full Tutorial Course",
+      url: "https://www.freecodecamp.org/news/learn-angular-full-tutorial-course/",
+    },
+    {
+      id: 5,
+      title: "Angular Tutorial - W3Schools",
+      url: "https://www.w3schools.com/angular/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const Angular063 = () => {
         />
         <hr />
 
-        <h2>Angular063</h2>
+        <h2>Angular</h2>
         <p>
-        Angular is currently under development. Please check back soon for updates.
+        Angular is a powerful and dynamic JavaScript-based framework. It's used for creating single-page web applications, allowing you to create interactive and user-friendly websites. It's maintained by Google, so you know it's got a strong support system. Stay tuned as we dive deeper into this fascinating tool!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Angular JS Tutorial 1"
+          videoSrc="https://www.youtube.com/embed/1tRLveSyNz8"
         />
+        <TopicVideoPlayer
+          videoTitle="Angular JS Tutorial 2"
+          videoSrc="https://www.youtube.com/embed/3dHNOWTI7H8"
+        />
+        <TopicVideoPlayer
+          videoTitle="Angular Tutorial in Hindi"
+          videoSrc="https://www.youtube.com/embed/0LhBvp8qpro"
+        />
+
 
         <hr />
 

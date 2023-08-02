@@ -7,25 +7,31 @@ const React062 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "React Documentation",
+      url: "https://reactjs.org/docs/getting-started.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "React Tutorial for Beginners",
+      url: "https://www.taniarascia.com/getting-started-with-react/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Learn React with Fullstackopen",
+      url: "https://fullstackopen.com/en/part1",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    },
+    {
+      id: 5,
+      title: "React.js: Building an Interface",
+      url: "https://www.linkedin.com/learning/react-js-building-an-interface",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,23 @@ const React062 = () => {
         />
         <hr />
 
-        <h2>React062</h2>
+        <h2>React</h2>
         <p>
-        React is currently under development. Please check back soon for updates.
+        React is a popular JavaScript library for building user interfaces, particularly for single-page applications. It's used for handling the view layer in web and mobile apps. React allows you to design simple views for each state in your application, and it will efficiently update and render the right components when your data changes. React's main goal is to be fast, simple, and scalable. So, if you're looking to build high-performance user interfaces, React could be a great fit.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="React JS Tutorial for Beginners"
+          videoSrc="https://www.youtube.com/embed/Ke90Tje7VS0"
+        />
+        <TopicVideoPlayer
+          videoTitle="React JS Crash Course"
+          videoSrc="https://www.youtube.com/embed/w7ejDZ8SWv8"
+        />
+        <TopicVideoPlayer
+          videoTitle="Full React Course 2020"
+          videoSrc="https://www.youtube.com/embed/4UZrsTqkcW4"
         />
 
         <hr />

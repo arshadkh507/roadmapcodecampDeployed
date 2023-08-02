@@ -7,25 +7,27 @@ const ModuleBundlersEsbuild058 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Esbuild: An extremely fast JavaScript bundler",
+      url: "https://esbuild.github.io/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Esbuild vs Webpack: a comparison",
+      url: "https://blog.logrocket.com/esbuild-vs-webpack/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Esbuild",
+      url: "https://www.youtube.com/watch?v=S8HX-y9Nrzc",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Esbuild: A revolutionary JavaScript bundler",
+      url: "https://evilmartians.com/chronicles/esbuild-a-revolutionary-javascript-bundler",
     },
   ];
+
+   
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +39,25 @@ const ModuleBundlersEsbuild058 = () => {
         />
         <hr />
 
-        <h2>ModuleBundlersEsbuild058</h2>
+        <h2>Module Bundlers Esbuild</h2>
         <p>
-        Module Bundlers Esbuild is currently under development. Please check back soon for updates.
+        Esbuild is a modern module bundler for JavaScript applications. It's known for its incredible speed and efficiency, which can significantly improve your development workflow. Stay tuned as we dive deeper into its features and how to use it in the upcoming sections.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack"
+          videoSrc="https://www.youtube.com/embed/5IG4UmULyoA"
         />
+        <TopicVideoPlayer
+          videoTitle="What Is ESBuild? - What Is Web Development"
+          videoSrc="https://www.youtube.com/embed/ZY8Vu8cbWF0"
+        />
+        <TopicVideoPlayer
+          videoTitle="Creating an esbuild Plugin to Efficiently Copy Static Files"
+          videoSrc="https://www.youtube.com/embed/bMkmwq5tzSs"
+        />
+
 
         <hr />
 

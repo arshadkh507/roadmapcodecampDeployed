@@ -7,25 +7,31 @@ const Svelte065 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Svelte Official Documentation",
+      url: "https://svelte.dev/docs",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Svelte Tutorial for Beginners",
+      url: "https://www.tutorialspoint.com/svelte/index.htm",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Svelte: Rethinking Reactivity",
+      url: "https://www.youtube.com/watch?v=AdNJ3fydeao",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Svelte vs React: Which is better?",
+      url: "https://blog.logrocket.com/svelte-vs-react/",
+    },
+    {
+      id: 5,
+      title: "Svelte 3: Rethinking reactivity",
+      url: "https://svelte.dev/blog/svelte-3-rethinking-reactivity",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const Svelte065 = () => {
         />
         <hr />
 
-        <h2>Svelte065</h2>
+        <h2>Svelte</h2>
         <p>
-        Svelte is currently under development. Please check back soon for updates.
+        Svelte is a modern JavaScript framework for building user interfaces. Unlike traditional frameworks, Svelte compiles your code to efficient, imperative code that directly manipulates the DOM. This results in faster initial load times and smoother updates. It's used in situations where performance is critical, or when you need fine control over your app's behavior. It's a great choice for both small and large scale applications due to its simplicity and scalability.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Svelte Tutorial #1 - Introduction"
+          videoSrc="https://www.youtube.com/embed/ujbE0mzX-CU"
         />
+        <TopicVideoPlayer
+          videoTitle="Svelte.js - The Complete Guide"
+          videoSrc="https://www.youtube.com/embed/043h4ugAj4c"
+        />
+        <TopicVideoPlayer
+          videoTitle="Svelte in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/rv3Yq-B8qp4"
+        />
+
 
         <hr />
 

@@ -7,25 +7,31 @@ const BuildToolsTaskRunners055 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Build Tools and Task Runners",
+      url: "https://www.sitepoint.com/understanding-build-tools/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Introduction to Build Tools and Task Runners",
+      url: "https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners-build-tools-front-end/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Build Tools vs Task Runners",
+      url: "https://www.freecodecamp.org/news/task-automation-with-npm-run-32ac7bfcfdf3/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Getting Started with Gulp.js",
+      url: "https://www.youtube.com/watch?v=1rw9MfIleEg",
+    },
+    {
+      id: 5,
+      title: "Webpack - A Detailed Introduction",
+      url: "https://www.smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,23 @@ const BuildToolsTaskRunners055 = () => {
         />
         <hr />
 
-        <h2>BuildToolsTaskRunners055</h2>
+        <h2>Build Tools Task Runners</h2>
         <p>
-        Build Tools Task Runners is currently under development. Please check back soon for updates.
+        Build Tools and Task Runners are essential elements in modern web development. They help automate repetitive tasks, thus increasing productivity and reducing errors. Build tools, like Webpack, help in transforming, bundling, and packaging your source code. Task runners, like Gulp, automate tasks such as minifying code and compiling preprocessors. By using these tools, you can focus more on writing the code and less on the tasks that support it.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Javascript Module Bundlers & Task Runners Explained"
+          videoSrc="https://www.youtube.com/embed/y50eOq-83lA"
+        />
+   <TopicVideoPlayer
+          videoTitle="Gulp Task Automation for Beginners"
+          videoSrc="https://www.youtube.com/embed/LYbt50dhTko"
+        />
+   <TopicVideoPlayer
+          videoTitle="VS Code tips — Building and running scripts with tasks"
+          videoSrc="https://www.youtube.com/embed/ccTcTcbWwdw"
         />
 
         <hr />

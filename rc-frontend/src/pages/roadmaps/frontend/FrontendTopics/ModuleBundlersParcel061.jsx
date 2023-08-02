@@ -7,25 +7,31 @@ const ModuleBundlersParcel061 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Getting Started with Parcel",
+      url: "https://parceljs.org/getting_started.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Parcel: A Zero Configuration Web Application Bundler",
+      url: "https://www.freecodecamp.org/news/parcel-a-zero-configuration-web-application-bundler-eb8d593a3f46/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Parcel v2: The future of frontend development",
+      url: "https://dev.to/parcel/parcel-v2-the-future-of-frontend-development-1l45",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "A Practical Guide to Bundling with Parcel",
+      url: "https://www.sitepoint.com/a-practical-guide-to-bundling-with-parcel/",
+    },
+    {
+      id: 5,
+      title: "Parcel.js in 10 Minutes",
+      url: "https://www.youtube.com/watch?v=5IG4UmULyoA",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const ModuleBundlersParcel061 = () => {
         />
         <hr />
 
-        <h2>ModuleBundlersParcel061</h2>
+        <h2>Module Bundlers Parcel</h2>
         <p>
-        Module Bundlers Parcel is currently under development. Please check back soon for updates.
+        Module Bundlers Parcel is a powerful tool in the world of web development. It's a zero-configuration web application bundler, which means it requires minimal setup and is ready to use out of the box. It's a great choice for developers who want to streamline their workflow and focus more on coding. Stay tuned for more updates on this topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack"
+          videoSrc="https://www.youtube.com/embed/5IG4UmULyoA"
         />
+  <TopicVideoPlayer
+          videoTitle="How to Build a Web App with Parcel.js - Quick & EASY JavaScript Bundler!"
+          videoSrc="https://www.youtube.com/embed/R02ehdTzi3I"
+        />
+  <TopicVideoPlayer
+          videoTitle="Parcel Module Bundler - Module Bundler For Beginners"
+          videoSrc="https://www.youtube.com/embed/T_Q56dhWASc"
+        />
+
 
         <hr />
 

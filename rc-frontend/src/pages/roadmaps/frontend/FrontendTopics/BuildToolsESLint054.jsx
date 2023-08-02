@@ -7,29 +7,35 @@ const BuildToolsESLint054 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "ESLint - Pluggable JavaScript linter",
+      url: "https://eslint.org/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Getting Started with ESLint",
+      url: "https://eslint.org/docs/user-guide/getting-started",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Configuring ESLint",
+      url: "https://eslint.org/docs/user-guide/configuring",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Rules in ESLint",
+      url: "https://eslint.org/docs/rules/",
+    },
+    {
+      id: 5,
+      title: "Integrating with Build Tools",
+      url: "https://eslint.org/docs/user-guide/integrations#build-tools",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Build Tools E S Lint</h1>
+        <h1>Build Tools ESLint</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/build-tools-prettier-53"
@@ -37,15 +43,25 @@ const BuildToolsESLint054 = () => {
         />
         <hr />
 
-        <h2>BuildToolsESLint054</h2>
+        <h2>Build Tools ESLint</h2>
         <p>
-        Build Tools E S Lint is currently under development. Please check back soon for updates.
+        ESLint is a tool in your development process known as a "linter". It helps to catch errors and enforce a consistent coding style. It's highly customizable, so you can design it to fit your project's specific needs. We use ESLint in build tools to ensure that our code is error-free and maintains a consistent style before we deploy it. This helps to prevent bugs and improve readability.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="ESLint Quickstart - find errors automatically"
+          videoSrc="https://www.youtube.com/embed/qhuFviJn-es"
         />
+        <TopicVideoPlayer
+          videoTitle="VSCode ESLint, Prettier & Airbnb Style Guide Setup"
+          videoSrc="https://www.youtube.com/embed/SydnKbGc7W8"
+        />
+        <TopicVideoPlayer
+          videoTitle="VSCode and ESLint Setup"
+          videoSrc="https://www.youtube.com/embed/SYSZi_nQzxk"
+        />
+
 
         <hr />
 

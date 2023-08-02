@@ -7,25 +7,31 @@ const BuildToolsNpmScripts056 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding NPM Scripts",
+      url: "https://www.freecodecamp.org/news/introduction-to-npm-scripts-1dbb2ae01633/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Using NPM as a Build Tool",
+      url: "https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "NPM Scripts Tutorial",
+      url: "https://flaviocopes.com/npm-scripts/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Why NPM Scripts?",
+      url: "https://css-tricks.com/why-npm-scripts/",
+    },
+    {
+      id: 5,
+      title: "Guide to NPM Scripts",
+      url: "https://www.sitepoint.com/guide-to-npm-as-a-build-tool/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,12 +45,21 @@ const BuildToolsNpmScripts056 = () => {
 
         <h2>BuildToolsNpmScripts056</h2>
         <p>
-        Build Tools Npm Scripts is currently under development. Please check back soon for updates.
+        NPM Scripts are a powerful feature in the Node.js ecosystem. They are essentially command line scripts that can automate your workflow. You can use them to build, test, and deploy your code. They are defined in the 'scripts' field of the package.json file and can be run with the 'npm run' command. They are a simple and effective way to use build tools in your project. Stay tuned as we dive deeper into this topic.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="npm Tutorial for Beginners - 16 - npm Scripts"
+          videoSrc="https://www.youtube.com/embed/hHt3oVk3XVk"
+        />
+ <TopicVideoPlayer
+          videoTitle="NodeJS Tutorial 20: package.json File"
+          videoSrc="https://www.youtube.com/embed/k1B9VIUkQmg"
+        />
+ <TopicVideoPlayer
+          videoTitle="31 Custom NPM scripts"
+          videoSrc="https://www.youtube.com/embed/REdzp64dijs"
         />
 
         <hr />

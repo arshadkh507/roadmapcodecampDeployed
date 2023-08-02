@@ -7,29 +7,30 @@ const SolidJS066 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Solid JS Official Documentation",
+      url: "https://www.solidjs.com/docs",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Solid JS Tutorial by Dev.to",
+      url: "https://dev.to/dailydevtips1/i-created-the-same-app-in-react-and-solid-js-here-are-the-differences-59p",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Solid JS",
+      url: "https://www.youtube.com/watch?v=3d9FPPG4tug",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Solid JS vs React",
+      url: "https://www.youtube.com/watch?v=RH1KhhRn4O8",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>Solid J S</h1>
+        <h1>Solid JS</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/frontend/pick-a-framework-svelte-65"
@@ -37,14 +38,23 @@ const SolidJS066 = () => {
         />
         <hr />
 
-        <h2>SolidJS066</h2>
+        <h2>Solid JS</h2>
         <p>
-        Solid J S is currently under development. Please check back soon for updates.
+        Solid JS is a declarative JavaScript library for building user interfaces. It's designed to be simple, fast, and reactive. It's used in web development to create interactive and dynamic web applications. One of its unique features is its fine-grained reactivity system, which updates only the parts of the DOM that need to change, resulting in highly efficient updates and no virtual DOM diffing. It's a great choice if you're looking for a lightweight and efficient alternative to other libraries like React or Vue.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to Solid JS"
+          videoSrc="https://www.youtube.com/embed/uPXn9S31o7Q"
+        />
+        <TopicVideoPlayer
+          videoTitle="Solid in 100 Seconds"
+          videoSrc="https://www.youtube.com/embed/hw3Bx5vxKl0"
+        />
+        <TopicVideoPlayer
+          videoTitle="SolidJS Crash Course - Better Than React!"
+          videoSrc="https://www.youtube.com/embed/WDodWU-B-aY"
         />
 
         <hr />

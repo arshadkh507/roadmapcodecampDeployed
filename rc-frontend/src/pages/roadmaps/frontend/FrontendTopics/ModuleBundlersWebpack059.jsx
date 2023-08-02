@@ -7,25 +7,26 @@ const ModuleBundlersWebpack059 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "frontend How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Webpack Concepts",
+      url: "https://webpack.js.org/concepts/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Webpack Documentation",
+      url: "https://webpack.js.org/concepts/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Introduction to Webpack",
+      url: "https://www.youtube.com/watch?v=TaWKUpahFZM",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Webpack Tutorial for Beginners",
+      url: "https://www.youtube.com/watch?v=lziuNMk_8eQ",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const ModuleBundlersWebpack059 = () => {
         />
         <hr />
 
-        <h2>ModuleBundlersWebpack059</h2>
+        <h2>Module Bundlers Webpack</h2>
         <p>
-        Module Bundlers Webpack is currently under development. Please check back soon for updates.
+        Webpack is a powerful module bundler used in modern JavaScript applications. It takes modules with dependencies and generates static assets representing those modules. This helps to optimize your code for production and boosts performance. It's commonly used in conjunction with tools like Babel and React to build complex web applications. Stay tuned for more detailed information and practical examples.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack"
+          videoSrc="https://www.youtube.com/embed/5IG4UmULyoA"
         />
+        <TopicVideoPlayer
+          videoTitle="What is Webpack - academind.com Snippet"
+          videoSrc="https://www.youtube.com/embed/5zeXFC_-gMQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Webpack 5 Crash Course | Frontend Development Setup"
+          videoSrc="https://www.youtube.com/embed/IZGNcSuwBZs"
+        />
+
 
         <hr />
 
