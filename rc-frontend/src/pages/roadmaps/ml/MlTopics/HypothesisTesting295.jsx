@@ -7,25 +7,31 @@ const HypothesisTesting295 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Hypothesis Testing",
+      url: "https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Hypothesis Testing: A systematic way to select samples from a group or population",
+      url: "https://www.investopedia.com/terms/h/hypothesistesting.asp",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Hypothesis Testing - Statistics Solutions",
+      url: "https://www.statisticssolutions.com/hypothesis-testing/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Hypothesis Testing | Simply Psychology",
+      url: "https://www.simplypsychology.org/hypothesis-testing.html",
+    },
+    {
+      id: 5,
+      title: "Hypothesis Testing - Math Is Fun",
+      url: "https://www.mathsisfun.com/data/hypothesis-testing.html",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +43,25 @@ const HypothesisTesting295 = () => {
         />
         <hr />
 
-        <h2>HypothesisTesting295</h2>
+        <h2>Hypothesis Testing</h2>
         <p>
-        Hypothesis Testing is currently under development. Please check back soon for updates.
+        Hypothesis Testing, in the simplest terms, is like the Sherlock Holmes of statistics. It's a method that allows us to make educated guesses and test assumptions about a population based on a sample. Imagine you're trying to solve a mystery, and you have a hunch or 'hypothesis'. Hypothesis Testing is the process of gathering and examining the evidence to see if it supports your hunch or not.
+<br /><br />
+        Now, you might be wondering, what does this have to do with Machine Learning? Well, quite a lot actually! In Machine Learning, we often have to make decisions based on data. Hypothesis Testing helps us to make these decisions in a systematic and scientific way. It allows us to test our assumptions and predictions, and helps us to avoid making decisions based on mere guesswork. So, while we're busy training our models, Hypothesis Testing is like our silent partner, providing insights and guiding our steps.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Hypothesis Testing Full concept in Hindi | statistics | Engineering Maths 4 Lectures"
+          videoSrc="https://www.youtube.com/embed/LSIgQH06j74"
+        />
+        <TopicVideoPlayer
+          videoTitle="Hypothesis Testing Statistics Problems & Examples"
+          videoSrc="https://www.youtube.com/embed/-FtlH4svqx4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Hypothesis Testing - Introduction"
+          videoSrc="https://www.youtube.com/embed/DlwOTOydeyk"
         />
 
         <hr />

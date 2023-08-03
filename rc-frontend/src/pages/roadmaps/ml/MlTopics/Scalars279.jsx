@@ -7,25 +7,26 @@ const Scalars279 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Linear Algebra",
+      url: "https://www.mathsisfun.com/algebra/linear-algebra-introduction.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Linear Algebra in Machine Learning",
+      url: "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Linear Algebra in ML",
+      url: "https://www.analyticsvidhya.com/blog/2017/05/comprehensive-guide-to-linear-algebra/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Linear Algebra for Machine Learning",
+      url: "https://machinelearningmastery.com/gentle-introduction-linear-algebra/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +38,23 @@ const Scalars279 = () => {
         />
         <hr />
 
-        <h2>Scalars279</h2>
+        <h2>Scalars</h2>
         <p>
-        Scalars is currently under development. Please check back soon for updates.
+        Scalars, in the context of machine learning, are simply single numbers. They are the simplest form of numerical data we can work with. But don't let their simplicity fool you! Scalars play a crucial role in machine learning algorithms. They are used extensively in calculations, transformations, and operations that drive these algorithms. So, next time you see a scalar, remember, it's a small but mighty part of the machine learning world.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Scalars and Vectors"
+          videoSrc="https://www.youtube.com/embed/rcDXQ-5H8mk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Scalar Quantity and Vector Quantity | Physics | Infinity Learn"
+          videoSrc="https://www.youtube.com/embed/Pj8Zh0A-uLU"
+        />
+        <TopicVideoPlayer
+          videoTitle="How Machine Learning uses Linear Algebra to solve data problems"
+          videoSrc="https://www.youtube.com/embed/wyoS89J3ap4"
         />
 
         <hr />

@@ -7,25 +7,26 @@ const LinearAlgebra278 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Linear Algebra",
+      url: "https://www.mathsisfun.com/algebra/linear-algebra-introduction.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Linear Algebra in Machine Learning",
+      url: "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Linear Algebra in ML",
+      url: "https://www.analyticsvidhya.com/blog/2017/05/comprehensive-guide-to-linear-algebra/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Linear Algebra for Machine Learning",
+      url: "https://machinelearningmastery.com/gentle-introduction-linear-algebra/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +38,27 @@ const LinearAlgebra278 = () => {
         />
         <hr />
 
-        <h2>LinearAlgebra278</h2>
+        <h2>Linear Algebra</h2>
         <p>
-        Linear Algebra is currently under development. Please check back soon for updates.
+        Linear Algebra is a branch of mathematics that deals with vectors and operations on vectors. It forms the backbone of Machine Learning, as it provides us with the tools to handle and manipulate data. In Machine Learning, we use Linear Algebra for transformations, dimensionality reduction, and much more. It's a crucial foundation for understanding and exploring data in a way that machines can understand.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Linear Algebra - Lecture 1"
+          videoSrc="https://www.youtube.com/embed/ZK3O402wf1c"
+        />
+        <TopicVideoPlayer
+          videoTitle="Linear Algebra - Full College Course"
+          videoSrc="https://www.youtube.com/embed/JnTa9XtvmfI"
+        />
+        <TopicVideoPlayer
+          videoTitle="Linear Algebra in Machine Learning"
+          videoSrc="https://www.youtube.com/embed/8onB7rPG4Pk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Linear Algebra for Machine Learning"
+          videoSrc="https://www.youtube.com/embed/8iGzBMboA0I"
         />
 
         <hr />

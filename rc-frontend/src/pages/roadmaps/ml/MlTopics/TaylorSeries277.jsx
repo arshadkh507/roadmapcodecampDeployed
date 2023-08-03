@@ -7,25 +7,26 @@ const TaylorSeries277 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding the Taylor Series",
+      url: "https://www.mathsisfun.com/algebra/taylor-series.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Taylor Series in Machine Learning",
+      url: "https://towardsdatascience.com/taylor-series-in-machine-learning-7700e3b8e5ff",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Taylor Series: Simple and Multivariable Calculus",
+      url: "https://www.khanacademy.org/math/calculus-2/cs2-series-and-sequences/cs2-taylor-and-maclaurin-series/a/maclaurin-and-taylor-series-intro",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "The Role of Taylor Series in Machine Learning",
+      url: "https://medium.com/@andrew.chamberlain/the-role-of-taylor-series-in-machine-learning-64c2d6e7a739",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const TaylorSeries277 = () => {
         />
         <hr />
 
-        <h2>TaylorSeries277</h2>
+        <h2>Taylor Series</h2>
         <p>
-        Taylor Series is currently under development. Please check back soon for updates.
+        The Taylor Series is a powerful mathematical tool that allows us to approximate any function as a sum of terms calculated from the function's derivatives at a single point. In the realm of Machine Learning, the Taylor Series is often used in optimization algorithms. It helps us to simplify complex functions and make them more manageable for computations. Stay tuned as we delve deeper into this fascinating topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Taylor Series and Maclaurin Series - Calculus 2"
+          videoSrc="https://www.youtube.com/embed/LDBnS4c7YbA"
         />
+        <TopicVideoPlayer
+          videoTitle="Taylor series | Chapter 11, Essence of calculus"
+          videoSrc="https://www.youtube.com/embed/3d6DsjIBzJ4"
+        />
+        <TopicVideoPlayer
+          videoTitle="Taylor Series | Taylor Theorem | Proof & Series Expansion | Part-I"
+          videoSrc="https://www.youtube.com/embed/LEspaisjDFE"
+        />
+
 
         <hr />
 

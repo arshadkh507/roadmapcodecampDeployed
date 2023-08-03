@@ -7,25 +7,31 @@ const MatrixMultiplication283 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Matrix Multiplication: The Basics",
+      url: "https://www.mathsisfun.com/algebra/matrix-multiplying.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Matrix Multiplication in Machine Learning",
+      url: "https://towardsdatascience.com/matrix-multiplication-in-machine-learning-3d6e77506f6",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Matrix Multiplication: Step by Step Guide",
+      url: "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:matrices-multiplying/a/multiplying-matrices",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Matrix Multiplication in Deep Learning",
+      url: "https://machinelearningmastery.com/introduction-to-tensors-for-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "Matrix Multiplication: A Comprehensive Overview",
+      url: "https://www.analyticsvidhya.com/blog/2017/05/comprehensive-guide-to-linear-algebra/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,21 @@ const MatrixMultiplication283 = () => {
 
         <h2>MatrixMultiplication283</h2>
         <p>
-        Matrix Multiplication is currently under development. Please check back soon for updates.
-        </p>
+        Matrix multiplication, in the simplest terms, is the process of multiplying two matrices together. It's a fundamental operation in linear algebra and plays a crucial role in machine learning. 
+        In machine learning, we use matrix multiplication in various algorithms and computations. For instance, it's used in the training of neural networks, where the weights of the neurons are updated using matrix operations.  <br /><br />
+        It's also used in the transformation of data, such as scaling or rotating points in a dataset. So, understanding matrix multiplication can really help you grasp the inner workings of many machine learning algorithms. Stay tuned as we dive deeper into this topic!
 
+        </p>
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Matrix Basics | Deep Learning Tutorial 10 (Tensorflow Tutorial, Keras & Python)"
+          videoSrc="https://www.youtube.com/embed/Wibxjrxf5ko"
         />
+        <TopicVideoPlayer
+          videoTitle="Quick Matrix Multiplication"
+          videoSrc="https://www.youtube.com/embed/PqobOjdYyBU"
+        />
+
+
 
         <hr />
 

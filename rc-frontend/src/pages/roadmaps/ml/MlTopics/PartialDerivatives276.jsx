@@ -7,25 +7,31 @@ const PartialDerivatives276 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Partial Derivatives",
+      url: "https://www.mathsisfun.com/calculus/derivatives-partial.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Partial Derivatives in Machine Learning",
+      url: "https://towardsdatascience.com/understanding-partial-derivatives-in-machine-learning-c1a7c66a1a2f",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Partial Derivatives and Their Applications",
+      url: "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives-and-the-gradient/a/partial-derivatives",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Partial Derivatives in Neural Networks",
+      url: "https://medium.com/@a.mirzaei69/partial-derivative-in-neural-network-214c0b0658ba",
+    },
+    {
+      id: 5,
+      title: "Partial Derivatives in Gradient Descent",
+      url: "https://machinelearningmastery.com/gentle-introduction-gradient-descent-optimization/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,29 @@ const PartialDerivatives276 = () => {
         />
         <hr />
 
-        <h2>PartialDerivatives276</h2>
+        <h2>Partial Derivatives</h2>
         <p>
-        Partial Derivatives is currently under development. Please check back soon for updates.
+        Partial derivatives are a type of derivative that allow us to measure how a function changes when we alter just one of its variables, keeping the others constant. In the realm of machine learning, they play a crucial role in optimization algorithms like gradient descent, which are used to minimize error functions by iteratively adjusting model parameters. By understanding how a small change in a parameter affects the error, we can adjust the parameter in the direction that reduces the error most rapidly. So, in essence, partial derivatives are the compass that guides our machine learning models towards the best fit.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Partial Derivatives - Multivariable Calculus"
+          videoSrc="https://www.youtube.com/embed/JAf_aSIJryg"
         />
+        <TopicVideoPlayer
+          videoTitle="Partial derivatives, introduction"
+          videoSrc="https://www.youtube.com/embed/AXqhWeUEtQU"
+        />
+        <TopicVideoPlayer
+          videoTitle=". Backpropagation: Find Partial Derivatives"
+          videoSrc="https://www.youtube.com/embed/lZrIPRnoGQQ"
+        />
+        <TopicVideoPlayer
+          videoTitle="Partial Derivatives and the Gradient of a Function"
+          videoSrc="https://www.youtube.com/embed/AXH9Xm6Rbfc"
+        />
+
 
         <hr />
 

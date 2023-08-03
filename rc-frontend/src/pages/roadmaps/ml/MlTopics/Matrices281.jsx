@@ -7,25 +7,26 @@ const Matrices281 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Matrices",
+      url: "https://www.mathsisfun.com/algebra/matrix-introduction.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Matrices in Machine Learning",
+      url: "https://towardsdatascience.com/matrix-calculus-in-machine-learning-why-and-how-94b56c5dc96",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding the Role of Matrices in Machine Learning",
+      url: "https://www.analyticsvidhya.com/blog/2017/05/comprehensive-guide-to-math-behind-machine-learning/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Matrices for Machine Learning",
+      url: "https://machinelearningmastery.com/introduction-to-matrices-for-machine-learning/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const Matrices281 = () => {
         />
         <hr />
 
-        <h2>Matrices281</h2>
+        <h2>Matrices</h2>
         <p>
-        Matrices is currently under development. Please check back soon for updates.
-        </p>
+        Matrices are a fundamental part of many machine learning algorithms. They are a special kind of data structure that can be used to represent multiple dimensions of data. In machine learning, we often deal with high-dimensional data, and matrices provide a convenient way to work with such data. They are used in various aspects of machine learning, such as feature representation, linear regression, and neural network layers. So, understanding matrices and how to work with them is crucial for anyone diving into machine learning.
+
+        </p> 
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to Matrices"
+          videoSrc="https://www.youtube.com/embed/yRwQ7A6jVLk"
         />
+        <TopicVideoPlayer
+          videoTitle="Matrix Basics | Deep Learning Tutorial 10 (Tensorflow Tutorial, Keras & Python)"
+          videoSrc="https://www.youtube.com/embed/Wibxjrxf5ko"
+        />
+        <TopicVideoPlayer
+          videoTitle="The Applications of Matrices | What I wish my teachers told me way earlier"
+          videoSrc="https://www.youtube.com/embed/rowWM-MijXU"
+        />
+
 
         <hr />
 

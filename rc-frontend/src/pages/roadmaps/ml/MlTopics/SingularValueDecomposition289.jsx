@@ -7,25 +7,26 @@ const SingularValueDecomposition289 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Singular Value Decomposition",
+      url: "https://www.mathsisfun.com/algebra/singular-value-decomposition.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Singular Value Decomposition Explained",
+      url: "https://towardsdatascience.com/singular-value-decomposition-example-in-python-dab2507d85a0",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Singular Value Decomposition in Machine Learning",
+      url: "https://machinelearningmastery.com/singular-value-decomposition-for-machine-learning/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Singular Value Decomposition Video Explanation",
+      url: "https://www.youtube.com/watch?v=mBcLRGuAFUk",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +38,25 @@ const SingularValueDecomposition289 = () => {
         />
         <hr />
 
-        <h2>SingularValueDecomposition289</h2>
+        <h2>Singular Value Decomposition</h2>
         <p>
-        Singular Value Decomposition is currently under development. Please check back soon for updates.
+        Singular Value Decomposition, or SVD for short, is a bit like a superpower in the world of linear algebra. It's a method that enables us to break down a matrix into three separate parts. This might not sound like much, but it's incredibly useful in a wide range of applications, from data compression to recommendation systems. So, while it might seem a bit complex at first, it's definitely worth getting to know. Stick around as we delve deeper into this fascinating topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Singular Value Decomposition (SVD): Overview"
+          videoSrc="https://www.youtube.com/embed/gXbThCXjZFM"
         />
+        <TopicVideoPlayer
+          videoTitle="Singular Value Decomposition (the SVD)"
+          videoSrc="https://www.youtube.com/embed/mBcLRGuAFUk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Singular Value Decomposition (SVD) Problem | Full Explanation"
+          videoSrc="https://www.youtube.com/embed/NGHBniMyteo"
+        />
+
 
         <hr />
 

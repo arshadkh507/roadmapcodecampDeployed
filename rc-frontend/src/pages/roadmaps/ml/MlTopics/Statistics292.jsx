@@ -7,25 +7,31 @@ const Statistics292 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Statistics: An Introduction",
+      url: "https://www.statistics.com/introduction-to-statistics/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Statistics and Probability",
+      url: "https://www.khanacademy.org/math/statistics-probability",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Statistics | Math | Khan Academy",
+      url: "https://www.khanacademy.org/math/statistics-probability",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Statistics - Wikipedia",
+      url: "https://en.wikipedia.org/wiki/Statistics",
+    },
+    {
+      id: 5,
+      title: "Introduction to Statistics | Coursera",
+      url: "https://www.coursera.org/courses?query=introduction%20to%20statistics",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,23 @@ const Statistics292 = () => {
 
         <h2>Statistics292</h2>
         <p>
-        Statistics is currently under development. Please check back soon for updates.
+        Statistics is a fascinating field that involves the collection, analysis, interpretation, presentation, and organization of data. It's a crucial component in Machine Learning as it provides the foundation for understanding the data we're working with. It helps us make sense of complex data sets, identify patterns, and make informed decisions. So, buckle up and dive into the world of statistics with us!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to Statistics"
+          videoSrc="https://www.youtube.com/embed/LMSyiAJm99g"
         />
+        <TopicVideoPlayer
+          videoTitle="Statistics and Probability Full Course || Statistics For Data Science"
+          videoSrc="https://www.youtube.com/embed/sbbYntt5CJk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Statistics for Data Science | Probability and Statistics | Statistics Tutorial | Ph.D. (Stanford)"
+          videoSrc="https://www.youtube.com/embed/Vfo5le26IhY"
+        />
+
 
         <hr />
 

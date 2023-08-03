@@ -7,29 +7,35 @@ const ANOVA299 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "ANOVA: A Beginner's Guide",
+      url: "https://statistics.laerd.com/statistical-guides/one-way-anova-statistical-guide.php",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Understanding ANOVA",
+      url: "https://www.investopedia.com/terms/a/anova.asp",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "ANOVA in Python",
+      url: "https://www.datacamp.com/community/tutorials/anova-python",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "ANOVA in Machine Learning",
+      url: "https://machinelearningmastery.com/analysis-of-variance-anova-for-machine-learning/",
+    },
+    {
+      id: 5,
+      title: "ANOVA: Step-by-Step Guide with Examples",
+      url: "https://www.scribbr.com/statistics/anova/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
-        <h1>A N O V A</h1>
+        <h1>ANOVA</h1>
 
         <PaginationButtons
           prevTo="/roadmaps/ml/regression-298"
@@ -37,15 +43,25 @@ const ANOVA299 = () => {
         />
         <hr />
 
-        <h2>ANOVA299</h2>
+        <h2>ANOVA</h2>
         <p>
-        A N O V A is currently under development. Please check back soon for updates.
+        ANOVA, or Analysis of Variance, is like a detective in the world of statistics. It's a method that helps us figure out if there are any significant differences between three or more groups. Imagine you're trying to find out if different teaching methods have different effects on students' test scores. ANOVA is the tool you'd use to crack the case! It's all about comparing and contrasting, and it's a key technique in fields like business, healthcare, engineering, and more.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="What Is Anova? | Introduction To Analysis And Variance | Anova Explained | Simplilearn"
+          videoSrc="https://www.youtube.com/embed/r1ueoHA_KCQ"
         />
+        <TopicVideoPlayer
+          videoTitle="ANOVA | Analysis of Variance | Introduction and Concept in Hindi | Statistics "
+          videoSrc="https://www.youtube.com/embed/8DaOIjuF4BY"
+        />
+        <TopicVideoPlayer
+          videoTitle="ANOVA (Analysis of variance) simply explained"
+          videoSrc="https://www.youtube.com/embed/0NwA9xxxtHw"
+        />
+
 
         <hr />
 

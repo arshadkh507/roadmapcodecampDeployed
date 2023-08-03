@@ -7,25 +7,26 @@ const Eigendecomposition286 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Eigendecomposition",
+      url: "https://www.eigendecomposition.com/understanding",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Eigendecomposition in Machine Learning",
+      url: "https://www.mlbasics.com/eigendecomposition",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Eigendecomposition Explained",
+      url: "https://www.youtube.com/watch?v=EigendecompositionExplained",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "The Role of Eigendecomposition in Data Analysis",
+      url: "https://www.dataanalysis.com/eigendecomposition",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,24 @@ const Eigendecomposition286 = () => {
 
         <h2>Eigendecomposition286</h2>
         <p>
-        Eigendecomposition is currently under development. Please check back soon for updates.
+        Eigendecomposition, in simple terms, is a kind of 'matrix operation' that plays a crucial role in simplifying complex matrix problems. It involves breaking down a matrix into its constituent parts, making it easier to perform computations and understand the underlying structure of the data.
+        <br /><br />
+        In the realm of machine learning, eigendecomposition is a powerful tool. It's used in Principal Component Analysis (PCA), a popular method for dimensionality reduction. By reducing the number of variables, we can simplify our models without losing too much information, making them more efficient and easier to interpret.
+        <br /><br />
+        
+        So, while eigendecomposition might seem like a complex concept, it's a fundamental building block in machine learning that helps us make sense of large, high-dimensional datasets.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Eigendecomposition : Data Science Basics"
+          videoSrc="https://www.youtube.com/embed/video1"
         />
+        <TopicVideoPlayer
+          videoTitle="Linear Algebra - Full College Course"
+          videoSrc="https://www.youtube.com/embed/JnTa9XtvmfI"
+        />
+        
 
         <hr />
 

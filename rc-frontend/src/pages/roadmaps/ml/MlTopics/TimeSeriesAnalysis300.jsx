@@ -7,25 +7,31 @@ const TimeSeriesAnalysis300 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Time Series Analysis: An Introduction",
+      url: "https://otexts.com/fpp2/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Time Series Analysis and Its Applications",
+      url: "https://www.springer.com/gp/book/9783319524511",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Time Series Analysis by State Space Methods",
+      url: "https://global.oup.com/academic/product/time-series-analysis-by-state-space-methods-9780199641178",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Introduction to Time Series Analysis",
+      url: "https://www.youtube.com/watch?v=Prpu_U5tKkE",
+    },
+    {
+      id: 5,
+      title: "Time Series Analysis in Python",
+      url: "https://www.datacamp.com/courses/time-series-analysis-in-python",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const TimeSeriesAnalysis300 = () => {
         />
         <hr />
 
-        <h2>TimeSeriesAnalysis300</h2>
+        <h2>Time Series Analysis</h2>
         <p>
-        Time Series Analysis is currently under development. Please check back soon for updates.
+        Time Series Analysis, in simple terms, is like a treasure hunt where we seek to uncover hidden patterns in sequential data. It's a way to understand, analyze and predict trends over time, be it the stock market, weather patterns, or even your heart rate. It's a fascinating field that's constantly evolving, so stay tuned as we dive deeper into this topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Time series analysis- introduction, significance, components of time series and decomposition models"
+          videoSrc="https://www.youtube.com/embed/3QCEdEo3Ekg"
         />
+        <TopicVideoPlayer
+          videoTitle="What is Time Series Analysis?"
+          videoSrc="https://www.youtube.com/embed/GE3JOFwTWVM"
+        />
+        <TopicVideoPlayer
+          videoTitle="Time Series Analysis in Python | Time Series Forecasting | Data Science with Python"
+          videoSrc="https://www.youtube.com/embed/e8Yw4alG16Q"
+        />
+
 
         <hr />
 

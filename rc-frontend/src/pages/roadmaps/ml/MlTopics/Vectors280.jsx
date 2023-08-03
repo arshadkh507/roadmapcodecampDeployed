@@ -7,25 +7,26 @@ const Vectors280 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Linear Algebra",
+      url: "https://www.mathsisfun.com/algebra/linear-algebra-introduction.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Linear Algebra in Machine Learning",
+      url: "https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Linear Algebra in ML",
+      url: "https://www.analyticsvidhya.com/blog/2017/05/comprehensive-guide-to-linear-algebra/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Linear Algebra for Machine Learning",
+      url: "https://machinelearningmastery.com/gentle-introduction-linear-algebra/",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +38,28 @@ const Vectors280 = () => {
         />
         <hr />
 
-        <h2>Vectors280</h2>
+        <h2>Vectors</h2>
         <p>
-        Vectors is currently under development. Please check back soon for updates.
+        Vectors are fundamental in the world of machine learning. They are essentially a list of numbers, and these numbers have a very special relationship with each other. They are not just a random collection, but rather, each number in the vector represents a specific feature of some data point. 
+        <br /><br />
+        In machine learning, we use vectors to represent and manipulate data. For example, an image, a sound clip, a text, all can be represented as a vector of numbers. This makes it possible for us to apply mathematical operations on them, and extract useful patterns. 
+        <br /><br />
+        
+        So, when you hear about vectors in machine learning, think of them as a way to hold and work with our data. They are the language that machines understand and they are crucial in training models that can make predictions, recognize patterns, and give us insights from data.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Scalars and Vectors"
+          videoSrc="https://www.youtube.com/embed/rcDXQ-5H8mk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Scalar Quantity and Vector Quantity | Physics | Infinity Learn"
+          videoSrc="https://www.youtube.com/embed/Pj8Zh0A-uLU"
+        />
+        <TopicVideoPlayer
+          videoTitle="How Machine Learning uses Linear Algebra to solve data problems"
+          videoSrc="https://www.youtube.com/embed/wyoS89J3ap4"
         />
 
         <hr />

@@ -7,25 +7,26 @@ const InferentialStatistics294 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Inferential Statistics: An Introduction",
+      url: "https://www.statistics.com/inferential-statistics/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Inferential Statistics: Khan Academy",
+      url: "https://www.khanacademy.org/math/statistics-probability/inferential-statistics",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Inferential Statistics: Coursera",
+      url: "https://www.coursera.org/courses?query=inferential%20statistics",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Inferential Statistics: Tutorial",
+      url: "https://www.tutorialspoint.com/statistics/inferential_statistics.htm",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,14 +38,24 @@ const InferentialStatistics294 = () => {
         />
         <hr />
 
-        <h2>InferentialStatistics294</h2>
+        <h2>Inferential Statistics</h2>
         <p>
-        Inferential Statistics is currently under development. Please check back soon for updates.
+        Inferential Statistics is a fascinating branch of statistics that allows us to make educated guesses about a population based on a sample. It's like being a detective, using clues and evidence to make conclusions about a larger group. In the realm of Machine Learning, Inferential Statistics plays a pivotal role. It helps us understand and interpret data, make predictions, and drive decision-making processes. So, while we're busy training our models, Inferential Statistics is the silent partner, providing insights and guiding our steps.
+
         </p>
 
+      
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Descriptive Statistics vs Inferential Statistics"
+          videoSrc="https://www.youtube.com/embed/VHYOuWu9jQI"
+        />
+            <TopicVideoPlayer
+          videoTitle="Statistics and Probability Full Course || Statistics For Data Science"
+          videoSrc="https://www.youtube.com/embed/sbbYntt5CJk"
+        />
+        <TopicVideoPlayer
+          videoTitle="Statistics for Data Science | Probability and Statistics | Statistics Tutorial | Ph.D. (Stanford)"
+          videoSrc="https://www.youtube.com/embed/Vfo5le26IhY"
         />
 
         <hr />

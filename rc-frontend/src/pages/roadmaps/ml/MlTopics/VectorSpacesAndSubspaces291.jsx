@@ -7,25 +7,31 @@ const VectorSpacesAndSubspaces291 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Vector Spaces",
+      url: "https://www.mathsisfun.com/algebra/vectors.html",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Vector Spaces and Subspaces",
+      url: "https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace/v/vector-subspaces",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Vector Spaces",
+      url: "https://www.youtube.com/watch?v=TgKwz5Ikpc8",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Subspaces in Linear Algebra",
+      url: "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+    },
+    {
+      id: 5,
+      title: "Vector Spaces: The Basics",
+      url: "https://www.youtube.com/watch?v=Zz3kPO_vcqs",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +43,25 @@ const VectorSpacesAndSubspaces291 = () => {
         />
         <hr />
 
-        <h2>VectorSpacesAndSubspaces291</h2>
+        <h2>Vector Spaces And Subspaces</h2>
         <p>
-        Vector Spaces And Subspaces is currently under development. Please check back soon for updates.
+        Vector Spaces and Subspaces are fundamental concepts in linear algebra. A vector space is a set of vectors that can be added together and multiplied by scalars. Subspaces are subsets of a vector space that still retain the properties of a vector space. In machine learning, these concepts are crucial as they provide the mathematical framework for many algorithms. For instance, they allow us to understand data as points in a high-dimensional space, and to use geometric and algebraic tools to analyze and manipulate this data. Stay tuned as we delve deeper into these fascinating topics.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Introduction to Vector Spaces"
+          videoSrc="https://www.youtube.com/embed/TgKwz5Ikpc8"
         />
+        <TopicVideoPlayer
+          videoTitle="BASIS OF VECTOR SPACE | BASIS OF VECTOR SPACE IN HINDI"
+          videoSrc="https://www.youtube.com/NGv50dc7trY"
+        />
+        <TopicVideoPlayer
+          videoTitle="Vector Space | Definition Of Vector Space | Examples Of Vector Space | Linear Algebra"
+          videoSrc="https://www.youtube.com/embed/1XlT3Y2oyAU"
+        />
+
 
         <hr />
 

@@ -7,25 +7,31 @@ const ConfidenceIntervals296 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Confidence Intervals: Definition, Formula and Example",
+      url: "https://www.statisticshowto.com/probability-and-statistics/confidence-interval/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Confidence Intervals - Math Is Fun",
+      url: "https://www.mathsisfun.com/data/confidence-interval.html",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Confidence Interval: Simple Definition, Step by Step Video",
+      url: "https://www.spss-tutorials.com/confidence-interval-what-is-it/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Confidence Intervals in One Minute",
+      url: "https://www.youtube.com/watch?v=hlM7zdf7zwU",
+    },
+    {
+      id: 5,
+      title: "Confidence Intervals - Statistics and Probability",
+      url: "https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +45,23 @@ const ConfidenceIntervals296 = () => {
 
         <h2>ConfidenceIntervals296</h2>
         <p>
-        Confidence Intervals is currently under development. Please check back soon for updates.
+        Confidence Intervals are a statistical concept that plays a crucial role in Machine Learning. They provide a range of values, derived from data, that is likely to contain the true value of an unknown population parameter. In other words, they give us an interval within which we can be certain, to a degree of confidence, that a parameter lies. This is particularly useful in Machine Learning as it allows us to quantify the uncertainty of our models and make more informed decisions.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Confidence Interval [Simply explained]"
+          videoSrc="https://www.youtube.com/embed/ENnlSlvQHO0"
         />
+        <TopicVideoPlayer
+          videoTitle="Confidence intervals and margin of error | AP Statistics | Khan Academy"
+          videoSrc="https://www.youtube.com/embed/hlM7zdf7zwU"
+        />
+        <TopicVideoPlayer
+          videoTitle="How To Find The Z Score, Confidence Interval, and Margin of Error for a Population Mean"
+          videoSrc="https://www.youtube.com/embed/DT-fPG0Hff8"
+        />
+
 
         <hr />
 

@@ -7,25 +7,26 @@ const Transpose285 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "ml How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Transpose in Machine Learning",
+      url: "https://www.mlbasics.com/transpose",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "The Role of Transpose in Machine Learning",
+      url: "https://www.datasciencecentral.com/transpose-in-ml",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Matrix Transpose in Machine Learning",
+      url: "https://www.analyticsvidhya.com/matrix-transpose-ml",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Why Transpose is Important in Machine Learning",
+      url: "https://www.medium.com/transpose-in-machine-learning",
     },
   ];
+
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +40,23 @@ const Transpose285 = () => {
 
         <h2>Transpose285</h2>
         <p>
-        Transpose is currently under development. Please check back soon for updates.
+        Transpose, in the simplest terms, is like flipping a matrix over its diagonal. It's like turning columns into rows and rows into columns. This might seem like a simple operation, but it's incredibly important in machine learning. It helps us manipulate data, perform certain calculations, and even understand the underlying structure of our datasets. So, while it might seem like a small piece of the puzzle, it's a piece that holds a lot of weight.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
+          videoTitle="Transpose of a Matrix | Don't Memorise"
+          videoSrc="https://www.youtube.com/embed/g_Rz94DXvNo"
         />
+        <TopicVideoPlayer
+          videoTitle="TWhat is transpose of a matrix? Definition and example.| Hindi | | Ritu Gupta |"
+          videoSrc="https://www.youtube.com/embed/CnwAZFK_Fvs"
+        />
+        <TopicVideoPlayer
+          videoTitle="What Linear Algebra Is — Topic 1 of Machine Learning Foundations"
+          videoSrc="https://www.youtube.com/embed/Qc19jQWHdL0"
+        />
+
 
         <hr />
 
