@@ -7,25 +7,37 @@ const EncapsulationAndAbstraction504 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Encapsulation and Abstraction in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-encapsulation-and-abstraction-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Encapsulation and Abstraction in C++",
+      url: "https://www.geeksforgeeks.org/abstraction-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Encapsulation and Abstraction in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Encapsulation and Abstraction in Python: Object-Oriented Programming",
+      url: "https://realpython.com/python3-object-oriented-programming/",
     },
+    {
+      id: 5,
+      title: "Encapsulation and Abstraction in C#: Access Modifiers and Interfaces",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers",
+    },
+    {
+      id: 6,
+      title: "Rust Encapsulation and Abstraction: Modules and Visibility",
+      url: "https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,32 @@ const EncapsulationAndAbstraction504 = () => {
         />
         <hr />
 
-        <h2>EncapsulationAndAbstraction504</h2>
+        <h2>Encapsulation And Abstraction</h2>
         <p>
-        Encapsulation And Abstraction is currently under development. Please check back soon for updates.
+        Encapsulation and Abstraction are two fundamental concepts in Object-Oriented Programming (OOP). Encapsulation is like packing up your lunch in a box, it's about wrapping the data (variables) and the methods (functions) together within a single unit (class). This helps us to protect our lunch (data) from being accessed directly (data hiding) and it can only be accessed through the functions of the class.
+        <br /><br />
+        On the other hand, Abstraction is like using a microwave to heat your food. You don't need to know how the microwave works internally to be able to use it. Similarly, in programming, Abstraction allows us to hide the complex details and show only the functionality to the users. It helps us to reduce complexity and increase efficiency.
+        <br /><br />
+        
+        Both Encapsulation and Abstraction are essential as they help us write code that is easier to read, maintain, and scale. They allow us to model real-world things and relationships, making our code a closer reflection of the world we're trying to represent.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Abstraction & Encapsulation | Python Tutorials For Absolute Beginners In Hindi "
+  videoSrc="https://www.youtube.com/embed/wySW_E4XsvE"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Encapsulation in Java | Learn Coding"
+  videoSrc="https://www.youtube.com/embed/3JmMK-HvYJU"
+/>
+
+
+        <TopicVideoPlayer
+  videoTitle="Intro to Object Oriented Programming - Crash Course"
+  videoSrc="https://www.youtube.com/embed/SiBw7os-_zI"
+/>
 
         <hr />
 

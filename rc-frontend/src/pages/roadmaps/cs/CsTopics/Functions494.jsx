@@ -7,25 +7,37 @@ const Functions494 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Functions in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-functions-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Functions Explained: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/functions-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript Functions: An Overview",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Python Functions: Building Reusable Code",
+      url: "https://realpython.com/defining-your-own-python-function/",
     },
+    {
+      id: 5,
+      title: "C# Functions: Understanding Methods and Parameters",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods",
+    },
+    {
+      id: 6,
+      title: "Rust Functions: From Basics to Advanced",
+      url: "https://doc.rust-lang.org/book/ch03-03-how-functions-work.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,25 @@ const Functions494 = () => {
         />
         <hr />
 
-        <h2>Functions494</h2>
+        <h2>Functions</h2>
         <p>
-        Functions is currently under development. Please check back soon for updates.
+        Functions are the building blocks in programming. They are reusable pieces of code that perform a specific task. We use functions when we want to execute the same piece of code multiple times, or when we want to organize our code into manageable chunks. The benefits of using functions include code reusability, improved readability, and easier debugging. Stay tuned as we dive deeper into the world of functions!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="10 Design Patterns Explained in 10 Minutes"
+  videoSrc="https://www.youtube.com/embed/tv-_1er1mWI"
+/>
+<TopicVideoPlayer
+  videoTitle="Writing Reusable Code with Functions: Our First Function!"
+  videoSrc="https://www.youtube.com/embed/tLFRrGpO0Nc"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
 
         <hr />
 

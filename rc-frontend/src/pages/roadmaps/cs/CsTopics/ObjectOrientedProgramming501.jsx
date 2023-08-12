@@ -7,25 +7,37 @@ const ObjectOrientedProgramming501 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Object-Oriented Programming (OOP)",
+      url: "https://www.freecodecamp.org/news/introduction-to-object-oriented-programming-oop/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Object-Oriented Programming in C++",
+      url: "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Object-Oriented JavaScript: Classes and Prototypes",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Object-Oriented Programming in Python: Classes and Inheritance",
+      url: "https://realpython.com/python3-object-oriented-programming/",
     },
+    {
+      id: 5,
+      title: "Object-Oriented Programming in C#: Classes and Encapsulation",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/",
+    },
+    {
+      id: 6,
+      title: "Rust Object-Oriented Programming: Traits and Structs",
+      url: "https://doc.rust-lang.org/book/ch17-00-oop.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,38 @@ const ObjectOrientedProgramming501 = () => {
         />
         <hr />
 
-        <h2>ObjectOrientedProgramming501</h2>
+        <h2>Object Oriented Programming</h2>
         <p>
-        Object Oriented Programming is currently under development. Please check back soon for updates.
+        Object Oriented Programming, often abbreviated as OOP, is a programming paradigm that uses the concept of "objects". These objects are instances of classes, which can hold both data in the form of fields, also known as attributes; and code, in the form of procedures, also known as methods. 
+        <br /> <br />
+        OOP is needed because it helps in organizing complex programs through the use of an easy-to-understand structure. It allows data and methods that operate on that data to be bundled together, making it easy to understand how a program works.
+        <br /> <br />
+        
+        Some of the benefits of OOP include: 
+        <br /> <br />
+        1. <b>Modularity:</b> The source code for an object can be written and maintained independently of the source code for other objects. Once created, an object can be easily passed around inside the system. <br /> <br />
+        2. <b>Information-hiding:</b> By interacting only with an object's methods, the details of its internal implementation remain hidden from the outside world. <br /> <br />
+        3. <b>Code re-use:</b> If an object already exists (perhaps written by another software developer), you can use that object in your program. This allows specialists to implement/test/debug complex, task-specific objects, which you can then trust to run in your own code. <br /> <br />
+        4. <b>Easy Debugging:</b> If a particular object turns out to be problematic, you can simply remove it from your application and plug in a different object as its replacement. This is analogous to fixing mechanical problems in the real world. If a bolt breaks, you replace it, not the entire machine.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+    
+<TopicVideoPlayer
+  videoTitle="Object-oriented Programming in 7 minutes | Mosh"
+  videoSrc="https://www.youtube.com/embed/pTB0EiLXUC8"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Intro to Object Oriented Programming - Crash Course"
+  videoSrc="https://www.youtube.com/embed/SiBw7os-_zI"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Object Oriented Programming with Python - Full Course for Beginners"
+  videoSrc="https://www.youtube.com/embed/Ej_02ICOIgs"
+/>
+
 
         <hr />
 

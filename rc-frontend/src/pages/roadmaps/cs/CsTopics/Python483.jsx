@@ -7,25 +7,37 @@ const Python483 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+      url: "https://nostarch.com/pythoncrashcourse2e",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Automate the Boring Stuff with Python: Practical Programming for Total Beginners",
+      url: "https://automatetheboringstuff.com/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Python for Data Analysis",
+      url: "https://www.oreilly.com/library/view/python-for-data/9781491957653/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Learning Python",
+      url: "https://www.oreilly.com/library/view/learning-python-5th/9781449355725/",
     },
+    {
+      id: 5,
+      title: "Effective Python: 90 Specific Ways to Write Better Python",
+      url: "https://effectivepython.com/",
+    },
+    {
+      id: 6,
+      title: "Python Cookbook",
+      url: "https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357330/",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +51,33 @@ const Python483 = () => {
 
         <h2>Python483</h2>
         <p>
-        Python is currently under development. Please check back soon for updates.
+        Python is a high-level, interpreted programming language known for its readability and simplicity. It's designed to be easy to understand and write, which is why it's a great choice for beginners. 
+        <br /><br />
+        Python is versatile and powerful, making it suitable for a variety of tasks. You can use it for web development, data analysis, machine learning, artificial intelligence, automation, and more. 
+        <br /><br />
+        
+        In the real world, Python is used by many large companies due to its versatility. Google, for instance, uses Python for web search systems, YouTube, and even in their self-driving car project. NASA uses Python for their equipment and space machinery. 
+        <br /><br />
+        
+        So, whether you're looking to dive into the world of programming, automate mundane tasks, or even aim for the stars, Python is a fantastic place to start!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Python for Beginners - Learn Python in 1 Hour"
+  videoSrc="https://www.youtube.com/embed/kqtD5dpn9C8"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Python Tutorial - Python Full Course for Beginners"
+  videoSrc="https://www.youtube.com/embed/_uQrJ0TkZlc"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Python Tutorial For Beginners In Hindi (With Notes) 🔥"
+  videoSrc="https://www.youtube.com/embed/gfDE2a7MKjA"
+/>
+
 
         <hr />
 

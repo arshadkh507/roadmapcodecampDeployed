@@ -7,25 +7,35 @@ const CommandLineArguments499 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Command Line Arguments in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-command-line-arguments-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Command Line Arguments in C/C++",
+      url: "https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Command Line Arguments in JavaScript",
+      url: "https://nodejs.dev/learn/nodejs-command-line-arguments",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Command Line Arguments in Python",
+      url: "https://realpython.com/python-command-line-arguments/",
     },
-  ];
+    {
+      id: 5,
+      title: "Command Line Arguments in C#: Parsing Arguments from the Command Line",
+      url: "https://docs.microsoft.com/en-us/dotnet/core/extensions/command-line-args",
+    },
+    {
+      id: 6,
+      title: "Rust Command Line Arguments: Accepting User Input",
+      url: "https://doc.rust-lang.org/book/ch12-01-accepting-command-line",
+  }
+  ]
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +47,23 @@ const CommandLineArguments499 = () => {
         />
         <hr />
 
-        <h2>CommandLineArguments499</h2>
+        <h2>Command Line Arguments</h2>
         <p>
-        Command Line Arguments is currently under development. Please check back soon for updates.
+        Command Line Arguments are like secret whispers to your program. They are the little bits of information that you can pass to your program when you start it up. They can help customize the behavior of your program without changing the code itself. It's like giving your program a little nudge in the right direction.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+      
+<TopicVideoPlayer
+  videoTitle="Command Line Arguments | C Programming Tutorial"
+  videoSrc="https://www.youtube.com/embed/wa2AfzyOff0"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Command Line Arguments in Java"
+  videoSrc="https://www.youtube.com/embed/Up17-azeuyE"
+/>
+
 
         <hr />
 

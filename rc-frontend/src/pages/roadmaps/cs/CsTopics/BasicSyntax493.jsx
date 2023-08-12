@@ -7,25 +7,37 @@ const BasicSyntax493 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Basic Syntax in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-basic-syntax-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Basic Syntax Explained: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/basics-of-c-programming/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript Basic Syntax: An Overview",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Python Basics: Syntax and Structure",
+      url: "https://realpython.com/python-basics/",
     },
+    {
+      id: 5,
+      title: "C# Basic Syntax: A Comprehensive Reference",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/program-structure-and-code-conventions",
+    },
+    {
+      id: 6,
+      title: "Rust Basic Syntax: Getting Started with Rust Programming",
+      url: "https://doc.rust-lang.org/book/ch01-02-hello-world.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,22 @@ const BasicSyntax493 = () => {
         />
         <hr />
 
-        <h2>BasicSyntax493</h2>
+        <h2>Basic Syntax</h2>
         <p>
-        Basic Syntax is currently under development. Please check back soon for updates.
+        Welcome to the captivating realm of Basic Syntax in programming languages! Basic syntax is the set of rules that define how programs written in a language are structured. It's like the grammar of a programming language, dictating how statements should be written and interpreted. Understanding basic syntax is crucial because it's the foundation of how we communicate with computers. Without it, our instructions would be gibberish to them. We're currently enhancing this section to make your learning journey even more enjoyable. So, stay tuned for some thrilling updates. Keep coding and exploring!
+
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="What is Syntax in Computer Programming? | Basic Syntax for Beginners "
+  videoSrc="https://www.youtube.com/embed/YFB0lE7nXZE"
+/>
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
+
 
         <hr />
 

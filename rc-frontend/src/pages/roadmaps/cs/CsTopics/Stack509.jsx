@@ -7,25 +7,37 @@ const Stack509 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Stacks in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-stacks-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Stacks in C++",
+      url: "https://www.geeksforgeeks.org/stack-data-structure-introduction-program/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Stacks in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Stacks in Python",
+      url: "https://realpython.com/linked-lists-python/",
     },
+    {
+      id: 5,
+      title: "Stacks in C#: Implementing Stack Data Structure",
+      url: "https://docs.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-5.0",
+    },
+    {
+      id: 6,
+      title: "Rust Stacks: Implementing a Basic Stack",
+      url: "https://doc.rust-lang.org/book/ch15-01-box.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,26 @@ const Stack509 = () => {
         />
         <hr />
 
-        <h2>Stack509</h2>
+        <h2>Stack</h2>
         <p>
-        Stack is currently under development. Please check back soon for updates.
-        </p>
+        Imagine a stack of books. You can only add a new book to the top, and when you take a book, you also take it from the top. This is exactly how a 'Stack' works in programming. It's a special kind of data structure that follows the 'Last-In, First-Out' (LIFO) principle. This means the last item you put in is the first one to come out.
+        <br /><br />
+        But why do we need it? Well, stacks are incredibly useful in many areas of programming. They help manage and execute function calls, handle undo operations in software applications, and even help solve complex problems in algorithms. So, if you're diving into the world of programming, getting to know stacks is a must!
 
+        </p>
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Introduction to Stacks"
+  videoSrc="https://www.youtube.com/embed/I37kGX-nZEI"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="Stack in Data Structure | stack implementation using array in C | PUSH and POP operation in Stack"
+  videoSrc="https://www.youtube.com/embed/whYm5cqigL8"
+/>
 
         <hr />
 

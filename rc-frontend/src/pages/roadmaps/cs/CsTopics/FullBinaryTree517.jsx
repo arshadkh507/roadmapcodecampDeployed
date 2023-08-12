@@ -7,25 +7,22 @@ const FullBinaryTree517 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Full Binary Trees in Programming",
+      url: "https://www.geeksforgeeks.org/full-binary-tree/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Full Binary Trees in Data Structures",
+      url: "https://www.tutorialspoint.com/data_structures_algorithms/full_binary_tree.htm",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Full Binary Trees",
+      url: "https://www.interviewbit.com/tutorial/full-binary-tree/",
     },
-    {
-      id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
-    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +34,33 @@ const FullBinaryTree517 = () => {
         />
         <hr />
 
-        <h2>FullBinaryTree517</h2>
+        <h2>Full Binary Tree</h2>
         <p>
-        Full Binary Tree is currently under development. Please check back soon for updates.
+        Full Binary Trees are a fascinating concept in computer science. They are a type of binary tree where every node has either zero or two children. In other words, each parent node has two children, unless it's a leaf node. This structure has a beautiful symmetry that can be quite pleasing to the eye.
+<br /><br />
+        But Full Binary Trees are not just about aesthetics. They are incredibly useful in many areas of computer science and programming. For instance, they are used in creating efficient binary search trees and heaps, which are fundamental data structures in computer science. They also play a crucial role in certain algorithms for sorting and searching.
+        <br /><br />
+
+        Imagine you're organizing a tournament where each match eliminates one player. A Full Binary Tree would be a perfect way to represent this! Each node represents a match, and the children nodes represent the players or subsequent matches. The root node would be the final match, and the leaf nodes would be the initial players. This is just one of the many real-world examples where Full Binary Trees come into play.
+        <br /><br />
+
+        So, whether you're a computer science student, a coding enthusiast, or a professional developer, understanding Full Binary Trees can be a valuable addition to your knowledge toolkit. Stay tuned as we dive deeper into this topic!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Binary Tree in Data Structures | All about Binary Tree | DSA Course"
+  videoSrc="https://www.youtube.com/embed/-DzowlcaUmE"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="L-3.7: Introduction to Trees (Binary Tree, Almost Complete Binary Tree, Full BT, Complete BT, BST)"
+  videoSrc="https://www.youtube.com/embed/_JuQ5ayPmc"
+/>
 
         <hr />
 

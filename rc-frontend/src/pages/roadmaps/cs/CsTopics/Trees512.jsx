@@ -7,25 +7,37 @@ const Trees512 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Trees in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-trees-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Trees in C++",
+      url: "https://www.geeksforgeeks.org/binary-tree-data-structure/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Trees in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Trees in Python",
+      url: "https://realpython.com/binary-search-trees-python/",
     },
+    {
+      id: 5,
+      title: "Trees in C#: Implementing Binary Trees",
+      url: "https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.tree-1?view=net-5.0",
+    },
+    {
+      id: 6,
+      title: "Rust Trees: Implementing a Basic Binary Tree",
+      url: "https://doc.rust-lang.org/book/ch15-01-box.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,25 @@ const Trees512 = () => {
         />
         <hr />
 
-        <h2>Trees512</h2>
+        <h2>Trees</h2>
         <p>
-        Trees is currently under development. Please check back soon for updates.
+        A tree is like a hierarchical structure resembling a family tree, where each member can have child members, forming branches that spread out. In programming, a tree is a hierarchical data structure made up of nodes connected by edges. The topmost node is called the root, and each node can have child nodes, forming subtrees. Unlike linear data structures like arrays and linked lists, trees have a more complex branching structure, making them suitable for representing hierarchical relationships. Trees are used for various applications, such as organizing hierarchical data, implementing file systems, and solving problems like binary search in efficient ways.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Introduction to Trees"
+  videoSrc="https://www.youtube.com/embed/oI0QhFzBSRo"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="5.1 Tree in Data Structure | Introduction to Trees"
+  videoSrc="https://www.youtube.com/embed/YAdLFsTG70w"
+/>
+
 
         <hr />
 

@@ -7,25 +7,37 @@ const Operators491 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Operators in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-operators-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Operators Explained: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/operators-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript Operators: An Overview",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Python Operators and Expressions",
+      url: "https://realpython.com/python-operators-expressions/",
     },
+    {
+      id: 5,
+      title: "Operators in C#: Understanding How They Work",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/",
+    },
+    {
+      id: 6,
+      title: "Rust Operators: A Complete Guide",
+      url: "https://doc.rust-lang.org/book/ch03-03-how-functions-work.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +51,26 @@ const Operators491 = () => {
 
         <h2>Operators491</h2>
         <p>
-        Operators is currently under development. Please check back soon for updates.
+        Operators are the building blocks of any programming language. They're like the verbs of a language, performing actions on our data. They can do everything from basic arithmetic to complex logical comparisons. As we develop this section, we'll dive into the different types of operators and how to use them effectively in your code. Stay tuned!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Operators Used In Programming"
+  videoSrc="https://www.youtube.com/embed/PaHpU7-BNaU"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Operators in C language in hindi | what is operator? Discuss it's types in c programming"
+  videoSrc="https://www.youtube.com/embed/r-M3ESr8WLY"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
+
+
 
         <hr />
 

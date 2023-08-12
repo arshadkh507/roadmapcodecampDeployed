@@ -7,25 +7,37 @@ const ErrorHandlingAndReporting500 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Error Handling and Reporting in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-error-handling-and-reporting-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Error Handling in C/C++",
+      url: "https://www.geeksforgeeks.org/error-handling-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Error Handling in JavaScript: Try, Catch, and Throw",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#try...catch_statement",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Error Handling in Python: Exceptions and Handling Errors",
+      url: "https://realpython.com/python-exceptions/",
     },
+    {
+      id: 5,
+      title: "Error Handling in C#: Dealing with Exceptions",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/",
+    },
+    {
+      id: 6,
+      title: "Rust Error Handling: Managing Errors and Failures",
+      url: "https://doc.rust-lang.org/book/ch09-00-error-handling.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,16 +49,21 @@ const ErrorHandlingAndReporting500 = () => {
         />
         <hr />
 
-        <h2>ErrorHandlingAndReporting500</h2>
+        <h2>Error Handling And Reporting</h2>
         <p>
-        Error Handling And Reporting is currently under development. Please check back soon for updates.
+        Error Handling and Reporting are crucial aspects of programming. They help us manage the unexpected - the anomalies that can occur while our code is running. Imagine you're a detective, and your code is a case you're trying to crack. Error handling is your way of anticipating where things might go wrong, and setting up measures to handle those situations. Reporting, on the other hand, is your communication link. It's how your code tells you where and why it stumbled. Together, they ensure that our programs are more robust and maintainable, and they help us diagnose and fix issues more efficiently. So, while we might not enjoy dealing with errors, they're an essential part of our journey as programmers.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
-
+    
+<TopicVideoPlayer
+  videoTitle="Errors & Exception in Java"
+  videoSrc="https://www.youtube.com/embed/ZovnoASlIaE"
+/>
+<TopicVideoPlayer
+  videoTitle="Difference Between Exception and Error | Learn Coding"
+  videoSrc="https://www.youtube.com/embed/_M7pUHfpaxk"
+/>
         <hr />
 
         <div className={styles.topicResources}>

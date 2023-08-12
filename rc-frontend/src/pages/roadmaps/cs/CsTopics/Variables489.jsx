@@ -7,25 +7,37 @@ const Variables489 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Variables in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-variables-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Variables and Data Types: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/variables-data-types-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Variables in JavaScript",
+      url: "https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-variables",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Variables and Memory in Python",
+      url: "https://realpython.com/python-variables/",
     },
+    {
+      id: 5,
+      title: "Mastering Variables and Scopes in C#",
+      url: "https://www.udemy.com/course/csharp-tutorial-for-beginners/",
+    },
+    {
+      id: 6,
+      title: "Variables in Rust: An In-Depth Exploration",
+      url: "https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,28 @@ const Variables489 = () => {
         />
         <hr />
 
-        <h2>Variables489</h2>
+        <h2>Variables</h2>
         <p>
-        Variables is currently under development. Please check back soon for updates.
+        In the world of programming, a variable is like a container or a storage box. It holds data that we can use and manipulate as we write our code. We use variables to store, retrieve, and use data. Without variables, programming would be a lot more complicated - imagine having to manually input every piece of data every time we need it! That's why variables are so important. They make our code cleaner, more efficient, and easier to understand.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="What is a Variable in Programming (Hindi / Urdu)"
+  videoSrc="https://www.youtube.com/embed/tmgWKYBYf-o"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Variables in Programming: A Comprehensive Guide"
+  videoSrc="https://www.youtube.com/embed/7UGnp5HeMhE"
+/>
+
+
 
         <hr />
 

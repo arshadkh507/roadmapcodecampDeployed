@@ -7,25 +7,37 @@ const Heap511 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Heaps in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-heaps-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Heaps in C++",
+      url: "https://www.geeksforgeeks.org/heap-data-structure/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Heaps in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Heaps in Python",
+      url: "https://realpython.com/linked-lists-python/",
     },
+    {
+      id: 5,
+      title: "Heaps in C#: Implementing Heap Data Structure",
+      url: "https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.heap-1?view=net-5.0",
+    },
+    {
+      id: 6,
+      title: "Rust Heaps: Implementing a Binary Heap",
+      url: "https://doc.rust-lang.org/book/ch15-01-box.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,24 @@ const Heap511 = () => {
         />
         <hr />
 
-        <h2>Heap511</h2>
+        <h2>Heap</h2>
         <p>
-        Heap is currently under development. Please check back soon for updates.
+        A heap is like a specialized tree structure where the value of each node is greater than or equal to (in a max heap) or less than or equal to (in a min heap) the values of its children. In programming, a heap is a binary tree-based data structure that satisfies the heap property. A max heap ensures that the value of each node is greater than or equal to the values of its children, while a min heap ensures the opposite. Heaps are commonly used for efficient priority queue implementations, where elements with higher or lower priorities can be extracted and processed quickly. They are also used in various algorithms, such as heap sort and graph algorithms like Dijkstra's algorithm.
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="12. Stack & Heap | C++ Placement Course"
+  videoSrc="https://www.youtube.com/embed/bbym08gSWvQ"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="Heaps in 3 minutes — Intro"
+  videoSrc="https://www.youtube.com/embed/0wPlzMU-k00"
+/>
 
         <hr />
 

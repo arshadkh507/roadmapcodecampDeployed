@@ -7,25 +7,37 @@ const Queue510 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Queues in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-queues-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Queues in C++",
+      url: "https://www.geeksforgeeks.org/queue-data-structure/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Queues in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Queues in Python",
+      url: "https://realpython.com/linked-lists-python/",
     },
+    {
+      id: 5,
+      title: "Queues in C#: Implementing Queue Data Structure",
+      url: "https://docs.microsoft.com/en-us/dotnet/api/system.collections.queue?view=net-5.0",
+    },
+    {
+      id: 6,
+      title: "Rust Queues: Implementing a Basic Queue",
+      url: "https://doc.rust-lang.org/book/ch15-01-box.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +51,26 @@ const Queue510 = () => {
 
         <h2>Queue510</h2>
         <p>
-        Queue is currently under development. Please check back soon for updates.
+        Imagine you're waiting in line at a coffee shop. The first person in line is the first person to get served, and any new customers go to the end of the line. This is exactly how a 'Queue' works in programming. It's a special kind of data structure that follows the 'First-In, First-Out' (FIFO) principle. This means the first item you put in is the first one to come out.
+        <br /><br />
+        But why do we need it? Well, queues are incredibly useful in many areas of programming. They help manage processes in operating systems, handle buffering in hardware and software, and even help in scenarios where order of operation is crucial. So, if you're diving into the world of programming, getting to know queues is a must!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Queue Data Structure in Hindi"
+  videoSrc="https://www.youtube.com/embed/UbAEP7P0vfk"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="Queue in Data Structure | queue implementation using array in c | Queue FRONT and REAR operation"
+  videoSrc="https://www.youtube.com/embed/4gykxUglq-U"
+/>
+
 
         <hr />
 

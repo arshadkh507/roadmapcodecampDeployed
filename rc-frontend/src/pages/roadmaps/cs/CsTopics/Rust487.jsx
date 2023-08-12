@@ -7,24 +7,35 @@ const Rust487 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "The Rust Programming Language",
+      url: "https://doc.rust-lang.org/book/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Programming Rust: Fast, Safe Systems Development",
+      url: "https://www.oreilly.com/library/view/programming-rust/9781491927274/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Rust in Action",
+      url: "https://www.manning.com/books/rust-in-action",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Rust Cookbook",
+      url: "https://rust-lang-nursery.github.io/rust-cookbook/",
     },
+    {
+      id: 5,
+      title: "The Cargo Book (Rust's Package Manager)",
+      url: "https://doc.rust-lang.org/cargo/",
+    },
+    {
+      id: 6,
+      title: "Rust by Example",
+      url: "https://doc.rust-lang.org/rust-by-example/",
+    },
+    // Add more items as needed...
   ];
   return (
     <div className={styles.topicContainer}>
@@ -39,13 +50,30 @@ const Rust487 = () => {
 
         <h2>Rust487</h2>
         <p>
-        Rust is currently under development. Please check back soon for updates.
+        Rust is a modern programming language designed to provide both performance and safety. It's known for its features that help developers write concurrent and safe code. Rust is syntactically similar to C++, but its designers have sought to provide better memory safety while maintaining high performance.
+        <br /> <br />
+        In the real world, Rust is used in a wide range of applications. It's particularly favored in systems programming and for creating web servers, game engines, and even operating systems. Some real-world examples include Firefox's rendering engine, Servo, and Dropbox's file storage system. So, whether you're looking to build a high-performance web server or a game engine, Rust is a fantastic choice!
+        <br /> <br />
+        Rust is still evolving, and its community is growing. Stay tuned for more updates and exciting developments in the Rust world.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+      
+<TopicVideoPlayer
+  videoTitle="Learn Rust Programming - Complete Course 🦀"
+  videoSrc="https://www.youtube.com/embed/BpPEoZW5IiY"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Rust Crash Course | Rustlang"
+  videoSrc="https://www.youtube.com/embed/zF34dRivLOw"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Rust in 100 Seconds"
+  videoSrc="https://www.youtube.com/embed/5C_HPTJg5ek"
+/>
+
 
         <hr />
 

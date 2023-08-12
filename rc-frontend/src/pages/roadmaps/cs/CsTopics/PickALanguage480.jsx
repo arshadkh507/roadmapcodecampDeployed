@@ -7,24 +7,35 @@ const PickALanguage480 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "How to Choose the Right Programming Language for Your Project",
+      url: "https://www.freecodecamp.org/news/how-to-choose-the-right-programming-language-for-your-project/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Tips for Choosing the Right Programming Language",
+      url: "https://www.geeksforgeeks.org/tips-for-choosing-the-right-programming-language/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Choosing a Programming Language: A Practical Guide",
+      url: "https://www.codecademy.com/resources/blog/choosing-a-programming-language",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "How to Choose a Programming Language for Your Startup",
+      url: "https://builtin.com/software-engineering-perspectives/how-choose-programming-language-startup",
     },
+    {
+      id: 5,
+      title: "Factors to Consider When Choosing a Programming Language",
+      url: "https://www.codingdojo.com/blog/considerations-choosing-programming-language",
+    },
+    {
+      id: 6,
+      title: "The Best Programming Languages to Learn in 2023",
+      url: "https://www.businessinsider.com/best-programming-languages-to-learn",
+    },
+    // Add more items as needed...
   ];
   return (
     <div className={styles.topicContainer}>
@@ -39,14 +50,28 @@ const PickALanguage480 = () => {
 
         <h2>PickALanguage480</h2>
         <p>
-        Pick A Language is currently under development. Please check back soon for updates.
+        Picking a programming language in computer science is like choosing the best tool for a specific job. Just like how a carpenter uses different tools for different tasks, programmers have various languages at their disposal, each with its own strengths and purposes. When deciding which language to learn or use for a project, it's essential to consider factors like the type of project you're working on, your familiarity with other languages, and your ultimate goals. <br /><br />
+
+        Some languages are great for web development, others excel in data analysis or game development. So, take some time to explore the options, consider your project's needs, and don't forget to trust your instincts. With the right language in hand, you'll be well-equipped to bring your coding ideas to life!
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="The Programming Language Guide"
+  videoSrc="https://www.youtube.com/embed/2lVDktWK-pc"
+/>
+<TopicVideoPlayer
+  videoTitle="How to choose a programming language (for your tech stack)"
+  videoSrc="https://www.youtube.com/embed/uZ5bq7cKX4Y"
+/>
+<TopicVideoPlayer
+  videoTitle="What Programming Language Should I Learn First?"
+  videoSrc="https://www.youtube.com/embed/poJfwre2PIs"
+/>
 
+<TopicVideoPlayer
+  videoTitle="Why so many Coding Languages are created?"
+  videoSrc="https://www.youtube.com/embed/5QUSeBAMjoo"
+/>
         <hr />
 
         <div className={styles.topicResources}>

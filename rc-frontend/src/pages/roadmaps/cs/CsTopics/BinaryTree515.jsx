@@ -7,24 +7,35 @@ const BinaryTree515 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Binary Trees in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-binary-trees-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Binary Trees in C++",
+      url: "https://www.geeksforgeeks.org/binary-tree-data-structure/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Binary Trees in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Array_literals",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Binary Trees in Python",
+      url: "https://realpython.com/binary-search-trees-python/",
     },
+    {
+      id: 5,
+      title: "Binary Trees in C#: Implementing Binary Tree Data Structure",
+      url: "https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.tree-1?view=net-5.0",
+    },
+    {
+      id: 6,
+      title: "Rust Binary Trees: Implementing a Basic Binary Tree",
+      url: "https://doc.rust-lang.org/book/ch15-01-box.html",
+    },
+    // Add more items as needed...
   ];
   return (
     <div className={styles.topicContainer}>
@@ -37,15 +48,31 @@ const BinaryTree515 = () => {
         />
         <hr />
 
-        <h2>BinaryTree515</h2>
+        <h2>Binary Tree</h2>
         <p>
-        Binary Tree is currently under development. Please check back soon for updates.
+        A binary tree is a special type of data structure that has two children, each of which is a binary tree itself. It's like a family tree, but each parent can only have two children at most. This structure is incredibly useful in many areas of computer science, including sorting and searching algorithms, because it allows us to divide a problem into smaller, more manageable parts.
+        <br /><br />
+        Imagine you're looking for a book in a library. You could go through each book one by one, but that would take a long time. Instead, you'd probably divide the library into sections, then divide those sections into shelves, and so on. This is essentially how a binary tree works! By dividing and conquering, we can find solutions much more quickly.
+        <br /><br />
+        
+        So, why do we need binary trees? Well, they're a powerful tool for solving complex problems. They can help us organize data efficiently, making our code faster and more effective. Plus, once you've mastered binary trees, you'll have a solid foundation for understanding more advanced data structures and algorithms. So, let's dive in and learn more about binary trees!
+
         </p>
 
+     
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Binary Tree in Data Structures | All about Binary Tree | DSA Course"
+  videoSrc="https://www.youtube.com/embed/-DzowlcaUmE"
+/>
+<TopicVideoPlayer
+  videoTitle="1. Introduction to C++ | Data Structures and Algorithms | College Placement Course"
+  videoSrc="https://www.youtube.com/embed/z9bZufPHFLU"
+/>
+<TopicVideoPlayer
+
+  videoTitle="5.3 Binary Tree Implementation in C Program | Data Structures Tutorials"
+  videoSrc="https://www.youtube.com/embed/6vt3PFRC11E"
+/>
 
         <hr />
 

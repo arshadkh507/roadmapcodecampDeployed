@@ -7,25 +7,38 @@ const ClassesAndObjects502 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Classes and Objects in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-classes-and-objects-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Classes and Objects in C++",
+      url: "https://www.geeksforgeeks.org/classes-and-objects-in-cpp/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Working with Classes and Objects in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Classes and Objects in Python: Object-Oriented Programming",
+      url: "https://realpython.com/python3-object-oriented-programming/",
     },
+    {
+      id: 5,
+      title: "Classes and Objects in C#: Defining Classes and Creating Objects",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes",
+    },
+    {
+      id: 6,
+      title: "Rust Classes and Objects: Structs and Methods",
+      url: "https://doc.rust-lang.org/book/ch05-00-structs.html",
+    },
+    // Add more items as needed...
   ];
+  
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +50,25 @@ const ClassesAndObjects502 = () => {
         />
         <hr />
 
-        <h2>ClassesAndObjects502</h2>
+        <h2>Classes And Objects</h2>
         <p>
-        Classes And Objects is currently under development. Please check back soon for updates.
+        Classes and Objects form the cornerstone of Object-Oriented Programming (OOP). A class is like a blueprint, defining the characteristics (properties) and behaviors (methods) of an object. An object, on the other hand, is an instance of a class, embodying those properties and behaviors. We use classes and objects to model and organize real-world concepts in code, making it easier to understand and maintain. They help us encapsulate data and functions into a single entity, providing a way to create more flexible and modular code.
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Introduction to Classes and Objects - Part 1"
+  videoSrc="https://www.youtube.com/embed/8yjkWGRlUmY"
+/>
+<TopicVideoPlayer
+  videoTitle="Class and Object in Java | Learn Coding"
+  videoSrc="https://www.youtube.com/embed/L677QCBCuWk"
+/>
+<TopicVideoPlayer
+  videoTitle="Object Oriented Programming with Python - Full Course for Beginners"
+  videoSrc="https://www.youtube.com/embed/Ej_02ICOIgs"
+/>
+
 
         <hr />
 

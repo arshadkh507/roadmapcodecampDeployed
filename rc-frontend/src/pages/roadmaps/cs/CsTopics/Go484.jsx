@@ -7,25 +7,38 @@ const Go484 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "The Go Programming Language",
+      url: "https://www.gopl.io/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Programming in Go: Creating Applications for the 21st Century",
+      url: "https://www.amazon.com/Programming-Go-Creating-Applications-21st/dp/0321774639",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Learning Go: An Idiomatic Approach to Real-World Go Programming",
+      url: "https://www.oreilly.com/library/view/learning-go-an/9781492077206/",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Go in Action",
+      url: "https://www.manning.com/books/go-in-action",
     },
+    {
+      id: 5,
+      title: "Head First Go",
+      url: "https://www.oreilly.com/library/view/head-first-go/9781491969557/",
+    },
+    {
+      id: 6,
+      title: "Mastering Go: Create Golang production applications using network libraries, concurrency, and advanced Go data structures",
+      url: "https://www.amazon.com/Mastering-Go-production-applications-concurrency/dp/178862654X",
+    },
+    // Add more items as needed...
   ];
+  
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +52,32 @@ const Go484 = () => {
 
         <h2>Go484</h2>
         <p>
-        Go is currently under development. Please check back soon for updates.
+        Go, also known as Golang, is a statically typed, compiled programming language designed at Google. It's known for its simplicity and efficiency, making it a popular choice for modern software development.
+        <br /> <br />
+        Why use Go? Go offers a balance between performance and ease of use. It has a clean syntax, making it easy to learn, and it's statically typed, which helps catch errors early. It also has built-in support for concurrent programming.
+        <br /> <br />
+        How do we use it? Go is a compiled language, which means you write the code, and then run a compiler to turn it into a program that can be run. It's often used for backend development, but it's versatile enough to handle a wide range of programming tasks.
+        <br /> <br />
+        As for real-world examples, Go is used extensively in many large-scale systems. For instance, it's used in the development of Docker, a popular platform for containerization. It's also used by many tech giants like Google, Uber, and Twitch for various backend services.
+        <br /> <br />
+        So, if you're looking to dive into a language that's efficient, easy to learn, and highly relevant in today's tech industry, Go is a great choice!
+
         </p>
 
         <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+  videoTitle="Learn Go Programming - Golang Tutorial for Beginners"
+  videoSrc="https://www.youtube.com/embed/YS4e4q9oBaU"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Golang Tutorial for Beginners | Full Go Course"
+  videoSrc="https://www.youtube.com/embed/yyUHQIec83I"
+/>
+
+<TopicVideoPlayer
+  videoTitle="Go in 100 Seconds"
+  videoSrc="https://www.youtube.com/embed/446E-r0rXHI"
+/>
 
         <hr />
 

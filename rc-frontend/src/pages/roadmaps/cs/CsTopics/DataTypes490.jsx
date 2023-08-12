@@ -7,25 +7,38 @@ const DataTypes490 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Understanding Data Types in Programming",
+      url: "https://www.freecodecamp.org/news/understanding-data-types-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Data Types Explained: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/data-types-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Data Types in JavaScript: An Overview",
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Python Data Types and Structures",
+      url: "https://realpython.com/python-data-types/",
     },
+    {
+      id: 5,
+      title: "Data Types in C#: The Complete Reference",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/",
+    },
+    {
+      id: 6,
+      title: "Rust Data Types: From Basics to Advanced",
+      url: "https://doc.rust-lang.org/book/ch03-02-data-types.html",
+    },
+    // Add more items as needed...
   ];
+  
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -39,13 +52,24 @@ const DataTypes490 = () => {
 
         <h2>DataTypes490</h2>
         <p>
-        Data Types is currently under development. Please check back soon for updates.
+        In the realm of programming, data types are like the DNA of information. They tell our code what kind of data we're dealing with - whether it's a number, a string of text, a true/false value, or something else. By defining data types, we give structure to our data, making it easier for our code to understand and manipulate it. It's like giving our code a roadmap to the data, guiding it on how to interact with each piece of information. So, in essence, we use data types to keep our code efficient, organized, and error-free.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+       
+<TopicVideoPlayer
+  videoTitle="What Are Data Types?"
+  videoSrc="https://www.youtube.com/embed/A37-3lflh8I"
+/>
+
+
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
+
+
+
 
         <hr />
 

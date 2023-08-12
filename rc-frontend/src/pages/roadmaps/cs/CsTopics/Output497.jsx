@@ -7,25 +7,37 @@ const Output497 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Standard Input and Output in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-standard-input-and-output-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Standard I/O Explained: A Beginner's Guide",
+      url: "https://www.geeksforgeeks.org/standard-input-output-streams-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "JavaScript I/O: Console and Streams",
+      url: "https://nodejs.dev/learn/nodejs-console",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Python I/O: Reading and Writing to Files",
+      url: "https://realpython.com/read-write-files-python/",
     },
+    {
+      id: 5,
+      title: "C# Standard Input and Output: Working with Console",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/",
+    },
+    {
+      id: 6,
+      title: "Rust Standard I/O: Reading and Writing Data",
+      url: "https://doc.rust-lang.org/book/ch12-00-an-io-project.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,15 +49,27 @@ const Output497 = () => {
         />
         <hr />
 
-        <h2>Output497</h2>
+        <h2>Output</h2>
         <p>
-        Output is currently under development. Please check back soon for updates.
+        In programming, output is the way a program communicates the results of its computations. This could be anything from printing a message on the console, writing data to a file, or sending information over the network.  <br /> <br />
+        There are various ways to get output in programming. For instance, in a console application, we often use standard output (stdout) to print messages to the console. In a web application, we might send output to the client's browser. In a file system, we might write output to a file. <br /> <br />
+        Output is crucial in programming because it allows us to observe the internal state of our program, which is essential for understanding how our code is functioning and for debugging. Without output, we would be programming in the dark!
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
+       
+<TopicVideoPlayer
+  videoTitle="Python Input/Output | Learn Coding"
+  videoSrc="https://www.youtube.com/embed/_ErI8jHl7nY"
+/>
+<TopicVideoPlayer
+  videoTitle="A simple explanation of stdin, stdout and stderr"
+  videoSrc="https://www.youtube.com/embed/fVwuiuirzmc"
+/>
+<TopicVideoPlayer
+  videoTitle="Introduction to Programming and Computer Science - Full Course"
+  videoSrc="https://www.youtube.com/embed/zOjov-2OZ0E"
+/>
 
         <hr />
 

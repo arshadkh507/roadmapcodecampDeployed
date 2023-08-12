@@ -7,25 +7,37 @@ const InheritanceAndPolymorphism503 = () => {
   const recommendedReading = [
     {
       id: 1,
-      title: "cs How does the Internet Work?",
-      url: "https://cs.fyi/guide/how-does-internet-work",
+      title: "Introduction to Inheritance and Polymorphism in Programming",
+      url: "https://www.freecodecamp.org/news/introduction-to-inheritance-and-polymorphism-in-programming/",
     },
     {
       id: 2,
-      title: "How Does the Internet Work? MDN Docs",
-      url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work",
+      title: "Inheritance and Polymorphism in C++",
+      url: "https://www.geeksforgeeks.org/inheritance-in-c/",
     },
     {
       id: 3,
-      title: "Introduction to Internet",
-      url: "https://youtu.be/Dxcc6ycZ73M",
+      title: "Understanding Inheritance and Polymorphism in JavaScript",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance",
     },
     {
       id: 4,
-      title: "How does the Internet work?",
-      url: "https://www.youtube.com/watch?v=TNQsmPf24go",
+      title: "Mastering Inheritance and Polymorphism in Python: Object-Oriented Programming",
+      url: "https://realpython.com/python3-object-oriented-programming/",
     },
+    {
+      id: 5,
+      title: "Inheritance and Polymorphism in C#: Creating and Extending Classes",
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance",
+    },
+    {
+      id: 6,
+      title: "Rust Inheritance and Polymorphism: Trait Objects and Dynamic Dispatch",
+      url: "https://doc.rust-lang.org/book/ch17-02-trait-objects.html",
+    },
+    // Add more items as needed...
   ];
+  
   return (
     <div className={styles.topicContainer}>
       <div className={styles.topicWrapper}>
@@ -37,16 +49,31 @@ const InheritanceAndPolymorphism503 = () => {
         />
         <hr />
 
-        <h2>InheritanceAndPolymorphism503</h2>
+        <h2>Inheritance And Polymorphism</h2>
         <p>
-        Inheritance And Polymorphism is currently under development. Please check back soon for updates.
+        Inheritance and Polymorphism are two fundamental concepts in Object-Oriented Programming (OOP). Inheritance allows us to define a class based on another class, which leads to a hierarchy of classes. It helps us to create a new class using properties and methods of an existing class. This promotes code reusability and logical structure.
+<br /> <br />
+        Polymorphism, on the other hand, allows us to treat objects of different classes in the same way. It provides a single interface to entities of different types. This means we can write more flexible and dynamic code.
+        <br /> <br />
+
+        Both Inheritance and Polymorphism are essential as they help us write code that is easier to read, maintain, and scale. They allow us to model real-world things and relationships, making our code a closer reflection of the world we're trying to represent.
+
         </p>
 
-        <TopicVideoPlayer
-          videoTitle=""
-          videoSrc=""
-        />
 
+        <TopicVideoPlayer
+  videoTitle="Inheritance & Its Different Types with Examples in C++"
+  videoSrc="https://www.youtube.com/embed/RO1ZYW9NAzg"
+/>
+<TopicVideoPlayer
+  videoTitle="Polymorphism in C++ | C++ Tutorials for Beginners"
+  videoSrc="https://www.youtube.com/embed/B-WWdC-H0zw"
+/>
+
+        <TopicVideoPlayer
+  videoTitle="Intro to Object Oriented Programming - Crash Course"
+  videoSrc="https://www.youtube.com/embed/SiBw7os-_zI"
+/>
         <hr />
 
         <div className={styles.topicResources}>
