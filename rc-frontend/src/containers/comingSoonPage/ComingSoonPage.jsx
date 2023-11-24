@@ -12,17 +12,18 @@ const ComingSoonPage = () => {
       </p>
 
       <div className={styles.gifcontainer}>
-      <div className={styles.gifWrapper}>
-        <iframe
-          src="https://giphy.com/embed/5Kz0kIpeDjzFCR5XB1"
-          width="100%"
-          height="100%"
-          className={styles.giphyEmbed}
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
+        <div className={styles.gifWrapper}>
+          <iframe
+            src="https://giphy.com/embed/5Kz0kIpeDjzFCR5XB1"
+            title="Construction Gif"
+            width="100%"
+            height="100%"
+            className={styles.giphyEmbed}
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
-    </div>
         
 
       <div className={styles.socialIconsContainer}>
