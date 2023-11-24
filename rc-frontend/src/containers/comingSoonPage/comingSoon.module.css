@@ -20,7 +20,6 @@
 
 .description {
   font-family: var(--font-family-source-sans-pro);
-
   font-size: 1.5rem;
   color: var(--rolling-stone);
   margin-bottom: 2rem;
@@ -60,4 +59,23 @@
 
 .socialIcon:hover {
   color: var(--sunglow);
+}
+
+.gifcontainer {
+  width: 200px;
+  height: 200px;
+  margin-top: 2rem; /* Adjust margin-top based on your design */
+}
+
+.gifWrapper {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.giphyEmbed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

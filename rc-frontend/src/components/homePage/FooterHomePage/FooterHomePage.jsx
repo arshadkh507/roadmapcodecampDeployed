@@ -27,12 +27,12 @@ const FooterHomePage = () => {
                 <Link to="/roadmaps/frontend" className={styles.link}>
                   <h3>Frontend</h3>
                 </Link>
-                {/* <Link to="/roadmaps/javaScript" className={styles.link}>
+                <Link to="/roadmaps/javaScript" className={styles.link}>
                   <h5>JavaScript</h5>
                 </Link>
                 <Link to="/roadmaps/reactjs" className={styles.link}>
                   <h5>ReactJS</h5>
-                </Link> */}
+                </Link> 
               </div>
               <div className={styles.footerRoadmaps}>
                 <Link to="/roadmaps/ai" className={styles.link}>
@@ -45,12 +45,12 @@ const FooterHomePage = () => {
                   <h5>ML</h5>
                 </Link>
 
-                {/* <Link to="/roadmaps/dl" className={styles.link}>
+                 <Link to="/roadmaps/dl" className={styles.link}>
                   <h5>DL</h5>
-                </Link> */}
+                </Link> 
               </div>
               <div className={styles.footerRoadmaps}>
-                {/* <Link to="/roadmaps/backend" className={styles.link}>
+                <Link to="/roadmaps/backend" className={styles.link}>
                   <h3>Backend</h3>
                 </Link>
                 <Link to="/roadmaps/expressjs" className={styles.link}>
@@ -58,10 +58,10 @@ const FooterHomePage = () => {
                 </Link>
                 <Link to="/roadmaps/nodejs" className={styles.link}>
                   <h5>NoteJS</h5>
-                </Link> */}
+                </Link> 
               </div>
               <div className={styles.footerRoadmaps}>
-                {/* <Link to="/roadmaps/python" className={styles.link}>
+                <Link to="/roadmaps/python" className={styles.link}>
                   <h3>Others</h3>
                 </Link>
                 <Link to="/roadmaps/python" className={styles.link}>
@@ -73,7 +73,7 @@ const FooterHomePage = () => {
 
                 <Link to="/roadmaps/java" className={styles.link}>
                   <h5>Java</h5>
-                </Link> */}
+                </Link> 
               </div>
 
              

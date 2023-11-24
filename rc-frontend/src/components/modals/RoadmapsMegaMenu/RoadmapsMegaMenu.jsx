@@ -21,27 +21,27 @@ const RoadmapsMegaMenu = ({ handleClose }) => {
           <div className={styles.roadmapsContainer}>
             <div className={styles.roadmaps}>
               <CategoryLink categoryName="Frontend" linkTo="/roadmaps/frontend" click={handleClose} />
-              {/* <RoadmapLink to="/roadmaps/javascript" title="JavaScript" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/reactjs" title="ReactJS" click={handleClose} /> */}
+              <RoadmapLink to="/roadmaps/javascript" title="JavaScript" click={handleClose} />
+              <RoadmapLink to="/roadmaps/reactjs" title="ReactJS" click={handleClose} />
               <RoadmapLink to="/roadmaps/cs" title="Computer Science" click={handleClose} />
             </div>
             <div className={styles.roadmaps}>
               <CategoryLink categoryName="Advanced" linkTo="/roadmaps/ai" click={handleClose} />
               <RoadmapLink to="/roadmaps/ai" title="Artificial Intellegence" click={handleClose} />
               <RoadmapLink to="/roadmaps/ml" title="Machine Learning" click={handleClose} />
-              {/* <RoadmapLink to="/roadmaps/dl" title="Deep Learning" click={handleClose} /> */}
+              <RoadmapLink to="/roadmaps/dl" title="Deep Learning" click={handleClose} />
             </div>
             <div className={styles.roadmaps}>
-              {/* <CategoryLink categoryName="Backend" linkTo="/roadmaps/backend" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/nodejs" title="NodeJS" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/expressjs" title="ExpressJS" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/mongodb" title="MonogDB" click={handleClose} /> */}
+              <CategoryLink categoryName="Backend" linkTo="/roadmaps/backend" click={handleClose} />
+              <RoadmapLink to="/roadmaps/nodejs" title="NodeJS" click={handleClose} />
+              <RoadmapLink to="/roadmaps/expressjs" title="ExpressJS" click={handleClose} />
+              <RoadmapLink to="/roadmaps/mongodb" title="MonogDB" click={handleClose} />
             </div>
             <div className={styles.roadmaps}>
-              {/* <CategoryLink categoryName="Others" linkTo="/roadmaps/python" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/python" title="Python" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/java" title="Java" click={handleClose} /> */}
-              {/* <RoadmapLink to="/roadmaps/flutter" title="Flutter" click={handleClose} /> */}
+              <CategoryLink categoryName="Others" linkTo="/roadmaps/python" click={handleClose} />
+              <RoadmapLink to="/roadmaps/python" title="Python" click={handleClose} />
+              <RoadmapLink to="/roadmaps/java" title="Java" click={handleClose} />
+              <RoadmapLink to="/roadmaps/flutter" title="Flutter" click={handleClose} />
             </div>
            
           </div>
